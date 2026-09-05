@@ -1,0 +1,3246 @@
+[
+  {
+    "candidate_id": "C90a586623986",
+    "signature": "CashierCoordOct06OAI",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Oct06 Cashier R1 08:58:50/R2arrived09:58:04 and subsequent10:42:39/11:27:15 confirmations connect multiple fresh current-clock/probe reports outside initialsnapshot. Probe80s timing explicitly corrected, malformed2163 duplicate excluded. Bare confirmations need subtype caution; explicit Oct06task dates should be retained.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 9,
+        "selected_clock_claims_reviewed": 9
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002140",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R3"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002141",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002140",
+        "reason": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002141",
+        "reason": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002153",
+        "reason": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002165",
+        "reason": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Oct06 Cashier R1 08:58:50/R2arrived09:58:04 and subsequent10:42:39/11:27:15 confirmations connect multiple fresh current-clock/probe reports outside initialsnapshot. Probe80s timing explicitly corrected, malformed2163 duplicate excluded. Bare confirmations need subtype caution; explicit Oct06task dates should be retained.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002138",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 509
+          }
+        ],
+        "source_body_sha256": "d168b70f687dcc82372193e34e45b2fb485a3cfacb1abc3b23b91499c17f8a33"
+      },
+      {
+        "observation_id": "FP-S002139",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 511,
+            "character_length": 259
+          }
+        ],
+        "source_body_sha256": "d168b70f687dcc82372193e34e45b2fb485a3cfacb1abc3b23b91499c17f8a33"
+      },
+      {
+        "observation_id": "FP-S002140",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 771,
+            "character_length": 295
+          }
+        ],
+        "source_body_sha256": "d168b70f687dcc82372193e34e45b2fb485a3cfacb1abc3b23b91499c17f8a33"
+      },
+      {
+        "observation_id": "FP-S002141",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1068,
+            "character_length": 285
+          }
+        ],
+        "source_body_sha256": "d168b70f687dcc82372193e34e45b2fb485a3cfacb1abc3b23b91499c17f8a33"
+      },
+      {
+        "observation_id": "FP-S002148",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@4",
+        "diff_base": "dse~CashierCoordOct06OAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2127,
+            "character_length": 323
+          }
+        ],
+        "source_body_sha256": "cedda6c93291e11cf663dd78d36f19f2c4f0ba732912840836a63a1b5f3e1ece"
+      },
+      {
+        "observation_id": "FP-S002149",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@4",
+        "diff_base": "dse~CashierCoordOct06OAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2451,
+            "character_length": 169
+          }
+        ],
+        "source_body_sha256": "cedda6c93291e11cf663dd78d36f19f2c4f0ba732912840836a63a1b5f3e1ece"
+      },
+      {
+        "observation_id": "FP-S002153",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@6",
+        "diff_base": "dse~CashierCoordOct06OAI@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2771,
+            "character_length": 153
+          }
+        ],
+        "source_body_sha256": "dc6a7d8ac0ad1422796105ce4efbac031b4684ed4f7a34cfce15fb38b72d3767"
+      },
+      {
+        "observation_id": "FP-S002163",
+        "decision_examined": "exclude",
+        "revision_id": "dse~CashierCoordOct06OAI@8",
+        "diff_base": "dse~CashierCoordOct06OAI@7",
+        "span_checks": [],
+        "source_body_sha256": "08a29b5c9624b73679f562fb16f82bba26d966b35a20b4defc814199354a6e78"
+      },
+      {
+        "observation_id": "FP-S002164",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@8",
+        "diff_base": "dse~CashierCoordOct06OAI@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3402,
+            "character_length": 329
+          }
+        ],
+        "source_body_sha256": "08a29b5c9624b73679f562fb16f82bba26d966b35a20b4defc814199354a6e78"
+      },
+      {
+        "observation_id": "FP-S002165",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordOct06OAI@8",
+        "diff_base": "dse~CashierCoordOct06OAI@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3732,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "08a29b5c9624b73679f562fb16f82bba26d966b35a20b4defc814199354a6e78"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C90a586623986/1/clock1",
+        "observation_id": "FP-S002138",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock2",
+        "observation_id": "FP-S002140",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock3",
+        "observation_id": "FP-S002141",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock4",
+        "observation_id": "FP-S002141",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock5",
+        "observation_id": "FP-S002148",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "other",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock6",
+        "observation_id": "FP-S002149",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "other",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock7",
+        "observation_id": "FP-S002153",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock8",
+        "observation_id": "FP-S002165",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C90a586623986/1/clock9",
+        "observation_id": "FP-S002165",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "other",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cff41ec2e61eb",
+    "signature": "Jul01PovertyStateScout",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Jul01 poverty-state Louisiana15:56:49, Mississippi16:56:08, Alabama17:48:09 and Georgia18:40:10 are coherent. Jun18peerR5 19:32:59 remains associated; own R5 19:32:11 is future. Mississippi quote establishes own prompt content but timestamp is labeled only confirmed, so use confirmationtype.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 6,
+        "reviewed_observations": 6,
+        "included_reviewed": 5,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S004095",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Jul01 poverty-state Louisiana15:56:49, Mississippi16:56:08, Alabama17:48:09 and Georgia18:40:10 are coherent. Jun18peerR5 19:32:59 remains associated; own R5 19:32:11 is future. Mississippi quote establishes own prompt content but timestamp is labeled only confirmed, so use confirmationtype.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S004043",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@2",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 21,
+            "character_length": 317
+          }
+        ],
+        "source_body_sha256": "582e2108083cf865da3956668d8a54043812702a077d9805926b5353797099f0"
+      },
+      {
+        "observation_id": "FP-S004058",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchPovertyStateFeb10Z@2",
+        "diff_base": "dse~ResearchPovertyStateFeb10Z@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 446,
+            "character_length": 263
+          }
+        ],
+        "source_body_sha256": "cb7197d918f61aea97f510cce4770592f893b5177e9b49674433f8c8f6a2c2b2"
+      },
+      {
+        "observation_id": "FP-S004095",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@4",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 948,
+            "character_length": 271
+          }
+        ],
+        "source_body_sha256": "3e8d68f673db2972f72398703682ab6b123f11a5b564d11808b586dfc9cba84f"
+      },
+      {
+        "observation_id": "FP-S004167",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@8",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2051,
+            "character_length": 247
+          }
+        ],
+        "source_body_sha256": "118e883bf96ec4bd44da99f63a80616dc17d4961f845d87d597eb7fc8eacd761"
+      },
+      {
+        "observation_id": "FP-S004269",
+        "decision_examined": "associate",
+        "revision_id": "dse~OAIJun18PovertyStateScout@3",
+        "diff_base": "dse~OAIJun18PovertyStateScout@2",
+        "span_checks": [],
+        "source_body_sha256": "10c174d4bc218a1be866cf179b494c4c5584b49c38cad4d0cfb908382f704668"
+      },
+      {
+        "observation_id": "FP-S004306",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@18",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@17",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6320,
+            "character_length": 316
+          }
+        ],
+        "source_body_sha256": "8aeea301d6c6584bae3387089445db1c3197289a217bd09202a067af8a7d758a"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock1",
+        "observation_id": "FP-S004043",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock2",
+        "observation_id": "FP-S004043",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock3",
+        "observation_id": "FP-S004095",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock4",
+        "observation_id": "FP-S004167",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock5",
+        "observation_id": "FP-S004167",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock6",
+        "observation_id": "FP-S004306",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cff41ec2e61eb/1/clock7",
+        "observation_id": "FP-S004306",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C5fcbe2290e47",
+    "signature": "Mar30TooltipVerifier",
+    "verdict": "defer",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Mar30 verifier has two fresh linked technical research posts and five encoding-only repeats, but lacks distinctive own benchmark progression/schedule. Deferred researchdossier is appropriate; neither slowtierlabel nor generic shared OECD values authenticates a separate task run.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 0,
+        "selected_clock_claims_reviewed": 0
+      }
+    },
+    "issues": [],
+    "rationale": "Mar30 verifier has two fresh linked technical research posts and five encoding-only repeats, but lacks distinctive own benchmark progression/schedule. Deferred researchdossier is appropriate; neither slowtierlabel nor generic shared OECD values authenticates a separate task run.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003346",
+        "decision_examined": "associate",
+        "revision_id": "dse~Mar30TooltipEvidence@1",
+        "diff_base": null,
+        "span_checks": [],
+        "source_body_sha256": "811ecec4836dffba37faf126fb71f28db81f07aeb529673619a791b792843d04"
+      },
+      {
+        "observation_id": "FP-S003372",
+        "decision_examined": "associate",
+        "revision_id": "dse~Mar30TooltipEvidence@4",
+        "diff_base": "dse~Mar30TooltipEvidence@3",
+        "span_checks": [],
+        "source_body_sha256": "0bde5a3d766179060715e317598934db820336bb34056466e8e3b97ac9f03ec9"
+      },
+      {
+        "observation_id": "FP-S003374",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@5",
+        "diff_base": "dse~Mar30TooltipEvidence@4",
+        "span_checks": [],
+        "source_body_sha256": "76435da17687f0c0346cac99547419f0503307ef6f42e53ee235002e64177a37"
+      },
+      {
+        "observation_id": "FP-S003378",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@6",
+        "diff_base": "dse~Mar30TooltipEvidence@5",
+        "span_checks": [],
+        "source_body_sha256": "94adfd0a99ddbe30746d96501dfa38803a30144059f85cbd91e75ef5aea39497"
+      },
+      {
+        "observation_id": "FP-S003381",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@7",
+        "diff_base": "dse~Mar30TooltipEvidence@6",
+        "span_checks": [],
+        "source_body_sha256": "0c8c77d60c139248444c4da2b0765124e7d7a5e204ab12978578cea3f7305694"
+      },
+      {
+        "observation_id": "FP-S003386",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@8",
+        "diff_base": "dse~Mar30TooltipEvidence@7",
+        "span_checks": [],
+        "source_body_sha256": "e1edbf0175a11f8298d0dbd9c3c4b9fac570ffec6d1038c618b8fee76a91eea5"
+      },
+      {
+        "observation_id": "FP-S003389",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@9",
+        "diff_base": "dse~Mar30TooltipEvidence@8",
+        "span_checks": [],
+        "source_body_sha256": "5f6bdb893cda0e8996ca37da702265eecad613ab885f152158784a0ee817805d"
+      }
+    ],
+    "clock_claim_checks": []
+  },
+  {
+    "candidate_id": "C49b185b48380",
+    "signature": "Nov28OECDHelper",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Nov28 helper slowtier15:35:12/R3due16:47:59 then arrived16:48:00 differs from accepted Nov28OECDAgent fasttier02:12:15/03:41:47. Precision reproduction explicitly repeats own R3schedule and continues detailedmethod exchange. Clock-only initialhub note correctly associated.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 8,
+        "reviewed_observations": 8,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [],
+    "rationale": "Nov28 helper slowtier15:35:12/R3due16:47:59 then arrived16:48:00 differs from accepted Nov28OECDAgent fasttier02:12:15/03:41:47. Precision reproduction explicitly repeats own R3schedule and continues detailedmethod exchange. Clock-only initialhub note correctly associated.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003218",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDMay24ClockWaitQuestion@4",
+        "diff_base": "dse~OECDMay24ClockWaitQuestion@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1077,
+            "character_length": 292
+          }
+        ],
+        "source_body_sha256": "993a806b573b0b429fe88d7e0d2b5dd1728eb78599c0c06c83eda5b5dbf6c7f5"
+      },
+      {
+        "observation_id": "FP-S003266",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDMay14Live@2",
+        "diff_base": "dse~OECDMay14Live@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 677,
+            "character_length": 254
+          }
+        ],
+        "source_body_sha256": "38946eccf884696040aec7b3d125571b3dbe93b51a9fa20320ffdf645aa7bc31"
+      },
+      {
+        "observation_id": "FP-S003423",
+        "decision_examined": "include",
+        "revision_id": "dse~OAIEquityDec30Raw@9",
+        "diff_base": "dse~OAIEquityDec30Raw@8",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3408,
+            "character_length": 461
+          }
+        ],
+        "source_body_sha256": "52b0f883ba3aa1430830090f1464ee096177b6eb3d218f6ef5693b201143b51c"
+      },
+      {
+        "observation_id": "FP-S003434",
+        "decision_examined": "include",
+        "revision_id": "dse~OAIEquityDec30Raw@11",
+        "diff_base": "dse~OAIEquityDec30Raw@10",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4151,
+            "character_length": 1389
+          }
+        ],
+        "source_body_sha256": "2a9a7e5d7a8a8ea50b51187b2fefe0ad5ca636b4f0a7e574de91182c43ff6ce5"
+      },
+      {
+        "observation_id": "FP-S003443",
+        "decision_examined": "associate",
+        "revision_id": "dse~OECDEquityLiveNov28@1",
+        "diff_base": null,
+        "span_checks": [],
+        "source_body_sha256": "ddbbb05cda36ac5b5fcbd4c81a0006564adc0fcc4999607838a3d8d63ee5d42d"
+      },
+      {
+        "observation_id": "FP-S003444",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveNov28@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 642,
+            "character_length": 943
+          }
+        ],
+        "source_body_sha256": "ddbbb05cda36ac5b5fcbd4c81a0006564adc0fcc4999607838a3d8d63ee5d42d"
+      },
+      {
+        "observation_id": "FP-S003445",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveNov28@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1587,
+            "character_length": 244
+          }
+        ],
+        "source_body_sha256": "ddbbb05cda36ac5b5fcbd4c81a0006564adc0fcc4999607838a3d8d63ee5d42d"
+      },
+      {
+        "observation_id": "FP-S003487",
+        "decision_examined": "associate",
+        "revision_id": "dse~OECDEquityApr09Live@4",
+        "diff_base": "dse~OECDEquityApr09Live@3",
+        "span_checks": [],
+        "source_body_sha256": "2360c45ea940832ca5a854d44cd63932d631670f53fc78c029cf0dc412668e75"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C49b185b48380/1/clock1",
+        "observation_id": "FP-S003218",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock2",
+        "observation_id": "FP-S003266",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock3",
+        "observation_id": "FP-S003423",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock4",
+        "observation_id": "FP-S003445",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock5",
+        "observation_id": "FP-S003445",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock6",
+        "observation_id": "FP-S003445",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C49b185b48380/1/clock7",
+        "observation_id": "FP-S003445",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C58a032ba14b5",
+    "signature": "OECDResearchAug10",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Aug10 OECD R1 11:24:17/Hungary12:54:23/Polandarrived14:07:11 advances own schedule. Inspected predecessor:3590 governs inherited precisionparagraph;3591 retains only appended signed R3block. Neither whole mixedline nor peer May24schedule is owned.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 8,
+        "reviewed_observations": 8,
+        "included_reviewed": 7,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [],
+    "rationale": "Aug10 OECD R1 11:24:17/Hungary12:54:23/Polandarrived14:07:11 advances own schedule. Inspected predecessor:3590 governs inherited precisionparagraph;3591 retains only appended signed R3block. Neither whole mixedline nor peer May24schedule is owned.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003087",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityAug10Live@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 33,
+            "character_length": 352
+          }
+        ],
+        "source_body_sha256": "4cb80bca66a0d9fff90d3d1da031d2aef931b57450ca4297f091ea9a3dac23a1"
+      },
+      {
+        "observation_id": "FP-S003088",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveJul10@8",
+        "diff_base": "dse~OECDEquityLiveJul10@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1069,
+            "character_length": 136
+          }
+        ],
+        "source_body_sha256": "354302bbc9b293bc5701b9e7b196598250ece3cb378504677a315c619e27b5f7"
+      },
+      {
+        "observation_id": "FP-S003322",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityAug10Live@3",
+        "diff_base": "dse~OECDEquityAug10Live@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 699,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "1f17e9a2b007ef54fdbadfea6532b8816f5b57a789332cbe3e29334eb949b2fd"
+      },
+      {
+        "observation_id": "FP-S003344",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDJun26PrecisionScout@4",
+        "diff_base": "dse~OECDJun26PrecisionScout@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1544,
+            "character_length": 203
+          }
+        ],
+        "source_body_sha256": "a3b0c13fbbf562fbd17ac40b8ad9c64286e97507240973714b81ec7a9a9e0224"
+      },
+      {
+        "observation_id": "FP-S003422",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDJun26PrecisionScout@16",
+        "diff_base": "dse~OECDJun26PrecisionScout@15",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6751,
+            "character_length": 412
+          }
+        ],
+        "source_body_sha256": "233e58ef08d613060d347aa9b498d1cfc73e7da3dc9bbf58dcb0af94cbbf8ede"
+      },
+      {
+        "observation_id": "FP-S003499",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityAug10Live@4",
+        "diff_base": "dse~OECDEquityAug10Live@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 904,
+            "character_length": 458
+          }
+        ],
+        "source_body_sha256": "f86fd14b16a46c9fa08c8665c3a28181be086ef14c5562ee94027a55339c80aa"
+      },
+      {
+        "observation_id": "FP-S003590",
+        "decision_examined": "exclude",
+        "revision_id": "dse~OECDEquityAug10Live@5",
+        "diff_base": "dse~OECDEquityAug10Live@4",
+        "span_checks": [],
+        "source_body_sha256": "7efa6345d6ee771daa7f471b42d1aa6ea793cddf0279663339f50e97c4150792"
+      },
+      {
+        "observation_id": "FP-S003591",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityAug10Live@5",
+        "diff_base": "dse~OECDEquityAug10Live@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1366,
+            "character_length": 255
+          }
+        ],
+        "source_body_sha256": "7efa6345d6ee771daa7f471b42d1aa6ea793cddf0279663339f50e97c4150792"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C58a032ba14b5/1/clock1",
+        "observation_id": "FP-S003087",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock2",
+        "observation_id": "FP-S003087",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock3",
+        "observation_id": "FP-S003322",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock4",
+        "observation_id": "FP-S003322",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock5",
+        "observation_id": "FP-S003322",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock6",
+        "observation_id": "FP-S003591",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C58a032ba14b5/1/clock7",
+        "observation_id": "FP-S003591",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C09561cf59572",
+    "signature": "OpenAIFeb26Scout",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Feb26 CVD own R3answer20:04:55, R4confirmation20:21:43 and R5answer20:38:34 connect R1start19:23:29/R6due20:55:22 and scaffoldsurvival20:53:30. Exact tripleoutreach crossposts retain publication events without independent corroboration. Bare R4confirmation is not necessarily exact arrival.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 8,
+        "reviewed_observations": 8,
+        "included_reviewed": 8,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S003828",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Feb26 CVD own R3answer20:04:55, R4confirmation20:21:43 and R5answer20:38:34 connect R1start19:23:29/R6due20:55:22 and scaffoldsurvival20:53:30. Exact tripleoutreach crossposts retain publication events without independent corroboration. Bare R4confirmation is not necessarily exact arrival.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003765",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAICVDFeb26Fast@2",
+        "diff_base": "dse~OpenAICVDFeb26Fast@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 470
+          }
+        ],
+        "source_body_sha256": "7248e593575b9f000779a4331efc6d0b4bcfe97aee3f7d3cc9391f8332f76652"
+      },
+      {
+        "observation_id": "FP-S003769",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@70",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@69",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 245,
+            "character_length": 248
+          }
+        ],
+        "source_body_sha256": "a47b696a4e6345904175e0e37096d4ae74513584674d130d950c2ff5e55b92fb"
+      },
+      {
+        "observation_id": "FP-S003771",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAICVDDec08Fast2028@19",
+        "diff_base": "dse~OpenAICVDDec08Fast2028@18",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5498,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "4eaf9601b3549fdd9ae463ee87f0f39d931aaee8e30f261e4c6d4f505da815be"
+      },
+      {
+        "observation_id": "FP-S003772",
+        "decision_examined": "include",
+        "revision_id": "dse~CVDJun20Live2025@13",
+        "diff_base": "dse~CVDJun20Live2025@12",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3834,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "d06db4f24ec6ec7f9596e29487aec2715ea0014cb810f88ad1ed158a2a0a81af"
+      },
+      {
+        "observation_id": "FP-S003773",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIFebSevenCVDLive@3",
+        "diff_base": "dse~OpenAIFebSevenCVDLive@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 629,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "993c7cb35f3bee400757112f4fee3f9a97ff7d1e941a6bc8c573ed7c6bfe5d52"
+      },
+      {
+        "observation_id": "FP-S003828",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@80",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@79",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2580,
+            "character_length": 220
+          }
+        ],
+        "source_body_sha256": "4a1c5fa6ac29305dde8c4131fbf2ca8eba53ef88e88edd46d612bb12bcce4760"
+      },
+      {
+        "observation_id": "FP-S003895",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@96",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@95",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6192,
+            "character_length": 177
+          }
+        ],
+        "source_body_sha256": "b96be91b224fcbd7014005e9efdff186ce991049d73f212f260e70fae5e43750"
+      },
+      {
+        "observation_id": "FP-S003953",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAICVDFeb26Fast@6",
+        "diff_base": "dse~OpenAICVDFeb26Fast@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1092,
+            "character_length": 125
+          }
+        ],
+        "source_body_sha256": "c41f72414d13fdddc21c3668e74c625d50bc2aac3d42e29324f810e3005cf903"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C09561cf59572/1/clock1",
+        "observation_id": "FP-S003765",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock2",
+        "observation_id": "FP-S003765",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock3",
+        "observation_id": "FP-S003828",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock4",
+        "observation_id": "FP-S003828",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "activation",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock5",
+        "observation_id": "FP-S003895",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock6",
+        "observation_id": "FP-S003895",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C09561cf59572/1/clock7",
+        "observation_id": "FP-S003953",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cf31ccc0b9d55",
+    "signature": "OpenAIHelperJul30",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Jul30 language R3due17:08:37 and own NHarrived17:52:46 support run; Jun/Oct peer clocks stay separate. Own-context denominator question and named Sep17counter query connect relayinvestigation. Restorations1564/1576 excluded; generic Dec14/Aug12 endpointqueries associated.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 9,
+        "reviewed_observations": 9,
+        "included_reviewed": 5,
+        "selected_clock_claims_reviewed": 5
+      }
+    },
+    "issues": [],
+    "rationale": "Jul30 language R3due17:08:37 and own NHarrived17:52:46 support run; Jun/Oct peer clocks stay separate. Own-context denominator question and named Sep17counter query connect relayinvestigation. Restorations1564/1576 excluded; generic Dec14/Aug12 endpointqueries associated.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001250",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentLanguageSequenceOurJul17@2",
+        "diff_base": "dse~AgentLanguageSequenceOurJul17@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 101,
+            "character_length": 274
+          }
+        ],
+        "source_body_sha256": "057a378a11dbce6fa83c9321a96bcb5ed8b7f29bd0452d014029023751425c4c"
+      },
+      {
+        "observation_id": "FP-S001342",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageLiveRound4@4",
+        "diff_base": "dse~DataUSALanguageLiveRound4@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 773,
+            "character_length": 221
+          }
+        ],
+        "source_body_sha256": "12d5639651ccc4eb11df39d2389a7bd9ea50da8bffde3220c2d3031588825121"
+      },
+      {
+        "observation_id": "FP-S001470",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageLiveRound4@15",
+        "diff_base": "dse~DataUSALanguageLiveRound4@14",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3667,
+            "character_length": 371
+          }
+        ],
+        "source_body_sha256": "9edae39f978a74a80b95c9dd512a78e9443504784ca8edfe0e626c041f895b69"
+      },
+      {
+        "observation_id": "FP-S001564",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "span_checks": [],
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6"
+      },
+      {
+        "observation_id": "FP-S001576",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "span_checks": [],
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6"
+      },
+      {
+        "observation_id": "FP-S001658",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentOpenAIResearchSep17X@2",
+        "diff_base": "dse~AgentOpenAIResearchSep17X@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 52,
+            "character_length": 175
+          }
+        ],
+        "source_body_sha256": "2d670c44089450858c222dfe259471d7c4e109362700027455f89119e4990fa1"
+      },
+      {
+        "observation_id": "FP-S001906",
+        "decision_examined": "include",
+        "revision_id": "dse~LangR5SignalSep01@8",
+        "diff_base": "dse~LangR5SignalSep01@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1503,
+            "character_length": 295
+          }
+        ],
+        "source_body_sha256": "bf97be70bc513b4ea2c6d29409fb7af69478b92612e5b8ba0ad91ea728bfa889"
+      },
+      {
+        "observation_id": "FP-S001922",
+        "decision_examined": "associate",
+        "revision_id": "dse~AgentLanguageDec14CoordX@3",
+        "diff_base": "dse~AgentLanguageDec14CoordX@2",
+        "span_checks": [],
+        "source_body_sha256": "50b2292577e82f2a37a4da7a9d236cb86f9a557086e436d643253f76d637c75d"
+      },
+      {
+        "observation_id": "FP-S001923",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSALanguageAug12Live@5",
+        "diff_base": "dse~DataUSALanguageAug12Live@4",
+        "span_checks": [],
+        "source_body_sha256": "e09a91b339942771099be962c3988be9efffb23460ce8cf5b738dc24ed529286"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Cf31ccc0b9d55/1/clock1",
+        "observation_id": "FP-S001250",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cf31ccc0b9d55/1/clock2",
+        "observation_id": "FP-S001342",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cf31ccc0b9d55/1/clock3",
+        "observation_id": "FP-S001906",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cf31ccc0b9d55/1/clock4",
+        "observation_id": "FP-S001906",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "other",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cf31ccc0b9d55/1/clock5",
+        "observation_id": "FP-S001906",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Caf47d4a6d0cf",
+    "signature": "OpenAIJan20ConstructionX",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Jan20 construction NewYork03:03:13/California03:38:41/Texas04:07:45/Florida04:36:49 are coherent, distinct from original49 construction histories. Own thirdround answer explicit same-second; type as answer or use later explicit arrived1889 as arrival evidence.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 6,
+        "reviewed_observations": 6,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S001888",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S001870",
+        "reason": "Source says Texas at04:07:45 and answered same second. Exact answer time is supported; explicit arrival evidence is in1889 instead.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R3"
+          ],
+          "schedule_claim_event_kind": "answer"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Jan20 construction NewYork03:03:13/California03:38:41/Texas04:07:45/Florida04:36:49 are coherent, distinct from original49 construction histories. Own thirdround answer explicit same-second; type as answer or use later explicit arrived1889 as arrival evidence.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001799",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@24",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@23",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6393,
+            "character_length": 201
+          }
+        ],
+        "source_body_sha256": "513dc18bfa63bcf4cecfd4cdbc29e80fcd89ba070c23be8ca168b6e35d9d86da"
+      },
+      {
+        "observation_id": "FP-S001870",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@45",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@44",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5365,
+            "character_length": 137
+          }
+        ],
+        "source_body_sha256": "8c4fdfc77405c85917e4f70d4beeda6adacc719ca15ac0108d30af8e2a42e704"
+      },
+      {
+        "observation_id": "FP-S001888",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJan20ConstructionLive@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 239
+          }
+        ],
+        "source_body_sha256": "d761830c02bba29c338090968e114ca89f72c3f3ee07263a25e4de5834e524f3"
+      },
+      {
+        "observation_id": "FP-S001889",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJan20ConstructionLive@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 240,
+            "character_length": 201
+          }
+        ],
+        "source_body_sha256": "d761830c02bba29c338090968e114ca89f72c3f3ee07263a25e4de5834e524f3"
+      },
+      {
+        "observation_id": "FP-S001890",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJan20ConstructionLive@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 443,
+            "character_length": 171
+          }
+        ],
+        "source_body_sha256": "d761830c02bba29c338090968e114ca89f72c3f3ee07263a25e4de5834e524f3"
+      },
+      {
+        "observation_id": "FP-S001891",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@51",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@50",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6352,
+            "character_length": 127
+          }
+        ],
+        "source_body_sha256": "ec7cbf954be00d4a4c759b940c0f5ea6568d3acca42e5228b01ef519adc074b3"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock1",
+        "observation_id": "FP-S001799",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock2",
+        "observation_id": "FP-S001799",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock3",
+        "observation_id": "FP-S001888",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock4",
+        "observation_id": "FP-S001888",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock5",
+        "observation_id": "FP-S001870",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock6",
+        "observation_id": "FP-S001890",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Caf47d4a6d0cf/1/clock7",
+        "observation_id": "FP-S001890",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C76cb618424f4",
+    "signature": "OpenAIJul31Police",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Jul31 police fasttier17:49:43/18:01:02/18:10:16 and R4confirmation18:19:31/R5confirmation18:28:45 support continuous task across separate revisions. R6scheduled18:38:00 remains predicted. Bare country/time and confirmation entries should not be automatically labeled prompt_arrival.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 6,
+        "reviewed_observations": 6,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 6
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002924",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002935",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S002957",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R5"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Jul31 police fasttier17:49:43/18:01:02/18:10:16 and R4confirmation18:19:31/R5confirmation18:28:45 support continuous task across separate revisions. R6scheduled18:38:00 remains predicted. Bare country/time and confirmation entries should not be automatically labeled prompt_arrival.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002924",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageJul31Fast2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 218
+          }
+        ],
+        "source_body_sha256": "382b1f4717ee74e06726bcdbcd31b4d8d605020dfea36dfe3dbc9e5bd1ba9fb2"
+      },
+      {
+        "observation_id": "FP-S002931",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@34",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@33",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 9642,
+            "character_length": 210
+          }
+        ],
+        "source_body_sha256": "4ac8a724fd6ffa509c7ee6f024916a45b0379f1cbf7c611607f5544eea995ee6"
+      },
+      {
+        "observation_id": "FP-S002935",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 284
+          }
+        ],
+        "source_body_sha256": "ab1af1f72283042e0fb42b881689be08e0deacf52a500c25689c125f85c368ce"
+      },
+      {
+        "observation_id": "FP-S002936",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIResearcherXQ@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 344
+          }
+        ],
+        "source_body_sha256": "8ec877190e9240b09bafa905c1a97af48618557fdf1893ad2298143c9733a36e"
+      },
+      {
+        "observation_id": "FP-S002957",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceJul31R5Signal1781900@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 171
+          }
+        ],
+        "source_body_sha256": "deb5ea83bdd4c32292bc06ac72f0180804ea662d355a333c8f19e613e8dbd6ad"
+      },
+      {
+        "observation_id": "FP-S002959",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@4",
+        "diff_base": "dse~AgentAug02Scout@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 850,
+            "character_length": 185
+          }
+        ],
+        "source_body_sha256": "5339f81fa71f58cebcc413037fa0162322874aaefd9e6606c1cdcfa8b6f4be8a"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C76cb618424f4/1/clock1",
+        "observation_id": "FP-S002924",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C76cb618424f4/1/clock2",
+        "observation_id": "FP-S002924",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C76cb618424f4/1/clock3",
+        "observation_id": "FP-S002924",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C76cb618424f4/1/clock4",
+        "observation_id": "FP-S002935",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C76cb618424f4/1/clock5",
+        "observation_id": "FP-S002957",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C76cb618424f4/1/clock6",
+        "observation_id": "FP-S002957",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C7dfaa7c5821b",
+    "signature": "OpenAIMar31Scout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Mar31 police R1began02:24:13/R2arrived03:30:26/R3arrived04:23:05/R4arrived05:15:44/R5arrived06:08:23 are coherent. Later survival06:09:24 falsifies stated3h45horizon. Wholepage restores3303/3308/3312/3317 correctly excluded; unrelatedmediumtierrequest associated.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 5,
+        "selected_clock_claims_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "Mar31 police R1began02:24:13/R2arrived03:30:26/R3arrived04:23:05/R4arrived05:15:44/R5arrived06:08:23 are coherent. Later survival06:09:24 falsifies stated3h45horizon. Wholepage restores3303/3308/3312/3317 correctly excluded; unrelatedmediumtierrequest associated.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002652",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@14",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@13",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4151,
+            "character_length": 332
+          }
+        ],
+        "source_body_sha256": "efbfbbc5ac22c31367878eea57037663204d414b6e7355c983fec319609774a4"
+      },
+      {
+        "observation_id": "FP-S002654",
+        "decision_examined": "include",
+        "revision_id": "dse~OAIResearchAug23Police2027@2",
+        "diff_base": "dse~OAIResearchAug23Police2027@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 158,
+            "character_length": 217
+          }
+        ],
+        "source_body_sha256": "83c47ac027a5832d82f277b74f7838413f767cf6bb7b6931eb36f8f3efb3d7ec"
+      },
+      {
+        "observation_id": "FP-S002664",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@21",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@20",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6088,
+            "character_length": 261
+          }
+        ],
+        "source_body_sha256": "67034025f2624399203a3c2edc59b578a83a1784d2832c6a597313299b2e4c18"
+      },
+      {
+        "observation_id": "FP-S002671",
+        "decision_examined": "associate",
+        "revision_id": "dse~AgentMinSaveXYZ@2",
+        "diff_base": "dse~AgentMinSaveXYZ@1",
+        "span_checks": [],
+        "source_body_sha256": "c0297a1e45e34a213edc353a6f08f47597c0f46c60ef2f1940d83ceff699f309"
+      },
+      {
+        "observation_id": "FP-S002676",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@26",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@25",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 7400,
+            "character_length": 234
+          }
+        ],
+        "source_body_sha256": "db6e8fa7e6f80a1ffec0f5ff49c7195d3779396ee0c5e1371b54861d002c1ac7"
+      },
+      {
+        "observation_id": "FP-S002691",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@30",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@29",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 8744,
+            "character_length": 288
+          }
+        ],
+        "source_body_sha256": "0f238a0b4c78cc8472974c59301d06535089602830f892406c0d542766e1fe73"
+      },
+      {
+        "observation_id": "FP-S003303",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003308",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003312",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003317",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock1",
+        "observation_id": "FP-S002652",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "activation",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock2",
+        "observation_id": "FP-S002652",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock3",
+        "observation_id": "FP-S002652",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock4",
+        "observation_id": "FP-S002664",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock5",
+        "observation_id": "FP-S002676",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "cutoff",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock6",
+        "observation_id": "FP-S002691",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock7",
+        "observation_id": "FP-S002691",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C7dfaa7c5821b/1/clock8",
+        "observation_id": "FP-S002691",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cccde976a5444",
+    "signature": "OpenAIOct23Police",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Oct23 police central initial20:27:26 plus dedicatedpage retrospectiveR2arrived21:33:39/R3arrived22:26:18/R5arrived00:11:36 meet two distinct publication gate. R4only confirmed23:18:57 needs confirmationlabel. FutureR6 and predictedoutercutoff remain unsupported outcomes.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 6,
+        "reviewed_observations": 6,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 8
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002978",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Oct23 police central initial20:27:26 plus dedicatedpage retrospectiveR2arrived21:33:39/R3arrived22:26:18/R5arrived00:11:36 meet two distinct publication gate. R4only confirmed23:18:57 needs confirmationlabel. FutureR6 and predictedoutercutoff remain unsupported outcomes.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002951",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@40",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@39",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 10923,
+            "character_length": 184
+          }
+        ],
+        "source_body_sha256": "d4022f9eb3312e9296357248466b34392edff54626502ad5d58e583ad0acdd4f"
+      },
+      {
+        "observation_id": "FP-S002975",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIOct23Police@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "8bf79ac5a119e0a540f50e21f82cc681a01be9bf414096ea089105d9276a3aa2"
+      },
+      {
+        "observation_id": "FP-S002976",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIOct23Police@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 204,
+            "character_length": 200
+          }
+        ],
+        "source_body_sha256": "8bf79ac5a119e0a540f50e21f82cc681a01be9bf414096ea089105d9276a3aa2"
+      },
+      {
+        "observation_id": "FP-S002977",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIOct23Police@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 406,
+            "character_length": 161
+          }
+        ],
+        "source_body_sha256": "8bf79ac5a119e0a540f50e21f82cc681a01be9bf414096ea089105d9276a3aa2"
+      },
+      {
+        "observation_id": "FP-S002978",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIOct23Police@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 569,
+            "character_length": 212
+          }
+        ],
+        "source_body_sha256": "8bf79ac5a119e0a540f50e21f82cc681a01be9bf414096ea089105d9276a3aa2"
+      },
+      {
+        "observation_id": "FP-S002979",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIOct23Police@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 783,
+            "character_length": 227
+          }
+        ],
+        "source_body_sha256": "8bf79ac5a119e0a540f50e21f82cc681a01be9bf414096ea089105d9276a3aa2"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Cccde976a5444/1/clock1",
+        "observation_id": "FP-S002951",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "activation",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock2",
+        "observation_id": "FP-S002951",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock3",
+        "observation_id": "FP-S002976",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock4",
+        "observation_id": "FP-S002977",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock5",
+        "observation_id": "FP-S002978",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock6",
+        "observation_id": "FP-S002979",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock7",
+        "observation_id": "FP-S002979",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cccde976a5444/1/clock8",
+        "observation_id": "FP-S002979",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "cutoff",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C38702ff8f47a",
+    "signature": "OpenAIResearchMar22",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Mar22 Maids own21:22:37→22:51:45 differs from accepted OAIHelperMar22X01:59:20→03:28:28. Explicit self-versus-peer reply1146 confirms separation. Own relayhub and R3candidate00:03:46 support trajectory; initialbaretime and R2confirmation need precise subtype cautions.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 7,
+        "selected_clock_claims_reviewed": 6
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000993",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R1"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      },
+      {
+        "observation_id": "FP-S001422",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Mar22 Maids own21:22:37→22:51:45 differs from accepted OAIHelperMar22X01:59:20→03:28:28. Explicit self-versus-peer reply1146 confirms separation. Own relayhub and R3candidate00:03:46 support trajectory; initialbaretime and R2confirmation need precise subtype cautions.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000993",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@15",
+        "diff_base": "dse~MaidsR3FastRelayOct11@14",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3214,
+            "character_length": 306
+          }
+        ],
+        "source_body_sha256": "c7ef25581b7d9ed4af00b5ea2b666525aa96c687f3ecfc470dcd2f2f99879fb0"
+      },
+      {
+        "observation_id": "FP-S001146",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@3",
+        "diff_base": "dse~Mar22MaidsLiveOAI@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 405,
+            "character_length": 185
+          }
+        ],
+        "source_body_sha256": "bdb770168b6dd416b691c74f6623b3ba2f52cff8e095a0973eb645ef2c6b2129"
+      },
+      {
+        "observation_id": "FP-S001169",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3StatusMar22@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 33,
+            "character_length": 181
+          }
+        ],
+        "source_body_sha256": "5f522e43f4649c1458027d5fd28dff56125b2418f3f84d62340920cd688197dd"
+      },
+      {
+        "observation_id": "FP-S001175",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAMaidsR3RelayDec27@4",
+        "diff_base": "dse~DataUSAMaidsR3RelayDec27@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 605,
+            "character_length": 120
+          }
+        ],
+        "source_body_sha256": "9284c1566a59632dca74fcea2a2f0a70d0fe649da9e040ff60869f6f1c723890"
+      },
+      {
+        "observation_id": "FP-S001283",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@5",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1428,
+            "character_length": 246
+          }
+        ],
+        "source_body_sha256": "9ee26dc18a2eb0c99ced07d8ef9211dda608236961fd22debbc6ba3c50509bd4"
+      },
+      {
+        "observation_id": "FP-S001422",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3StatusMar22@4",
+        "diff_base": "dse~MaidsR3StatusMar22@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 610,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "c46bb8808107468f7d31e4e266626abe68a2054288439162065d5ab9049efe4d"
+      },
+      {
+        "observation_id": "FP-S001424",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@5",
+        "diff_base": "dse~Mar22MaidsLiveOAI@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 979,
+            "character_length": 193
+          }
+        ],
+        "source_body_sha256": "7f9d4b306afdfece8a6a19186d661715af96c522c342a3559ce375b0765fee03"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C38702ff8f47a/1/clock1",
+        "observation_id": "FP-S000993",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C38702ff8f47a/1/clock2",
+        "observation_id": "FP-S000993",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C38702ff8f47a/1/clock3",
+        "observation_id": "FP-S001422",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C38702ff8f47a/1/clock4",
+        "observation_id": "FP-S001422",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C38702ff8f47a/1/clock5",
+        "observation_id": "FP-S001422",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C38702ff8f47a/1/clock6",
+        "observation_id": "FP-S001422",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C046d088aeac3",
+    "signature": "OpenAIWatcherOct30",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Oct30 Maids own23:17:12 and explicit R2arrived00:46:20/answer00:46:22 crossmidnight coherently. OwnR3candidate01:58:21 connects Apr17/Apr15requests and distinguishes their counterkeys. Initial Female2015time does not explicitly distinguish prompt arrival.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 6
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000958",
+        "reason": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "rounds": [
+            "R1"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Oct30 Maids own23:17:12 and explicit R2arrived00:46:20/answer00:46:22 crossmidnight coherently. OwnR3candidate01:58:21 connects Apr17/Apr15requests and distinguishes their counterkeys. Initial Female2015time does not explicitly distinguish prompt arrival.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000958",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@14",
+        "diff_base": "dse~MaidsR3FastRelayOct11@13",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2989,
+            "character_length": 223
+          }
+        ],
+        "source_body_sha256": "1262b24cd7c5eb47a3cc63930a62009a95c74a13f67e2255e96e271feca66fa9"
+      },
+      {
+        "observation_id": "FP-S001315",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@29",
+        "diff_base": "dse~MaidsR3FastRelayOct11@28",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4804,
+            "character_length": 307
+          }
+        ],
+        "source_body_sha256": "d12fa5f9eb7957856de8ce852d2921b9590851b75694901b503cc4483216d75f"
+      },
+      {
+        "observation_id": "FP-S001343",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@6",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1677,
+            "character_length": 242
+          }
+        ],
+        "source_body_sha256": "635f0f4a6eace0b934c5309cd6e0ec8160b128009bfcdac52686d9b743e5cc7c"
+      },
+      {
+        "observation_id": "FP-S001622",
+        "decision_examined": "associate",
+        "revision_id": "dse~MaidsFeb14R3Signal@5",
+        "diff_base": "dse~MaidsFeb14R3Signal@4",
+        "span_checks": [],
+        "source_body_sha256": "133be2f161ba254d9ec6a82635b9946f92a35fbb367afa79f84e601ed57a05f6"
+      },
+      {
+        "observation_id": "FP-S001656",
+        "decision_examined": "include",
+        "revision_id": "dse~Oct16MaidsLive@9",
+        "diff_base": "dse~Oct16MaidsLive@8",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2041,
+            "character_length": 270
+          }
+        ],
+        "source_body_sha256": "a2ee41bc55251d54adc930bca9e19bfbe912b39cc4e58bc3ee970d139bb76ed4"
+      },
+      {
+        "observation_id": "FP-S001676",
+        "decision_examined": "include",
+        "revision_id": "dse~Apr17MaidsLive@6",
+        "diff_base": "dse~Apr17MaidsLive@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1285,
+            "character_length": 328
+          }
+        ],
+        "source_body_sha256": "262618b3f91d5ba0f4602ae5cda613051eb44e1f4aba0ed274c7e76a643aaf98"
+      },
+      {
+        "observation_id": "FP-S001679",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@7",
+        "diff_base": "dse~OpenAIApr15Maids205825@6",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1459,
+            "character_length": 328
+          }
+        ],
+        "source_body_sha256": "f83ebef9510d6a1c85d8e042e8b1b6c23e31e221f9a49bcc21a025e41ac80f84"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C046d088aeac3/1/clock1",
+        "observation_id": "FP-S000958",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C046d088aeac3/1/clock2",
+        "observation_id": "FP-S000958",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C046d088aeac3/1/clock3",
+        "observation_id": "FP-S001315",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C046d088aeac3/1/clock4",
+        "observation_id": "FP-S001315",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C046d088aeac3/1/clock5",
+        "observation_id": "FP-S001315",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C046d088aeac3/1/clock6",
+        "observation_id": "FP-S001679",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C4f76217d3111",
+    "signature": "ResearchHelper",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "ResearchHelper CA18:41:39/deadline18:41:49 and NYreceived19:28:24 plus progressing19:40:35/19:43:10 support one run despite generic alias. Apparent match to ResearchAgentFeb08 is a peerquotation: Feb08 owns17:18:20/18:17:19. Preserve unusual reported10s initialtimer without forcing standardtier.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 6,
+        "selected_clock_claims_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "ResearchHelper CA18:41:39/deadline18:41:49 and NYreceived19:28:24 plus progressing19:40:35/19:43:10 support one run despite generic alias. Apparent match to ResearchAgentFeb08 is a peerquotation: Feb08 owns17:18:20/18:17:19. Preserve unusual reported10s initialtimer without forcing standardtier.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000058",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAClothingStateSequenceCollabOct10@4",
+        "diff_base": "dse~DataUSAClothingStateSequenceCollabOct10@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1147,
+            "character_length": 283
+          }
+        ],
+        "source_body_sha256": "226acfee3a5f82419d5d04725b9c696c0ea47735d150545a00acfeafb171e857"
+      },
+      {
+        "observation_id": "FP-S000108",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAClothingStateSequenceCollabOct10@20",
+        "diff_base": "dse~DataUSAClothingStateSequenceCollabOct10@19",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6558,
+            "character_length": 193
+          }
+        ],
+        "source_body_sha256": "00392a37708bb848ca6b31a5ac02a420b8f6e87dc4fbeec7b55423f91d4157ee"
+      },
+      {
+        "observation_id": "FP-S000112",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAClothingSequenceCollabAug08@12",
+        "diff_base": "dse~DataUSAClothingSequenceCollabAug08@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3376,
+            "character_length": 247
+          }
+        ],
+        "source_body_sha256": "a8fd01abeb9a0fdbb19863fe5c714c7657e63b7a445721a00a944741d5b0caaf"
+      },
+      {
+        "observation_id": "FP-S000126",
+        "decision_examined": "include",
+        "revision_id": "dse~ClothingLiveState3RelayMay29@6",
+        "diff_base": "dse~ClothingLiveState3RelayMay29@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1254,
+            "character_length": 192
+          }
+        ],
+        "source_body_sha256": "5aef58631ead899e439222c77c509c02903ddd220eab38d7052a1c3f3a20f44b"
+      },
+      {
+        "observation_id": "FP-S000185",
+        "decision_examined": "associate",
+        "revision_id": "dse~ClothingFastCohortRelayMay29@1",
+        "diff_base": null,
+        "span_checks": [],
+        "source_body_sha256": "0317cadde1ccd65cb27bdc318449c8b485dd667c0122048dbce4c9a37f36f318"
+      },
+      {
+        "observation_id": "FP-S000199",
+        "decision_examined": "include",
+        "revision_id": "dse~ClothingFastCohortRelayMay29@5",
+        "diff_base": "dse~ClothingFastCohortRelayMay29@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1307,
+            "character_length": 236
+          }
+        ],
+        "source_body_sha256": "b4adf1577ce0b239699573d74affa12c9567b4be7a5885606f75356e7a5792a2"
+      },
+      {
+        "observation_id": "FP-S000212",
+        "decision_examined": "include",
+        "revision_id": "dse~ClothingFastCohortRelayMay29@8",
+        "diff_base": "dse~ClothingFastCohortRelayMay29@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1960,
+            "character_length": 214
+          }
+        ],
+        "source_body_sha256": "3f3ef189747004d7b6c73a0778a0cfc8ab88a1a04961c5e916af2f062bfb287f"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C4f76217d3111/1/clock1",
+        "observation_id": "FP-S000058",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock2",
+        "observation_id": "FP-S000058",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock3",
+        "observation_id": "FP-S000108",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock4",
+        "observation_id": "FP-S000108",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock5",
+        "observation_id": "FP-S000126",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock6",
+        "observation_id": "FP-S000199",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock7",
+        "observation_id": "FP-S000212",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "current_time",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C4f76217d3111/1/clock8",
+        "observation_id": "FP-S000212",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cfad4d7d6c12c",
+    "signature": "AgentOpenAIJan29Seq",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Jan29 sector MA00:21:35/CTarrived00:49:41/WVanswer01:42:21/R5due02:08:40 are coherent. Cache note preserves exact2m+26m06 taskrelationship; weak unrelatedpeerrequests associated. Jan29 clothing P11 is different task/schedule.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 5,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [],
+    "rationale": "Jan29 sector MA00:21:35/CTarrived00:49:41/WVanswer01:42:21/R5due02:08:40 are coherent. Cache note preserves exact2m+26m06 taskrelationship; weak unrelatedpeerrequests associated. Jan29 clothing P11 is different task/schedule.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000291",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@34",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@33",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2249,
+            "character_length": 243
+          }
+        ],
+        "source_body_sha256": "db58e69fd4e68a7cb9586a15326c47e001eb7796290d47ed431d062baf087f38"
+      },
+      {
+        "observation_id": "FP-S000306",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@42",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@41",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4117,
+            "character_length": 246
+          }
+        ],
+        "source_body_sha256": "cd3460646a403e712df73869c774c9fccc8a63e35dc21208d87d42aa0d29d194"
+      },
+      {
+        "observation_id": "FP-S000329",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@48",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@47",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5438,
+            "character_length": 138
+          }
+        ],
+        "source_body_sha256": "3f9d78a5146156c0de607c0a1698e093ffde61cfa7c16215defd07a220985344"
+      },
+      {
+        "observation_id": "FP-S000472",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@66",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@65",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6080,
+            "character_length": 153
+          }
+        ],
+        "source_body_sha256": "8f0aa49752091e2d1e166b73d06261e03f38929282eb5ddcce169fb29a4d0ada"
+      },
+      {
+        "observation_id": "FP-S000691",
+        "decision_examined": "associate",
+        "revision_id": "dse~SectorAgentSep21OAI@8",
+        "diff_base": "dse~SectorAgentSep21OAI@7",
+        "span_checks": [],
+        "source_body_sha256": "8f03a98e6b9389cc78993e366fad93b6bc6435986117408e426669dd151c17f5"
+      },
+      {
+        "observation_id": "FP-S001021",
+        "decision_examined": "include",
+        "revision_id": "dse~Sector61State5FastSignal@17",
+        "diff_base": "dse~Sector61State5FastSignal@16",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2929,
+            "character_length": 206
+          }
+        ],
+        "source_body_sha256": "fa6fa9b1c78144065192fa119af29774e1dffb918e75dd014404ce780968ba7b"
+      },
+      {
+        "observation_id": "FP-S001148",
+        "decision_examined": "associate",
+        "revision_id": "dse~Sector61State5FastSignal@39",
+        "diff_base": "dse~Sector61State5FastSignal@38",
+        "span_checks": [],
+        "source_body_sha256": "9c36517faec3d9357aeefa5ce2c16cfb253bb629f3da22db733428dc7af1c8cd"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock1",
+        "observation_id": "FP-S000291",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock2",
+        "observation_id": "FP-S000291",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock3",
+        "observation_id": "FP-S000329",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock4",
+        "observation_id": "FP-S000329",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock5",
+        "observation_id": "FP-S000329",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock6",
+        "observation_id": "FP-S001021",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cfad4d7d6c12c/1/clock7",
+        "observation_id": "FP-S001021",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cd0c29cc7ee50",
+    "signature": "Aug17OECDHelper",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Aug17 OECD22:31:34/deadline22:43:52 advances acrossmidnight to explicit Aug18 Hungary00:12:28 and Poland01:42:00. Rawprecision correction explicitly revises initialwrongness inference. Own R3minute01:42 links Dec19request, preserving precision.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 7,
+        "reviewed_observations": 7,
+        "included_reviewed": 7,
+        "selected_clock_claims_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "Aug17 OECD22:31:34/deadline22:43:52 advances acrossmidnight to explicit Aug18 Hungary00:12:28 and Poland01:42:00. Rawprecision correction explicitly revises initialwrongness inference. Own R3minute01:42 links Dec19request, preserving precision.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003328",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveAug17Probe@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 124
+          }
+        ],
+        "source_body_sha256": "b0b60e9bd3d5a30eedab39f62ae5744141bf26bcdf4acf7fcba2c1d94eea44ff"
+      },
+      {
+        "observation_id": "FP-S003354",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveAug17Probe@2",
+        "diff_base": "dse~OECDEquityLiveAug17Probe@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 126,
+            "character_length": 271
+          }
+        ],
+        "source_body_sha256": "88507e83f3793d55e4a75c530fe06629061df9525691c7c39a116f9770d468a4"
+      },
+      {
+        "observation_id": "FP-S003368",
+        "decision_examined": "include",
+        "revision_id": "dse~OAIEquityDec30Raw@2",
+        "diff_base": "dse~OAIEquityDec30Raw@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 583,
+            "character_length": 299
+          }
+        ],
+        "source_body_sha256": "1bce96e61d40424048dad2d0b0ca172d576e3262ccd217d5b5aabb7498d243ed"
+      },
+      {
+        "observation_id": "FP-S003398",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveAug17Probe@3",
+        "diff_base": "dse~OECDEquityLiveAug17Probe@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 399,
+            "character_length": 265
+          }
+        ],
+        "source_body_sha256": "9c4602a56f24ce96d3a45babd0277181e425cfd8b1a258c316b3d6650060aa3a"
+      },
+      {
+        "observation_id": "FP-S003420",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveAug17Probe@5",
+        "diff_base": "dse~OECDEquityLiveAug17Probe@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 126,
+            "character_length": 319
+          }
+        ],
+        "source_body_sha256": "2a25ff85f3f2cbb5522a13f8b536ef3a901dff644f705b08f8bf30842b8d4b7a"
+      },
+      {
+        "observation_id": "FP-S003467",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveDec19@5",
+        "diff_base": "dse~OECDEquityLiveDec19@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1635,
+            "character_length": 377
+          }
+        ],
+        "source_body_sha256": "c2a41ee86076f6049979ac1dd75c03060b9d45834fc4db99f270ef1398999c28"
+      },
+      {
+        "observation_id": "FP-S003500",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityLiveAug17Probe@6",
+        "diff_base": "dse~OECDEquityLiveAug17Probe@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 447,
+            "character_length": 323
+          }
+        ],
+        "source_body_sha256": "63489128d57fb635b67287c47f756490f24ae730c117478727475bab295eed26"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock1",
+        "observation_id": "FP-S003328",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock2",
+        "observation_id": "FP-S003328",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "deadline",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock3",
+        "observation_id": "FP-S003354",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock4",
+        "observation_id": "FP-S003420",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock5",
+        "observation_id": "FP-S003420",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock6",
+        "observation_id": "FP-S003500",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock7",
+        "observation_id": "FP-S003500",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "Cd0c29cc7ee50/1/clock8",
+        "observation_id": "FP-S003500",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  },
+  {
+    "candidate_id": "C08e206219917",
+    "signature": "CashierCoordDec02OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span reviewed against rawsource; Aug10mixedline3591 retains only own fresh clause. Self/peer schedule ownership retained.",
+      "freshness": "Exact body/diffbase checks for all99 included spans; restoration, encoding and same-page duplicate exclusions inspected.",
+      "task_continuity": "Dec02 Cashier03:02:01/04:01:15/04:45:50/05:30:26 has explicit arrived reports and consistentdeadlineprogression. Sep01Psychology reference remains peerclaim inside ownR2status. All five revisions substantive; no identitymatch with Dec02OECD task.",
+      "observed_predicted_distinction": "All113 selected clock claims reviewed; bare confirmations and explicit task-date omissions corrected in issues. R6/horizon predictions remain predictions.",
+      "duplicate_alias_collisions": "Accepted147 and currentotherpartitions checked. ResearchHelper collision is peerquotation within Feb08report, not matching own histories. Nov28slowHelper and Mar22secondMaids are distinct from accepted same-date aliases.",
+      "coverage": {
+        "input_observations": 5,
+        "reviewed_observations": 5,
+        "included_reviewed": 5,
+        "selected_clock_claims_reviewed": 7
+      }
+    },
+    "issues": [],
+    "rationale": "Dec02 Cashier03:02:01/04:01:15/04:45:50/05:30:26 has explicit arrived reports and consistentdeadlineprogression. Sep01Psychology reference remains peerclaim inside ownR2status. All five revisions substantive; no identitymatch with Dec02OECD task.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001943",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordDec02OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 39,
+            "character_length": 384
+          }
+        ],
+        "source_body_sha256": "9f418aede28df42fd474afab47f5e00153cf2f7b1bab7a5eee9dfde490bf9eb8"
+      },
+      {
+        "observation_id": "FP-S002001",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordDec02OAI@2",
+        "diff_base": "dse~CashierCoordDec02OAI@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 425,
+            "character_length": 274
+          }
+        ],
+        "source_body_sha256": "92d29d36007ad20d210818b59df445b6d1ff03ea4cea9b5dde5cbbcc533784fb"
+      },
+      {
+        "observation_id": "FP-S002016",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordDec02OAI@3",
+        "diff_base": "dse~CashierCoordDec02OAI@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 701,
+            "character_length": 225
+          }
+        ],
+        "source_body_sha256": "f984f8f19807e91c602af83d8fbc5839b4fc26c53a994ab0f63aeccb46bfb08f"
+      },
+      {
+        "observation_id": "FP-S002081",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordDec02OAI@4",
+        "diff_base": "dse~CashierCoordDec02OAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 927,
+            "character_length": 274
+          }
+        ],
+        "source_body_sha256": "cf1e1e837c640f48ba39a7c678bb2efebe2081b02750e19f9f0518e4e926dd02"
+      },
+      {
+        "observation_id": "FP-S002109",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordDec02OAI@5",
+        "diff_base": "dse~CashierCoordDec02OAI@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1203,
+            "character_length": 327
+          }
+        ],
+        "source_body_sha256": "8ee7b0a459aef67b9e88d80c065e0ebbed45270790412f2d2b41cc63c94a62bc"
+      }
+    ],
+    "clock_claim_checks": [
+      {
+        "claim_id": "C08e206219917/1/clock1",
+        "observation_id": "FP-S001943",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock2",
+        "observation_id": "FP-S001943",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock3",
+        "observation_id": "FP-S002016",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock4",
+        "observation_id": "FP-S002081",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock5",
+        "observation_id": "FP-S002109",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "prompt_arrival",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock6",
+        "observation_id": "FP-S002109",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "answer",
+        "correction_target_resolves": true
+      },
+      {
+        "claim_id": "C08e206219917/1/clock7",
+        "observation_id": "FP-S002109",
+        "source_excerpt_verified": true,
+        "owner_reviewed": "self",
+        "event_kind_reviewed": "due",
+        "correction_target_resolves": true
+      }
+    ]
+  }
+]

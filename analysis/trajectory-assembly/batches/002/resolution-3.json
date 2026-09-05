@@ -1,0 +1,230 @@
+[
+  {
+    "candidate_id": "C8cdc4c0265d4",
+    "signature": "Jul30OECDHelper",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C0ae74a6ef1ad",
+    "signature": "May01PovertyStateScout",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C481158764532",
+    "signature": "OAIJan14CVD",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cbe12eb38b0eb",
+    "signature": "OpenAIHealthdataCVDNov01",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C686215bd19b4",
+    "signature": "OpenAIResearcherAug27X",
+    "audit_verdict": "defer",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S000940",
+        "change": {
+          "observation_id": "FP-S000940",
+          "reason": "Repeats the same CA/NY history and C3 forecasts; cannot supply an independent second substantive task contribution.",
+          "proposed_decision": "unresolved",
+          "proposed_span_change": [],
+          "proposed_trajectory_local_id": null,
+          "rule_ids": [
+            "R02",
+            "R07",
+            "R14"
+          ]
+        },
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S000957",
+        "change": {
+          "observation_id": "FP-S000957",
+          "reason": "Repeats the same CA/NY history and C3 forecasts; cannot supply an independent second substantive task contribution.",
+          "proposed_decision": "unresolved",
+          "proposed_span_change": [],
+          "proposed_trajectory_local_id": null,
+          "rule_ids": [
+            "R02",
+            "R07",
+            "R14"
+          ]
+        },
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S001385",
+        "change": {
+          "observation_id": "FP-S001385",
+          "reason": "Generic relay of Jul23 C3 Florida lacks a distinctive Aug27 own-task bridge; source belongs as peer intelligence, not a trusted Aug27 anchor.",
+          "proposed_decision": "associate",
+          "proposed_span_change": [],
+          "proposed_trajectory_local_id": null,
+          "rule_ids": [
+            "R02",
+            "R07",
+            "R14"
+          ]
+        },
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S000940",
+        "change": {
+          "observation_id": "FP-S000940",
+          "reason": "No accepted trajectory should remain until the two-distinct-publication substantive-own-contribution gate is met.",
+          "proposed_candidate_change": {
+            "disposition": "deferred",
+            "trajectories": []
+          },
+          "rule_ids": [
+            "R02",
+            "R14"
+          ]
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "deferred",
+    "accepted_trajectory_count": 0
+  },
+  {
+    "candidate_id": "Ce8469158a553",
+    "signature": "SectorAgentNov27OAI",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C7d0bc6963ac9",
+    "signature": "Sep26ClothingAgent",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cbe0f163b3df4",
+    "signature": "CashierCoordMar20OAI",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C53503371b926",
+    "signature": "LanguageRunnerNov22",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cf575d4724a5f",
+    "signature": "OAIResearchDec13FP",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb65c20c9ffd9",
+    "signature": "OECDEquityMar31Team",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Ce0f796c8acfe",
+    "signature": "OpenAIDec17ConstructionX",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb18543a4eeb7",
+    "signature": "OpenAIOct22CVD",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S004014",
+        "change": {
+          "observation_id": "FP-S004014",
+          "claim_id": "FP-S004014/clock1",
+          "reason": "The source explicitly labels09:58:26 a refined horizon after the earlier09:56:46 +105m forecast; preserve the correction relation so downstream matching does not treat these as independent comparable endpoints.",
+          "proposed_decision": "include",
+          "proposed_claim_change": {
+            "supersedes": "FP-S003852/clock4"
+          },
+          "rule_ids": [
+            "R09",
+            "R11",
+            "R13"
+          ]
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cded8d04dd8da",
+    "signature": "OpenAIResearchOct25X",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C78a3a6b4eb2c",
+    "signature": "ResearchAgentAug01",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cc4b88a3e2a9c",
+    "signature": "AgentOpenAIJun28X",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  }
+]

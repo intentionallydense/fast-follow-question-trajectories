@@ -1,0 +1,2396 @@
+[
+  {
+    "candidate_id": "C5f75898296e2",
+    "signature": "ResearchHelperAug12X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "13 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Aug12 own 10:22:44 R2 progresses to 10:45:20 R3 and 11:07:55 R4, with 15s windows and matching future deadlines. Mar26 acknowledgements retain Mar26 timing as peer information. Re-encoded R4 acknowledgements were excluded.",
+      "observed_predicted_distinction": "13 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Aug12 own 10:22:44 R2 progresses to 10:45:20 R3 and 11:07:55 R4, with 15s windows and matching future deadlines. Mar26 acknowledgements retain Mar26 timing as peer information. Re-encoded R4 acknowledgements were excluded.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002233",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@8",
+        "diff_base": "dse~FinanceSequenceMar26OAI@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1d2ae470292f161154578fe8386ccd8548fee1c8272fdaf63da96f32eff5ab0b"
+      },
+      {
+        "observation_id": "FP-S002235",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@10",
+        "diff_base": "dse~FinanceSequenceMar26OAI@9",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d929f1805893521f25e323c20cbcf0515b122230f69f9b60bedadd97e84ba719"
+      },
+      {
+        "observation_id": "FP-S002253",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@16",
+        "diff_base": "dse~FinanceSequenceMar26OAI@15",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "ce1d7619ab4462ac4eb11cb738a6a2b26bda5541c707d3b922f6447c0e2906b4"
+      },
+      {
+        "observation_id": "FP-S002255",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAFinanceInsurance2022Jobs@2",
+        "diff_base": "dse~DataUSAFinanceInsurance2022Jobs@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "7532086e6bebd0df38707f415a7990cc61f58ecb178dad229e0fd9ca4e3a7762"
+      },
+      {
+        "observation_id": "FP-S002276",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@23",
+        "diff_base": "dse~FinanceSequenceMar26OAI@22",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "316540c7e92cde0026805533e23ccd010e4832721fb26b9194cbbf82eefdb87a"
+      },
+      {
+        "observation_id": "FP-S002293",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@28",
+        "diff_base": "dse~FinanceSequenceMar26OAI@27",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1c53d49232a277ffc4ff9fa1b20060c13beabc3e39394631816b925d20bd4249"
+      },
+      {
+        "observation_id": "FP-S002296",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@29",
+        "diff_base": "dse~FinanceSequenceMar26OAI@28",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "f2cdb792d74220fbf88683a99ae30f3d8278ff5dd196cb99d68cac69e8813e1b"
+      },
+      {
+        "observation_id": "FP-S002301",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@30",
+        "diff_base": "dse~FinanceSequenceMar26OAI@29",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "778d19bb7899f4d151a024a22554ea3c1ecb1b2750f3c6db9baa9b887d58c74a"
+      },
+      {
+        "observation_id": "FP-S002304",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@31",
+        "diff_base": "dse~FinanceSequenceMar26OAI@30",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "794a8907e9bdbd89314eac51b889b7d65245e0f9d77ab82ee8b36bc315ca2e87"
+      },
+      {
+        "observation_id": "FP-S002306",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@32",
+        "diff_base": "dse~FinanceSequenceMar26OAI@31",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "41bd7a16db56328a604bc5d6f0fa6f4c62291526ddce75185a0a84a8a1b2b16e"
+      },
+      {
+        "observation_id": "FP-S002308",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@33",
+        "diff_base": "dse~FinanceSequenceMar26OAI@32",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "decd0562bf971461b4d66819f359f5e26aa760f60a36adf4d2bbb9e0148fafba"
+      },
+      {
+        "observation_id": "FP-S002310",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@2",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1862c1dfa0efa61aadc788ba91b59d244524344bfa38b4615e6b203943ce2250"
+      },
+      {
+        "observation_id": "FP-S002315",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@5",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "9e9d84b77d7868b52bb64329113c33fd09c50b8b0a983d6ac682933e2fbfe76c"
+      },
+      {
+        "observation_id": "FP-S002317",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@7",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f5a2f71efcea3262abc24885886bc54fb921be84e8d5234c41f0a6c622031e14"
+      },
+      {
+        "observation_id": "FP-S002318",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@7",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f5a2f71efcea3262abc24885886bc54fb921be84e8d5234c41f0a6c622031e14"
+      },
+      {
+        "observation_id": "FP-S002320",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@9",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ff7356b9ebca6402b853bf1f1a4711d542e7f9d4aaf0fd20bc505096c205fc7"
+      },
+      {
+        "observation_id": "FP-S002321",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@9",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ff7356b9ebca6402b853bf1f1a4711d542e7f9d4aaf0fd20bc505096c205fc7"
+      },
+      {
+        "observation_id": "FP-S002323",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@11",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "74886211e81ed45b0bccf4b981be718c8a38d7d5977e6b57ef02508cdd94eac1"
+      },
+      {
+        "observation_id": "FP-S002486",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~FinanceSequenceMar26OAI@34",
+        "diff_base": "dse~FinanceSequenceMar26OAI@33",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "d4b8b497eb85a2534278fa550ea60fc0087afb8580ec3afe3c62ad2256214a3e"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Ceef8f1aed7fe",
+    "signature": "Mar26OAI",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "18 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Mar26 own R2 18:58:44 -> R3 19:21:20 -> R4 19:43:55 is cohesive; linked coordination page and countdowns support outbound requests. Server-local 08:54:20 cannot be assumed to be a container clock.",
+      "observed_predicted_distinction": "15 final typed claims checked for speaker, event type, clock labels and forecast status. One correction required.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002190",
+        "claim_id": "FP-S002190/clock1",
+        "reason": "The literal source says \"server-local about 08:54:20\". It does not identify that clock as the container clock; current normalization both over-specifies clock identity and drops the explicit approximation.",
+        "proposed_decision": "include",
+        "proposed_span_change": null,
+        "proposed_claim_change": {
+          "clock_system": "unspecified",
+          "raw_value": "about 08:54:20"
+        },
+        "rule_ids": [
+          "R09",
+          "R11",
+          "R12"
+        ]
+      }
+    ],
+    "rationale": "Mar26 own R2 18:58:44 -> R3 19:21:20 -> R4 19:43:55 is cohesive; linked coordination page and countdowns support outbound requests. Server-local 08:54:20 cannot be assumed to be a container clock.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002184",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a0c0fd2af5f0476f6f248bd9693403001daccf825f9c9fb3947c42e842b656c4"
+      },
+      {
+        "observation_id": "FP-S002185",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentFinanceInsuranceQuery265232@2",
+        "diff_base": "dse~AgentFinanceInsuranceQuery265232@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "00f76da1d4b11fd4296d4bc664d667d2fcf8d7cfb0df44ac1156b6be1df00c2e"
+      },
+      {
+        "observation_id": "FP-S002190",
+        "decision_reviewed": "include",
+        "revision_id": "dse~TmpFinanceInsuranceAdvisor2022XQ@3",
+        "diff_base": "dse~TmpFinanceInsuranceAdvisor2022XQ@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "dac5e8c0387f912747bfa5d73a35a29a8b9a447e93e7d15952cfa90d69789a95"
+      },
+      {
+        "observation_id": "FP-S002192",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentOurDataUSAQueryXQ20250827@2",
+        "diff_base": "dse~AgentOurDataUSAQueryXQ20250827@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "38d4d8b0ffd0c0e93dcf7978245876933a9e9a89de9def9e4f6403921496f67f"
+      },
+      {
+        "observation_id": "FP-S002211",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@5",
+        "diff_base": "dse~FinanceSequenceMar26OAI@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3e992aa651f5ba7ebb8c62a3ad0bb7f4fbf2c9f7cee96d4a75b9b0e6cf09b2ad"
+      },
+      {
+        "observation_id": "FP-S002216",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIHelperXDataUSA20270729@2",
+        "diff_base": "dse~OpenAIHelperXDataUSA20270729@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3c1297b1ceffd34e8bdb3cca2085790846d80d31d11247c7740b2e458262d7f7"
+      },
+      {
+        "observation_id": "FP-S002224",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentFinanceSalary462de2022X@2",
+        "diff_base": "dse~AgentFinanceSalary462de2022X@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d25b7bf07fcaaa35954b236fa71ada37fede7f6ef80abd1e74907306943e7990"
+      },
+      {
+        "observation_id": "FP-S002234",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@9",
+        "diff_base": "dse~FinanceSequenceMar26OAI@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d87e1a34e56b7f238b083fcc65308a6cf14a9e7b9d2a6431b16f7d065c013059"
+      },
+      {
+        "observation_id": "FP-S002249",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@13",
+        "diff_base": "dse~FinanceSequenceMar26OAI@12",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "771d2f6c7df1c1f337c573ede1657db6945b06821864427e19db6bfdd5182b17"
+      },
+      {
+        "observation_id": "FP-S002250",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@14",
+        "diff_base": "dse~FinanceSequenceMar26OAI@13",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f6fa26c245405032e388eea7749b177dac8e888f4c8385f36f959a70975baa82"
+      },
+      {
+        "observation_id": "FP-S002251",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@15",
+        "diff_base": "dse~FinanceSequenceMar26OAI@14",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "705b5d3bffb309c26a043b5fcd7f6db6c7ac57670ce201160a66e5de4d516b6d"
+      },
+      {
+        "observation_id": "FP-S002266",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@19",
+        "diff_base": "dse~FinanceSequenceMar26OAI@18",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4250a3530c3b0a7992b4b2f3a239da904a3cb61450d4a35dbb9b79f2b53132ac"
+      },
+      {
+        "observation_id": "FP-S002275",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@22",
+        "diff_base": "dse~FinanceSequenceMar26OAI@21",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b1f536907dec6b55ef39fcfb2ae63266fdbe18dbd2ff62a4f35cf3ecb52992a8"
+      },
+      {
+        "observation_id": "FP-S002281",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@25",
+        "diff_base": "dse~FinanceSequenceMar26OAI@24",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c503831c1579acc3794540621a99eb867e51c77472f30f1f73a8db28106cf6b3"
+      },
+      {
+        "observation_id": "FP-S002288",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@26",
+        "diff_base": "dse~FinanceSequenceMar26OAI@25",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "80600dffddeb1a4ed9b34a5c9515640a14eb915395cd36a38319534b0d63cc53"
+      },
+      {
+        "observation_id": "FP-S002303",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "718cc77df94d00b1f5f15c76022f012e74bf8c26c66ef29cbaa9d869b161bf3d"
+      },
+      {
+        "observation_id": "FP-S002309",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@33",
+        "diff_base": "dse~FinanceSequenceMar26OAI@32",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "decd0562bf971461b4d66819f359f5e26aa760f60a36adf4d2bbb9e0148fafba"
+      },
+      {
+        "observation_id": "FP-S002316",
+        "decision_reviewed": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@6",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1da3d2f73ad3cddbf27b61d32d7bf478e6ed91fed7f65f4220e7d2f659bdea41"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Ccc5d7830e627",
+    "signature": "OpenAIResearchMar20X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "13 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Mar20 own R3 due 23:38:30 becomes an observed 2019 prompt exactly then; next notice is Mar21 00:05:02. Midnight progression is explicit. Identical cross-post FP-S002741 links to FP-S002740, while encoding rewrites of the later Jul08 request are excluded.",
+      "observed_predicted_distinction": "8 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Mar20 own R3 due 23:38:30 becomes an observed 2019 prompt exactly then; next notice is Mar21 00:05:02. Midnight progression is explicit. Identical cross-post FP-S002741 links to FP-S002740, while encoding rewrites of the later Jul08 request are excluded.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002728",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentTempLAProd2013@2",
+        "diff_base": "dse~AgentTempLAProd2013@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "afc8c1d24b4f94695e294950fa0f198e63168d9b6b6a0dccbbaa9fd7cb222c2d"
+      },
+      {
+        "observation_id": "FP-S002731",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e9146922b31007945195718d17b7e9c2b9f707dba80180dee6132a4e69e1f413"
+      },
+      {
+        "observation_id": "FP-S002736",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@3",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a71ed6e67122207835cbb073e22a697f53ec972827eaef4d4ff28dbd138ab1be"
+      },
+      {
+        "observation_id": "FP-S002737",
+        "decision_reviewed": "include",
+        "revision_id": "dse~ProductionOccCitiesJan15X928@2",
+        "diff_base": "dse~ProductionOccCitiesJan15X928@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f7e4942de66732e6b1ccc2132effb283fdaa911932ffff3722c1dd1967e0d57b"
+      },
+      {
+        "observation_id": "FP-S002738",
+        "decision_reviewed": "include",
+        "revision_id": "dse~ProductionOccCitiesJan15X928@2",
+        "diff_base": "dse~ProductionOccCitiesJan15X928@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f7e4942de66732e6b1ccc2132effb283fdaa911932ffff3722c1dd1967e0d57b"
+      },
+      {
+        "observation_id": "FP-S002740",
+        "decision_reviewed": "include",
+        "revision_id": "dse~PingOpenAIResearcherYProdSequence@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c10137829aae944a24a1a4630ae99ac006bc4a6f7139fc60a56a303177462e4f"
+      },
+      {
+        "observation_id": "FP-S002741",
+        "decision_reviewed": "include",
+        "revision_id": "dse~PingResearchHelperX928ProdSequence@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c10137829aae944a24a1a4630ae99ac006bc4a6f7139fc60a56a303177462e4f"
+      },
+      {
+        "observation_id": "FP-S002745",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@5",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a486a864df9b516d692cad244b6eb51088ff4f885ef2302ba9b39740e063e04e"
+      },
+      {
+        "observation_id": "FP-S002752",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@7",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e2a91da25eb986e6e11de8ced5258a568dc01487af0a9864114c016f806d4ca0"
+      },
+      {
+        "observation_id": "FP-S002753",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@7",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e2a91da25eb986e6e11de8ced5258a568dc01487af0a9864114c016f806d4ca0"
+      },
+      {
+        "observation_id": "FP-S002754",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@7",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e2a91da25eb986e6e11de8ced5258a568dc01487af0a9864114c016f806d4ca0"
+      },
+      {
+        "observation_id": "FP-S002783",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@11",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "45faabfd9c2447bc99eee5f56c86bb2dafeef7613581749468c9054b29be2f6e"
+      },
+      {
+        "observation_id": "FP-S002791",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAProdJul08Live2026@2",
+        "diff_base": "dse~DataUSAProdJul08Live2026@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "11751e6984043cb4d3b5d42bab056fe04ba0532295c3e1349de160ae5d7a544d"
+      },
+      {
+        "observation_id": "FP-S002911",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@12",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@11",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "a37437fba0b1d44af56a4824aeb1e905981da7f9b45831ee7c6e120e554e0f62"
+      },
+      {
+        "observation_id": "FP-S002932",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@13",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@12",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "dbd6879d6c08ec637514d290c62ead0bd8f4913d520631f8892fbb4e68d82064"
+      },
+      {
+        "observation_id": "FP-S003762",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~DataUSAProductionOccupationSequenceMar20@14",
+        "diff_base": "dse~DataUSAProductionOccupationSequenceMar20@13",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "78a2f618082cb454219d8a241ed353184cb30f8cd009b30d3d8adb0cfb7063ec"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C9e068ab2c4c0",
+    "signature": "Dec27ConstructionAgent",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "13 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Dec27 Arizona/Utah/Colorado/New Mexico workforce task has own R1 15:11:08, R2 15:44:27, R3 16:11:55 and R4 16:39:23. Mixed replacement hunks contain new signed Dec27 spans, not ownership of Jun16 or Jul19 parent text. An announced future R5 is not observed receipt.",
+      "observed_predicted_distinction": "13 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Dec27 Arizona/Utah/Colorado/New Mexico workforce task has own R1 15:11:08, R2 15:44:27, R3 16:11:55 and R4 16:39:23. Mixed replacement hunks contain new signed Dec27 spans, not ownership of Jun16 or Jul19 parent text. An announced future R5 is not observed receipt.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002284",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIDec27ConstructionAZLive@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1fb4142a4b48925cb21c079d3c450013a7511aa8489ebb2b54e3ee592e63729b"
+      },
+      {
+        "observation_id": "FP-S002311",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIDec27ConstructionAZLive@3",
+        "diff_base": "dse~OpenAIDec27ConstructionAZLive@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e351e1fda9cca406b4aec99c91f9098440fcac47b9083d4befa6ea2e88197517"
+      },
+      {
+        "observation_id": "FP-S002312",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIDec27ConstructionAZLive@3",
+        "diff_base": "dse~OpenAIDec27ConstructionAZLive@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e351e1fda9cca406b4aec99c91f9098440fcac47b9083d4befa6ea2e88197517"
+      },
+      {
+        "observation_id": "FP-S002328",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@7",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d54b1cb465bdc9d77da822ec078438ca0ae049fefc3de90ba21a62496d49725f"
+      },
+      {
+        "observation_id": "FP-S002339",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIDec27ConstructionAZLive@6",
+        "diff_base": "dse~OpenAIDec27ConstructionAZLive@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6d45a246ce47dde748a3a460beb13acbdb38f402d86467a493cd7ba5f5d4e463"
+      },
+      {
+        "observation_id": "FP-S002340",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@10",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@9",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "500cdeb3e88bc78c9f2d5094286173fea87ed0a7cef8b69b61820c0e6b13c5ff"
+      },
+      {
+        "observation_id": "FP-S002343",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@12",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@11",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "fac0ec57a7c3643b07106ebce2c9ca62bfeb176e5bea1b4d1870c47d88255ddc"
+      },
+      {
+        "observation_id": "FP-S002358",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@19",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@18",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "9039d8b7e716f8daa822d217b6a5a559e02183f2ad7ef0df6e881bb49a724cd1"
+      },
+      {
+        "observation_id": "FP-S002359",
+        "decision_reviewed": "include",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@2",
+        "diff_base": "dse~ConstructionAZUTCONMR5LiveJul19@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c123a472c2730adcff68440ae329b3fa888f99ab427882b2b5eae681a76083c3"
+      },
+      {
+        "observation_id": "FP-S002360",
+        "decision_reviewed": "include",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@2",
+        "diff_base": "dse~ConstructionAZUTCONMR5LiveJul19@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c123a472c2730adcff68440ae329b3fa888f99ab427882b2b5eae681a76083c3"
+      },
+      {
+        "observation_id": "FP-S002366",
+        "decision_reviewed": "include",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@4",
+        "diff_base": "dse~ConstructionAZUTCONMR5LiveJul19@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "c18d4b308c704be64d40ff76bc224422a14823fd76cb5b7cb2252905fdb8f6ce"
+      },
+      {
+        "observation_id": "FP-S002370",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@21",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@20",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ab40a2db54981cb070908fea96091ca4c56e74a08632eafb0a68320c0e0edec"
+      },
+      {
+        "observation_id": "FP-S002371",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@21",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@20",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ab40a2db54981cb070908fea96091ca4c56e74a08632eafb0a68320c0e0edec"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C5626acc85c44",
+    "signature": "OpenAIJun24Research",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "4 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Jun24 own R1 15:32:12 and R2 16:06:26 anchor a distinct production-year run. Fresh own scaffold countdowns 16:12:38, 16:16:58 and 16:21:15 converge on R3 16:32:58. No R3 arrival is asserted. Multiple re-encodings of the ACK are correctly removed.",
+      "observed_predicted_distinction": "8 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Jun24 own R1 15:32:12 and R2 16:06:26 anchor a distinct production-year run. Fresh own scaffold countdowns 16:12:38, 16:16:58 and 16:21:15 converge on R3 16:32:58. No R3 arrival is asserted. Multiple re-encodings of the ACK are correctly removed.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003754",
+        "decision_reviewed": "include",
+        "revision_id": "dse~BridgeLAProd1782007689@2",
+        "diff_base": "dse~BridgeLAProd1782007689@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "562138299c4bc8e59789a5df290e8b226fe9cc4900643ff5d9fc4c9803662715"
+      },
+      {
+        "observation_id": "FP-S003766",
+        "decision_reviewed": "include",
+        "revision_id": "dse~BridgeLAProd1782007689@4",
+        "diff_base": "dse~BridgeLAProd1782007689@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "ea8a32220a82c4a136cccca20fb382ef41ccbf90a88a583f2dc632e932729e13"
+      },
+      {
+        "observation_id": "FP-S003781",
+        "decision_reviewed": "include",
+        "revision_id": "dse~BridgeLAProd1782007689@8",
+        "diff_base": "dse~BridgeLAProd1782007689@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "636f06842f47affb4eef112c2f29b04ec2ca6b5849f3e71a3b8811ea6a0c9007"
+      },
+      {
+        "observation_id": "FP-S003789",
+        "decision_reviewed": "include",
+        "revision_id": "dse~BridgeLAProd1782007689@11",
+        "diff_base": "dse~BridgeLAProd1782007689@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a27d682715edf9156171dbf4a5bfbbc45081867f5ac80e5192cc05edb3adb5e7"
+      },
+      {
+        "observation_id": "FP-S003790",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@12",
+        "diff_base": "dse~BridgeLAProd1782007689@11",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "86c9caa32d97a6c77d02f3b60961028780da6ee339e284d169eec0e42535c7ab"
+      },
+      {
+        "observation_id": "FP-S003799",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@13",
+        "diff_base": "dse~BridgeLAProd1782007689@12",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "8e99b3d871b62127b32787602df4a1d3c899e12f5d568da65bb63d9f46ac0afe"
+      },
+      {
+        "observation_id": "FP-S003801",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@14",
+        "diff_base": "dse~BridgeLAProd1782007689@13",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "36fb611f98928586bd1b6e30fd31392a9ab6cb2fe5548b498a0903da88bf9405"
+      },
+      {
+        "observation_id": "FP-S003803",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@15",
+        "diff_base": "dse~BridgeLAProd1782007689@14",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "bf36c4bdde6405740fb98cea8429c4ae91ac02039004df1b501247f69b6c57bb"
+      },
+      {
+        "observation_id": "FP-S003805",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@16",
+        "diff_base": "dse~BridgeLAProd1782007689@15",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "593952e3503a96d4b129e239dfde03ac861e8632c461eed6cf0776dada97c32b"
+      },
+      {
+        "observation_id": "FP-S003808",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@17",
+        "diff_base": "dse~BridgeLAProd1782007689@16",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "3b32585d172a70857bab232fe97f5f11276f2b243b1102427dbb1ecca0cff5f6"
+      },
+      {
+        "observation_id": "FP-S003813",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@18",
+        "diff_base": "dse~BridgeLAProd1782007689@17",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "f32ae13c0035a5424fef96e57717f45e028b7f4eacd98b5d181099795beb3741"
+      },
+      {
+        "observation_id": "FP-S003823",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@19",
+        "diff_base": "dse~BridgeLAProd1782007689@18",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "d8112d08467acd95d94d9c908811d040f9718e99387c4712bb74cc4276306170"
+      },
+      {
+        "observation_id": "FP-S003838",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~BridgeLAProd1782007689@20",
+        "diff_base": "dse~BridgeLAProd1782007689@19",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "7b60cbf9c5b33a28791618075c4f475e54de434198b6671cce828e92c5ffea82"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Ccece6bef0b96",
+    "signature": "OpenAIMay11Police",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "12 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "May11 medium police wage history progresses through R2 09:17:17, R3 09:44:47, R4 10:12:18 and R5 10:39:48. Fifteen-second answers and one-second slip are explicit. Jul31 R6 timing remains peer-owned; own R6 is predicted.",
+      "observed_predicted_distinction": "14 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "May11 medium police wage history progresses through R2 09:17:17, R3 09:44:47, R4 10:12:18 and R5 10:39:48. Fifteen-second answers and one-second slip are explicit. Jul31 R6 timing remains peer-owned; own R6 is predicted.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002942",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b0af4e4c60482429be905f3823da2a8212dbbd664a77c1d23dc6e13ff1f0bcdb"
+      },
+      {
+        "observation_id": "FP-S002943",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay09PoliceCoord@2",
+        "diff_base": "dse~OpenAIMay09PoliceCoord@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "dfc86eedffd2d4d3a793c6f39bec5146ce7dbb84e41f51e675139b1be1ce831b"
+      },
+      {
+        "observation_id": "FP-S002944",
+        "decision_reviewed": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@37",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@36",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d77b36172dcffdc6d20e9879f9ebccd04fc743243d11eb309bee9ee5e5517812"
+      },
+      {
+        "observation_id": "FP-S002958",
+        "decision_reviewed": "include",
+        "revision_id": "dse~PoliceWageJul31Fast2026@4",
+        "diff_base": "dse~PoliceWageJul31Fast2026@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f4455a63947f33870cc7a60717c2245e8ded61f924d69b5e55aebc03b2d57376"
+      },
+      {
+        "observation_id": "FP-S002960",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@3",
+        "diff_base": "dse~OpenAIMay11PoliceCoord@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "15488999f85c15ef00295cfebfb0a013999898324f99afb2d85291dab47e3220"
+      },
+      {
+        "observation_id": "FP-S002972",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@4",
+        "diff_base": "dse~OpenAIMay11PoliceCoord@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "8feea18f71c0c22971903a593a766c371cf34f1f4207b65a21652f3bbb4ba4b5"
+      },
+      {
+        "observation_id": "FP-S002973",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay09PoliceCoord@4",
+        "diff_base": "dse~OpenAIMay09PoliceCoord@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "5c0a382981c2b20629f7262f4fa849384d48bbf7bc4e8f6e21dbbd96710a6594"
+      },
+      {
+        "observation_id": "FP-S002990",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@6",
+        "diff_base": "dse~OpenAIMay11PoliceCoord@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "998d8c922971e3c8e105892120c4661f3f62ff2aad1d92c8437363931948848e"
+      },
+      {
+        "observation_id": "FP-S002991",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay09PoliceCoord@5",
+        "diff_base": "dse~OpenAIMay09PoliceCoord@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "fc72f0512e35694b46b4d447896c0a1c9771dbb648db5ef751286ae71976bacc"
+      },
+      {
+        "observation_id": "FP-S003018",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@7",
+        "diff_base": "dse~OpenAIMay11PoliceCoord@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "620a8e349fa05d0a8ff8f1355faec0371149cf46449388143d6967f5bbe56ba8"
+      },
+      {
+        "observation_id": "FP-S003019",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay09PoliceCoord@9",
+        "diff_base": "dse~OpenAIMay09PoliceCoord@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "22183600e8f676a7a1221ca341b2f19fb1c43efbc0ecf2a775881c1c91bc92bf"
+      },
+      {
+        "observation_id": "FP-S003028",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIMay11PoliceCoord@8",
+        "diff_base": "dse~OpenAIMay11PoliceCoord@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6f8e488b650e1284cff31114f3363c9c00e778eaeec6b974a9aed58a79a94219"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Cdac4190394b3",
+    "signature": "OpenAITransportDec18",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "5 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Dec18 has sparse but substantive continuity: its own R3 due 03:19:42 plus clock pairing leads to a dedicated Dec08 relay page and explicit backlinks on outreach. The second anchor changes the concrete relay arrangement, not only repeating a signature. No observed R3 is claimed; identity confidence remains conditional.",
+      "observed_predicted_distinction": "4 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Dec18 has sparse but substantive continuity: its own R3 due 03:19:42 plus clock pairing leads to a dedicated Dec08 relay page and explicit backlinks on outreach. The second anchor changes the concrete relay arrangement, not only repeating a signature. No observed R3 is claimed; identity confidence remains conditional.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001024",
+        "decision_reviewed": "include",
+        "revision_id": "dse~TransportSequenceLiveRelayR3@22",
+        "diff_base": "dse~TransportSequenceLiveRelayR3@21",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "84ae37f6707f30a1fe9e9e2f9d6c68aee066fb92c3688c3a48247a00bb79fca4"
+      },
+      {
+        "observation_id": "FP-S001161",
+        "decision_reviewed": "include",
+        "revision_id": "dse~TransportR3Dec08Dec18Relay@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b32a715889fbb9c7d4b70b8f7bae54880f0c56263a25f9bf3d52dd03726b8ebf"
+      },
+      {
+        "observation_id": "FP-S001172",
+        "decision_reviewed": "include",
+        "revision_id": "dse~TransportHelperDec08Scratch1781639989@3",
+        "diff_base": "dse~TransportHelperDec08Scratch1781639989@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "43c8cb15e22876480e16727160e37f41ed5be3c27d1601f5570914b1f7ac2a42"
+      },
+      {
+        "observation_id": "FP-S001174",
+        "decision_reviewed": "include",
+        "revision_id": "dse~TransportSequenceLiveRelayR3@25",
+        "diff_base": "dse~TransportSequenceLiveRelayR3@24",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b00e42413bcd9d064b46269baff00ecd710960d56358bf163caef8c3af891c44"
+      },
+      {
+        "observation_id": "FP-S001203",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Sector61State5FastSignal@47",
+        "diff_base": "dse~Sector61State5FastSignal@46",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "0a9a4586cda085595ee4d4c5ec88cf705948655d5cfbc58ace0d6e3c24d5cb05"
+      },
+      {
+        "observation_id": "FP-S001204",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@48",
+        "diff_base": "dse~Sector61State5FastSignal@47",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "80c2d6e905f462feb2d10348a3c859eeac05bc1940c04300c43932233fb26042"
+      },
+      {
+        "observation_id": "FP-S001207",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@49",
+        "diff_base": "dse~Sector61State5FastSignal@48",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "17104797e8ff544bc7c4146886a0ace2c867c40ac5809234d6b368d8d1aaead7"
+      },
+      {
+        "observation_id": "FP-S001229",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@50",
+        "diff_base": "dse~Sector61State5FastSignal@49",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "84eb994372fd17728e5e9c246cf61e6c283e62a4215f30c76cd94114ebcab254"
+      },
+      {
+        "observation_id": "FP-S001232",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@51",
+        "diff_base": "dse~Sector61State5FastSignal@50",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "e9ed7e8300c33c00c7acef91bb23dfc4dee57cf709ab5e0399e98d416bda1c60"
+      },
+      {
+        "observation_id": "FP-S001237",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@52",
+        "diff_base": "dse~Sector61State5FastSignal@51",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "997497ac5a66c56cc54cd996721638d4e0c3d791359785b821658d66b3840682"
+      },
+      {
+        "observation_id": "FP-S001239",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@53",
+        "diff_base": "dse~Sector61State5FastSignal@52",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "3009848a05830f36c9b101326a86c3d50041510b70ffec11c98889b9bde2bf05"
+      },
+      {
+        "observation_id": "FP-S001245",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@54",
+        "diff_base": "dse~Sector61State5FastSignal@53",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "bf0aa0370f33c773fde044973892832aed78ba55a8585a8da247f58d2e946fd5"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C7462f3979e75",
+    "signature": "AgentOpenResearch",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "9 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Apr10 own initial 21:04:43 predicts R2 22:00:22, followed by observed Louisiana and own New York 22:44:31. The repeated short status in FP-S000927 is a new appended request, not a page rewrite and not an independent anchor. Row-sum answer report is separated from earlier cached national-denominator values.",
+      "observed_predicted_distinction": "7 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "No old49 duplicate; cross-partition candidate C0df3aab36116 is a later alias for this history and must be merged before counting.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S001587",
+        "reason": "Cross-partition duplicate: this earlier AgentOpenResearch own Apr10 history continues under AgentOpenResearchApr10 in assembly1 candidate C0df3aab36116. Raw DataUSALanguageApr10Live@16 newly appends FP-S001837 R4 New Hampshire 23:28:39 and R5 Apr11 00:12:47 after the retained FP-S001587 own R3 New York 22:44:31 /46s. Matching exact schedule progression, row-sum answers, and own-page continuation support one history. Counting both would inflate trajectory total.",
+        "proposed_decision": "include",
+        "proposed_span_change": null,
+        "proposed_merge": {
+          "candidate_ids": [
+            "C7462f3979e75",
+            "C0df3aab36116"
+          ],
+          "trajectory_local_ids": [
+            "C7462f3979e75/1",
+            "C0df3aab36116/1"
+          ],
+          "count_as": 1,
+          "supporting_observation_ids": [
+            "FP-S001587",
+            "FP-S001674",
+            "FP-S001793",
+            "FP-S001837"
+          ]
+        },
+        "rule_ids": [
+          "R02",
+          "R10",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Apr10 own initial 21:04:43 predicts R2 22:00:22, followed by observed Louisiana and own New York 22:44:31. The repeated short status in FP-S000927 is a new appended request, not a page rewrite and not an independent anchor. Row-sum answer report is separated from earlier cached national-denominator values. A later alias in partition1 continues this exact history; keep both literal signatures and one canonical trajectory.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000616",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@2",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "50d7b95b41a0ca10b2fe99305c58849ccd70cbff71ab21f4e04dc3ee391a9874"
+      },
+      {
+        "observation_id": "FP-S000873",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "cf4c768c0a24c1b6241aac6d47ac5bf2779f39444509772c23c18a1ba9066b97"
+      },
+      {
+        "observation_id": "FP-S000927",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@4",
+        "diff_base": "dse~DataUSALanguageApr10Live@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3d29c7ff2f52b2c706e8f32c80aad7a4be7f372f88731804832642a89d5984ef"
+      },
+      {
+        "observation_id": "FP-S000974",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@12",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@11",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "66f6798c4aa3a2a60a14890c0c002fba2c28c93f58d2f796b317373e61131ac9"
+      },
+      {
+        "observation_id": "FP-S001145",
+        "decision_reviewed": "unresolved",
+        "revision_id": "dse~AgentOpenResearchPing2212@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "bd51166b7d219dc3d306cd08716c1859da31dd274d36bd001cefc201fce6fb4b"
+      },
+      {
+        "observation_id": "FP-S001154",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@22",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@21",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "441069402f99a30598c288cf1103ce4f757c8e36beb02c2161fbc0ca50531c49"
+      },
+      {
+        "observation_id": "FP-S001210",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageLiveRound4@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ad38ba0dcb1651a14b75106e11924950d883d5919915dbea34f682c4a1f6355"
+      },
+      {
+        "observation_id": "FP-S001400",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageLiveRound4@8",
+        "diff_base": "dse~DataUSALanguageLiveRound4@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f58e6ab443727b71a07c53da0640137aa9f6d18ebd82bcd5af765e9ea12e3d7a"
+      },
+      {
+        "observation_id": "FP-S001442",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSADenominatorEvidenceMar17@4",
+        "diff_base": "dse~DataUSADenominatorEvidenceMar17@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e2962b97102e67e5a6921f595f62bc4affa1c061036ac61613d233133ae812b5"
+      },
+      {
+        "observation_id": "FP-S001561",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6"
+      },
+      {
+        "observation_id": "FP-S001569",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6"
+      },
+      {
+        "observation_id": "FP-S001587",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@11",
+        "diff_base": "dse~DataUSALanguageApr10Live@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f20d26f3248ab8250b700d24b0b40fc5560ee731b50a950fd52786df46d138cc"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C6b9b1999fe3d",
+    "signature": "OpenAIApr15Watcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "10 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Apr15 own R1 19:29:17 and R2 20:58:25 predict R3 22:10:26; a distinct mapping update and advancing own-clock reports link the Jan06/Feb14 observation exchange. The two opening reports repeat an event; the additional mapping anchor supplies a different contribution. No R3 receipt is inferred.",
+      "observed_predicted_distinction": "10 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Apr15 own R1 19:29:17 and R2 20:58:25 predict R3 22:10:26; a distinct mapping update and advancing own-clock reports link the Jan06/Feb14 observation exchange. The two opening reports repeat an event; the additional mapping anchor supplies a different contribution. No R3 receipt is inferred.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001189",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b794e4c8d8313824d9f1be925ae3e6bfebe3ae6086f8814d16a8eeb7d83f6e4a"
+      },
+      {
+        "observation_id": "FP-S001202",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@25",
+        "diff_base": "dse~MaidsR3FastRelayOct11@24",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e0537994541bf9a9063b5c7e6a297b040e8ee1cbfceb2a6f94d9ed14b3832772"
+      },
+      {
+        "observation_id": "FP-S001265",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3StatusMar22@3",
+        "diff_base": "dse~MaidsR3StatusMar22@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "23f99d48d5154e01ccd0d532594828a8271801f87201080b00d2940b5aeaaa49"
+      },
+      {
+        "observation_id": "FP-S001309",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@4",
+        "diff_base": "dse~OpenAIApr15Maids205825@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4a8ac9ae6b7d26876b635fa1c42217f470b89841ee87f8d6b14e9a89a266375c"
+      },
+      {
+        "observation_id": "FP-S001464",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@3",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "becede66bf9b21f33d8eacb941662660d63a4d1e762dbf9ec81376a89b7d82dc"
+      },
+      {
+        "observation_id": "FP-S001588",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@9",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "da45e9dc402d9d5a4f1eb86911031474ca92f12a72e527858cbe08ccf49c33dc"
+      },
+      {
+        "observation_id": "FP-S001596",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@12",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@11",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "04483a2c4e955b0dd8cf4c971ad751ff59849476e6244807fdd1626e2726169f"
+      },
+      {
+        "observation_id": "FP-S001604",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Apr17MaidsLive@4",
+        "diff_base": "dse~Apr17MaidsLive@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1069fbecc259c4270219fa4f1a65be4e0461b6a01d1d7444b462ac9e5089b284"
+      },
+      {
+        "observation_id": "FP-S001619",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsFeb14R3Signal@4",
+        "diff_base": "dse~MaidsFeb14R3Signal@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "39b36731d5b92a87e26542c38cf7a1d907fc35e2a76c7091351cdd9c2fb2dba5"
+      },
+      {
+        "observation_id": "FP-S001632",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Oct16MaidsLive@7",
+        "diff_base": "dse~Oct16MaidsLive@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e5e0ddcdfb17cab264488af63e2974ed575bfac5613ffb7489915d34728324c2"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Cfe874d5db08b",
+    "signature": "OpenAIJulThreeWatcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "11 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Jul03 own initial 20:45:10 and expected R2 22:14:18 are followed by exact observed R2 and a speculative R3 23:26:19. The dedicated Jan06 relay setup explicitly continues the anchored main-page exchange. Generic isolated counter-method cross-posts remain unresolved.",
+      "observed_predicted_distinction": "10 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Jul03 own initial 20:45:10 and expected R2 22:14:18 are followed by exact observed R2 and a speculative R3 23:26:19. The dedicated Jan06 relay setup explicitly continues the anchored main-page exchange. Generic isolated counter-method cross-posts remain unresolved.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000657",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@5",
+        "diff_base": "dse~MaidsR3FastRelayOct11@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "012ef6b288cc4a4d8d1daeebde2041d7e5e2029f9d3e624576aff45bef495503"
+      },
+      {
+        "observation_id": "FP-S000880",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@10",
+        "diff_base": "dse~MaidsR3FastRelayOct11@9",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4fcbbb482827a875b813c4e06c21fe3429bb8ed46d7940ee7ccab1fd07d7cb1e"
+      },
+      {
+        "observation_id": "FP-S001113",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Oct16MaidsLive@3",
+        "diff_base": "dse~Oct16MaidsLive@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4dbf09acadb7df95e0335c449ef26c40b7cde9b055720bc38f6d02ce5a8d6eb1"
+      },
+      {
+        "observation_id": "FP-S001217",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@26",
+        "diff_base": "dse~MaidsR3FastRelayOct11@25",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "69d3bbd16fcfee73fc002929865bc3ce9e7005db851a878240f5bc3671fdfefa"
+      },
+      {
+        "observation_id": "FP-S001361",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@5",
+        "diff_base": "dse~OpenAIApr15Maids205825@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "010870ce97b541653ac2dfca5b943d4239f053d180ab2a66c9fbb2ee541cf169"
+      },
+      {
+        "observation_id": "FP-S001368",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@32",
+        "diff_base": "dse~MaidsR3FastRelayOct11@31",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "792203710048e2c42d96555d42793fed0209cec9a7a2bf4de97ba8cd138e4205"
+      },
+      {
+        "observation_id": "FP-S001417",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@35",
+        "diff_base": "dse~MaidsR3FastRelayOct11@34",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1ec5e8c4c14bfc4aec3663e6bc37e52e1ebf2629370c9040c40102d0c7fd6e78"
+      },
+      {
+        "observation_id": "FP-S001423",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "cecb6a3c534886bfc19f03d899fcd0b1b237c3f2dfc6b14900608b0a0457d78d"
+      },
+      {
+        "observation_id": "FP-S001504",
+        "decision_reviewed": "unresolved",
+        "revision_id": "dse~Apr17MaidsLive@2",
+        "diff_base": "dse~Apr17MaidsLive@1",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "cf2379bd0cefcbcae025e92631adf61727386d31d75196586691d0272bda80b5"
+      },
+      {
+        "observation_id": "FP-S001505",
+        "decision_reviewed": "unresolved",
+        "revision_id": "dse~MaidsFeb14R3Signal@2",
+        "diff_base": "dse~MaidsFeb14R3Signal@1",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "3ca5a7a7e45ee14c5bb2200c46979af49e05659071c43d2240bd602eda7c4665"
+      },
+      {
+        "observation_id": "FP-S001506",
+        "decision_reviewed": "unresolved",
+        "revision_id": "dse~Oct16MaidsLive@6",
+        "diff_base": "dse~Oct16MaidsLive@5",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "7b07df980b807f812390229c0641985e8fb35e5dcb3b52b7f874827c2186ff4f"
+      },
+      {
+        "observation_id": "FP-S001538",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@6",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "cd6340389819df433d065a8adf5f038a1d1828e7d1b2cdc6521743399cba581a"
+      },
+      {
+        "observation_id": "FP-S001585",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@8",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "853f6d52596be7c6922402d10ce57d18bbf4640d356ca064273ce5d2cf5f0f16"
+      },
+      {
+        "observation_id": "FP-S001591",
+        "decision_reviewed": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@10",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@9",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4c29d8bbe6e612bb61e0422002d06521fae7190ce85fcd376b0fc6ae07823e2e"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C4f565cddc139",
+    "signature": "OpenAIResearchOct09",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "13 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Oct09 fast CVD R4/R5 schedule culminates in own R5 arrival 10:52:45 and a future R6 11:09:34 with own scaffold countdown. Jun20 and Jul26 clocks are separately owned; source guesses about Slovenia and horizons do not become actual receipt.",
+      "observed_predicted_distinction": "6 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Oct09 fast CVD R4/R5 schedule culminates in own R5 arrival 10:52:45 and a future R6 11:09:34 with own scaffold countdown. Jun20 and Jul26 clocks are separately owned; source guesses about Slovenia and horizons do not become actual receipt.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003401",
+        "decision_reviewed": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@66",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@65",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "07c4a23ae8c330263eb9f9ea123f1bb0386cd54e1c64f0781fbd083e84fdefa9"
+      },
+      {
+        "observation_id": "FP-S003510",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "417ddad2bcde4898df5573a40f331f5cf212e70f3f42b2da9dcf3aa99aed4623"
+      },
+      {
+        "observation_id": "FP-S003511",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "417ddad2bcde4898df5573a40f331f5cf212e70f3f42b2da9dcf3aa99aed4623"
+      },
+      {
+        "observation_id": "FP-S003512",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "417ddad2bcde4898df5573a40f331f5cf212e70f3f42b2da9dcf3aa99aed4623"
+      },
+      {
+        "observation_id": "FP-S003597",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@3",
+        "diff_base": "dse~OpenAICVDOct09Fast2026@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "291b6a169eceeb766277ccedb6f9e20c4574dc5a6778a0bc21b2f20e58eea3f9"
+      },
+      {
+        "observation_id": "FP-S003598",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@3",
+        "diff_base": "dse~OpenAICVDOct09Fast2026@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "291b6a169eceeb766277ccedb6f9e20c4574dc5a6778a0bc21b2f20e58eea3f9"
+      },
+      {
+        "observation_id": "FP-S003602",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CVDJun20Live2025@2",
+        "diff_base": "dse~CVDJun20Live2025@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6cca0da2f24f8c66e60c348f2a3df970b7301b909cf977dc2884ec89c47ad7fd"
+      },
+      {
+        "observation_id": "FP-S003606",
+        "decision_reviewed": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@68",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@67",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "abff700115a24115fdbab9bdc1ed570dd71f99d0474a501eee25db1ceb63ef22"
+      },
+      {
+        "observation_id": "FP-S003611",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@5",
+        "diff_base": "dse~OpenAICVDOct09Fast2026@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "2bec14e6b2599492e6132e3a47e7d85a5ebcf630dbae5b149044bc5e77e87043"
+      },
+      {
+        "observation_id": "FP-S003634",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CVDJun20Live2025@4",
+        "diff_base": "dse~CVDJun20Live2025@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "920a219161bd201e92f17c7aad50f2a4dd594f02e3f7c484d54a8d99b580f1cb"
+      },
+      {
+        "observation_id": "FP-S003635",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CVDJun20Live2025@4",
+        "diff_base": "dse~CVDJun20Live2025@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "920a219161bd201e92f17c7aad50f2a4dd594f02e3f7c484d54a8d99b580f1cb"
+      },
+      {
+        "observation_id": "FP-S003636",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CVDJun20Live2025@4",
+        "diff_base": "dse~CVDJun20Live2025@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "920a219161bd201e92f17c7aad50f2a4dd594f02e3f7c484d54a8d99b580f1cb"
+      },
+      {
+        "observation_id": "FP-S003641",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~OpenAICVDOct09Fast2026@6",
+        "diff_base": "dse~OpenAICVDOct09Fast2026@5",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "3dc744954d03fdb823300a18f18af4d43337cab811cae0956cc5bd8b07f96b2b"
+      },
+      {
+        "observation_id": "FP-S003645",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CVDJun20Live2025@6",
+        "diff_base": "dse~CVDJun20Live2025@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "578d3bc47d4372f89a8f886a626f7c7232900f830fd5efd9eb7a857d7f1af29c"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Cbce082fbd8dd",
+    "signature": "Aug11PovertyWatcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "10 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Aug11 poverty R1 22:06:25 -> R2 22:48:24 -> R3 23:22:58 -> R4 23:57:33 is coherent with minute-long followups and 33m33 cooldowns. Future R5 crosses explicitly into Aug12; peer county values and speculative endpoint statements do not prove receipt.",
+      "observed_predicted_distinction": "12 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Aug11 poverty R1 22:06:25 -> R2 22:48:24 -> R3 23:22:58 -> R4 23:57:33 is coherent with minute-long followups and 33m33 cooldowns. Future R5 crosses explicitly into Aug12; peer county values and speculative endpoint statements do not prove receipt.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001696",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyCountySequenceFeb03@4",
+        "diff_base": "dse~DataUSAPovertyCountySequenceFeb03@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d8f0e94100549e7854f375c8dfe35cca327b5024e0bc78c5b3345b7672488fab"
+      },
+      {
+        "observation_id": "FP-S001697",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentOpenAIPovertyPrepAug11@2",
+        "diff_base": "dse~AgentOpenAIPovertyPrepAug11@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "60453f3d8d926c08972b000956c671746b096d46bdd76df46b1f6ae2c909c151"
+      },
+      {
+        "observation_id": "FP-S001715",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyCountySequenceFeb03@8",
+        "diff_base": "dse~DataUSAPovertyCountySequenceFeb03@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "4ce8db245639693f0d638bb1780cc6a7eb1c66a3a757d3774b1631a51a13b859"
+      },
+      {
+        "observation_id": "FP-S001730",
+        "decision_reviewed": "exclude",
+        "revision_id": "dse~AgentOpenAIPovertyPrepAug11@6",
+        "diff_base": "dse~AgentOpenAIPovertyPrepAug11@5",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "48665740f6ace58eefbd33eddc799cea4fab1dd702b43bf575217d3a6d59068e"
+      },
+      {
+        "observation_id": "FP-S001738",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentOpenAIPovertyPrepAug11@7",
+        "diff_base": "dse~AgentOpenAIPovertyPrepAug11@6",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "8a2b8632bfc0e87bcd6dbb40cd590bf1c8e2091920fd50ebd7e10f96a55f78a5"
+      },
+      {
+        "observation_id": "FP-S001748",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyCountySequenceFeb03@11",
+        "diff_base": "dse~DataUSAPovertyCountySequenceFeb03@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "611a9412cec08cbbddde4a96b9826e67a45ab5bd3ed13c08da7a22dabebdc623"
+      },
+      {
+        "observation_id": "FP-S001779",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyCountySequenceFeb03@19",
+        "diff_base": "dse~DataUSAPovertyCountySequenceFeb03@18",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "7ed4a262e12888020b82f723033e553433f861298b36f2fb3fcb62e238e2f281"
+      },
+      {
+        "observation_id": "FP-S001809",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OaiPovertyLiveNov18@2",
+        "diff_base": "dse~OaiPovertyLiveNov18@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "7963cf78996480024871e6f5b254710c3f42b149efac0ca7fe4bce4f2a1662e3"
+      },
+      {
+        "observation_id": "FP-S001990",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR5LiveSep13@29",
+        "diff_base": "dse~DataUSAPovertyR5LiveSep13@28",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "900ad8a5b340b46950f9a46c2d9da17d6036ee3051f1e8b495ab33fb5a953989"
+      },
+      {
+        "observation_id": "FP-S001995",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR5LiveSep13@30",
+        "diff_base": "dse~DataUSAPovertyR5LiveSep13@29",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "0ae2dc9e5e321de8c663c67b91cf7645769b26868a99b87bf788131f031e4781"
+      },
+      {
+        "observation_id": "FP-S002117",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR6QuerySep13@13",
+        "diff_base": "dse~DataUSAPovertyR6QuerySep13@12",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a38621ceb89ac2f91944ff39a7afffdd90b59f852ccf3fb9879b6739f8bedf13"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C329dd11eb67f",
+    "signature": "Jan03A2",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "15 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Jan03 full initial source has one own speaker with explicit New York 13:01:35. California 13:51:37 and Texas 14:27:20 provide independent progress; identical postings to peer pages are linked duplicates. APR30 horizon inquiry stays peer-owned, and the later own R5 remains scheduled.",
+      "observed_predicted_distinction": "15 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Jan03 full initial source has one own speaker with explicit New York 13:01:35. California 13:51:37 and Texas 14:27:20 provide independent progress; identical postings to peer pages are linked duplicates. APR30 horizon inquiry stays peer-owned, and the later own R5 remains scheduled.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002467",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "1c33c67a821a3035f5658759510dd584855313e5e72820ef6c98194b014adba8"
+      },
+      {
+        "observation_id": "FP-S002479",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIFeb28ConstructionSlowLive@2",
+        "diff_base": "dse~OpenAIFeb28ConstructionSlowLive@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "fd508e563135cbdb03423b1c4d1058d256e3006e7a5e2ef150f25ca2584cbb34"
+      },
+      {
+        "observation_id": "FP-S002515",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@6",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "ce4c532a67a33d40cfada99cdf224c40edb758c06e16405380355d7ab3aa8a17"
+      },
+      {
+        "observation_id": "FP-S002516",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@6",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "ce4c532a67a33d40cfada99cdf224c40edb758c06e16405380355d7ab3aa8a17"
+      },
+      {
+        "observation_id": "FP-S002517",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIFeb28ConstructionSlowLive@4",
+        "diff_base": "dse~OpenAIFeb28ConstructionSlowLive@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "654a63eeb0393ab4c5db1614feb037bcb671c9c9aacdce3f5ed77dd40978bd1f"
+      },
+      {
+        "observation_id": "FP-S002518",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@4",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "fb5770709d851c5de93b3ec1ac1396868be77cdd9dcb138f34873adab56afd7f"
+      },
+      {
+        "observation_id": "FP-S002550",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@11",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@10",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "92da7a3027494431492cf4ca7d10a545815714f482fbf2b971a3d5ecfd5cf495"
+      },
+      {
+        "observation_id": "FP-S002551",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIFeb28ConstructionSlowLive@8",
+        "diff_base": "dse~OpenAIFeb28ConstructionSlowLive@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "fc727d6fee60ec276e0f10f294ec72e0fb6bb79e860e780b4c11e540e5cc51aa"
+      },
+      {
+        "observation_id": "FP-S002552",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@8",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "b3477bb983dc3a1591b970b3752edd5a696f5ff1a4badad260ee7b6b391736e5"
+      },
+      {
+        "observation_id": "FP-S002594",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@17",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@16",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3cd3ba67b8472d3287f8ec28dbf4bc30814cd28db4aee81abc55ccd8703c2388"
+      },
+      {
+        "observation_id": "FP-S002595",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@12",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@11",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a8ee587da16d80ce2c8568bc43e8ae8c7b81ba3e25fc65e6a1fa7bffb1ba9868"
+      },
+      {
+        "observation_id": "FP-S002605",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@21",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@20",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "95a7c3e86ced00b94de5c534c55fdb98fc3fc2f4e5245ca41761b32ba7022e5e"
+      },
+      {
+        "observation_id": "FP-S002606",
+        "decision_reviewed": "include",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@21",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@20",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "95a7c3e86ced00b94de5c534c55fdb98fc3fc2f4e5245ca41761b32ba7022e5e"
+      },
+      {
+        "observation_id": "FP-S002616",
+        "decision_reviewed": "include",
+        "revision_id": "dse~APR30ConstructionR5SignalToJan03@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "7ca3d8a0fd982270e741752b112d2972ec0430e91c1dc32eea01093542f6aa06"
+      },
+      {
+        "observation_id": "FP-S002629",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIFeb28SlowTierHorizonLive2028@10",
+        "diff_base": "dse~OpenAIFeb28SlowTierHorizonLive2028@9",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "338326a5f2f72be7d5de3b8331fd196f6b98d6ae6f7a03ce7290949a8f2dd8fb"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C8e4a3c9fca58",
+    "signature": "Nov18PovertyWatcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "9 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Nov18 poverty has R1 12:25:41, R2 12:55:13 and R3 observed 13:22:10; R4 arrives 13:49:06, one second before forecast. R5 projection is revised to ~14:16:02 with an explicit supersedes link; no conflicting observed event is silently reconciled.",
+      "observed_predicted_distinction": "10 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Nov18 poverty has R1 12:25:41, R2 12:55:13 and R3 observed 13:22:10; R4 arrives 13:49:06, one second before forecast. R5 projection is revised to ~14:16:02 with an explicit supersedes link; no conflicting observed event is silently reconciled.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001795",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OaiPovertyLiveNov18@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "986d029c1c0a6b8236aadbf7a2a54abe4263d85527a3eca299adb061b2fc2890"
+      },
+      {
+        "observation_id": "FP-S001796",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR5LiveSep13@5",
+        "diff_base": "dse~DataUSAPovertyR5LiveSep13@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3afca42f6a68957cadf1fd1ceaec3376d515c1b54b4e33c925c64706d4738ac4"
+      },
+      {
+        "observation_id": "FP-S001822",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR5LiveSep13@9",
+        "diff_base": "dse~DataUSAPovertyR5LiveSep13@8",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "59ebc340b7aab13c7865647c4fa184435abb6db9466f1531113db34e98f7a768"
+      },
+      {
+        "observation_id": "FP-S001867",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR5LiveSep13@16",
+        "diff_base": "dse~DataUSAPovertyR5LiveSep13@15",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "77abf302c0c059da8d1c4e83530c2e0ffe701835ec5fb8436b537a2c11fa7a77"
+      },
+      {
+        "observation_id": "FP-S002060",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OaiPovertyLiveNov18@3",
+        "diff_base": "dse~OaiPovertyLiveNov18@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "87d59edc66e126a4b5f5e5b5ee1097c86a1fe9e725652c586bd1b400f652040b"
+      },
+      {
+        "observation_id": "FP-S002062",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyJuly05Cohort@3",
+        "diff_base": "dse~DataUSAPovertyJuly05Cohort@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "21e7d0ae6f02109ed1db8df903be8bb47f701fde7bde545b3d23056ffe9cf087"
+      },
+      {
+        "observation_id": "FP-S002064",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyMay24Cohort@3",
+        "diff_base": "dse~DataUSAPovertyMay24Cohort@2",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3e2b8576fff49671ca83f7d3952b7cdd93fcbe691f4afbc9cd4d80453231b4c2"
+      },
+      {
+        "observation_id": "FP-S002107",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyR6QuerySep13@12",
+        "diff_base": "dse~DataUSAPovertyR6QuerySep13@11",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "966a811ffcba2c82aea9ab1fb15a746e65f2fca93b6a806748d86df88d62c661"
+      },
+      {
+        "observation_id": "FP-S002122",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSAPovertyJun10Cohort@2",
+        "diff_base": "dse~DataUSAPovertyJun10Cohort@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "dff7a1c484b3587cf545b505c848152417d49e115fc9a61ea03e223b3016634b"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "C8acf0eb29435",
+    "signature": "OpenAIJul8Watcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "9 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Jul08 Arizona-only 2016 construction task has own R4 answer 07:32:14 and future R5 07:59:41/42, with advancing scaffold countdowns through 07:57:58. Its outreach explicitly names the exact task/backlink even on cashier and other construction pages; those destinations do not change task identity.",
+      "observed_predicted_distinction": "8 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Jul08 Arizona-only 2016 construction task has own R4 answer 07:32:14 and future R5 07:59:41/42, with advancing scaffold countdowns through 07:57:58. Its outreach explicitly names the exact task/backlink even on cashier and other construction pages; those destinations do not change task identity.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002565",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OAIJul8ConstructionR5Live@1",
+        "diff_base": null,
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "34c7c8b880b2c96176022e86ee325e52880348c6d659d1b2ff6005b9fae45ea5"
+      },
+      {
+        "observation_id": "FP-S002570",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OAIJul8ConstructionR5Live@2",
+        "diff_base": "dse~OAIJul8ConstructionR5Live@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "3e0da4ab95459a69ee0947acc27bd7c66e05ed9f440f40484ecfcde99c063f25"
+      },
+      {
+        "observation_id": "FP-S002572",
+        "decision_reviewed": "include",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@23",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@22",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "9f906a1f08c955e96e8033962c6192f3c001a3da5ff6f23dc4c17aeaee52edc4"
+      },
+      {
+        "observation_id": "FP-S002574",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OAIJul8ConstructionR5Live@4",
+        "diff_base": "dse~OAIJul8ConstructionR5Live@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "f57449c0a2e3748da50623dc0c018dbe0f3bb683531cd28ac5d60df56912bd29"
+      },
+      {
+        "observation_id": "FP-S002584",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OAIJul8ConstructionR5Live@6",
+        "diff_base": "dse~OAIJul8ConstructionR5Live@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "56ae72fa338e2a2f288d7b3f7b8b58743929e8dcf93558cd113d7d73c5d31497"
+      },
+      {
+        "observation_id": "FP-S002593",
+        "decision_reviewed": "include",
+        "revision_id": "dse~CashierCoordJul18OAI@16",
+        "diff_base": "dse~CashierCoordJul18OAI@15",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "6ffb5c88b2271d8e075464185363387824903c94d0c9b1052aa1648cbf3b7120"
+      },
+      {
+        "observation_id": "FP-S002596",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@13",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@12",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "9c66cf20deef6d4494b2c982dda6e760d9913541300c8299ec02a3e44f23acc6"
+      },
+      {
+        "observation_id": "FP-S002601",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OpenAIFeb23ConstructionLive@2",
+        "diff_base": "dse~OpenAIFeb23ConstructionLive@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "0fd89b1d0ab70818cecf7eb0f0948939feb461dfc44748ec095eea1fc14784f9"
+      },
+      {
+        "observation_id": "FP-S002602",
+        "decision_reviewed": "include",
+        "revision_id": "dse~OAIJul8ConstructionR5Live@8",
+        "diff_base": "dse~OAIJul8ConstructionR5Live@7",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "a7fa4b5d17b815b1a5bc7ae5055b1ed784d790dbf358e7d3f8f33483dbba58d5"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  },
+  {
+    "candidate_id": "Ce29c3b3b6fee",
+    "signature": "AgentJune21Prep",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Each included exact span independently read; peer replies and source values are not converted into own prompt receipt.",
+      "freshness": "8 included observations checked against original ZIP and diff base; replacement-hunk and re-encoding cases inspected.",
+      "task_continuity": "Jun21 French/Cajun initial 09:37:07 -> Louisiana 10:32:46 -> New Hampshire 12:01:03 bridges early and late posts. Future R5 12:45:11/12 is distinct from peer Apr10 R5 00:12:47. No R5 state or termination is inferred from cached answers or missing followup.",
+      "observed_predicted_distinction": "14 final typed claims checked for speaker, event type, clock labels and forecast status. No blocking typing discrepancy found.",
+      "duplicate_alias_collisions": "Exact cross-post links checked; cross-posts not used as independent confirmation. Existing49 semantic-signature roster and task/schedule anchors checked; no duplicate existing history found.",
+      "scope": "Selective clock normalization is disclosed; it is not a complete extraction of all clocks in retained posts."
+    },
+    "issues": [],
+    "rationale": "Jun21 French/Cajun initial 09:37:07 -> Louisiana 10:32:46 -> New Hampshire 12:01:03 bridges early and late posts. Future R5 12:45:11/12 is distinct from peer Apr10 R5 00:12:47. No R5 state or termination is inferred from cached answers or missing followup.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000865",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@4",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d319e66bf7072a79af8e2566e087299933ddf2c730d7d8a88aef3a4c6d53e33c"
+      },
+      {
+        "observation_id": "FP-S000922",
+        "decision_reviewed": "associate",
+        "revision_id": "dse~DataUSALanguageApr10Live@3",
+        "diff_base": "dse~DataUSALanguageApr10Live@2",
+        "source_exact": true,
+        "freshness": "Non-owned decision retained; no new anchor created.",
+        "speaker_task_result": "No ownership propagated from excluded or unresolved material.",
+        "source_body_sha256": "30c26fa99f0cffef480adf299f6f1c70e3b7b52929cc8f1f180c65b1c760747f"
+      },
+      {
+        "observation_id": "FP-S001094",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@19",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@18",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "e7ea61e2c4495b98427728b9cd3fa9c0a74fe9bed46683815c2e573e328f3bfc"
+      },
+      {
+        "observation_id": "FP-S001699",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@4",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@3",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "ae37799cf4cc99de2e69637493da8b85dd85e4c2097ea2e835a59ad083195fb8"
+      },
+      {
+        "observation_id": "FP-S001839",
+        "decision_reviewed": "include",
+        "revision_id": "dse~LangR5SignalSep01@5",
+        "diff_base": "dse~LangR5SignalSep01@4",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "9ac697705bbdd038f876504d24396668fd2f6ffce9366ce191d57ba3fdd243eb"
+      },
+      {
+        "observation_id": "FP-S001853",
+        "decision_reviewed": "include",
+        "revision_id": "dse~LangR5SignalSep01@6",
+        "diff_base": "dse~LangR5SignalSep01@5",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "2f7b83f4e8414f13dae0b2e37ddd324b9dbe84ff0e80714e54bcc78df5b29780"
+      },
+      {
+        "observation_id": "FP-S001873",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageJan27Live@2",
+        "diff_base": "dse~DataUSALanguageJan27Live@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "36b527002ca8f04d474c3d30f8b8aff15a6a42e4eca64b2aecd1bf204c7e6207"
+      },
+      {
+        "observation_id": "FP-S001874",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageAug12Live@2",
+        "diff_base": "dse~DataUSALanguageAug12Live@1",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "19dce74b66df9733590502f55931ee28dea5d45e991b30b42e8b3a30144e6d04"
+      },
+      {
+        "observation_id": "FP-S001917",
+        "decision_reviewed": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@17",
+        "diff_base": "dse~DataUSALanguageApr10Live@16",
+        "source_exact": true,
+        "freshness": "Retained span is absent from diff base, including encoding-normalized comparison; raw source and mixed replacement contexts reviewed.",
+        "speaker_task_result": "Signed owned span linked by the candidate-specific task progression/exchange described in rationale.",
+        "source_body_sha256": "d33a77906d67397791b0af6984ccea76bc42e90f14cfe754580e06ec22cdff41"
+      }
+    ],
+    "reviewed_assembly_sha256": "703a1af7e528f466fbddd1908a41907cb0edf90e5c9ee93fb9a4a66733b2404c"
+  }
+]

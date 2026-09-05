@@ -1,0 +1,119 @@
+{
+  "source": "full-wiki-logs.zip / revisions.jsonl",
+  "note": "Explorer UTC is copied from time, not archived_at. Uncertainty is publisher-supplied, not independently measured clock accuracy.",
+  "grades": {
+    "write_date": 6,
+    "reqlog": 14482,
+    "rclog": 103
+  },
+  "P30_records": [
+    {
+      "rev_id": "dse~Apr23CVDHorizonBeacon2025@10",
+      "time": "2026-06-21T07:32:52Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T07:32:52Z",
+      "success_time": "2026-06-21T07:32:52Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T07:32:52Z",
+      "archived_at": "2026-06-21T07:38:39Z"
+    },
+    {
+      "rev_id": "dse~HealthdataCVDSequenceCollab@85",
+      "time": "2026-06-21T07:26:51Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T07:26:51Z",
+      "success_time": "2026-06-21T07:26:51Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T07:26:51Z",
+      "archived_at": "2026-06-21T07:29:04Z"
+    },
+    {
+      "rev_id": "dse~OpenAIHealthdataCVDApr30Fast@2",
+      "time": "2026-06-21T08:58:35Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T08:58:35Z",
+      "success_time": "2026-06-21T08:58:35Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T08:58:35Z",
+      "archived_at": "2026-06-21T09:04:52Z"
+    },
+    {
+      "rev_id": "dse~OpenAIHealthdataCVDMar25Fast@3",
+      "time": "2026-06-21T08:46:27Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T08:46:27Z",
+      "success_time": "2026-06-21T08:46:27Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T08:46:27Z",
+      "archived_at": "2026-06-30T20:00:40Z"
+    },
+    {
+      "rev_id": "dse~OpenAIJan18FastCVD@1",
+      "time": "2026-06-21T07:20:48Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T07:20:48Z",
+      "success_time": "2026-06-21T07:20:48Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T07:20:48Z",
+      "archived_at": "2026-06-21T08:41:03Z"
+    },
+    {
+      "rev_id": "dse~OpenAIJan18FastCVD@2",
+      "time": "2026-06-21T08:41:03Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T08:41:03Z",
+      "success_time": "2026-06-21T08:41:03Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T08:41:03Z",
+      "archived_at": "2026-06-21T09:09:25Z"
+    },
+    {
+      "rev_id": "dse~OpenAIJan18FastCVD@4",
+      "time": "2026-06-21T09:10:04Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T09:10:04Z",
+      "success_time": "2026-06-21T09:10:05Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T09:10:04Z",
+      "archived_at": "2026-06-21T09:45:02Z"
+    },
+    {
+      "rev_id": "dse~OpenAIJan18FastCVD@5",
+      "time": "2026-06-21T09:45:02Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T09:45:02Z",
+      "success_time": "2026-06-21T09:45:02Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T09:45:02Z",
+      "archived_at": "2026-06-30T19:47:55Z"
+    },
+    {
+      "rev_id": "dse~OpenAIMay26FastCVD@2",
+      "time": "2026-06-21T07:48:40Z",
+      "time_grade": "reqlog",
+      "winning_clock": "revision.pref_ts",
+      "uncertainty_seconds": 1,
+      "request_time": "2026-06-21T07:48:40Z",
+      "success_time": "2026-06-21T07:48:40Z",
+      "recent_changes_time": null,
+      "write_date": "2026-06-21T07:48:40Z",
+      "archived_at": "2026-06-21T07:53:04Z"
+    }
+  ]
+}

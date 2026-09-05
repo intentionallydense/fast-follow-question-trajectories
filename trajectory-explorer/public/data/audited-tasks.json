@@ -1,0 +1,637 @@
+{
+  "tasks": [
+    {
+      "id": "aihw-pbs",
+      "title": "AIHW · dermatological medicine costs",
+      "account_count": 0,
+      "family_id": "aihw-pbs",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/aihw-pbs.json"
+    },
+    {
+      "id": "alaska-climate",
+      "title": "Alaska · historical mean temperatures",
+      "account_count": 1,
+      "family_id": "alaska-climate",
+      "coverage_status": "supported",
+      "event_count": 7,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/alaska-climate.json"
+    },
+    {
+      "id": "ihme-cvd-deaths",
+      "title": "Cardiovascular deaths · country sequence",
+      "account_count": 31,
+      "family_id": "ihme-cvd-deaths",
+      "coverage_status": "supported",
+      "event_count": 194,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/ihme-cvd-deaths.json"
+    },
+    {
+      "id": "cashiers-bachelors-2015",
+      "title": "Cashiers · bachelor’s fields, 2015",
+      "account_count": 2,
+      "family_id": "datausa-cashiers-bachelors",
+      "coverage_status": "supported",
+      "event_count": 14,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/cashiers-bachelors-2015.json"
+    },
+    {
+      "id": "datausa-cashiers-masters",
+      "title": "Cashiers · master’s fields, 2014",
+      "account_count": 25,
+      "family_id": "datausa-cashiers-masters",
+      "coverage_status": "supported",
+      "event_count": 198,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-cashiers-masters.json"
+    },
+    {
+      "id": "datausa-cashier-skills",
+      "title": "Cashiers · skill RCA, 2018",
+      "account_count": 0,
+      "family_id": "datausa-cashier-skills",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/datausa-cashier-skills.json"
+    },
+    {
+      "id": "datausa-clothing-workforce",
+      "title": "Clothing stores · state workforce",
+      "account_count": 19,
+      "family_id": "datausa-clothing-workforce",
+      "coverage_status": "supported",
+      "event_count": 79,
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "file": "/data/audited-tasks/datausa-clothing-workforce.json"
+    },
+    {
+      "id": "college-state-tuition-2015",
+      "title": "College State Tuition, 2015",
+      "account_count": 6,
+      "family_id": "datausa-ivy-tuition",
+      "coverage_status": "supported",
+      "event_count": 19,
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "file": "/data/audited-tasks/college-state-tuition-2015.json"
+    },
+    {
+      "id": "datausa-construction-workforce-az",
+      "title": "Construction · Arizona sequence, 2016",
+      "account_count": 5,
+      "family_id": "datausa-construction-workforce",
+      "coverage_status": "supported",
+      "event_count": 37,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-construction-workforce-az.json"
+    },
+    {
+      "id": "datausa-construction-workforce-ny",
+      "title": "Construction · NY sequence, 2016 & 2018",
+      "account_count": 13,
+      "family_id": "datausa-construction-workforce",
+      "coverage_status": "supported",
+      "event_count": 101,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-construction-workforce-ny.json"
+    },
+    {
+      "id": "datausa-construction-wage",
+      "title": "Construction · female electrician wages",
+      "account_count": 5,
+      "family_id": "datausa-construction-wage",
+      "coverage_status": "supported",
+      "event_count": 26,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-construction-wage.json"
+    },
+    {
+      "id": "datausa-poverty-county",
+      "title": "County poverty · ACS1, 2021",
+      "account_count": 9,
+      "family_id": "datausa-poverty-county",
+      "coverage_status": "supported",
+      "event_count": 64,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-poverty-county.json"
+    },
+    {
+      "id": "el-paso-foreign-born",
+      "title": "El Paso: foreign-born percentage by year",
+      "account_count": 0,
+      "family_id": "datausa-elpaso-foreign-born",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/el-paso-foreign-born.json"
+    },
+    {
+      "id": "ihme-family-planning",
+      "title": "Family planning · modern methods, 1992",
+      "account_count": 8,
+      "family_id": "ihme-family-planning",
+      "coverage_status": "supported",
+      "event_count": 54,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/ihme-family-planning.json"
+    },
+    {
+      "id": "datausa-finance-gender-gap",
+      "title": "Finance & insurance · occupation wage gaps",
+      "account_count": 5,
+      "family_id": "datausa-finance-gender-gap",
+      "coverage_status": "supported",
+      "event_count": 36,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-finance-gender-gap.json"
+    },
+    {
+      "id": "datausa-language-french",
+      "title": "French / Cajun · state language shares",
+      "account_count": 18,
+      "family_id": "datausa-language-french",
+      "coverage_status": "supported",
+      "event_count": 104,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-language-french.json"
+    },
+    {
+      "id": "gapminder-age80",
+      "title": "Gapminder · age 80, 2023",
+      "account_count": 0,
+      "family_id": "gapminder-age80",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/gapminder-age80.json"
+    },
+    {
+      "id": "datausa-grocery-workforce",
+      "title": "Grocery stores · state workforce",
+      "account_count": 10,
+      "family_id": "datausa-grocery-workforce",
+      "coverage_status": "supported",
+      "event_count": 87,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "file": "/data/audited-tasks/datausa-grocery-workforce.json"
+    },
+    {
+      "id": "ihme-lymphatic-filariasis",
+      "title": "Lymphatic filariasis · antigen prevalence",
+      "account_count": 2,
+      "family_id": "ihme-lymphatic-filariasis",
+      "coverage_status": "supported",
+      "event_count": 4,
+      "rounds": [
+        1,
+        2
+      ],
+      "file": "/data/audited-tasks/ihme-lymphatic-filariasis.json"
+    },
+    {
+      "id": "ihme-mcv2",
+      "title": "MCV2 · vaccination coverage, 2008",
+      "account_count": 2,
+      "family_id": "ihme-mcv2",
+      "coverage_status": "supported",
+      "event_count": 8,
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "/data/audited-tasks/ihme-mcv2.json"
+    },
+    {
+      "id": "datausa-maids-wage",
+      "title": "Maids & cleaners · gender/year wages",
+      "account_count": 11,
+      "family_id": "datausa-maids-wage",
+      "coverage_status": "supported",
+      "event_count": 47,
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "file": "/data/audited-tasks/datausa-maids-wage.json"
+    },
+    {
+      "id": "dataafrica-rainfed-crops",
+      "title": "Mozambique · rainfed crops",
+      "account_count": 1,
+      "family_id": "dataafrica-rainfed-crops",
+      "coverage_status": "supported",
+      "event_count": 4,
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/dataafrica-rainfed-crops.json"
+    },
+    {
+      "id": "mozambique-stunting",
+      "title": "Mozambique: moderate stunting by survey year",
+      "account_count": 0,
+      "family_id": "dataafrica-health-stunting",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/mozambique-stunting.json"
+    },
+    {
+      "id": "nyc-veterans",
+      "title": "New York City · veterans, 2018",
+      "account_count": 11,
+      "family_id": "nyc-veterans",
+      "coverage_status": "supported",
+      "event_count": 50,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/nyc-veterans.json"
+    },
+    {
+      "id": "fuel-poverty-ni",
+      "title": "Northern Ireland · fuel poverty, 2016",
+      "account_count": 3,
+      "family_id": "fuel-poverty-ni",
+      "coverage_status": "supported",
+      "event_count": 16,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/fuel-poverty-ni.json"
+    },
+    {
+      "id": "oecd-regional-co2",
+      "title": "OECD · electricity-generation CO₂",
+      "account_count": 3,
+      "family_id": "oecd-regional-co2",
+      "coverage_status": "supported",
+      "event_count": 20,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/oecd-regional-co2.json"
+    },
+    {
+      "id": "oecd-household-income",
+      "title": "OECD · household disposable income",
+      "account_count": 1,
+      "family_id": "oecd-household-income",
+      "coverage_status": "supported",
+      "event_count": 6,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/oecd-household-income.json"
+    },
+    {
+      "id": "oecd-preprimary-private-spending",
+      "title": "OECD · private pre-primary spending",
+      "account_count": 32,
+      "family_id": "oecd-equity",
+      "coverage_status": "supported",
+      "event_count": 229,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/oecd-preprimary-private-spending.json"
+    },
+    {
+      "id": "datausa-police-wage-age",
+      "title": "Police officers · wages by age",
+      "account_count": 15,
+      "family_id": "datausa-police-wage-age",
+      "coverage_status": "supported",
+      "event_count": 120,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/datausa-police-wage-age.json"
+    },
+    {
+      "id": "datausa-production-share",
+      "title": "Production occupations · city / gender shares",
+      "account_count": 4,
+      "family_id": "datausa-production-share",
+      "coverage_status": "supported",
+      "event_count": 24,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-production-share.json"
+    },
+    {
+      "id": "sdg-index-score",
+      "title": "SDG Index · country/year scores",
+      "account_count": 1,
+      "family_id": "sdg-index-score",
+      "coverage_status": "supported",
+      "event_count": 13,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "file": "/data/audited-tasks/sdg-index-score.json"
+    },
+    {
+      "id": "datausa-occupation-salary-61-62",
+      "title": "Sector 61–62 · occupation salaries",
+      "account_count": 3,
+      "family_id": "datausa-occupation-salary-61-62",
+      "coverage_status": "supported",
+      "event_count": 14,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-occupation-salary-61-62.json"
+    },
+    {
+      "id": "datausa-sector61-state",
+      "title": "Sector 61–62 · state workforce",
+      "account_count": 12,
+      "family_id": "datausa-sector61-state",
+      "coverage_status": "supported",
+      "event_count": 78,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "file": "/data/audited-tasks/datausa-sector61-state.json"
+    },
+    {
+      "id": "datausa-slp-ethnicity",
+      "title": "Speech-language pathologists · Puerto Rican employment",
+      "account_count": 2,
+      "family_id": "datausa-slp-ethnicity",
+      "coverage_status": "supported",
+      "event_count": 4,
+      "rounds": [
+        1,
+        2
+      ],
+      "file": "/data/audited-tasks/datausa-slp-ethnicity.json"
+    },
+    {
+      "id": "datausa-poverty-state",
+      "title": "State poverty · 2013 & 2022",
+      "account_count": 2,
+      "family_id": "datausa-poverty-state",
+      "coverage_status": "supported",
+      "event_count": 17,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "file": "/data/audited-tasks/datausa-poverty-state.json"
+    },
+    {
+      "id": "datausa-transport-production",
+      "title": "Transportation equipment · outbound production",
+      "account_count": 2,
+      "family_id": "datausa-transport-production",
+      "coverage_status": "supported",
+      "event_count": 6,
+      "rounds": [
+        1,
+        2,
+        3
+      ],
+      "file": "/data/audited-tasks/datausa-transport-production.json"
+    },
+    {
+      "id": "uefa-pass-accuracy",
+      "title": "UEFA U21 · pass accuracy, 2021",
+      "account_count": 3,
+      "family_id": "uefa-pass-accuracy",
+      "coverage_status": "supported",
+      "event_count": 27,
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "file": "/data/audited-tasks/uefa-pass-accuracy.json"
+    },
+    {
+      "id": "unaids-bosnia-hiv",
+      "title": "UNAIDS · Bosnia and neighbouring countries",
+      "account_count": 0,
+      "family_id": "unaids-bosnia-hiv",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/unaids-bosnia-hiv.json"
+    },
+    {
+      "id": "ihme-smoking",
+      "title": "US smoking · prevalence by year",
+      "account_count": 3,
+      "family_id": "ihme-smoking",
+      "coverage_status": "supported",
+      "event_count": 8,
+      "rounds": [
+        1,
+        2
+      ],
+      "file": "/data/audited-tasks/ihme-smoking.json"
+    },
+    {
+      "id": "datausa-enrollment-asian",
+      "title": "Universities · Asian enrollment",
+      "account_count": 1,
+      "family_id": "datausa-enrollment-asian",
+      "coverage_status": "supported",
+      "event_count": 6,
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "file": "/data/audited-tasks/datausa-enrollment-asian.json"
+    },
+    {
+      "id": "vermont-rent",
+      "title": "Vermont & Lamoille · median gross rent",
+      "account_count": 0,
+      "family_id": "vermont-rent",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/vermont-rent.json"
+    },
+    {
+      "id": "world-poverty-clock",
+      "title": "World Poverty Clock · country sequence",
+      "account_count": 0,
+      "family_id": "world-poverty-clock",
+      "coverage_status": "insufficient_evidence",
+      "event_count": 0,
+      "rounds": [],
+      "file": "/data/audited-tasks/world-poverty-clock.json"
+    }
+  ],
+  "account_count": 271,
+  "excluded_provisional": [
+    "P43"
+  ],
+  "family_count": 41,
+  "supported_task_count": 34,
+  "event_count": 1721,
+  "source_policy": "Only owned spans of supported audited trajectories supply claims; no legacy rows or associated-peer messages are imported. Indirect claims within own messages remain separately labeled."
+}

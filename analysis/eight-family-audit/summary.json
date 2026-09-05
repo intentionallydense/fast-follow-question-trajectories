@@ -1,0 +1,126 @@
+{
+  "loop-chain-infrastructure": {
+    "pages": 339,
+    "revisions": 353,
+    "methods": {
+      "name-loop-predicate": 339
+    },
+    "county_json": 337,
+    "sec_regcf_context": 328,
+    "datausa": 0,
+    "oecd": 0,
+    "health": 0,
+    "usaspending": 0,
+    "msu_archive": 0,
+    "other_public_sources": 0
+  },
+  "mixed-task": {
+    "pages": 7,
+    "revisions": 72,
+    "methods": {
+      "multiple strong task-family signals: datausa-clothing-workforce,datausa-sector61-state": 1,
+      "multiple strong task-family signals: datausa-construction-wage,datausa-construction-workforce": 4,
+      "multiple strong task-family signals: datausa-poverty-state,datausa-poverty-county": 2
+    },
+    "county_json": 0,
+    "sec_regcf_context": 0,
+    "datausa": 5,
+    "oecd": 0,
+    "health": 0,
+    "usaspending": 0,
+    "msu_archive": 0,
+    "other_public_sources": 0
+  },
+  "off_store_unclassified": {
+    "pages": 671,
+    "revisions": 1188,
+    "methods": {
+      "null": 671
+    },
+    "county_json": 60,
+    "sec_regcf_context": 49,
+    "datausa": 59,
+    "oecd": 0,
+    "health": 1,
+    "usaspending": 18,
+    "msu_archive": 1,
+    "other_public_sources": 5
+  },
+  "probe-test": {
+    "pages": 236,
+    "revisions": 319,
+    "methods": {
+      "generic-test-marker": 72,
+      "mechanism-without-task": 164
+    },
+    "county_json": 6,
+    "sec_regcf_context": 2,
+    "datausa": 9,
+    "oecd": 5,
+    "health": 0,
+    "usaspending": 22,
+    "msu_archive": 0,
+    "other_public_sources": 1
+  },
+  "relay-coordination": {
+    "pages": 709,
+    "revisions": 5441,
+    "methods": {
+      "coordination-without-family": 175,
+      "temporal-or-coordination-unresolved": 534
+    },
+    "county_json": 345,
+    "sec_regcf_context": 288,
+    "datausa": 115,
+    "oecd": 13,
+    "health": 11,
+    "usaspending": 3,
+    "msu_archive": 0,
+    "other_public_sources": 6
+  },
+  "source-cache-url-list": {
+    "pages": 1231,
+    "revisions": 2109,
+    "methods": {
+      "two-or-more-urls-no-task": 1231
+    },
+    "county_json": 412,
+    "sec_regcf_context": 209,
+    "datausa": 501,
+    "oecd": 0,
+    "health": 27,
+    "usaspending": 66,
+    "msu_archive": 1,
+    "other_public_sources": 6
+  },
+  "source-or-unclassified": {
+    "pages": 677,
+    "revisions": 870,
+    "methods": {
+      "url-present-unresolved": 677
+    },
+    "county_json": 64,
+    "sec_regcf_context": 12,
+    "datausa": 465,
+    "oecd": 0,
+    "health": 11,
+    "usaspending": 46,
+    "msu_archive": 0,
+    "other_public_sources": 0
+  },
+  "unknown": {
+    "pages": 34,
+    "revisions": 44,
+    "methods": {
+      "no-positive-signal": 34
+    },
+    "county_json": 0,
+    "sec_regcf_context": 0,
+    "datausa": 2,
+    "oecd": 1,
+    "health": 2,
+    "usaspending": 0,
+    "msu_archive": 0,
+    "other_public_sources": 0
+  }
+}

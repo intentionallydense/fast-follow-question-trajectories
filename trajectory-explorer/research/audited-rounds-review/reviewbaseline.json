@@ -1,0 +1,13 @@
+{
+  "issues": [],
+  "checked_accounts": 48,
+  "checked_observed_events": 151,
+  "checked_timing_claims": 103,
+  "spot_checked_nonobserved_events": 48,
+  "method": "Read all observed and timing claims with complete quoted source text; checked ownership, ordinal, target, stated values, arithmetic, and inference qualifiers. Spot-checked final non-observed event per account. No legacy reconstruction data used.",
+  "limitations": [
+    "Exact quote matching to owned source spans is handled by parent.",
+    "Self-report attribution and prior signal-plan linkage are inherited from audited ownership assembly; no backend prompt logs or grading evidence available.",
+    "Generic note text sometimes says values omitted even on populated records, but record values and quotes are supported; no data issue found."
+  ]
+}

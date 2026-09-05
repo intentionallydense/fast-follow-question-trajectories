@@ -1,0 +1,36 @@
+{
+  "coverage": [
+    {
+      "batch": "001",
+      "candidates": 50,
+      "trajectories": 50,
+      "observations": 680
+    },
+    {
+      "batch": "002",
+      "candidates": 50,
+      "trajectories": 48,
+      "observations": 469
+    },
+    {
+      "batch": "003",
+      "candidates": 50,
+      "trajectories": 49,
+      "observations": 375
+    }
+  ],
+  "reviewed_candidate_groups": 150,
+  "reviewed_trajectories": 147,
+  "reviewed_observations": 1524,
+  "checked_evidence_quotes": 44,
+  "checked_replacement_or_discarded_spans": 14,
+  "finding_groups": 26,
+  "confidence_counts": {
+    "high": 17,
+    "conservative_metadata_review": 7,
+    "contested": 1,
+    "medium": 1
+  },
+  "input_files_unchanged": 54,
+  "errors": []
+}

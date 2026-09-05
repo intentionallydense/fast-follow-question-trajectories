@@ -1,0 +1,197 @@
+[
+  {
+    "candidate_id": "C44431be5ee19",
+    "signature": "OpenAIJan06Police",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S003360",
+        "reason": "This later dedicated-page paragraph restates R2 08:13:08 already present in earlier outbound R3-confirmed report FP-S003299. Retain publication, encode repeated-event dependency; no second R2 event at later archive timestamp.",
+        "proposed_change": {
+          "cross_post_of": "FP-S003299"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cef377f561c3a",
+    "signature": "OpenAIJan13AsianScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C8804451ab885",
+    "signature": "OpenAIJul08Cashier",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cebe99359b148",
+    "signature": "OpenAIJul21OECDScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C8e9f59dc0fd6",
+    "signature": "OpenAIJul27Runner",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C4ebe3c83a618",
+    "signature": "OpenAIJun30FPScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Ceb01b79bc850",
+    "signature": "OpenAIMay25CVD",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C7a9e513cfff2",
+    "signature": "OpenAINov22Equity",
+    "status": "resolved",
+    "audit_verdict": "defer",
+    "corrections": [],
+    "final_disposition": "deferred",
+    "accepted_trajectory_count": 0
+  },
+  {
+    "candidate_id": "Cd15160e625da",
+    "signature": "OpenAIOct22OECD",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Caff357071431",
+    "signature": "OpenAIResearchDec10X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd1f96ea1ca7f",
+    "signature": "OpenAIResearchFeb21X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C22b0ab99fe31",
+    "signature": "OpenAIResearchMar10",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Ca0def14b671a",
+    "signature": "OpenAIResearchMar13",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Ceef3f1509722",
+    "signature": "OpenAIResearchOct14X",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S001919",
+        "reason": "The replacement adds R4 arrival/R5 forecast but its closing R6 request and signoff are byte-identical in the diff base. Trim those inherited trailing words; attribution remains supported by signoff context in original source.",
+        "proposed_change": {
+          "included_excerpts": [
+            "R4 New Hampshire arrived 03:52:20, answered 1.32%. R5 due about 04:36:28 task-clock; ready California 11.2%."
+          ]
+        },
+        "rule_ids": [
+          "R05",
+          "R06"
+        ]
+      }
+    ],
+    "final_disposition": "split",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C621a53483643",
+    "signature": "OpenAIResearchOct18",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002491",
+        "reason": "Source explicitly identifies +1s arrival jitter relative to prior 20:58:36 forecast. Preserve correction/progression relation from observed20:58:37 to prior forecast without implying contradictory observed arrivals.",
+        "proposed_change": {
+          "claim_id": "FP-S002491/clock1",
+          "supersedes": "FP-S002355/clock3"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "split",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C499fdefd3382",
+    "signature": "OpenAIResearchSep01X",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S001773",
+        "reason": "Dedicated signal-page creation repeats owned R5 target22:11:54 and before-final state beacon plan already posted in FP-S001612. Retain this distinct destination publication with event dependency.",
+        "proposed_change": {
+          "cross_post_of": "FP-S001612"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  }
+]

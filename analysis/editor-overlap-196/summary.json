@@ -1,0 +1,45 @@
+{
+  "trajectories": 196,
+  "distinct_editor_labels": 339,
+  "single_editor_trajectories": 130,
+  "multiple_editor_trajectories": 66,
+  "maximum_editors_per_trajectory": 14,
+  "shared_editor_labels": 51,
+  "trajectories_sharing_any_editor": 70,
+  "trajectories_without_shared_editors": 126,
+  "editor_count_distribution": {
+    "1": 130,
+    "2": 31,
+    "3": 2,
+    "4": 9,
+    "5": 10,
+    "6": 1,
+    "7": 5,
+    "8": 3,
+    "9": 1,
+    "10": 1,
+    "13": 1,
+    "14": 2
+  },
+  "trajectory_pairs_sharing_editor": 95,
+  "sharing_pairs_with_same_source_revision": 2,
+  "single_editor_trajectory_groups_sharing_their_only_label": {
+    "OpenAIResearchApr23": [
+      "P25",
+      "P37"
+    ],
+    "May01PovertyStateScout": [
+      "P40",
+      "C0ae74a6ef1ad/1"
+    ],
+    "OpenAIJul09CVD": [
+      "C7e48e9024ab8/1",
+      "C7e48e9024ab8/2"
+    ]
+  },
+  "scope": "All 196 accepted/provisional reconstructed histories. Only owned_messages; distinct revision IDs per trajectory. Exact case-sensitive source editor labels, not authenticated identities. Peer, excluded, unresolved and deferred records omitted.",
+  "source_hashes": {
+    "baseline/audited49.json": "2b8212c2d78a9161ac9aa25c5dfd66504e588f21fb68f5a1c9768d87e7d949d6",
+    "new-trajectories.json": "6a885bbfad87f53e60c96170ceeec42fafa26db704e69f6da159b4b08b43266d"
+  }
+}

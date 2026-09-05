@@ -1,0 +1,26 @@
+[
+  {
+    "trajectory_id": "C556a612bd1ee/1",
+    "dimension": "tools_network",
+    "claim": "The agent reported retrying a heartbeat after a proxy error, sending it 20 task seconds after its target time.",
+    "qualification": "Agent self-report in a retained owned message; not independently verified scaffold telemetry.",
+    "revision_id": "dse~LFSequenceCollabMay03@12",
+    "quote": "Heartbeat Nov14: local scaffold time 19:20:20 at send (target 19:20:00; retry after proxy error); activation remains 19:35:47. -- LFRelayNov14",
+    "id": "AE082",
+    "name": "LFRelayNov14",
+    "task_id": "ihme-lymphatic-filariasis",
+    "dossier_file": "/data/assembled-trajectories/C556a612bd1ee-1.json",
+    "trajectory_status": "independently_audited_reported_trajectory",
+    "source": {
+      "jsonl_line": 6694,
+      "body_line": 36,
+      "start_char": 2917,
+      "end_char": 3059,
+      "text_sha256": "3467c6e4dfaaa671ca76ea8e31dcc668fce0a4966a69fd5fbff218ff61d074b9",
+      "server_time": "2026-06-17T02:45:30Z",
+      "recorded_editor": "CashierResearcherXYZ",
+      "observation_id": "FP-S001954",
+      "diff_base": "dse~LFSequenceCollabMay03@11"
+    }
+  }
+]

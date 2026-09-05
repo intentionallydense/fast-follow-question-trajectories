@@ -1,0 +1,234 @@
+[
+  {
+    "candidate_id": "C7c30da5abef4",
+    "signature": "LanguageHelperJul17",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001318",
+        "action": "Own R3 04:52:18 and cached NH restate FP-S001287 on a different page. Preserve destination, add event relationship.",
+        "change": {
+          "cross_post_of": "FP-S001287"
+        },
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S000982",
+        "action": "The source explicitly dates its R1 task-clock report; retain that literal month/day without inventing a year.",
+        "change": {
+          "round": "R1",
+          "schedule_claim_task_date": "Jul17"
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Cc854e8e0f729",
+    "signature": "May30ConstructAgent",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C7d89e44c96cb",
+    "signature": "Nov19ConstructionA2",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Cca8a479efee8",
+    "signature": "OAI1DC154Nov05",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S004239",
+        "action": "Initial R3 19:18:57 clause is unattributed peer material copied/paraphrased from the separately signed Jul18 report immediately above. Retain the fresh Nov05/Jan17 relay from ADVANCE onward.",
+        "change": {
+          "included_excerpts": [
+            "ADVANCE R4 from Jan17 cohort: Billing and posting clerks, exact $36,519; 28s timer. Jan17 R4 at 03:57:33, projects R5 04:13:38. Nov05 cohort R4 due 08:44:40. Please flash R5 here or YOURLS tag OAI1DC154REPLY. -- OAI1DC154Nov05"
+          ],
+          "discarded_excerpts": [
+            "R3 confirmed Maids & housekeeping cleaners at 19:18:57. "
+          ]
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Cc429b5e5bbce",
+    "signature": "OAIJul30Evening2028",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003820",
+        "action": "The source explicitly gives nominal :33 and likely :34; raw selected clock must preserve both rather than a single precise forecast.",
+        "change": {
+          "round": "R5",
+          "raw_value": "21:48:33, likely :34"
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Ca6d8d19a85f6",
+    "signature": "OAIResearchMay24",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C3099c8907b1f",
+    "signature": "OECDEquityAug02Agent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003034",
+        "action": "The source explicitly dates its R1 task-clock report; retain that literal month/day without inventing a year.",
+        "change": {
+          "round": "R1",
+          "schedule_claim_task_date": "Aug 02"
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "existing_trajectory",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Cd2d8ef7732aa",
+    "signature": "OECDEquityJan21Scout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C20c82da1af4c",
+    "signature": "OECDNov22Researcher",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C2ebd5096cd19",
+    "signature": "OpenAI-Dec27",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C064cc52f05e1",
+    "signature": "OpenAIApr09Watcher",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 2,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C4a99d524af35",
+    "signature": "OpenAIAug19FPScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "deferred",
+    "final_owned_publication_revisions": 0,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C789904d06c01",
+    "signature": "OpenAIConstructionSep11X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "deferred",
+    "final_owned_publication_revisions": 0,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C71898cbb2d0e",
+    "signature": "OpenAIDec28Police",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "C985b39828e66",
+    "signature": "OpenAIFeb28Equity",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003137",
+        "action": "The source explicitly dates its R1 task-clock report; retain that literal month/day without inventing a year.",
+        "change": {
+          "round": "R1",
+          "schedule_claim_task_date": "Feb 28"
+        },
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Cbfe97d291621",
+    "signature": "OpenAIHelperApr18",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  },
+  {
+    "candidate_id": "Ce62956022734",
+    "signature": "OpenAIHelperNov18",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All observations independently reviewed against original source and diff base; final retained/clock spans literal; no entire owned span repeats in older same-page revision. Independent threshold and peer/forecast distinctions checked."
+  }
+]

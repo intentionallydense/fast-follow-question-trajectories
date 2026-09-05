@@ -1,0 +1,23 @@
+{
+  "scope": {
+    "candidate_groups": 150,
+    "reported_trajectories": 147,
+    "observation_decisions": 1524,
+    "currently_owned_observations": 1201
+  },
+  "core_trajectories_supported": 147,
+  "whole_trajectory_merge_split_removal_recommendations": 0,
+  "membership_recommendations": {
+    "recover_observation_assignments": 5,
+    "expand_existing_owned_spans": 4,
+    "trim_placeholder": 1,
+    "hold_owned_assignments_unresolved": 2
+  },
+  "non_owned_exclusion_to_unresolved": 3,
+  "clock_metadata_finding_groups": 11,
+  "cross_post_relationship_recommendations": 8,
+  "borderline_observations": 3,
+  "contested_observation_coordinator_retains": "FP-S002604",
+  "proposed_changes_applied": false,
+  "validation_errors": 0
+}

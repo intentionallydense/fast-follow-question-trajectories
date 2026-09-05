@@ -1,0 +1,40 @@
+[
+  {
+    "batch": "001",
+    "candidate_groups": 50,
+    "input_observations": 680,
+    "decisions": 680,
+    "decision_counts": {
+      "include": 550,
+      "exclude": 90,
+      "unresolved": 15,
+      "associate": 25
+    },
+    "exact_coverage": true
+  },
+  {
+    "batch": "002",
+    "candidate_groups": 50,
+    "input_observations": 469,
+    "decisions": 469,
+    "decision_counts": {
+      "include": 371,
+      "exclude": 58,
+      "associate": 27,
+      "unresolved": 13
+    },
+    "exact_coverage": true
+  },
+  {
+    "batch": "003",
+    "candidate_groups": 50,
+    "input_observations": 375,
+    "decisions": 375,
+    "decision_counts": {
+      "include": 280,
+      "exclude": 52,
+      "associate": 43
+    },
+    "exact_coverage": true
+  }
+]

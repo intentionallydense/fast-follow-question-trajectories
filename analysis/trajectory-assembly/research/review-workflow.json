@@ -1,0 +1,15 @@
+{
+  "assembly": {
+    "partition-1": "assemble_a",
+    "partition-2": "assemble_b",
+    "partition-3": "assemble_c"
+  },
+  "independent_review": {
+    "partition-1": "assemble_c",
+    "partition-2": "assemble_a",
+    "partition-3": "assemble_b"
+  },
+  "gate_owner": "root",
+  "corrections": "Root applied batch001 fixes; independent reviewers applied batch002+ fixes to preserved proposals, with root consolidation and validation.",
+  "scope": "Three model reviewers are independent of their assigned partition assembler; their review is not independent evidence that archived claims are true."
+}

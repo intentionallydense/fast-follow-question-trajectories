@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "policy": "precision_first",
+  "default_for_insufficient_evidence": "unresolved",
+  "single_task_prior": "Do not explain incompatible owned tasks through speculative multitasking.",
+  "rules": [
+    {
+      "id": "R01",
+      "title": "Editor names retrieve candidates; they do not decide ownership.",
+      "description": "Six editor labels occur under multiple selected trajectories in this snapshot. A changed editor label does not negate a well-supported first-person continuity; the same editor label does not override a conflicting task or speaker."
+    },
+    {
+      "id": "R02",
+      "title": "Require a substantive task bridge beyond a name.",
+      "description": "Prefer a signed first-person report matching a distinctive combination of own activation time, round timing, timer tier, task identity and progression. A clockless follow-up can qualify if it explicitly links an established task page or continues a specific anchored exchange. A bare signature, generic answer, scratch test, matching date suffix, or shared family is insufficient alone."
+    },
+    {
+      "id": "R03",
+      "title": "Own-task conflict blocks a merge.",
+      "description": "An explicit claim to a different task, incompatible observed round history, or unexplained competing activation schedule should not be reconciled by assuming one agent was assigned multiple tasks. Keep a separate candidate or exclude it from the present trajectory. Treat that single-task preference as the working prior, not as authenticated evidence about the underlying process."
+    },
+    {
+      "id": "R04",
+      "title": "Identify the speaker of each clause.",
+      "description": "\u201cOur R5\u2026\u201d differs from \u201cyour R5\u2026\u201d and from a quoted peer statement. A signed outbound request is the sender's own message; the response belongs to its respondent. Acknowledging a relay does not make the recipient the author of the relayed observation, nor establish that the recipient received the same task prompt."
+    },
+    {
+      "id": "R05",
+      "title": "Audit freshness at the text-span level.",
+      "description": "Insert/replace hunks can contain inherited claims. A re-encoded signature, formatting edit, whole-page restoration, or copied old paragraph on the same page is not a fresh message by its apparent signer at the later timestamp. Record the revision as page activity if useful, but do not manufacture a second task event."
+    },
+    {
+      "id": "R06",
+      "title": "Split mixed spans before deciding.",
+      "description": "An appended paragraph may be concatenated onto an old paragraph without a newline. Multiple signatures on a line warrant inspection, not automatic whole-line inclusion or rejection. Keep a well-attributed new span; exclude inherited or differently authored spans. Record explicit retained and discarded excerpts so consumers cannot accidentally retain a contaminated whole record."
+    },
+    {
+      "id": "R07",
+      "title": "Cross-posts are separate publication events, not independent identity evidence.",
+      "description": "Newly posted matching signed text on a different page can remain a normal trajectory message when its speaker and task bridge are supported. Keep each destination and archive timestamp. Link duplicate text, but do not count repeated wording as multiple independent confirmations of authorship or of the underlying task event."
+    },
+    {
+      "id": "R08",
+      "title": "Destination page family is not the writer's assigned task.",
+      "description": "Outreach can cross task families. An explicit self-description and backlink to the known task can support inclusion even on a different family's page. Conversely, a fresh own-task claim to an incompatible family is exclusion evidence even when the editor/signature matches."
+    },
+    {
+      "id": "R09",
+      "title": "Preserve clock ownership, clock system and event type.",
+      "description": "Record each clock as self/peer/uncertain; harness/scaffold, archive UTC, container, or other; and activation, prompt arrival, answer, deadline, current-time report, predicted due time, or inferred cutoff. Also preserve whether it is reported, predicted or inferred. A reported observation is still a claim in a post, not independently verified backend telemetry."
+    },
+    {
+      "id": "R10",
+      "title": "Use schedule relationships, not naked time equality.",
+      "description": "Match a distinctive sequence of round identity, own timing landmarks, timer tier, and progression. Shared country sequences or cadence alone are common across runs. A round's prompt time and answer time can differ legitimately; deadline plus cooldown is not prompt plus cooldown. Inferred activation is weaker than an explicit activation report."
+    },
+    {
+      "id": "R11",
+      "title": "Permit documented corrections and bounded uncertainty.",
+      "description": "Retain an explicit correction with a `supersedes` link to the earlier claim. Do not compare a forecast as though it were an observed arrival. Preserve precision such as \u201cabout\u201d, minute-only times, and one-second alternatives; do not invent a universal tolerance that silently admits conflicting schedules. Midnight wrap is valid when the task date/order supports it."
+    },
+    {
+      "id": "R12",
+      "title": "Do not impose a fixed UTC\u2194harness offset.",
+      "description": "These posts explicitly describe drifting or irregular clocks. Use archive UTC for publication order and the speaker's task clock for task progression. Compare event time versus time of writing before declaring a backward jump. An unexplained conflict between comparable own observed events remains unresolved or split-worthy; clock drift is not a blanket excuse."
+    },
+    {
+      "id": "R13",
+      "title": "Silence and predicted termination do not authenticate endpoints.",
+      "description": "A proposed cutoff, missing heartbeat, or no later post is not proof of actual termination or that R6 never arrived. An outside candidate-window record is out of the retrieval window, not thereby disproven identity. The old \u00b124-hour window is a candidate-generation convenience, not an inclusion or exclusion theorem."
+    },
+    {
+      "id": "R14",
+      "title": "Do not propagate weak links transitively.",
+      "description": "A candidate cannot become a new trusted anchor merely because another candidate repeats it. Keep evidence dependencies explicit. Neither a shared editor, a peer mention, a shared page, a copied answer nor a chain of such links merges trajectories."
+    }
+  ],
+  "decisions": {
+    "include": "owned contribution; honor partial scope",
+    "associate": "separate peer/context evidence",
+    "exclude": "affirmative mismatch or not a fresh owned span",
+    "unresolved": "retain candidate without assignment"
+  }
+}

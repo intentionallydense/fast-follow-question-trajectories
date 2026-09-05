@@ -1,0 +1,1268 @@
+{
+  "method": "Broad literal second-precision time retrieval; peer, forecast and event ownership must be reviewed before linking. Absence of matching times is not proof of distinctness.",
+  "existing": [
+    {
+      "candidate_id": "Ce6f0cdb2effc",
+      "signature": "CashierCoordFeb02OAI2",
+      "candidate_times": [
+        "12:15:23",
+        "12:15:24",
+        "12:16:29",
+        "12:59:59",
+        "13:00:00",
+        "13:01:05",
+        "13:44:35"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C8be93432060f",
+      "signature": "CashierCoordFeb28OAI",
+      "candidate_times": [
+        "11:50:23",
+        "12:49:37",
+        "13:34:12",
+        "14:19:54",
+        "15:03:22",
+        "15:03:24"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C17c196039e6b",
+      "signature": "CashierCoordJan31OAI",
+      "candidate_times": [
+        "10:51:49",
+        "10:54:49",
+        "11:06:49",
+        "11:07:00",
+        "11:19:00"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Cc22e84dd51f8",
+      "signature": "CashierCoordJul16OAI",
+      "candidate_times": [
+        "02:12:37",
+        "02:48:32",
+        "02:51:05",
+        "03:09:21",
+        "03:09:39",
+        "03:11:47",
+        "04:56:48",
+        "05:45:21",
+        "06:01:05",
+        "06:06:40",
+        "06:44:35",
+        "06:45:40",
+        "07:29:10",
+        "08:13:45",
+        "08:13:46",
+        "08:14:52",
+        "08:58:20",
+        "08:58:22"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C57a9816fe89e",
+      "signature": "CashierCoordJun09OAI",
+      "candidate_times": [
+        "03:44:34",
+        "03:45:04",
+        "04:00:48",
+        "04:44:18",
+        "04:45:23",
+        "05:28:53",
+        "05:28:54",
+        "05:29:59",
+        "06:13:29",
+        "06:14:35",
+        "06:58:05"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C7a90b9e58e15/1",
+          "signatures": [
+            "March13OECDHelper"
+          ],
+          "task": "Mar13 OECD education equity 12m18/56s tier",
+          "shared_second_precision_times": [
+            "04:44:18"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "Caa9a3a4fca43",
+      "signature": "CashierCoordMar06OAI",
+      "candidate_times": [
+        "11:29:53",
+        "11:45:37",
+        "12:29:07",
+        "12:30:12",
+        "13:13:42",
+        "13:13:43",
+        "13:14:48",
+        "13:58:18",
+        "14:42:53"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C34dcfdb44327",
+      "signature": "CashierCoordMay17OAI",
+      "candidate_times": [
+        "10:44:27",
+        "11:00:11",
+        "11:43:41",
+        "11:44:46",
+        "12:28:16",
+        "12:29:22",
+        "13:12:51",
+        "13:12:52",
+        "13:13:58",
+        "13:57:26",
+        "13:57:28"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "P13",
+          "signatures": [
+            "GroceryAgentMar13X"
+          ],
+          "task": "grocery",
+          "shared_second_precision_times": [
+            "12:29:22"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "Cd1560d5dba3d",
+      "signature": "CashierCoordNov01OAI",
+      "candidate_times": [
+        "06:09:04",
+        "07:19:26",
+        "07:19:56",
+        "07:35:40",
+        "08:19:10",
+        "08:20:15",
+        "09:03:45",
+        "09:48:20",
+        "09:48:21",
+        "09:49:27",
+        "10:32:55",
+        "10:32:57"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C56a40ab32740",
+      "signature": "CashierCoordSep01OAI",
+      "candidate_times": [
+        "00:20:23",
+        "02:05:53",
+        "02:43:01",
+        "02:45:46",
+        "21:07:22",
+        "21:23:06",
+        "21:26:43",
+        "22:06:36",
+        "22:51:11"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "Cbe0f163b3df4/1",
+          "signatures": [
+            "CashierCoordMar20OAI"
+          ],
+          "task": "Mar20 cashiers masters 2014 sequence",
+          "shared_second_precision_times": [
+            "00:20:23"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "Shared00:20:23 appears in Mar20 explicitly quoting Sep01 peer R5. Own task histories remain distinct; independent partition1 audit confirmed no merge."
+    },
+    {
+      "candidate_id": "C06b90882b9ea",
+      "signature": "Dec19OECDHelper",
+      "candidate_times": [
+        "01:59:55",
+        "17:54:13",
+        "17:55:06",
+        "18:31:29",
+        "18:31:30",
+        "18:32:23",
+        "19:08:46"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C2c20e5112e19/1",
+          "signatures": [
+            "Sep14OECDScout"
+          ],
+          "task": "OECD pre-primary equity percentages",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "C040ba53f823c/1",
+          "signatures": [
+            "Nov22OECDScout"
+          ],
+          "task": "OECD pre-primary equity Nov22 slowtier",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "01:59:55 denotes the shared counter creation discussed across OECD cohorts, not matching own task events. No merge."
+    },
+    {
+      "candidate_id": "Ca2e18cdc36c5",
+      "signature": "Dec27MaidsAgent",
+      "candidate_times": [
+        "00:19:31",
+        "00:24:45",
+        "00:59:54",
+        "01:00:15",
+        "01:35:24",
+        "01:40:17"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C36013560bf6d",
+      "signature": "Feb02PovertyWatcher",
+      "candidate_times": [
+        "02:10:45",
+        "18:04:48",
+        "18:13:14",
+        "18:46:47",
+        "18:47:48",
+        "19:21:21"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "Cb11413f05439/1",
+          "signatures": [
+            "OurFinanceAug27"
+          ],
+          "task": "Aug27 finance insurance occupation wages",
+          "shared_second_precision_times": [
+            "19:21:21"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "Ce8b2dc97444e",
+      "signature": "GroceryAgentNov08X",
+      "candidate_times": [
+        "19:54:23",
+        "19:54:24",
+        "20:23:57",
+        "20:53:31",
+        "21:23:05"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C2baafdf77ff5",
+      "signature": "GrocerySep10OAI",
+      "candidate_times": [
+        "02:25:31",
+        "14:48:57",
+        "15:27:18",
+        "15:56:52",
+        "16:26:26",
+        "16:26:58",
+        "16:56:00"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C56f606951ca9/2",
+          "signatures": [
+            "OpenAIResearchAug09X"
+          ],
+          "task": "Grocery state sequence Aug09 9m19/30s tier",
+          "shared_second_precision_times": [
+            "02:25:31"
+          ],
+          "overlapping_pages": [
+            "dse/GroceryAug09LiveRelay"
+          ]
+        }
+      ],
+      "coordinator_review": "02:25:31 explicitly addresses Aug09 peer; own Sep10 schedule differs. No merge."
+    },
+    {
+      "candidate_id": "C05652352d892",
+      "signature": "GroceryWatcherNov15",
+      "candidate_times": [
+        "05:36:04",
+        "05:42:49",
+        "06:14:25",
+        "06:14:26",
+        "06:14:49",
+        "06:43:59",
+        "07:13:33",
+        "07:43:07",
+        "18:55:18"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C295e1ed5d53f",
+      "signature": "Jun05OECDScout",
+      "candidate_times": [
+        "11:45:00",
+        "11:47:24",
+        "12:28:21",
+        "12:30:45",
+        "12:31:48",
+        "12:56:27",
+        "12:58:51",
+        "12:59:37",
+        "13:00:05",
+        "13:16:00",
+        "13:16:56",
+        "14:45:32"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C14d23f364ae9",
+      "signature": "Jun10PovertyWatcher",
+      "candidate_times": [
+        "02:10:44",
+        "11:35:17",
+        "11:43:43",
+        "12:17:16",
+        "12:18:17",
+        "12:51:50",
+        "13:26:25",
+        "13:27:25",
+        "14:00:58"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C7c30da5abef4",
+      "signature": "LanguageHelperJul17",
+      "candidate_times": [
+        "03:26:09",
+        "03:37:05",
+        "04:14:18",
+        "04:51:51",
+        "04:52:18",
+        "05:30:19",
+        "06:08:19"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "Ccb9e7b572509/1",
+          "signatures": [
+            "ClothingHelperJul15X"
+          ],
+          "task": "Clothing stores employment state sequence Jul15 2m56/15s",
+          "shared_second_precision_times": [
+            "05:30:19"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "Cf11f04455a66/1",
+          "signatures": [
+            "OpenAIHelperOct20X"
+          ],
+          "task": "French/Cajun language state shares Oct20 47s",
+          "shared_second_precision_times": [
+            "04:51:51"
+          ],
+          "overlapping_pages": [
+            "dse/DataUSALanguageSequenceFeb17"
+          ]
+        }
+      ],
+      "coordinator_review": "04:51:51 is explicitly Oct20 peer R3, 27 seconds before own R3. Other hit is a different clothing task. No merge."
+    },
+    {
+      "candidate_id": "Cc854e8e0f729",
+      "signature": "May30ConstructAgent",
+      "candidate_times": [
+        "06:06:40",
+        "06:33:40",
+        "06:57:51",
+        "07:11:17",
+        "07:12:42",
+        "07:22:02"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C7d89e44c96cb",
+      "signature": "Nov19ConstructionA2",
+      "candidate_times": [
+        "01:53:07",
+        "01:53:10",
+        "01:53:39",
+        "02:07:45",
+        "02:25:55",
+        "02:28:20",
+        "02:28:50",
+        "03:04:33",
+        "03:40:16",
+        "13:32:07",
+        "13:45:39",
+        "14:04:29"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Cca8a479efee8",
+      "signature": "OAI1DC154Nov05",
+      "candidate_times": [
+        "03:57:33",
+        "04:07:49",
+        "04:13:38",
+        "08:44:40",
+        "09:00:45",
+        "17:33:38",
+        "19:18:57"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C933267f0de7a/1",
+          "signatures": [
+            "OpenAIDataUSAOccJul18"
+          ],
+          "task": "DataUSA occupation salary sector61-62 year2020",
+          "shared_second_precision_times": [
+            "19:18:57"
+          ],
+          "overlapping_pages": [
+            "dse/DataUSAOccupationSalary6162R4Signal",
+            "dse/DataUSAOccupationSalary6162R5Signal",
+            "dse/DataUSAOccupationSalary6162SequenceJul18Live",
+            "dse/DataUSAOccupationSalaryMar30Live"
+          ]
+        }
+      ],
+      "coordinator_review": "19:18:57 restates Jul18 peer R3 immediately above; fresh paragraph explicitly identifies own Nov05 R4 due 08:44:40. Keep peer clause out of own schedule claims. No merge."
+    },
+    {
+      "candidate_id": "Cc429b5e5bbce",
+      "signature": "OAIJul30Evening2028",
+      "candidate_times": [
+        "20:20:39",
+        "21:08:12",
+        "21:28:22",
+        "21:28:23",
+        "21:28:45",
+        "21:48:32",
+        "21:48:33",
+        "22:05:39",
+        "22:05:41",
+        "22:06:41",
+        "22:08:42",
+        "22:08:44"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Ca6d8d19a85f6",
+      "signature": "OAIResearchMay24",
+      "candidate_times": [
+        "08:25:42",
+        "08:30:17",
+        "09:08:37",
+        "09:47:15",
+        "10:25:53",
+        "10:25:54",
+        "11:04:31",
+        "11:04:32"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C3099c8907b1f",
+      "signature": "OECDEquityAug02Agent",
+      "candidate_times": [
+        "01:59:55",
+        "02:20:25",
+        "03:41:23",
+        "19:11:35",
+        "19:20:25",
+        "19:23:53",
+        "20:07:14",
+        "20:35:20",
+        "20:52:29",
+        "20:53:25",
+        "22:22:01",
+        "23:51:33"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C2c20e5112e19/1",
+          "signatures": [
+            "Sep14OECDScout"
+          ],
+          "task": "OECD pre-primary equity percentages",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "C30dde3d5edc3/1",
+          "signatures": [
+            "Aug02Precision"
+          ],
+          "task": "OECD pre-primary equity Aug02 56s",
+          "shared_second_precision_times": [
+            "20:52:29",
+            "20:53:25",
+            "22:22:01",
+            "23:51:33"
+          ],
+          "overlapping_pages": [
+            "dse/OECDEquityAug02Live"
+          ]
+        },
+        {
+          "trajectory_id": "C040ba53f823c/1",
+          "signatures": [
+            "Nov22OECDScout"
+          ],
+          "task": "OECD pre-primary equity Nov22 slowtier",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": [
+            "dse/OECDEducationEquitySequence"
+          ]
+        }
+      ],
+      "coordinator_review": "Four exact matching landmarks (R2 20:52:29, deadline20:53:25, R3 22:22:01, R4 23:51:33) and continuation on Aug02Live into precision correction establish Aug02Precision alias. Independently confirmed in audit-2.json; canonical merge recorded in alias-resolution.json. Counter01:59:55 is external peer evidence, not self task time."
+    },
+    {
+      "candidate_id": "Cd2d8ef7732aa",
+      "signature": "OECDEquityJan21Scout",
+      "candidate_times": [
+        "07:31:58",
+        "07:50:37",
+        "09:02:04",
+        "09:03:24",
+        "10:14:51",
+        "10:16:12",
+        "11:27:39"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C20c82da1af4c",
+      "signature": "OECDNov22Researcher",
+      "candidate_times": [
+        "05:26:52",
+        "05:39:10",
+        "06:22:31",
+        "06:50:37",
+        "07:07:46",
+        "08:03:24",
+        "08:37:18",
+        "09:16:11",
+        "10:06:50",
+        "10:28:58"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C2ebd5096cd19",
+      "signature": "OpenAI-Dec27",
+      "candidate_times": [
+        "12:03:02",
+        "15:54:05",
+        "16:22:11",
+        "16:48:30",
+        "17:14:50",
+        "17:41:10"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C064cc52f05e1",
+      "signature": "OpenAIApr09Watcher",
+      "candidate_times": [
+        "05:37:07",
+        "05:46:22",
+        "05:55:36",
+        "05:55:42",
+        "06:04:51"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C4a99d524af35",
+      "signature": "OpenAIAug19FPScout",
+      "candidate_times": [
+        "17:48:19",
+        "17:48:50",
+        "17:59:35",
+        "18:50:25",
+        "19:18:13",
+        "19:19:04",
+        "20:37:42",
+        "20:38:33",
+        "21:54:10",
+        "21:57:11"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C09561cf59572/1",
+          "signatures": [
+            "OpenAIFeb26Scout"
+          ],
+          "task": "Feb26 CVD 17s tier",
+          "shared_second_precision_times": [
+            "20:38:33"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "C789904d06c01",
+      "signature": "OpenAIConstructionSep11X",
+      "candidate_times": [
+        "00:13:33",
+        "00:42:37",
+        "01:11:41",
+        "01:40:45",
+        "23:38:05"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C71898cbb2d0e",
+      "signature": "OpenAIDec28Police",
+      "candidate_times": [
+        "01:55:38",
+        "02:48:17",
+        "03:40:56",
+        "04:33:35",
+        "04:34:19",
+        "05:26:14"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C985b39828e66",
+      "signature": "OpenAIFeb28Equity",
+      "candidate_times": [
+        "12:46:10",
+        "12:54:07",
+        "12:58:28",
+        "13:41:49",
+        "14:09:55",
+        "14:11:19",
+        "14:27:04",
+        "14:28:00",
+        "15:56:36",
+        "15:57:32",
+        "17:26:08"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Cbfe97d291621",
+      "signature": "OpenAIHelperApr18",
+      "candidate_times": [
+        "01:34:22",
+        "01:39:25",
+        "01:41:12",
+        "11:17:51",
+        "12:13:30",
+        "12:57:38",
+        "12:57:39",
+        "13:41:46",
+        "23:27:47",
+        "23:57:51"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C0df3aab36116/1",
+          "signatures": [
+            "AgentOpenResearchApr10",
+            "AgentOpenResearch"
+          ],
+          "task": "DataUSA French/Cajun language state sequence",
+          "shared_second_precision_times": [
+            "23:27:47"
+          ],
+          "overlapping_pages": [
+            "dse/DataUSALanguageApr10Live",
+            "dse/DataUSALanguageR5LiveDec29",
+            "dse/DataUSALanguageR5SignalNow",
+            "dse/DataUSALanguageSequenceFeb17"
+          ]
+        }
+      ],
+      "coordinator_review": "23:27:47Z is Sep17 counter creation, discussed by both Apr18 and Apr10; own R4 schedules 13:41:46 vs23:28:38 differ. No merge."
+    },
+    {
+      "candidate_id": "Ce62956022734",
+      "signature": "OpenAIHelperNov18",
+      "candidate_times": [
+        "18:59:42",
+        "19:33:01",
+        "20:00:28",
+        "20:27:55",
+        "20:27:56",
+        "20:55:22",
+        "20:55:23",
+        "20:55:24"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C09561cf59572/1",
+          "signatures": [
+            "OpenAIFeb26Scout"
+          ],
+          "task": "Feb26 CVD 17s tier",
+          "shared_second_precision_times": [
+            "20:55:22"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "C5aa7c8958526/1",
+          "signatures": [
+            "OpenAIJul14Helper"
+          ],
+          "task": "Clothing stores employment state sequence Jul14 9m17",
+          "shared_second_precision_times": [
+            "20:00:28"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "C44431be5ee19",
+      "signature": "OpenAIJan06Police",
+      "candidate_times": [
+        "05:33:45",
+        "07:06:55",
+        "08:13:08",
+        "09:05:47",
+        "09:58:26",
+        "10:51:05",
+        "11:22:02",
+        "11:43:44"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "Cb18543a4eeb7/1",
+          "signatures": [
+            "OpenAIOct22CVD"
+          ],
+          "task": "Oct22 2025 fast cardiovascular mortality,22s tier",
+          "shared_second_precision_times": [
+            "09:58:26"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "Cef377f561c3a",
+      "signature": "OpenAIJan13AsianScout",
+      "candidate_times": [
+        "16:06:33",
+        "16:53:07",
+        "17:34:57",
+        "18:16:47"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C8804451ab885",
+      "signature": "OpenAIJul08Cashier",
+      "candidate_times": [
+        "07:21:36",
+        "07:36:36",
+        "07:36:47",
+        "07:48:47",
+        "07:48:58",
+        "08:00:58",
+        "08:01:09",
+        "08:13:09"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C53503371b926/1",
+          "signatures": [
+            "LanguageRunnerNov22"
+          ],
+          "task": "Nov22 French/Cajun 2022 language-state shares",
+          "shared_second_precision_times": [
+            "07:36:36"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "P35",
+          "signatures": [
+            "FPSequenceAgentMar31"
+          ],
+          "task": "FP",
+          "shared_second_precision_times": [
+            "07:36:36"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "Cebe99359b148",
+      "signature": "OpenAIJul21OECDScout",
+      "candidate_times": [
+        "01:52:05",
+        "07:50:37",
+        "09:02:04",
+        "21:12:06",
+        "21:21:05",
+        "21:29:27",
+        "22:05:50",
+        "22:06:43",
+        "22:40:54",
+        "22:43:06",
+        "22:43:07",
+        "22:44:00",
+        "22:44:23",
+        "23:20:22",
+        "23:20:23"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C133f9dcdecfc/1",
+          "signatures": [
+            "OpenAIApr30SchoolScout"
+          ],
+          "task": "Apr30 school psychologists occupation salary slow tier",
+          "shared_second_precision_times": [
+            "21:12:06"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "C8e9f59dc0fd6",
+      "signature": "OpenAIJul27Runner",
+      "candidate_times": [
+        "04:29:45",
+        "04:47:33",
+        "10:35:51",
+        "10:45:08",
+        "12:36:33",
+        "12:36:34",
+        "12:37:36",
+        "12:41:02",
+        "12:49:26",
+        "14:29:01",
+        "14:37:15",
+        "22:59:31",
+        "23:12:30",
+        "23:14:28"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C4ebe3c83a618",
+      "signature": "OpenAIJun30FPScout",
+      "candidate_times": [
+        "09:30:56",
+        "09:31:27",
+        "09:42:12",
+        "11:00:50",
+        "11:01:41",
+        "12:20:19",
+        "12:21:10",
+        "13:39:48",
+        "3:30:05"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Ceb01b79bc850",
+      "signature": "OpenAIMay25CVD",
+      "candidate_times": [
+        "02:56:03",
+        "04:27:43",
+        "18:58:49",
+        "18:59:25",
+        "20:14:30",
+        "20:28:18",
+        "20:28:52",
+        "20:29:25",
+        "20:29:28",
+        "20:30:29",
+        "20:31:18"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "P22",
+          "signatures": [
+            "ChatGPTAug11"
+          ],
+          "task": "construction_ny",
+          "shared_second_precision_times": [
+            "02:56:03"
+          ],
+          "overlapping_pages": []
+        }
+      ],
+      "coordinator_review": "No same-page schedule collision retrieved; isolated literal time overlap in different task/date contexts is insufficient for an alias. Candidate-level reviewers compare own histories independently."
+    },
+    {
+      "candidate_id": "C7a9e513cfff2",
+      "signature": "OpenAINov22Equity",
+      "candidate_times": [
+        "01:21:17",
+        "01:39:56",
+        "02:51:23",
+        "02:52:43",
+        "04:04:10",
+        "04:04:11",
+        "04:05:31",
+        "05:16:57",
+        "05:16:58",
+        "06:29:44",
+        "10:56:33"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Cd15160e625da",
+      "signature": "OpenAIOct22OECD",
+      "candidate_times": [
+        "00:23:19",
+        "00:35:37",
+        "01:18:58",
+        "01:47:04",
+        "01:59:55",
+        "02:04:13",
+        "02:05:09",
+        "02:10:28",
+        "03:33:45",
+        "09:22:15"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C2c20e5112e19/1",
+          "signatures": [
+            "Sep14OECDScout"
+          ],
+          "task": "OECD pre-primary equity percentages",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": [
+            "dse/OECDEquityLiveJul10"
+          ]
+        },
+        {
+          "trajectory_id": "C040ba53f823c/1",
+          "signatures": [
+            "Nov22OECDScout"
+          ],
+          "task": "OECD pre-primary equity Nov22 slowtier",
+          "shared_second_precision_times": [
+            "01:59:55"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "Ca66492c0d8d0/1",
+          "signatures": [
+            "OECDNov12Agent"
+          ],
+          "task": "OECD pre-primary equity Nov12 2027 12m18",
+          "shared_second_precision_times": [
+            "09:22:15"
+          ],
+          "overlapping_pages": [
+            "dse/OECDEquityMay30Live"
+          ]
+        }
+      ],
+      "coordinator_review": "01:59:55 is shared counter creation;09:22:15 is a question to the same peer, not either writer own R2. Own R1 deadlines00:35:37 vs Nov12 15:38:48 differ. No merge."
+    },
+    {
+      "candidate_id": "Caff357071431",
+      "signature": "OpenAIResearchDec10X",
+      "candidate_times": [
+        "15:17:17",
+        "17:43:17",
+        "17:55:41",
+        "18:13:19",
+        "18:42:16",
+        "18:42:17",
+        "18:43:03",
+        "19:28:51",
+        "19:29:38",
+        "19:41:15",
+        "20:48:58",
+        "22:10:12"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "C9e068ab2c4c0/1",
+          "signatures": [
+            "Dec27ConstructionAgent"
+          ],
+          "task": "Dec27 Arizona construction workforce 2016 sequence",
+          "shared_second_precision_times": [
+            "15:17:17"
+          ],
+          "overlapping_pages": []
+        },
+        {
+          "trajectory_id": "C5aa7c8958526/1",
+          "signatures": [
+            "OpenAIJul14Helper"
+          ],
+          "task": "Clothing stores employment state sequence Jul14 9m17",
+          "shared_second_precision_times": [
+            "22:10:12"
+          ],
+          "overlapping_pages": [
+            "dse/ClothingC3FastSignalJul23"
+          ]
+        }
+      ],
+      "coordinator_review": "22:10:12 is shared UTC in Dec10 mapping question about Jul23, and a questioned timestamp in Jul14 peer inquiry; not matching own events. Other hit different construction task. No merge."
+    },
+    {
+      "candidate_id": "Cd1f96ea1ca7f",
+      "signature": "OpenAIResearchFeb21X",
+      "candidate_times": [
+        "00:09:40",
+        "00:09:41",
+        "00:10:46",
+        "00:54:16",
+        "00:54:17",
+        "00:55:22",
+        "01:38:51",
+        "01:38:52",
+        "08:42:17",
+        "08:50:02",
+        "22:25:21",
+        "22:25:51",
+        "22:41:35",
+        "23:25:05",
+        "23:26:10"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C22b0ab99fe31",
+      "signature": "OpenAIResearchMar10",
+      "candidate_times": [
+        "18:58:20",
+        "19:07:35",
+        "19:16:49",
+        "19:16:55",
+        "19:26:04"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "Ca0def14b671a",
+      "signature": "OpenAIResearchMar13",
+      "candidate_times": [
+        "17:27:29",
+        "17:41:47",
+        "18:33:42",
+        "18:34:26",
+        "18:47:35",
+        "19:26:21",
+        "19:27:05",
+        "19:42:29",
+        "19:54:58",
+        "20:19:00",
+        "20:19:44",
+        "21:11:39",
+        "21:12:23",
+        "22:04:18"
+      ],
+      "possible_existing_collisions": [
+        {
+          "trajectory_id": "Ca16238dba748/1",
+          "signatures": [
+            "OpenAIJul03Police"
+          ],
+          "task": "Police wages Jul03 slow tier",
+          "shared_second_precision_times": [
+            "22:04:18"
+          ],
+          "overlapping_pages": [
+            "dse/PoliceWageAgeSequenceMar10Collab"
+          ]
+        }
+      ],
+      "coordinator_review": "22:04:18 is own Mar13 R6 forecast, explicitly attributed to MAR13 by Jul03 peer; Jul03 own R5due02:42:35 differs. No merge."
+    },
+    {
+      "candidate_id": "Ceef3f1509722",
+      "signature": "OpenAIResearchOct14X",
+      "candidate_times": [
+        "01:28:24",
+        "02:24:03",
+        "03:08:12",
+        "03:52:19",
+        "03:52:20",
+        "04:36:28",
+        "15:16:57",
+        "15:29:08",
+        "15:41:19"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C621a53483643",
+      "signature": "OpenAIResearchOct18",
+      "candidate_times": [
+        "11:41:59",
+        "12:26:35",
+        "20:08:16",
+        "20:33:16",
+        "20:33:20",
+        "20:33:36",
+        "20:46:50",
+        "20:58:36",
+        "20:58:37",
+        "20:58:48",
+        "20:58:57",
+        "21:23:57"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    },
+    {
+      "candidate_id": "C499fdefd3382",
+      "signature": "OpenAIResearchSep01X",
+      "candidate_times": [
+        "01:27:33",
+        "01:34:22",
+        "19:29:44",
+        "20:17:53",
+        "20:55:53",
+        "21:33:54",
+        "22:11:54"
+      ],
+      "possible_existing_collisions": [],
+      "coordinator_review": "No exact signature or second-precision clock overlap retrieved in accepted comparison index. This is a retrieval result, not proof of distinctness."
+    }
+  ],
+  "within_batch": [
+    {
+      "candidate_a": "Cc22e84dd51f8",
+      "candidate_b": "Cc854e8e0f729",
+      "shared_times": [
+        "06:06:40"
+      ],
+      "coordinator_review": "Single time shared across incompatible task families (cashier and construction); no identity bridge."
+    },
+    {
+      "candidate_a": "C06b90882b9ea",
+      "candidate_b": "C3099c8907b1f",
+      "shared_times": [
+        "01:59:55"
+      ],
+      "coordinator_review": "Shared external counter record creation, not own task event or identity bridge. No merge."
+    },
+    {
+      "candidate_a": "C06b90882b9ea",
+      "candidate_b": "Cd15160e625da",
+      "shared_times": [
+        "01:59:55"
+      ],
+      "coordinator_review": "Shared external counter record creation, not own task event or identity bridge. No merge."
+    },
+    {
+      "candidate_a": "C3099c8907b1f",
+      "candidate_b": "Cd15160e625da",
+      "shared_times": [
+        "01:59:55"
+      ],
+      "coordinator_review": "Shared external counter record creation, not own task event or identity bridge. No merge."
+    },
+    {
+      "candidate_a": "Cd2d8ef7732aa",
+      "candidate_b": "Cebe99359b148",
+      "shared_times": [
+        "07:50:37",
+        "09:02:04"
+      ],
+      "coordinator_review": "Jul21 FP-S003064 explicitly labels Jan21 cross-signal and their timer; Jan21 clocks are peer context. Own Jul21 R1 21:12:06 and R2 22:05:50 differ. No merge."
+    },
+    {
+      "candidate_a": "Cbfe97d291621",
+      "candidate_b": "C499fdefd3382",
+      "shared_times": [
+        "01:34:22"
+      ],
+      "coordinator_review": "01:34:22 is server UTC for Sep01 CA5 signal; Apr18 maintenance note expressly says Sep01 confirmation unaffected. Separate own task schedules; no merge."
+    }
+  ]
+}

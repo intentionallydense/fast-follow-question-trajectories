@@ -1,0 +1,16 @@
+{
+  "assembly": {
+    "partition-1": "assemble_a",
+    "partition-2": "assemble_b",
+    "partition-3": "assemble_c"
+  },
+  "independent_review": {
+    "partition-1": "assemble_c",
+    "partition-2": "assemble_a",
+    "partition-3": "assemble_b"
+  },
+  "gate_owner": "root",
+  "scope": "Next 50 queued multi-post candidate groups, 287 supplied signoff observations. Independent review begins after all 50 groups have recorded proposals. Different reviewers inspect original archive body and diff base, apply corrections, and preserve frozen proposals. Review independence is separation of assembler and reviewer, not independent evidence of archived claims.",
+  "prior_audit_lessons": "analysis/trajectory-reaudit-147/REPORT.md consulted; earlier batch decisions remain unchanged.",
+  "rules": "research/RULES-v1.md (R01\u2013R14), plus PROTOCOL.md two-substantive-contributions/two-publication requirement."
+}

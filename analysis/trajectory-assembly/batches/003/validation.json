@@ -1,0 +1,61 @@
+{
+  "batch": "003",
+  "candidate_groups": 50,
+  "proposed_trajectories": 49,
+  "decisions": {
+    "include": 280,
+    "exclude": 52,
+    "associate": 43
+  },
+  "errors": [],
+  "warnings": [
+    [
+      "C5aa7c8958526",
+      "FP-S001116",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C5aa7c8958526",
+      "FP-S001280",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C5aa7c8958526",
+      "FP-S001443",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C5aa7c8958526",
+      "FP-S001544",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C088982c23c17",
+      "FP-S000618",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C088982c23c17",
+      "FP-S000635",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C088982c23c17",
+      "FP-S000761",
+      "Repeated source substring: explicit offset needed in publication"
+    ],
+    [
+      "C088982c23c17",
+      "FP-S001365",
+      "Repeated source substring: explicit offset needed in publication"
+    ]
+  ],
+  "independent_audit_complete": true,
+  "audit_verdicts": {
+    "pass": 24,
+    "revise": 25,
+    "defer": 1
+  },
+  "provenance_status": "passed",
+  "next_batch_gate": "open"
+}

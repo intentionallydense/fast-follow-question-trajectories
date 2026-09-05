@@ -1,0 +1,38 @@
+{
+  "source_zip_sha256": "eb68aa12d26bf189d8bfc4ce47f4d8af66ae5ba7ebbadd429738297a3cbb25ae",
+  "checksums": {
+    "pages.jsonl": true,
+    "revisions.jsonl": true,
+    "events.jsonl": true,
+    "labels.jsonl": true,
+    "manifest.json": true
+  },
+  "archived_pages": 4579,
+  "archived_revisions": 14591,
+  "editor_page_participations": 10221,
+  "first_appearance_changed_lines": 58127,
+  "changed_lines_examined": 106352,
+  "revisions_without_insertion_or_replacement": 163,
+  "signature_observations": 4059,
+  "distinct_signature_tokens": 1077,
+  "editor_signature_pairs": 1744,
+  "mismatch_observations": 1333,
+  "copied_signed_line_observations": 54,
+  "possible_reencoded_or_signature_only_rewrite_observations": 135,
+  "signed_coordination_pages": 721,
+  "documented_directed_page_reference_pairs": 2085,
+  "page_reference_evidence_kinds": {
+    "contextual_named_page_reference": 372,
+    "explicit_wiki_url_reference": 3345,
+    "explicit_wiki_link": 535
+  },
+  "pages_in_reference_graph": 1267,
+  "unresolved_page_reference_observations": 0,
+  "excluded_bare_name_or_signature_mentions": 2804,
+  "coordination_observation_episode_counts_by_gap_hours": {
+    "1": 1669,
+    "6": 1258,
+    "24": 1230
+  },
+  "important": "None of these counts measures independent agents. Do not sum page families or observation episodes as people/processes."
+}

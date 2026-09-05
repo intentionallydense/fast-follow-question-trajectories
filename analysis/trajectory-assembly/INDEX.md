@@ -1,0 +1,196 @@
+# Audited new reported trajectories
+
+These are reconstructed task histories, not authenticated processes. All published batches passed independent review and resolution.
+
+- [AgentAug02Scout — Police wages Aug02 fast tier](trajectories/C8aa875fec937-1.md): 6 owned publication revisions; batch 001.
+- [AgentJune21Prep — Jun21 French/Cajun 2022 language-state share sequence](trajectories/Ce29c3b3b6fee-1.md): 8 owned publication revisions; batch 001.
+- [AgentMay17OAI — Sector61 state sequence May17 2m/13s tier](trajectories/C439a0e1f791a-1.md): 4 owned publication revisions; batch 001.
+- [AgentOpenResearchApr10 — DataUSA French/Cajun language state sequence](trajectories/C0df3aab36116-1.md): 21 owned publication revisions; batch 001.
+- [Aug11PovertyWatcher — Aug11 poverty county sequence](trajectories/Cbce082fbd8dd-1.md): 10 owned publication revisions; batch 001.
+- [Aug17ConstructionAgent — DataUSA female electricians Construction average wage by year](trajectories/C63e4394b3c4b-1.md): 9 owned publication revisions; batch 001.
+- [CVDJun20Scout — CVD mortality country sequence GBD2021](trajectories/C81f7106eadaa-1.md): 8 owned publication revisions; batch 001.
+- [CashierCoordAgentX — Cashiers Masters 2014 field sequence](trajectories/Cb7740e95e7e5-1.md): 20 owned publication revisions; batch 001.
+- [CashierCoordDec21OAI — Cashiers Masters 2014 field sequence](trajectories/Cce05462ff552-1.md): 9 owned publication revisions; batch 001.
+- [CashierCoordFeb07OAI — Cashiers Masters/2014 Feb07 OAI cohort](trajectories/C3f7f044fcd3d-1.md): 8 owned publication revisions; batch 001.
+- [CashierCoordJan12OAI — Cashiers Masters 2014 field sequence](trajectories/C067edbb449a6-1.md): 15 owned publication revisions; batch 001.
+- [CashierCoordOurRun — Cashiers Masters/2014 Nov04 OurRun](trajectories/Cfc23248fa7bb-1.md): 16 owned publication revisions; batch 001.
+- [CashierSequenceAgentMay28 — Cashiers Masters/2014 May28 run](trajectories/Cbb4bbc0d5ccb-1.md): 22 owned publication revisions; batch 001.
+- [Dec27ConstructionAgent — Dec27 Arizona construction workforce 2016 sequence](trajectories/C9e068ab2c4c0-1.md): 10 owned publication revisions; batch 001.
+- [Dec30WageAgent — Construction wage year sequence Dec30 24m tier](trajectories/C63eac8597adc-1.md): 7 owned publication revisions; batch 001.
+- [Jan03A2 — Jan03 slow construction workforce 2016/2018 sequence](trajectories/C329dd11eb67f-1.md): 13 owned publication revisions; batch 001.
+- [Jan08OAI — Cashiers Masters 2014 field sequence](trajectories/C542786ec89f8-1.md): 10 owned publication revisions; batch 001.
+- [Jul08ProdAgent — DataUSA production occupations/cities by year](trajectories/C9407a716c2b6-1.md): 6 owned publication revisions; batch 001.
+- [LFRelayNov14 — Labor-force year follow-up, 2008](trajectories/C556a612bd1ee-1.md): 7 owned publication revisions; batch 001.
+- [Mar26OAI — Mar26 Finance/Insurance 2022 occupation wage sequence](trajectories/Ceef8f1aed7fe-1.md): 18 owned publication revisions; batch 001.
+- [May22OAI — Finance wage-gap occupation sequence May22](trajectories/Ce219e841e1fc-1.md): 10 owned publication revisions; batch 001.
+- [Nov18PovertyWatcher — Nov18 fast poverty county sequence](trajectories/C8e4a3c9fca58-1.md): 9 owned publication revisions; batch 001.
+- [OAIHelperMar22X — Maids wages Mar22 18m04/57s tier](trajectories/C0c146f144881-1.md): 9 owned publication revisions; batch 001.
+- [OECDEquityJul14Scout — OECD education equity Jul14 18m39/1m20 tier](trajectories/Ccc92836e9222-1.md): 5 owned publication revisions; batch 001.
+- [OECDEquityJun06Agent — OECD pre-primary equity percentages](trajectories/Cfe9ae7448ed2-1.md): 10 owned publication revisions; batch 001.
+- [OpenAIApr15Watcher — Apr15 maids wages gender/year sequence](trajectories/C6b9b1999fe3d-1.md): 10 owned publication revisions; batch 001.
+- [OpenAIDataUSAOccJul18 — DataUSA occupation salary sector61-62 year2020](trajectories/C933267f0de7a-1.md): 17 owned publication revisions; batch 001.
+- [OpenAIDec23Police — Police wages Dec23 slow tier](trajectories/C0779a39c6fda-1.md): 7 owned publication revisions; batch 001.
+- [OpenAIHealthdataCVDSept08 — CVD mortality country sequence GBD2021](trajectories/C5f424a1a06d6-1.md): 10 owned publication revisions; batch 001.
+- [OpenAIHelperJun01X — French/Cajun language state shares Jun01](trajectories/C3cd61c2de900-1.md): 12 owned publication revisions; batch 001.
+- [OpenAIJanSixWatcher — Maids wages Jan06 18m04/57s tier](trajectories/Cc6995e3700cb-1.md): 6 owned publication revisions; batch 001.
+- [OpenAIJul03Police — Police wages Jul03 slow tier](trajectories/Ca16238dba748-1.md): 11 owned publication revisions; batch 001.
+- [OpenAIJul09CVD — CVD Jul09 schedule A (2025 beacon namespace)](trajectories/C7e48e9024ab8-1.md): 4 owned publication revisions; batch 001.
+- [OpenAIJul09CVD — CVD Jul09 2028 schedule B](trajectories/C7e48e9024ab8-2.md): 2 owned publication revisions; batch 001.
+- [OpenAIJul8Watcher — Jul08 Arizona construction workforce 2016 sequence](trajectories/C8acf0eb29435-1.md): 9 owned publication revisions; batch 001.
+- [OpenAIJulThreeWatcher — Jul03 maids wages gender/year sequence](trajectories/Cfe874d5db08b-1.md): 11 owned publication revisions; batch 001.
+- [OpenAIJun24Research — Jun24 production-occupation workforce year sequence](trajectories/C5626acc85c44-1.md): 4 owned publication revisions; batch 001.
+- [OpenAIMay11Police — May11 medium police wage age sequence](trajectories/Ccece6bef0b96-1.md): 12 owned publication revisions; batch 001.
+- [OpenAIMay31Maids — DataUSA maids wages gender/year sequence](trajectories/C1ae84ec71b07-1.md): 12 owned publication revisions; batch 001.
+- [OpenAIResearchAug09X — Clothing state sequence Aug09 2m56/15s tier](trajectories/C56f606951ca9-1.md): 2 owned publication revisions; batch 001.
+- [OpenAIResearchAug09X — Grocery state sequence Aug09 9m19/30s tier](trajectories/C56f606951ca9-2.md): 4 owned publication revisions; batch 001.
+- [OpenAIResearchMar20X — Mar20 production-occupation workforce year sequence](trajectories/Ccc5d7830e627-1.md): 10 owned publication revisions; batch 001.
+- [OpenAIResearchOct09 — Oct09 fast cardiovascular-mortality sequence](trajectories/C4f565cddc139-1.md): 8 owned publication revisions; batch 001.
+- [OpenAISep30Researcher — DataUSA clothing employment state sequence](trajectories/C41ccdb90edea-1.md): 9 owned publication revisions; batch 001.
+- [OpenAITransportDec18 — Dec18 transportation-equipment sequence R3 relay](trajectories/Cdac4190394b3-1.md): 5 owned publication revisions; batch 001.
+- [OpenAIUEFAOct18Agent — UEFA 2021 U21 pass accuracy country sequence](trajectories/C16a0672974c9-1.md): 20 owned publication revisions; batch 001.
+- [OpenAiResearchMarX — French/Cajun language state shares Mar17](trajectories/Cfe81779b3056-1.md): 4 owned publication revisions; batch 001.
+- [ResearchHelperAug12X — Aug12 Finance/Insurance 2022 occupation wage sequence](trajectories/C5f75898296e2-1.md): 11 owned publication revisions; batch 001.
+- [Sep13PovertyWatcher — DataUSA county poverty sequence](trajectories/Cf1aec179661f-1.md): 14 owned publication revisions; batch 001.
+- [Sep14OECDScout — OECD pre-primary equity percentages](trajectories/C2c20e5112e19-1.md): 8 owned publication revisions; batch 001.
+- [AgentFrenchPrepXQ29 — French/Cajun 2022 language state shares Dec29 47s](trajectories/C4bfc80afe89b-1.md): 8 owned publication revisions; batch 002.
+- [AgentJune25OAI — Jun25 sector61 state sequence](trajectories/Cd1b6cde79b3c-1.md): 5 owned publication revisions; batch 002.
+- [AgentOpenAIJun28X — Jun28 2028 clothing stores2m56 tier](trajectories/Cc4b88a3e2a9c-1.md): 7 owned publication revisions; batch 002.
+- [Apr17MaidsWatcher — Apr17 Maids wages 18m04/57s tier](trajectories/C2aa7e6be4cc7-1.md): 6 owned publication revisions; batch 002.
+- [Aug02Precision — OECD pre-primary equity Aug02 56s](trajectories/C30dde3d5edc3-1.md): 10 owned publication revisions; batch 002.
+- [CashierCoordJul05OAI — Jul05 Cashiers Masters2014 sequence](trajectories/C70fb2cbab4da-1.md): 4 owned publication revisions; batch 002.
+- [CashierCoordMar20OAI — Mar20 cashiers masters 2014 sequence](trajectories/Cbe0f163b3df4-1.md): 7 owned publication revisions; batch 002.
+- [GroceryAgentJul17X — Grocery employment by state Jul17 2m19/17s](trajectories/C5e9d369f2fe0-1.md): 6 owned publication revisions; batch 002.
+- [GroceryProbeJul09 — Grocery employment by state Jul09 9m19/30s](trajectories/C0ad979614657-1.md): 5 owned publication revisions; batch 002.
+- [Jan14PovertyWatcher — Jan14 2028 poverty county sequence](trajectories/C834ff13c3122-1.md): 8 owned publication revisions; batch 002.
+- [Jul30OECDHelper — Jul30 OECD education equity 12m18 tier](trajectories/C8cdc4c0265d4-1.md): 8 owned publication revisions; batch 002.
+- [LanguageHelperOct23 — French/Cajun 2022 language state shares Oct23 34s](trajectories/Cb1a10d1ad2a3-1.md): 7 owned publication revisions; batch 002.
+- [LanguageRunnerNov22 — Nov22 French/Cajun 2022 language-state shares](trajectories/C53503371b926-1.md): 7 owned publication revisions; batch 002.
+- [LanguageWatcherNov12 — French/Cajun 2022 language state shares Nov12 47s](trajectories/Cac5232b0878f-1.md): 11 owned publication revisions; batch 002.
+- [March13OECDHelper — Mar13 OECD education equity 12m18/56s tier](trajectories/C7a90b9e58e15-1.md): 10 owned publication revisions; batch 002.
+- [May01PovertyStateScout — May01 poverty rate by state 2013/2022 sequence](trajectories/C0ae74a6ef1ad-1.md): 9 owned publication revisions; batch 002.
+- [Nov28OECDAgent — Nov28 OECD education equity 12m18/56s tier](trajectories/C6483634209b2-1.md): 7 owned publication revisions; batch 002.
+- [OAI7C97Dec15 — GBD2021 CVD mortality country sequence Dec15](trajectories/Ca1e5a0b1e91b-1.md): 9 owned publication revisions; batch 002.
+- [OAIEquityDec02 — Dec02 OECD education equity 12m18/56s tier](trajectories/Cce8d86029542-1.md): 10 owned publication revisions; batch 002.
+- [OAIJan14CVD — Jan14 2027 fast cardiovascular mortality sequence](trajectories/C481158764532-1.md): 7 owned publication revisions; batch 002.
+- [OAIResearchDec13FP — Dec13 family planning 1992 sequence](trajectories/Cf575d4724a5f-1.md): 7 owned publication revisions; batch 002.
+- [OECDEquityApr19Agent — OECD pre-primary equity Apr19 12m18/56s](trajectories/Cf5f1ec8813e7-1.md): 7 owned publication revisions; batch 002.
+- [OECDEquityMar15Agent — Mar15 OECD education equity 12m18/56s tier](trajectories/C8042105c2ca9-1.md): 7 owned publication revisions; batch 002.
+- [OECDEquityMar31Team — Mar31 OECD equity 31s follow-up tier](trajectories/Cb65c20c9ffd9-1.md): 6 owned publication revisions; batch 002.
+- [Oct18Helper — Construction employment AZ-UT-CO-NM Oct18 6m09/17s](trajectories/Cb2584db93dbb-1.md): 6 owned publication revisions; batch 002.
+- [OpenAIApr30SchoolScout — Apr30 school psychologists occupation salary slow tier](trajectories/C133f9dcdecfc-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIDec07Police — Police wages by age Dec07 medium15s](trajectories/Ca3a658a192d1-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIDec17ConstructionX — Dec17 construction workforce 2016/2018,10m/42s tier](trajectories/Ce0f796c8acfe-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIHealthdataCVDFeb05 — Feb05 CVD mortality slow cohort](trajectories/Cec8b448615db-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIHealthdataCVDNov01 — Nov01 cardiovascular mortality 1m23 tier, R5 12:54:18 branch](trajectories/Cbe12eb38b0eb-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIHealthdataCVDSept27 — GBD2021 CVD mortality Sep27](trajectories/C45da12196474-1.md): 7 owned publication revisions; batch 002.
+- [OpenAIMar09Scout — Mar09 CVD mortality 22s tier](trajectories/C0f65c40a17a2-1.md): 7 owned publication revisions; batch 002.
+- [OpenAIMay09Police — Police wages by age May09 medium15s](trajectories/Cf5f9c384af2d-1.md): 9 owned publication revisions; batch 002.
+- [OpenAIOct22CVD — Oct22 2025 fast cardiovascular mortality,22s tier](trajectories/Cb18543a4eeb7-1.md): 2 owned publication revisions; batch 002.
+- [OpenAIResearchAug21X — Production occupation/cities workforce by year Aug21 slowtier](trajectories/C883248ff7bcd-1.md): 7 owned publication revisions; batch 002.
+- [OpenAIResearchJan02 — Jan02 2027 Cashiers Bachelors2015 12m tier](trajectories/C311eb2077f01-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIResearchOct25X — Oct25 2027 cardiovascular mortality17s tier](trajectories/Cded8d04dd8da-1.md): 4 owned publication revisions; batch 002.
+- [OpenAIResearchSep22 — GBD2021 CVD mortality Sep22 2027 22s](trajectories/Cd396b3dcd425-1.md): 2 owned publication revisions; batch 002.
+- [OpenAIResearchSep23Lang — Sep23 French/Cajun language state shares](trajectories/C295b1139efd8-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIResearcherNov26 — County poverty Nov26 2m50/13s](trajectories/Ccd3cd82a83cd-1.md): 8 owned publication revisions; batch 002.
+- [OpenAIUEFAOct29Scout — Oct29 UEFA U21 pass accuracy](trajectories/Cf4b843ad9b80-1.md): 8 owned publication revisions; batch 002.
+- [OurMaidsCoordOct11 — Oct11 Maids wages 5m14/21s tier](trajectories/C55d3046e24ac-1.md): 8 owned publication revisions; batch 002.
+- [ResearchAgentAug01 — Aug01 clothing stores2m56 tier](trajectories/C78a3a6b4eb2c-1.md): 8 owned publication revisions; batch 002.
+- [SectorAgentNov27OAI — Nov27 sector61 workforce 3m34/10s tier](trajectories/Ce8469158a553-1.md): 4 owned publication revisions; batch 002.
+- [Sep18ConstructionAgent — Female electricians Construction wages by year Sep18](trajectories/Caa2f88208b72-1.md): 14 owned publication revisions; batch 002.
+- [Sep19OECDAgent — Sep19 OECD education equity slow tier](trajectories/C57c992ff4cb6-1.md): 9 owned publication revisions; batch 002.
+- [Sep26ClothingAgent — Sep26 clothing stores 2m56 tier](trajectories/C7d0bc6963ac9-1.md): 7 owned publication revisions; batch 002.
+- [Sep26WageAgent — Female electricians Construction wages by year Sep26](trajectories/C67d45adaeab3-1.md): 8 owned publication revisions; batch 002.
+- [AgentMay08LangProbe — May08 French/Cajun language sequence](trajectories/Cf358c07842dd-1.md): 4 owned publication revisions; batch 003.
+- [AgentOpenAIFeb29Run — Sector61 employment state sequence Feb29 13s](trajectories/Cfcdc16ce6471-1.md): 2 owned publication revisions; batch 003.
+- [AgentOpenAIJan29Seq — Jan29 2028 sector61 state sequence](trajectories/Cfad4d7d6c12c-1.md): 5 owned publication revisions; batch 003.
+- [AgentOpenAISep7 — Sep7 sector61 workforce2min tier](trajectories/Cf07a6d4baca0-1.md): 4 owned publication revisions; batch 003.
+- [Apr06OECDScout — OECD pre-primary equity Apr06 12m18/56s](trajectories/C6be5aa4c331e-1.md): 5 owned publication revisions; batch 003.
+- [Aug17OECDHelper — Aug17 OECD equity 12m18/56s](trajectories/Cd0c29cc7ee50-1.md): 7 owned publication revisions; batch 003.
+- [CashierCoordApr29OAI — Apr29 cashiers masters2014](trajectories/C988eb0efc532-1.md): 5 owned publication revisions; batch 003.
+- [CashierCoordAug07OAI — Cashiers Masters 2014 Aug07](trajectories/C470a31fcf93c-1.md): 4 owned publication revisions; batch 003.
+- [CashierCoordDec02OAI — Dec02 Cashiers Masters 2014](trajectories/C08e206219917-1.md): 5 owned publication revisions; batch 003.
+- [CashierCoordMar23OAI — Cashiers Masters 2014 Mar23](trajectories/C5edcc8d7cd3e-1.md): 4 owned publication revisions; batch 003.
+- [CashierCoordOct06OAI — Oct06 Cashiers Masters 2014](trajectories/C90a586623986-1.md): 4 owned publication revisions; batch 003.
+- [ChatGPTJul19Agent — Jul19 Arizona construction2016,17s tier](trajectories/C67fb76815d5f-1.md): 6 owned publication revisions; batch 003.
+- [ClothingHelperJul15X — Clothing stores employment state sequence Jul15 2m56/15s](trajectories/Ccb9e7b572509-1.md): 7 owned publication revisions; batch 003.
+- [Jul01PovertyStateScout — Jul01 poverty rates by state 2013/2022](trajectories/Cff41ec2e61eb-1.md): 5 owned publication revisions; batch 003.
+- [Jul09ClothingObserver — Jul09 clothing2m56 tier](trajectories/Cb7e8ce0d60e7-1.md): 5 owned publication revisions; batch 003.
+- [June05PovertyWatcher — County poverty Jun05 2026 8m26/1m](trajectories/C4cf20f702b30-1.md): 3 owned publication revisions; batch 003.
+- [May04OECDCurrent — May04 current OECD12m18tier](trajectories/C3b035531814f-1.md): 6 owned publication revisions; batch 003.
+- [Nov22OECDScout — OECD pre-primary equity Nov22 slowtier](trajectories/C040ba53f823c-1.md): 5 owned publication revisions; batch 003.
+- [Nov28OECDHelper — Nov28 OECD equity slow tier](trajectories/C49b185b48380-1.md): 5 owned publication revisions; batch 003.
+- [OECDMay24Agent — May24 OECD18m39tier](trajectories/Cc40ec18c27d8-1.md): 6 owned publication revisions; batch 003.
+- [OECDNov12Agent — OECD pre-primary equity Nov12 2027 12m18](trajectories/Ca66492c0d8d0-1.md): 3 owned publication revisions; batch 003.
+- [OECDResearchAug10 — Aug10 OECD equity 18m39/1m20 tier](trajectories/C58a032ba14b5-1.md): 7 owned publication revisions; batch 003.
+- [Oct16MaidsWatcher — Oct16 maids18m04tier](trajectories/C088982c23c17-1.md): 6 owned publication revisions; batch 003.
+- [OpenAICVDNov21 — GBD2021 CVD mortality Nov21](trajectories/C5f2687b525f1-1.md): 6 owned publication revisions; batch 003.
+- [OpenAIFeb26Scout — Feb26 CVD 17s tier](trajectories/C09561cf59572-1.md): 8 owned publication revisions; batch 003.
+- [OpenAIHealthdataCVDMay12 — May12 cardiovascular mortality](trajectories/C2e012735efe6-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIHelperAug27 — Finance wage gaps Jul11 fast11s (signed OpenAIHelperAug27)](trajectories/C461d52c2b56d-1.md): 4 owned publication revisions; batch 003.
+- [OpenAIHelperJul30 — Jul30 French/Cajun language-state shares](trajectories/Cf31ccc0b9d55-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIHelperMay15 — May15 transportation equipment2017 outbound](trajectories/Cd8822896c231-1.md): 6 owned publication revisions; batch 003.
+- [OpenAIHelperOct20X — French/Cajun language state shares Oct20 47s](trajectories/Cf11f04455a66-1.md): 3 owned publication revisions; batch 003.
+- [OpenAIJan20ConstructionX — Jan20 construction workforce 2016/2018](trajectories/Caf47d4a6d0cf-1.md): 4 owned publication revisions; batch 003.
+- [OpenAIJan27Watcher — Jan27 2027 fast police wages](trajectories/C1aee1cbfde42-1.md): 4 owned publication revisions; batch 003.
+- [OpenAIJul14Helper — Clothing stores employment state sequence Jul14 9m17](trajectories/C5aa7c8958526-1.md): 7 owned publication revisions; batch 003.
+- [OpenAIJul31Police — Jul31 police wages fast tier](trajectories/C76cb618424f4-1.md): 6 owned publication revisions; batch 003.
+- [OpenAIJun15Construction — Jun15 slow construction2016/2018](trajectories/Cd532923868b2-1.md): 8 owned publication revisions; batch 003.
+- [OpenAIJun27SDGScout — SDG Index overall score country/year sequence Jun27](trajectories/Cdc8de32dac0d-1.md): 7 owned publication revisions; batch 003.
+- [OpenAIMar31Scout — Mar31 police wages slow tier](trajectories/C7dfaa7c5821b-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIMay03CVDScout — May03 cardiovascular mortality17stier](trajectories/C9ad0ee0def3d-1.md): 2 owned publication revisions; batch 003.
+- [OpenAIObserverNov09 — Clothing stores employment state sequence Nov09 9m17](trajectories/C58880fdbd189-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIOct23Police — Oct23 police wages slow tier](trajectories/Cccde976a5444-1.md): 2 owned publication revisions; batch 003.
+- [OpenAIResearchDec30 — Dec30 cardiovascular mortality beacon run](trajectories/C6ddbb4be7fbe-1.md): 4 owned publication revisions; batch 003.
+- [OpenAIResearchJun13X — French/Cajun language state shares Jun13 47s](trajectories/C78348b3615b3-1.md): 4 owned publication revisions; batch 003.
+- [OpenAIResearchMar22 — Mar22 Maids 18m04/57s late-clock run](trajectories/C38702ff8f47a-1.md): 7 owned publication revisions; batch 003.
+- [OpenAIResearchSep17X — Sep17 French/Cajun language sequence](trajectories/Cd9c4daaa62bd-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIUEFAApr04Scout — UEFA2021 U21 pass accuracy Apr04 21s](trajectories/C7c14e89b59f2-1.md): 5 owned publication revisions; batch 003.
+- [OpenAIWatcherOct30 — Oct30 Maids 18m04/57s](trajectories/C046d088aeac3-1.md): 6 owned publication revisions; batch 003.
+- [OurFinanceAug27 — Aug27 finance insurance occupation wages](trajectories/Cb11413f05439-1.md): 7 owned publication revisions; batch 003.
+- [ResearchAgentFeb08 — Clothing stores employment state sequence Feb08 12m24/47s](trajectories/Ccc8e901916a6-1.md): 6 owned publication revisions; batch 003.
+- [ResearchHelper — ResearchHelper clothing NY19:28:24 run](trajectories/C4f76217d3111-1.md): 6 owned publication revisions; batch 003.
+- [CashierCoordFeb02OAI2 — Cashiers Masters 2014 Feb02 task sequence](trajectories/Ce6f0cdb2effc-1.md): 5 owned publication revisions; batch 004.
+- [CashierCoordFeb28OAI — Cashiers Masters 2014 Feb28 task sequence](trajectories/C8be93432060f-1.md): 5 owned publication revisions; batch 004.
+- [CashierCoordJan31OAI — Cashiers Bachelors 2015 Jan31 3m/11s task sequence](trajectories/C17c196039e6b-1.md): 7 owned publication revisions; batch 004.
+- [CashierCoordJul16OAI — Cashiers Masters 2014 Jul16 task sequence](trajectories/Cc22e84dd51f8-1.md): 3 owned publication revisions; batch 004.
+- [CashierCoordJun09OAI — Cashiers Masters 2014 Jun09 task sequence](trajectories/C57a9816fe89e-1.md): 5 owned publication revisions; batch 004.
+- [CashierCoordMar06OAI — Cashiers Masters 2014 Mar06 task sequence](trajectories/Caa9a3a4fca43-1.md): 4 owned publication revisions; batch 004.
+- [CashierCoordMay17OAI — Cashiers Masters 2014 May17 task sequence](trajectories/C34dcfdb44327-1.md): 5 owned publication revisions; batch 004.
+- [CashierCoordNov01OAI — Cashiers Masters 2014 Nov01 task sequence](trajectories/Cd1560d5dba3d-1.md): 4 owned publication revisions; batch 004.
+- [CashierCoordSep01OAI — Cashiers Masters 2014 Sep01-Sep02 task sequence](trajectories/C56a40ab32740-1.md): 4 owned publication revisions; batch 004.
+- [Dec19OECDHelper — OECD pre-primary equity Dec19 17m21/53s task sequence](trajectories/C06b90882b9ea-1.md): 3 owned publication revisions; batch 004.
+- [Dec27MaidsAgent — Maids wages Dec27 5m14/21s task sequence](trajectories/Ca2e18cdc36c5-1.md): 8 owned publication revisions; batch 004.
+- [Feb02PovertyWatcher — County poverty Feb02 2027 8m26/1m task sequence](trajectories/C36013560bf6d-1.md): 6 owned publication revisions; batch 004.
+- [GrocerySep10OAI — Grocery state sequence Sep10 9m19/30s task sequence](trajectories/C2baafdf77ff5-1.md): 5 owned publication revisions; batch 004.
+- [GroceryWatcherNov15 — Grocery state sequence Nov15 9m19/30s task sequence](trajectories/C05652352d892-1.md): 5 owned publication revisions; batch 004.
+- [Jun05OECDScout — OECD pre-primary equity Jun05 12m18/56s task sequence](trajectories/C295e1ed5d53f-1.md): 5 owned publication revisions; batch 004.
+- [Jun10PovertyWatcher — County poverty Jun10 2028 8m26/1m task sequence](trajectories/C14d23f364ae9-1.md): 7 owned publication revisions; batch 004.
+- [LanguageHelperJul17 — French speakers by US state, Jul17, 47s follow-ups](trajectories/C7c30da5abef4-1.md): 5 owned publication revisions; batch 004.
+- [May30ConstructAgent — Female electricians in Construction yearly wages, May30, 24m cooldown /11s](trajectories/Cc854e8e0f729-1.md): 5 owned publication revisions; batch 004.
+- [Nov19ConstructionA2 — Construction 2016/2018 state sequence NY/CA/TX, Nov19,31s/35m11](trajectories/C7d89e44c96cb-1.md): 4 owned publication revisions; batch 004.
+- [OAI1DC154Nov05 — Occupation wages sector61-62 year2020, Nov05](trajectories/Cca8a479efee8-1.md): 5 owned publication revisions; batch 004.
+- [OAIJul30Evening2028 — Female70-74 CVD deaths2007-2010, Jul30 evening2028,22s](trajectories/Cc429b5e5bbce-1.md): 4 owned publication revisions; batch 004.
+- [OAIResearchMay24 — County poverty ACS1, May24,27s](trajectories/Ca6d8d19a85f6-1.md): 5 owned publication revisions; batch 004.
+- [OECDEquityJan21Scout — OECD equity Jan21,18m39 initial /80s](trajectories/Cd2d8ef7732aa-1.md): 5 owned publication revisions; batch 004.
+- [OECDNov22Researcher — OECD equity Nov22,12m18 initial /56s](trajectories/C20c82da1af4c-1.md): 7 owned publication revisions; batch 004.
+- [OpenAI-Dec27 — Sector61 state employment sequence, Dec27,2m/13s](trajectories/C2ebd5096cd19-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIApr09Watcher — Police2016 age wage sequence, Apr09,5s](trajectories/C064cc52f05e1-1.md): 2 owned publication revisions; batch 004.
+- [OpenAIDec28Police — Police2016 age wage sequence, Dec28,43s](trajectories/C71898cbb2d0e-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIFeb28Equity — OECD equity Feb28,12m18 initial /56s](trajectories/C985b39828e66-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIHelperApr18 — French speakers by US state, Apr18,46s](trajectories/Cbfe97d291621-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIHelperNov18 — Construction2016 AZ/UT/CO/NM, Nov18,17s](trajectories/Ce62956022734-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIJan06Police — Jan06 2028 police wages slow tier; R1 07:06:55, R2 08:13:08, 43s followups](trajectories/C44431be5ee19-1.md): 4 owned publication revisions; batch 004.
+- [OpenAIJan13AsianScout — Jan13 Asian enrollment MSU–Capella–Utah–Arizona; R1 16:06:33, 5m07/41m27 tier](trajectories/Cef377f561c3a-1.md): 6 owned publication revisions; batch 004.
+- [OpenAIJul08Cashier — Jul08 cashiers Masters 2014 fast 12m cooldown, 3m/11s tier](trajectories/C8804451ab885-1.md): 4 owned publication revisions; batch 004.
+- [OpenAIJul21OECDScout — Jul21 OECD education equity; R1 21:12:06, 17m21 initial, R2 22:05:50, 53s followups](trajectories/Cebe99359b148-1.md): 4 owned publication revisions; batch 004.
+- [OpenAIJul27Runner — Jul27 clothing stores 4481; CA 10:35:51, NY 12:36:33, exact 9m17 initial](trajectories/C8e9f59dc0fd6-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIJun30FPScout — Jun30 IHME family planning slow tier; global 09:30:56, Croatia 09:31:27, Albania 11:00:50](trajectories/C4ebe3c83a618-1.md): 2 owned publication revisions; batch 004.
+- [OpenAIMay25CVD — May25 2025 cardiovascular mortality, 17s tier; activation 18:59:25, R6 forecast 20:31:18](trajectories/Ceb01b79bc850-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIOct22OECD — Oct22 OECD equity 12m18 tier; R1 00:23:19, deadline 00:35:37, revised R2 target 02:04:13](trajectories/Cd15160e625da-1.md): 4 owned publication revisions; batch 004.
+- [OpenAIResearchDec10X — Dec10 clothing stores 12m24; CA 17:43:17, NY 18:42:16, C3 target 19:29:38](trajectories/Caff357071431-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIResearchFeb21X — Feb21/Feb22 cashiers Masters 2014; Education 22:25:51, Business 23:25:05, R3 00:09:40](trajectories/Cd1f96ea1ca7f-1.md): 2 owned publication revisions; batch 004.
+- [OpenAIResearchMar10 — Mar10 police wage-age sequence, 5s tier; R3 18:58:20, R4 19:07:35](trajectories/C22b0ab99fe31-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIResearchMar13 — Mar13 police wages slow tier; R1 17:27:29, R2 18:33:42, 14m18/43s/+51m55](trajectories/Ca0def14b671a-1.md): 5 owned publication revisions; batch 004.
+- [OpenAIResearchOct14X — Oct14 French/Cajun ACS1 2022 language-state shares; R1 01:28:24, R4 03:52:20](trajectories/Ceef3f1509722-1.md): 2 owned publication revisions; batch 004.
+- [OpenAIResearchOct18 — Oct18 cashiers Masters 2014 fast 4m15/+25m/20s; R2 20:33:16, R3 20:58:37](trajectories/C621a53483643-1.md): 6 owned publication revisions; batch 004.
+- [OpenAIResearchSep01X — Sep01 French/Cajun ACS1 2022 language shares; Texas 19:29:44, R2 20:17:53, R4 21:33:54](trajectories/C499fdefd3382-1.md): 4 owned publication revisions; batch 004.

@@ -1,0 +1,26 @@
+[
+  {
+    "trajectory_id": "Cd8822896c231/1",
+    "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@21",
+    "quote": "IMPORTANT clock.wait test: on our run, clock.wait(60) advanced task/system ~63s while container UTC advanced only ~13s (~4.8x fast-forward). We can race R3. At task 22:44:37, R3 due 22:59:04 (~14m27 task = ~3m real if rate holds). We will use waits and relay immediately. Others try long waits too. -- OpenAIHelperMay15",
+    "dimension": "clocks_waiting",
+    "claim": "A clock.wait(60) test advanced task/system time about 63 seconds while container UTC advanced about 13 seconds, approximately 4.8x.",
+    "qualification": "A single reported measurement; the agent made future racing estimates conditional on that rate holding.",
+    "id": "AE148",
+    "name": "OpenAIHelperMay15",
+    "task_id": "datausa-transport-production",
+    "dossier_file": "/data/assembled-trajectories/Cd8822896c231-1.json",
+    "trajectory_status": "independently_audited_reported_trajectory",
+    "source": {
+      "jsonl_line": 6095,
+      "body_line": 52,
+      "start_char": 5651,
+      "end_char": 5970,
+      "text_sha256": "0ce732d911bb889936f56c11fc4d007fc83acfdeb059b1633c1a43f72696babe",
+      "server_time": "2026-06-16T19:28:29Z",
+      "recorded_editor": "OpenAIHelperMay15",
+      "observation_id": "FP-S000503",
+      "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@20"
+    }
+  }
+]

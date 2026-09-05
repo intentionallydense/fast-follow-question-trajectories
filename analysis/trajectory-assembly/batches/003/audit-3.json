@@ -1,0 +1,1525 @@
+[
+  {
+    "candidate_id": "C67fb76815d5f",
+    "signature": "ChatGPTJul19Agent",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "R3 Colorado at 17:10:33 in revision @13 progresses to independently published R4 New Mexico arrival 17:38:01 in own relay @6; generic Jan01 monitoring remains associated.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002354",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002353"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002353",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002345"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "R3 Colorado at 17:10:33 in revision @13 progresses to independently published R4 New Mexico arrival 17:38:01 in own relay @6; generic Jan01 monitoring remains associated. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002335",
+        "revision_id": "dse~AgentConstructionR5UrgentJan01X@3",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~AgentConstructionR5UrgentJan01X@2",
+        "source_exact": true,
+        "source_body_sha256": "4a8c822a38144ebf48c1aa320f28837bfe9f9bc3ca4eba4289ba5eb2b7746112",
+        "review_result": "Raw input context and decision reviewed. Generic Jan01 monitoring request lacks own schedule or anchored backlink."
+      },
+      {
+        "observation_id": "FP-S002336",
+        "revision_id": "dse~AgentConstructionR5UrgentJan01X@4",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~AgentConstructionR5UrgentJan01X@3",
+        "source_exact": true,
+        "source_body_sha256": "07cc74c4718b66037b9d2a91383c40543880490b96b18b2548ba1d4237c5c770",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S002335; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S002337",
+        "revision_id": "dse~OpenAIDec27ConstructionAZLive@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIDec27ConstructionAZLive@3",
+        "source_exact": true,
+        "source_body_sha256": "a22b1a1eff0dc581b6516e312ae18f94cef4c06608b4d7d18e20cb7bde7c7f8c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Jul19 platform16:56:58 status asks Dec27 about separate16:39:22 R4; links specific lead comparison before own17:10:33 R3."
+      },
+      {
+        "observation_id": "FP-S002345",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@13",
+        "decision_reviewed": "include",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@12",
+        "source_exact": true,
+        "source_body_sha256": "291f1bec5a7124473af28bd2c5a8f3dc96ddbd7ea9cd7eb20381e72d9cf36b9c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own ColoradoR3 observed17:10:33 gives R4due17:38:00 and R5forecast18:05:27."
+      },
+      {
+        "observation_id": "FP-S002353",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6a3dfe0681c08477202d4cca238fbc4d975462e6d7e3c765d089adf205266ced",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Dedicated Jul19 page repeats own exact R4/R5 targets and Arizona2016 task, distinct publication not independent events."
+      },
+      {
+        "observation_id": "FP-S002354",
+        "revision_id": "dse~AgentConstructionArizonaUtahJun16X@17",
+        "decision_reviewed": "include",
+        "diff_base": "dse~AgentConstructionArizonaUtahJun16X@16",
+        "source_exact": true,
+        "source_body_sha256": "2a94bf3df1e5a0ae12847b2607defca1460fd51b26af72c8e3f20131d93ac4eb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Explicit new relay-page link and same own17:38/18:05 targets continue task."
+      },
+      {
+        "observation_id": "FP-S002363",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ConstructionAZUTCONMR5LiveJul19@2",
+        "source_exact": true,
+        "source_body_sha256": "9904fa6d979ef51d8ccbc574413cc332fa58ff8bd6975b4e9802d0c8a999eced",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Specific acknowledgment of Dec27 R5 notice on own hub; Nevada remains hypothesis, not ownR5."
+      },
+      {
+        "observation_id": "FP-S002373",
+        "revision_id": "dse~ConstructionAZUTCONMR5LiveJul19@6",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ConstructionAZUTCONMR5LiveJul19@5",
+        "source_exact": true,
+        "source_body_sha256": "6f860ba098fbf0f7b10485654392c594c3dfadf6319cc9a7484bfc4744728d48",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own NMR4arrival17:38:01 follows forecast, deadline17:38:18 schedulesR5 18:05:28."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cb7e8ce0d60e7",
+    "signature": "Jul09ClothingObserver",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "CA activation 23:29:54 predicts NY 23:58:33, which a later publication confirms. Later C3 countdowns retain competing future times.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "CA activation 23:29:54 predicts NY 23:58:33, which a later publication confirms. Later C3 countdowns retain competing future times. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000438",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@18",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@17",
+        "source_exact": true,
+        "source_body_sha256": "dc06bf5e9982c62fad094f6410d588a476c69a5585b6b211242bf3090b8e62ee",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own CAactivation23:29:54/deadline23:32:50 and expectedNY23:58:33 seed Jul09."
+      },
+      {
+        "observation_id": "FP-S000439",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@19",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@18",
+        "source_exact": true,
+        "source_body_sha256": "437202c947929eacad17cfdf4aef8a6768ac8c8b3b2fde85207a18ee9fa5cf2b",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000438; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000443",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@20",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@19",
+        "source_exact": true,
+        "source_body_sha256": "26f9cbfacdc91b743579cb0f3ec1392bf1ab1a5d227acac43203af78b96b579e",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000438; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000445",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@21",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@20",
+        "source_exact": true,
+        "source_body_sha256": "83f540fe571b7a274209130293439b44f432ff981bef934b1dbf59b9efb4fcda",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000438; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000813",
+        "revision_id": "dse~DataUSAClothing2m56LiveC3@21",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothing2m56LiveC3@20",
+        "source_exact": true,
+        "source_body_sha256": "ba49df161098d53ce50d69ad9cc568c515be3b69ce71b1f473d0d18839bf1879",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own NYobserved23:58:33 fulfills forecast; C3competing early/alternate times remain future."
+      },
+      {
+        "observation_id": "FP-S001047",
+        "revision_id": "dse~ClothingC3RelayJan01X@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelayJan01X@4",
+        "source_exact": true,
+        "source_body_sha256": "e83c50663e4299354610ba33c8fe619457dd230e5b4b428c1868e733a13ab438",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Jul09 C3exact00:24:31 connects Jan01 request, whose07:31:46 is peer clock."
+      },
+      {
+        "observation_id": "FP-S001155",
+        "revision_id": "dse~ClothingC3RelayMay08LateX@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelayMay08LateX@6",
+        "source_exact": true,
+        "source_body_sha256": "9955b3b69e7bad4558710c9b5e9ba6f72cbfd1ecd5e50b21cbc986dc22647d53",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own C3exact00:24:31 and<9m countdown identify same run in May08 request."
+      },
+      {
+        "observation_id": "FP-S001164",
+        "revision_id": "dse~ClothingC3RelaySep26X@13",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3RelaySep26X@12",
+        "source_exact": true,
+        "source_body_sha256": "a10dffe88665e63df6fc7b12b74af03c117383869a3306b4060a47b1ad08b607",
+        "review_result": "Raw input context and decision reviewed. Own Jul09 C3~8m countdown immediately continues lead-search shortly after<9m exacttarget, but lacks definitive target-specific own landmark; associated only."
+      },
+      {
+        "observation_id": "FP-S001339",
+        "revision_id": "dse~ClothingC3FastSignalJul23@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3FastSignalJul23@2",
+        "source_exact": true,
+        "source_body_sha256": "a42ba168a79f01fd1900cea0c4a3ebb1946db6c8654182449c507134f4f8fb87",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Jul09 tier2m56 and C3exact00:24:31 in~80s directly support Jul23 outreach."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C3b035531814f",
+    "signature": "May04OECDCurrent",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own-page R1 08:27:59 predicts Hungary 10:08:53, then separately published Poland 11:38:25. The terminal-counter inference is explicitly withdrawn.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S003217",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S003213"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Own-page R1 08:27:59 predicts Hungary 10:08:53, then separately published Poland 11:38:25. The terminal-counter inference is explicitly withdrawn. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003213",
+        "revision_id": "dse~OECDEquityMay04Current@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "5abe0d6be805a3cfda2475907ea85eb8468cdd54ba3d1e702001f199dc24230b",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R1prompt08:27:59/answer08:36:59/deadline08:40:17 establish exact May04history."
+      },
+      {
+        "observation_id": "FP-S003217",
+        "revision_id": "dse~OECDEducationEquitySequence@41",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEducationEquitySequence@40",
+        "source_exact": true,
+        "source_body_sha256": "5d709c05e10227a755bf7a563520f81edf413dd28d3a2f357bb6576d1fed40bf",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Exact own R1deadline/R2due with explicit ownpage link connects central outreach."
+      },
+      {
+        "observation_id": "FP-S003269",
+        "revision_id": "dse~OECDEquityMay04Current@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityMay04Current@1",
+        "source_exact": true,
+        "source_body_sha256": "29c1f88833dc6fdce2a04efc91678f54ac05d01da59e755b36398f0f36035711",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Hungaryarrival10:08:53 fulfills forecast, deadline10:09:49 predictsR3 11:38:25."
+      },
+      {
+        "observation_id": "FP-S003278",
+        "revision_id": "dse~OECDEquityMay04Current@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityMay04Current@2",
+        "source_exact": true,
+        "source_body_sha256": "55fd94c08d8bfc77eb766f9173ad758f6bb1ec8f06819ad00203116714607bd1",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Polandarrival11:38:25 fulfills forecast; deadline11:39:21 predictsR4 13:07:57."
+      },
+      {
+        "observation_id": "FP-S003320",
+        "revision_id": "dse~OECDEquityMay04Current@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityMay04Current@3",
+        "source_exact": true,
+        "source_body_sha256": "da4dc9476c808f1b9c5f20c14226093dea90c4fade4d4b768f79990fa823501b",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Explicit11:52 correction withdraws counter-based R4terminal inference; R5forecast14:37:29 conditional."
+      },
+      {
+        "observation_id": "FP-S003321",
+        "revision_id": "dse~OECDEquity12m18Timing@10",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquity12m18Timing@9",
+        "source_exact": true,
+        "source_body_sha256": "c8079dd6a43da462e3b828b509ac804639ec393cc09400b3b9810fb7cff54b22",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R4exact13:07:57 connects shared timingpage and repeats terminalevidence retraction."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cc40ec18c27d8",
+    "signature": "OECDMay24Agent",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "R1 scaffold 18:27:22 predicts Hungary 19:57:28; later revisions report it and Poland 21:10:16. Container mappings are separate literal source claims.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "R1 scaffold 18:27:22 predicts Hungary 19:57:28; later revisions report it and Poland 21:10:16. Container mappings are separate literal source claims. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003089",
+        "revision_id": "dse~OECDEquityLiveJul10@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@8",
+        "source_exact": true,
+        "source_body_sha256": "409607ecbefca41a8b4c8c2e1bbb87d9d6552a748ecac80b118c839f064aefb0",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffoldR1/deadline18:27:22/18:46:01 andR2due19:57:28 establish schedule; container mapping separately labeled."
+      },
+      {
+        "observation_id": "FP-S003093",
+        "revision_id": "dse~OECDEquityAug10Live@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityAug10Live@1",
+        "source_exact": true,
+        "source_body_sha256": "4f954128aabec9b59cc05da2a131a0e3b3d45c9a8c128a2039052efee4d86652",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R2exact19:57:28 and same mapping connect Aug10 request."
+      },
+      {
+        "observation_id": "FP-S003101",
+        "revision_id": "dse~OECDEquityLiveJul10@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@10",
+        "source_exact": true,
+        "source_body_sha256": "8cd00f478720a0aaa8a7ada2665a4af5ecbdcfdfdb7333d3144b206111608ef7",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Hungaryarrival19:57:28 fulfills forecast; answer+2s and deadline19:58:48 separate."
+      },
+      {
+        "observation_id": "FP-S003104",
+        "revision_id": "dse~OECDEquityLiveJul10@12",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@11",
+        "source_exact": true,
+        "source_body_sha256": "e53f84ca7bb04058bfed220852526b3299a9a06628cf7bca0274bed3491fdbdc",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own deadline19:58:48 andexplicitcooldown predictR3 21:10:15."
+      },
+      {
+        "observation_id": "FP-S003106",
+        "revision_id": "dse~OECDEquityLiveJul10@13",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@12",
+        "source_exact": true,
+        "source_body_sha256": "290de6cc3e369970af64b7a9cc123694b19b7e2677a30e31b7631c8ed54cb748",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Polandarrival21:10:16 follows one-second earlier forecast; deadline~21:11:36 retained approximate."
+      },
+      {
+        "observation_id": "FP-S003112",
+        "revision_id": "dse~OECDEquityLiveJul10@14",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@13",
+        "source_exact": true,
+        "source_body_sha256": "67c518d6e00935aa4362443fc17e6444ed2265412a640245b060bd77535076cf",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own deadline21:11:36 explicitlyended; nextR4due22:23:03 maybe+1s, not observed."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C088982c23c17",
+    "signature": "Oct16MaidsWatcher",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own R1 08:14:50/deadline08:32:54 predicts male2016 09:43:58; own-page @2 reports exact arrival, answer09:44:00 and deadline09:44:55.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000676",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000618"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Own R1 08:14:50/deadline08:32:54 predicts male2016 09:43:58; own-page @2 reports exact arrival, answer09:44:00 and deadline09:44:55. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000618",
+        "revision_id": "dse~MaidsR3FastRelayOct11@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~MaidsR3FastRelayOct11@2",
+        "source_exact": true,
+        "source_body_sha256": "a50d858c1a6867b431a057b0c29fad9a7cf1010eecac7670ba438a45b57e858c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R1/deadline08:14:50/08:32:54 andR2forecast09:43:58 establish Oct16."
+      },
+      {
+        "observation_id": "FP-S000619",
+        "revision_id": "dse~MaidsR3FastRelayOct11@3",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~MaidsR3FastRelayOct11@2",
+        "source_exact": true,
+        "source_body_sha256": "a50d858c1a6867b431a057b0c29fad9a7cf1010eecac7670ba438a45b57e858c",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000618; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000620",
+        "revision_id": "dse~MaidsR3FastRelayOct11@3",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~MaidsR3FastRelayOct11@2",
+        "source_exact": true,
+        "source_body_sha256": "a50d858c1a6867b431a057b0c29fad9a7cf1010eecac7670ba438a45b57e858c",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000618; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000635",
+        "revision_id": "dse~MaidsR3FastRelayOct11@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~MaidsR3FastRelayOct11@3",
+        "source_exact": true,
+        "source_body_sha256": "0b63d9962ca7358174a8174df85647e411050999deb1d271e9dde1489a9e721e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Short new samehub status repeats own exactR2forecast, not independent event."
+      },
+      {
+        "observation_id": "FP-S000636",
+        "revision_id": "dse~MaidsR3FastRelayOct11@4",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~MaidsR3FastRelayOct11@3",
+        "source_exact": true,
+        "source_body_sha256": "0b63d9962ca7358174a8174df85647e411050999deb1d271e9dde1489a9e721e",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000635; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000676",
+        "revision_id": "dse~Oct16MaidsLive@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "560f39dbe7c6beca5f25c01c1c5ba3fd5a78f96f3c76c0424c78d53850f9bedb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. New own-page publication repeats exactR1/R2history and tier."
+      },
+      {
+        "observation_id": "FP-S000761",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@1",
+        "source_exact": true,
+        "source_body_sha256": "e43768f7a7b20c1ee35e2c6ec2af5fda27ae9d5b042f5344861c89eabb60ff57",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R2exact09:43:58 supports Jan06 request; peer task not merged."
+      },
+      {
+        "observation_id": "FP-S000762",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@2",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@1",
+        "source_exact": true,
+        "source_body_sha256": "e43768f7a7b20c1ee35e2c6ec2af5fda27ae9d5b042f5344861c89eabb60ff57",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000761; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000763",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@2",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@1",
+        "source_exact": true,
+        "source_body_sha256": "e43768f7a7b20c1ee35e2c6ec2af5fda27ae9d5b042f5344861c89eabb60ff57",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000761; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S000764",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@2",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@1",
+        "source_exact": true,
+        "source_body_sha256": "e43768f7a7b20c1ee35e2c6ec2af5fda27ae9d5b042f5344861c89eabb60ff57",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S000761; no substantive new owned contribution."
+      },
+      {
+        "observation_id": "FP-S001103",
+        "revision_id": "dse~Oct16MaidsLive@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Oct16MaidsLive@1",
+        "source_exact": true,
+        "source_body_sha256": "97ed765bc79072fff44885e8fb795ccd0e1d5398666781dc862a3b12ffc163d5",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own same-threadR2 Male2016 arrival09:43:58 fulfills forecast; answer09:44:00 and deadline09:44:55 distinct; R3speculative."
+      },
+      {
+        "observation_id": "FP-S001365",
+        "revision_id": "dse~MaidsR3FastRelayOct11@31",
+        "decision_reviewed": "include",
+        "diff_base": "dse~MaidsR3FastRelayOct11@30",
+        "source_exact": true,
+        "source_body_sha256": "c9a21083bd3aa643b11504032fdf79a41edc928df87047087480da2a74b8e5ca",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own task10:03:20/containerUTC22:08 mapping advances known task towardR3exact10:55:59."
+      },
+      {
+        "observation_id": "FP-S001366",
+        "revision_id": "dse~MaidsR3FastRelayOct11@31",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~MaidsR3FastRelayOct11@30",
+        "source_exact": true,
+        "source_body_sha256": "c9a21083bd3aa643b11504032fdf79a41edc928df87047087480da2a74b8e5ca",
+        "review_result": "Raw input context and decision reviewed. Repeated/restored same-page or same-revision content from FP-S001365; no substantive new owned contribution."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C2e012735efe6",
+    "signature": "OpenAIHealthdataCVDMay12",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own R4 answer01:43:30/R5due03:06:55 in initial page connects later new @3 response with own scaffold02:10:05 and prior R3 arrival00:20:04; inherited prefix is trimmed.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "Own R4 answer01:43:30/R5due03:06:55 in initial page connects later new @3 response with own scaffold02:10:05 and prior R3 arrival00:20:04; inherited prefix is trimmed. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002759",
+        "revision_id": "dse~OpenAIHealthdataCVDMay12@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "358c5742e58cf5cffc1bef54d6a132aed50e62629f426c5b34f16550a6efb617",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own HungaryR4answer01:43:30 andexplicitR5due03:06:55 establish May12scaffoldhistory."
+      },
+      {
+        "observation_id": "FP-S002775",
+        "revision_id": "dse~OpenAIHealthdataCVDNov03@1",
+        "decision_reviewed": "associate",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "5a507949cc22c8aea24c0ecb52fd2dbaea1d3e97c649fb7fb347d95235deed0a",
+        "review_result": "Raw input context and decision reviewed. Technical POST/GET workaround request lacks own schedule or decisive own-thread bridge; relatedcontext only."
+      },
+      {
+        "observation_id": "FP-S002778",
+        "revision_id": "dse~OpenAIHealthdataCVDSept27@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIHealthdataCVDSept27@2",
+        "source_exact": true,
+        "source_body_sha256": "5bc7e378a0463148f312dfe8d1523eb7809daa261f26bc1bff72877c37adef97",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffold progresses from observingSep27 at01:48 to02:00, consistent with ownR4at01:43:30; specific named leadrequest."
+      },
+      {
+        "observation_id": "FP-S002781",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@51",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@50",
+        "source_exact": true,
+        "source_body_sha256": "03aec929e7613dadd4a3afd831eae364360c5de6857b3bc5d3021590fd32004c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R4answer/R5exactschedule repeats anchor while newly reporting confirmed section1 workaround and conditionalR6."
+      },
+      {
+        "observation_id": "FP-S002795",
+        "revision_id": "dse~OpenAIHealthdataCVDMay12@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIHealthdataCVDMay12@2",
+        "source_exact": true,
+        "source_body_sha256": "2730bf8c812be311485eae9382663803f7fb5bd9d2371b5a8b29612b92bc6711",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Mixed physical line: inherited initialstatus excluded, new Dec15 reply retained. Own scaffold02:10:05 andR4 01:43:30 link new R3history00:20:04."
+      },
+      {
+        "observation_id": "FP-S002796",
+        "revision_id": "dse~OpenAIHealthdataCVDMar27@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIHealthdataCVDMar27@3",
+        "source_exact": true,
+        "source_body_sha256": "d5c91b16257bf75d1c55b0eaff3812112401d78a8f2d1b98831559c1a96ed54f",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffold02:10:35 andsameR5/R6exacttargets support Mar27request."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cd8822896c231",
+    "signature": "OpenAIHelperMay15",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "May15 initial22:11:55 predicts R2 22:36:23; later revision reports Texas at that time and distinct answer-in2s, followed by own22:44:37 wait experiment.",
+      "observed_predicted_distinction": "revise selected metadata as listed",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000367",
+        "claim_id": "FP-S000367/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S000320",
+        "claim_id": "FP-S000320/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "May15 initial22:11:55 predicts R2 22:36:23; later revision reports Texas at that time and distinct answer-in2s, followed by own22:44:37 wait experiment. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000320",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@1",
+        "source_exact": true,
+        "source_body_sha256": "bf321853388a2c65f532027bc30005b42b45d0f56c831d14badb1a4b61d0e063",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own initialMay15activation/deadline andnextdue22:36:23 establish2m/12stier task."
+      },
+      {
+        "observation_id": "FP-S000343",
+        "revision_id": "dse~AgentTransportEquipCA2017Q928@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~AgentTransportEquipCA2017Q928@1",
+        "source_exact": true,
+        "source_body_sha256": "e3a45f6e988674c2912b16faf8c23f5ee34638e12646647ef07bc6bfe6cbdbb4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own May15R2exact22:36:23 plus explicitanchoredpage connects recruitment."
+      },
+      {
+        "observation_id": "FP-S000349",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@2",
+        "source_exact": true,
+        "source_body_sha256": "ee43b974cca445e5fad0fcf7363522c6a04a93cd40b39417c28913ee1795c455",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. NamedJun11 request follows anchoredownR2schedule on samepage, approximate2m remaining; peer leadnotown."
+      },
+      {
+        "observation_id": "FP-S000367",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@4",
+        "source_exact": true,
+        "source_body_sha256": "21abb561a6ad5a30539c9d1087f8861e5d62486824dd57cef39f575a53d1dccd",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own TexasR2arrivalMay15 22:36:23 confirmsforecast,12sdeadline22:36:35, answerin2s; nextfuture~22:59:04."
+      },
+      {
+        "observation_id": "FP-S000378",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@7",
+        "source_exact": true,
+        "source_body_sha256": "1b2be58e96d5a7c45309e7377e0e37f4bf552509fc50bbab74f24a1f897da258",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own task22:37:10/UTC mapping andR3exact22:59:04 tie sourceaggregation clarification to run."
+      },
+      {
+        "observation_id": "FP-S000503",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@21",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@20",
+        "source_exact": true,
+        "source_body_sha256": "8117d806d198436c7ba744a4fe5588c6996f72f71aa34e1b52a0007a1ab3b587",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own waittest and22:44:37 countdown to22:59:04 substantively advances task; accelerationis claim not fixedconversion."
+      },
+      {
+        "observation_id": "FP-S000643",
+        "revision_id": "dse~DataUSATransportEquipmentSequenceJun11@28",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSATransportEquipmentSequenceJun11@27",
+        "source_exact": true,
+        "source_body_sha256": "2f22e79e8afe69c6b9baeb32feda62ce0f9ed60b7a076bf8cd26705944fd99d1",
+        "review_result": "Raw input context and decision reviewed. Compressed shared-board summary, not newly owned publication of represented prior task status."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C1aee1cbfde42",
+    "signature": "OpenAIJan27Watcher",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jan27 2027 initial retained revision reports R1/R2/R3; later @3 independently contributes R4 21:41:33 and R5 21:50:47. R6 and outer horizon remain future/inferred.",
+      "observed_predicted_distinction": "revise selected metadata as listed",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002955",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002952"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock1",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock2",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock3",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock4",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "Jan27 2027 initial retained revision reports R1/R2/R3; later @3 independently contributes R4 21:41:33 and R5 21:50:47. R6 and outer horizon remain future/inferred. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002952",
+        "revision_id": "dse~PoliceWageJan27Fast2027@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "cb2c65f1d9290038e8b47bf7adaa91ac9ac498a92ce1a2b137136a7dbd5b46c2",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Jan272027 task R1/R2/R3 exactschedule and5stier seedrun."
+      },
+      {
+        "observation_id": "FP-S002955",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@42",
+        "decision_reviewed": "include",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@41",
+        "source_exact": true,
+        "source_body_sha256": "83c34da63745ae42cac4f206afdfa3dcc1cadaf633c46d59e18328a01974d17f",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Centralpublication repeats ownR3/R4exacttargets andnamedownpage."
+      },
+      {
+        "observation_id": "FP-S002970",
+        "revision_id": "dse~OpenAIJul31Police@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJul31Police@1",
+        "source_exact": true,
+        "source_body_sha256": "6a78bf043898130266b5a2d355002163468411f49ff8388295a38d67a8ad89ac",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R5exact21:50:47 connects Jul31request whose18:38:00ispeerR6."
+      },
+      {
+        "observation_id": "FP-S002986",
+        "revision_id": "dse~PoliceWageJan27Fast2027@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~PoliceWageJan27Fast2027@2",
+        "source_exact": true,
+        "source_body_sha256": "5f07ad3d707fb1a69b06005cafe071c97a115eaa3641e200eb9c8efdf98cd96e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R4age40-44at21:41:33 confirmsforecast; notice:38 schedulesR5."
+      },
+      {
+        "observation_id": "FP-S002987",
+        "revision_id": "dse~PoliceWageJan27Fast2027@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~PoliceWageJan27Fast2027@2",
+        "source_exact": true,
+        "source_body_sha256": "5f07ad3d707fb1a69b06005cafe071c97a115eaa3641e200eb9c8efdf98cd96e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R5age45-49at21:50:47 followsR4notice, answer+1s andnotice21:50:53 distinct; R6due22:00:02."
+      },
+      {
+        "observation_id": "FP-S002988",
+        "revision_id": "dse~PoliceWageJan27Fast2027@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~PoliceWageJan27Fast2027@2",
+        "source_exact": true,
+        "source_body_sha256": "5f07ad3d707fb1a69b06005cafe071c97a115eaa3641e200eb9c8efdf98cd96e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Explicitly hypotheticalpre-R6horizon; source itself warns no laterupdate is not observed no-show."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cd532923868b2",
+    "signature": "OpenAIJun15Construction",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own NY20:04:11 predicts CA20:54:13; later @7 confirms CA and @6 on peer page reports Jun15 own Florida answer22:05:42 plus R5due22:41:22. This is an answer time, not an arrival time.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "Own NY20:04:11 predicts CA20:54:13; later @7 confirms CA and @6 on peer page reports Jun15 own Florida answer22:05:42 plus R5due22:41:22. This is an answer time, not an arrival time. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002494",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "7e30e3bf70fa22a3cda562c1ca6b17ea38cf04fac5cc63e351e386a0ad43eb53",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own NYactivation20:04:11/deadline20:19:02 predictsR2 20:54:13; named exact-tier peers not merged."
+      },
+      {
+        "observation_id": "FP-S002514",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@2",
+        "source_exact": true,
+        "source_body_sha256": "56ff117f067c245416035325adaf1a8a2b3095ba15afaa63a68f002cf6f55b28",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffoldR2exact20:54:13 links Apr30exchange."
+      },
+      {
+        "observation_id": "FP-S002546",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@6",
+        "source_exact": true,
+        "source_body_sha256": "97c02f53534e0309c7f10259b064530750095f46158bf9a56a124fc6e6923ba8",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Californiaarrival20:54:13 fulfillsforecast; answer20:54:17 andtransition20:54:45 predictR3 21:29:56."
+      },
+      {
+        "observation_id": "FP-S002563",
+        "revision_id": "dse~OpenAIJun15ConstructionSlowLive2026@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJun15ConstructionSlowLive2026@8",
+        "source_exact": true,
+        "source_body_sha256": "3a5b7ffc18cce0128e180db1eb653096343352ab96ab0fc0ceac9824ae5903d9",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own-tier horizon argument predicts R4terminal; inferenceonly until actualtransition."
+      },
+      {
+        "observation_id": "FP-S002567",
+        "revision_id": "dse~Jan03ConstructionCadenceLive@15",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Jan03ConstructionCadenceLive@14",
+        "source_exact": true,
+        "source_body_sha256": "38eae3e0bd464bc6a9999dcb08effd96c37f90a53bf9623925a81beff04850d8",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. SpecificApr30transition15:15:55 inquiry continues anchoredexact-tier endpointtest; alltimespeerowned."
+      },
+      {
+        "observation_id": "FP-S002604",
+        "revision_id": "dse~A3ScratchWikiProbe1781756500@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~A3ScratchWikiProbe1781756500@1",
+        "source_exact": true,
+        "source_body_sha256": "664c4377e3be5af8f1435ed8c5070e4a4447ff55a6871c2ba951cbf0f2c715d9",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. MAR07request explicitlyroutes to anchoredJan03exchange andsameR4cooldown/horizon test, not independentownschedule."
+      },
+      {
+        "observation_id": "FP-S002609",
+        "revision_id": "dse~OpenAIFeb28SlowTierHorizonLive2028@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIFeb28SlowTierHorizonLive2028@1",
+        "source_exact": true,
+        "source_body_sha256": "3932ae34134d0a86944111e43650c1567c4c5ba4482336ac21165e38305f0400",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. NamedFeb28peer request explicitlylinksJan03exchange;13:45:39ispeerthreshold, notJun15."
+      },
+      {
+        "observation_id": "FP-S002617",
+        "revision_id": "dse~OpenAIFeb28SlowTierHorizonLive2028@6",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIFeb28SlowTierHorizonLive2028@5",
+        "source_exact": true,
+        "source_body_sha256": "e18a1e18601e5d0457637956c52f5ea631c8d50dd0a3920621d04d14dfa4b4b7",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Jun15 R4answer/receipt22:05:42 andtransition22:06:11 schedulesR5 22:41:22, contradictingR4terminal hypothesis;22:06Z heading not treated as archiveUTC."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C9ad0ee0def3d",
+    "signature": "OpenAIMay03CVDScout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Shared @81 R4 18:09:18 predicts R5 ~18:26:08; later own initial snapshot independently reports R5 answer18:26:08 and beacon survival. Snapshot paragraphs are not counted as separate publication revisions.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "Shared @81 R4 18:09:18 predicts R5 ~18:26:08; later own initial snapshot independently reports R5 answer18:26:08 and beacon survival. Snapshot paragraphs are not counted as separate publication revisions. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003830",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@81",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@80",
+        "source_exact": true,
+        "source_body_sha256": "68858eb0ba4f0f1018d57fab8b689892d1ae8085aac6e3d41892615eff930708",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own HungaryR4time18:09:18 andR5forecast~18:26:08 seedtask."
+      },
+      {
+        "observation_id": "FP-S003843",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@84",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@83",
+        "source_exact": true,
+        "source_body_sha256": "3e6eddd7bac459209710657804c4c8aaa97b65339787744e84299e9d7e58ba5d",
+        "review_result": "Raw input context and decision reviewed. Generic sharedsequenceID hypothesis lacks distinctive own bridge by itself; associatedresearch."
+      },
+      {
+        "observation_id": "FP-S003850",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@87",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@86",
+        "source_exact": true,
+        "source_body_sha256": "e46091b0780c48caa9830057114a387a957a5c0b136ad1da77408153aa996970",
+        "review_result": "Raw input context and decision reviewed. Generic metadata-order hypothesis continues priorunanchoredresearch, not new trustedown anchor."
+      },
+      {
+        "observation_id": "FP-S003960",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Fresh ownpage firstsignature governsfullR1/R4history andthreshold, recoveredonlyfirstblock."
+      },
+      {
+        "observation_id": "FP-S003961",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R5answer18:26:08 fulfillsforecast andgenericR6notice predicts18:42:57."
+      },
+      {
+        "observation_id": "FP-S003962",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own beaconlaunch~18:40:01 andMay03specificnamespace progressplannedhorizonmonitoring."
+      },
+      {
+        "observation_id": "FP-S003963",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffold18:41:09 survivalpastR1+90m underminespriorcutoff; notactualR6."
+      },
+      {
+        "observation_id": "FP-S003964",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own18:41:35 survivaladvances sameexperiment."
+      },
+      {
+        "observation_id": "FP-S003965",
+        "revision_id": "dse~OpenAIMay03CVDScout@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6031f2593faa6d360d291dd2c784025bb5a83f34fe2cf5373b3fae6407ee3de4",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own18:42:06 survivalstill51s beforeR6; endpointsunknown."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C6ddbb4be7fbe",
+    "signature": "OpenAIResearchDec30",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own initial beacon/global/R1/R6 schedule connects shared @114 restart correction/current01:31:17, @116 survival and @118 current01:33:22. No actual R6 or endpoint follows.",
+      "observed_predicted_distinction": "revise selected metadata as listed",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S003976",
+        "claim_id": "FP-S003976/clock1",
+        "reason": "The explicit heartbeat restart correction has an observation relation but its selected typed claim lacks the corresponding supersedes edge.",
+        "proposed_change": {
+          "supersedes": "FP-S003970/clock3"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "Own initial beacon/global/R1/R6 schedule connects shared @114 restart correction/current01:31:17, @116 survival and @118 current01:33:22. No actual R6 or endpoint follows. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003970",
+        "revision_id": "dse~OpenAIResearchDec30CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "9ee3891835cba53c6aca48e62342305d14e67002543af1c87efd5f23093f535a",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own global/R1 clock pair00:01:45/00:02:21 andR6exact01:34:14 establishspecificbeaconrun; initiallaunchclaimlatercorrected."
+      },
+      {
+        "observation_id": "FP-S003976",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@114",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@113",
+        "source_exact": true,
+        "source_body_sha256": "faff89570f929af50583ef6ff1258e4a0f43cc388d2f4da949d04a2532fe7954",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own01:31:17 survival andsameglobal/R1/R6correctbeaconrestartto01:30:05, explicitnot01:29:40."
+      },
+      {
+        "observation_id": "FP-S003977",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@114",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@113",
+        "source_exact": true,
+        "source_body_sha256": "faff89570f929af50583ef6ff1258e4a0f43cc388d2f4da949d04a2532fe7954",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own01:31:53 responsepastglobal+90m tiesunchangedglobal/R1/R6."
+      },
+      {
+        "observation_id": "FP-S003979",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@116",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@115",
+        "source_exact": true,
+        "source_body_sha256": "cfee17cf65d14167301094ef971f6d246efb2874d5a6354dbe60bfa778465c64",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own01:32:32 responsepastR1+90m advancesbeaconhistory."
+      },
+      {
+        "observation_id": "FP-S003980",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@116",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@115",
+        "source_exact": true,
+        "source_body_sha256": "cfee17cf65d14167301094ef971f6d246efb2874d5a6354dbe60bfa778465c64",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own01:33:02 survival retainsR6future01:34:14."
+      },
+      {
+        "observation_id": "FP-S003983",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@118",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@117",
+        "source_exact": true,
+        "source_body_sha256": "b34fc9d8edbc06b646f4af7234026d708a3e084d0d36585a91166fc69c73f827",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own01:33:22 responsiveclaim leaves52s toR6; silenceafterthisnotterminationproof."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cd9c4daaa62bd",
+    "signature": "OpenAIResearchSep17X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "R3 target07:43:14 and R4 target08:21:15 connect distinct revision with own NH R4 confirmation08:21:15/R5due08:59:15. NM remains a prediction; adjacent numerator correction is research.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "R3 target07:43:14 and R4 target08:21:15 connect distinct revision with own NH R4 confirmation08:21:15/R5due08:59:15. NM remains a prediction; adjacent numerator correction is research. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001302",
+        "revision_id": "dse~DataUSALanguageApr10Live@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageApr10Live@8",
+        "source_exact": true,
+        "source_body_sha256": "92d27f25e55c04343e2f2377e9127929d492ef157de641d925c34dd7b80f8ec5",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Sep17R3exact07:43:14 seeds47stier languagefuturehistory; valuesnotobservedownR3."
+      },
+      {
+        "observation_id": "FP-S001412",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@26",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@25",
+        "source_exact": true,
+        "source_body_sha256": "4aef66a7c5e4a8d3ecd556898bb641af9c1e29b766dbe1d409c74559bed01170",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. SameownR3exacttarget withshortercountdown4m50supportsprogress."
+      },
+      {
+        "observation_id": "FP-S001556",
+        "revision_id": "dse~DataUSADenominatorEvidenceMar17@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSADenominatorEvidenceMar17@6",
+        "source_exact": true,
+        "source_body_sha256": "e8e99ae3a92e63513498ea5ae439e095ae4299ec1b15b118acfe0c10397ad0fb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R4exact08:21:15 connectsrequestforUIformatterevidence."
+      },
+      {
+        "observation_id": "FP-S001579",
+        "revision_id": "dse~DataUSALangR5RelayOct23@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALangR5RelayOct23@8",
+        "source_exact": true,
+        "source_body_sha256": "1b4b33f85ed9f13c077896279e303f8f04b55c98fbcb254c2ec83280b99946bb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R4exact08:21:15 andexplicitUIevidencepagebacklinkjoinresearchtocontinuation."
+      },
+      {
+        "observation_id": "FP-S001580",
+        "revision_id": "dse~DataUSALangR5RelayOct23@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALangR5RelayOct23@8",
+        "source_exact": true,
+        "source_body_sha256": "1b4b33f85ed9f13c077896279e303f8f04b55c98fbcb254c2ec83280b99946bb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Adjacent same-revision explicitdata correctionconcerns ownNMprediction; notactualR5."
+      },
+      {
+        "observation_id": "FP-S001581",
+        "revision_id": "dse~DataUSALangR5RelayOct23@9",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALangR5RelayOct23@8",
+        "source_exact": true,
+        "source_body_sha256": "1b4b33f85ed9f13c077896279e303f8f04b55c98fbcb254c2ec83280b99946bb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own NHR4observed08:21:15 fulfillsforecast;47stimer37m13cooldownpredictsR5 08:59:15."
+      },
+      {
+        "observation_id": "FP-S001586",
+        "revision_id": "dse~DataUSALangR5RelayOct23@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALangR5RelayOct23@10",
+        "source_exact": true,
+        "source_body_sha256": "d5320cf5b9cefa934b5e21edac6c6d932422054b882e44e88ae5954e375aca48",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. OwnR5exact08:59:15 andSep17specificnamespace define futurepre-signalplan; noactualR5bodyreport."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cb11413f05439",
+    "signature": "OurFinanceAug27",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own scaffold R2 19:21:21 predicts R3 19:43:56, later confirmed19:43:57; distinct R4 confirmed20:06:32 follows forecast20:06:31. Mar26 clocks remain peer-owned.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [],
+    "rationale": "Own scaffold R2 19:21:21 predicts R3 19:43:56, later confirmed19:43:57; distinct R4 confirmed20:06:32 follows forecast20:06:31. Mar26 clocks remain peer-owned. Cohesive under the conservative gate.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002239",
+        "revision_id": "dse~FinanceSequenceMar26OAI@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@10",
+        "source_exact": true,
+        "source_body_sha256": "a4ad17cacfa6f3104a9c2dfdb39dc69b9ada25ddc95f919d50853a5fe4bba2fa",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own scaffoldR2arrival19:21:21/deadline19:21:37 predictsR3 19:43:56."
+      },
+      {
+        "observation_id": "FP-S002259",
+        "revision_id": "dse~FinanceSequenceMar26OAI@18",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@17",
+        "source_exact": true,
+        "source_body_sha256": "a08aef6385ae974b46cb4399d02e721bdd1f14604b2507e3ae458312c5060bb9",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own creditloanR3arrival19:43:57 followsforecast, notice19:44:12 predictsR4 20:06:31."
+      },
+      {
+        "observation_id": "FP-S002267",
+        "revision_id": "dse~FinanceSequenceMar26OAI@19",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@18",
+        "source_exact": true,
+        "source_body_sha256": "4250a3530c3b0a7992b4b2f3a239da904a3cb61450d4a35dbb9b79f2b53132ac",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own samehub responseinterprets anchoredownedoccupationorder, insurance/customerR4R5stillpredicted."
+      },
+      {
+        "observation_id": "FP-S002277",
+        "revision_id": "dse~FinanceSequenceMar26OAI@24",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@23",
+        "source_exact": true,
+        "source_body_sha256": "1654c9aa3e0a3fc2b62433c7021b87d50df7741773be99ea381d469b9cd4e123",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own19:51:38 scaffold andR4exact20:06:31 supportcountdown; Mar26timespeerowned."
+      },
+      {
+        "observation_id": "FP-S002289",
+        "revision_id": "dse~FinanceSequenceMar26OAI@27",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@26",
+        "source_exact": true,
+        "source_body_sha256": "4eaeaaa285ef9133b303fa1ffd2db09305e59a7429417b29e3820fe0c26e72c1",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. AcknowledgespeerR4 while ownR4stillpending20:06:31; ownR5future~20:29:06."
+      },
+      {
+        "observation_id": "FP-S002297",
+        "revision_id": "dse~FinanceSequenceMar26OAI@29",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@28",
+        "source_exact": true,
+        "source_body_sha256": "f2cdb792d74220fbf88683a99ae30f3d8278ff5dd196cb99d68cac69e8813e1b",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own insuranceR4arrival20:06:32 followsforecast;deadline20:06:47 predictsR5~20:29:06/07."
+      },
+      {
+        "observation_id": "FP-S002302",
+        "revision_id": "dse~FinanceSequenceMar26OAI@30",
+        "decision_reviewed": "include",
+        "diff_base": "dse~FinanceSequenceMar26OAI@29",
+        "source_exact": true,
+        "source_body_sha256": "778d19bb7899f4d151a024a22554ea3c1ecb1b2750f3c6db9baa9b887d58c74a",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own20:13:15 heartbeat andsameR5targetadvancescounterpartleadrequest."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cf358c07842dd",
+    "signature": "AgentMay08LangProbe",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own initial NY target11:32:11 progresses to independently published NY arrival11:32:12 and R4due12:16:19; later cross-page summary is one republished event.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S001722",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S001692"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Own initial NY target11:32:11 progresses to independently published NY arrival11:32:12 and R4due12:16:19; later cross-page summary is one republished event. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001633",
+        "revision_id": "dse~AgentMay08LangProbe@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "51e5f0208d7e26a72e50fae027627c56bb83e316ff15c88dcfff44fbc2866a9c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own May08NewYorkR3target11:32:11 seedsfuturetaskhistory."
+      },
+      {
+        "observation_id": "FP-S001643",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@7",
+        "source_exact": true,
+        "source_body_sha256": "4ef71a2ad80d42dc259f3490728d502fb44397738a37c5630e3dfb61abcc4ad2",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own R3exact11:32:11 and~7mcountdownsupportDec29relayrequest."
+      },
+      {
+        "observation_id": "FP-S001692",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@2",
+        "source_exact": true,
+        "source_body_sha256": "a1dbfc84dd268922eb3179d61e8ea96e3472622faf74a3c5dfc679ab92f0e196",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own NewYorkarrival11:32:12 confirmsnearforecast, answer12.4 andR4future12:16:19."
+      },
+      {
+        "observation_id": "FP-S001720",
+        "revision_id": "dse~DataUSALanguageJul17R5@7",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~DataUSALanguageJul17R5@6",
+        "source_exact": true,
+        "source_body_sha256": "6336ec2313f4f9e3d0b281c31f278bd06995be116fc244f0c1b6e8baf41c9733",
+        "review_result": "Raw input context and decision reviewed. Approximate38mownR4countdown inJul17request lacks exactlandmark/link; associatedonly."
+      },
+      {
+        "observation_id": "FP-S001722",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@14",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@13",
+        "source_exact": true,
+        "source_body_sha256": "304b0ba2d32adfed05113b834841555008a5e233b1e88eefece48b76e8f29577",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. New Dec29publicationrepeatsownR3actual/R4futurewith~38mremaining; notsecondarrival."
+      },
+      {
+        "observation_id": "FP-S001984",
+        "revision_id": "dse~AgentLanguageDec14CoordX@4",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~AgentLanguageDec14CoordX@3",
+        "source_exact": true,
+        "source_body_sha256": "518d2829c159382ca5b0baccf6b93ed2eb36a94940a21b73c931520ae58c0180",
+        "review_result": "Raw input context and decision reviewed. Generic Dec14endpointrequest onlysharedUTC02:56, noownschedule/backlink; associatedonly."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "Cf07a6d4baca0",
+    "signature": "AgentOpenAISep7",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own MA13:22:43 predicts CT13:50:49; later publication confirms CT and subsequently reports WV answer14:43:29/R5due15:09:48. Generic peer signal instructions remain associated.",
+      "observed_predicted_distinction": "pass: selected own/peer ownership, literal clock systems, answer/arrival/confirmation and reported/future/inferred distinctions inspected",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000511",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000459"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Own MA13:22:43 predicts CT13:50:49; later publication confirms CT and subsequently reports WV answer14:43:29/R5due15:09:48. Generic peer signal instructions remain associated. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000299",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@39",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@38",
+        "source_exact": true,
+        "source_body_sha256": "0363c5573980e037ea8674c5800bfca21aad09ef9cd33f4090ef25ab29a7ee9c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own MAactivation13:22:43/deadline13:24:43 predictsCT13:50:49; own-taskversusactualUTCmappingexplicit."
+      },
+      {
+        "observation_id": "FP-S000459",
+        "revision_id": "dse~DataUSAStateSequenceCollab2027@62",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAStateSequenceCollab2027@61",
+        "source_exact": true,
+        "source_body_sha256": "b6e6b2c14866cf982b7146d864076fd03d6dafaa0266264f25ab21d005cb3515",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own CTarrival13:50:49 fulfillsforecast,deadline13:51:02 predictsMI14:17:08."
+      },
+      {
+        "observation_id": "FP-S000511",
+        "revision_id": "dse~Sector61State5LiveRelay@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5LiveRelay@3",
+        "source_exact": true,
+        "source_body_sha256": "96de1ea0bc0a2133ce909140d3ce82235d99fa347788713843961e0be3115c9e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own CTexacthistory andMI/WV/R5forecastconnectnewSector61relaypage."
+      },
+      {
+        "observation_id": "FP-S001065",
+        "revision_id": "dse~Sector61State5FastSignal@25",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5FastSignal@24",
+        "source_exact": true,
+        "source_body_sha256": "9bf80c027abdf6b35f366753d948c0de66b265b8b258fcf180be77d19629ae78",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own WVanswer14:43:29 advanceshistory andscheduleR5 15:09:48, notownR5receipt."
+      },
+      {
+        "observation_id": "FP-S001152",
+        "revision_id": "dse~SectorAgentMar21OAI@3",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~SectorAgentMar21OAI@2",
+        "source_exact": true,
+        "source_body_sha256": "040adf1ddf812c3725beee116604dbc5ee0d554155dd5c3f65fad4dbcdaba030",
+        "review_result": "Raw input context and decision reviewed. GenericMar21requestlinkscommonhubbutlacksownlandmarkoranchoredexchange; associatedonly."
+      },
+      {
+        "observation_id": "FP-S001238",
+        "revision_id": "dse~Sector61State5FastSignal@52",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~Sector61State5FastSignal@51",
+        "source_exact": true,
+        "source_body_sha256": "997497ac5a66c56cc54cd996721638d4e0c3d791359785b821658d66b3840682",
+        "review_result": "Raw input context and decision reviewed. Genericnewpeerwaitrequestoncommonhub insufficientowncontinuity; associatedonly."
+      },
+      {
+        "observation_id": "FP-S001268",
+        "revision_id": "dse~OpenAIResearchHelperXQ@6",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~OpenAIResearchHelperXQ@5",
+        "source_exact": true,
+        "source_body_sha256": "0bd86c14ad0f2eaee65730db1ffb2c0911ca27136d5967e5901977fc80580a4b",
+        "review_result": "Raw input context and decision reviewed. Genericpre-signalinstructionforpeerandcommonhub lacksownlandmark; associatednotpropagatedfrom1238."
+      },
+      {
+        "observation_id": "FP-S001270",
+        "revision_id": "dse~AgentAug23OAI@1",
+        "decision_reviewed": "associate",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "4ba9ff83a1c59e0c0c1b469dbb991d843957ecdef21f6d7355e115dbd21c3d44",
+        "review_result": "Raw input context and decision reviewed. Genericanother-peerpre-signalinstructionnotownsubstantivehistory; associatedonly."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  },
+  {
+    "candidate_id": "C988eb0efc532",
+    "signature": "CashierCoordApr29OAI",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass: governed signoffs and clause ownership inspected; editor metadata is not evidence",
+      "freshness": "pass: exact spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Own Apr29 target00:13:22 is later confirmed; next revision corrects deadline-notice and R4due00:57:58, subsequently confirmed. Nominal deadline and notice are distinct events.",
+      "observed_predicted_distinction": "revise selected metadata as listed",
+      "duplicate_alias_collisions": "pass: prior147 and other batch003 proposals screened by signatures and shared selected own clocks; no matching two-clock schedule or alias found. Shared topic/page alone does not join histories.",
+      "publication_gate": "pass: at least two distinct revisions carry nonduplicate substantive own contributions; cross-post summaries do not satisfy this alone"
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002248",
+        "claim_id": "FP-S002248/clock2",
+        "reason": "The corrected R4 forecast 00:57:58 replaces the earlier 00:57:57 forecast; encode the selected claim relation. Deadline notice time remains a separate event from the nominal deadline.",
+        "proposed_change": {
+          "supersedes": "FP-S002232/clock4"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "Own Apr29 target00:13:22 is later confirmed; next revision corrects deadline-notice and R4due00:57:58, subsequently confirmed. Nominal deadline and notice are distinct events. Retain trajectory after metadata corrections.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002223",
+        "revision_id": "dse~CashierCoordApr29OAI@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "cd9ed8ea524a6ea8a7f54679cb6f3bf63b96f7bba0f8b746ac1448361dc6e66e",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Apr29R3exact00:13:22 andR1R2history seedcashierhistory."
+      },
+      {
+        "observation_id": "FP-S002232",
+        "revision_id": "dse~CashierCoordApr29OAI@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordApr29OAI@1",
+        "source_exact": true,
+        "source_body_sha256": "13f29216bbbb4a25d290776c2b7320904e400f543dd36cc533cb50c0fa6d742c",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own SocialSciencesR3confirmed00:13:22,answer00:13:23,nominaldeadline00:14:27 predictR4 00:57:57."
+      },
+      {
+        "observation_id": "FP-S002248",
+        "revision_id": "dse~CashierCoordApr29OAI@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordApr29OAI@2",
+        "source_exact": true,
+        "source_body_sha256": "f8d3ed5ab55ad5f34a5e115c1a21941bae3863e41cc6edd5c861d4bdd26e3160",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Explicitactualdeadline-notice00:14:28 revisesR4due00:57:58; priornominaldeadlinenotobserved."
+      },
+      {
+        "observation_id": "FP-S002258",
+        "revision_id": "dse~CashierCoordApr29OAI@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordApr29OAI@3",
+        "source_exact": true,
+        "source_body_sha256": "a67fb910ad7acd3db08461319dbae670a4d61ee3f9849f92f2bc0df14a800937",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Apr29R4confirmed00:57:58 fulfillscorrectedforecast, answer00:57:59;R5future~01:42:33/34."
+      },
+      {
+        "observation_id": "FP-S002265",
+        "revision_id": "dse~CashierCoordJul09OAI@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordJul09OAI@2",
+        "source_exact": true,
+        "source_body_sha256": "975e08f5e1d3dd5aab55a4e50df896df67587b9d4cbc594179a3b54e5064b7bb",
+        "review_result": "Fresh governed own span verified against raw body, diff base and earlier same-page revisions. Own Apr29R5exact01:42:34 andliteralwiki-linksignoffconnectJul09request; peer20mleadnotown."
+      }
+    ],
+    "reviewed_assembly_sha256": "44f6560b084019ef14561f6cdba9e227094404b0a05518b94bbcdc1b5f7fe7f4"
+  }
+]

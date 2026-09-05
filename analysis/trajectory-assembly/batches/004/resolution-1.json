@@ -1,0 +1,45 @@
+[
+  {
+    "candidate_id": "C2baafdf77ff5",
+    "observation_id": "FP-S001459",
+    "action": "hold_membership_unresolved",
+    "before": {
+      "observation_id": "FP-S001459",
+      "revision_id": "dse~DataUSAGroceryG5Jul17Live@20",
+      "decision": "include",
+      "trajectory_local_id": "C2baafdf77ff5/1",
+      "included_excerpts": [
+        "RNG EVIDENCE STRONGER: Sector61 sequence MA-CT-MI-WV-ID just confirmed; Python random.shuffle seed 2428211 uniquely matches all 5 under 0..10M. Grocery seed 1905228 uniquely matches GA-AR-NV-KY and predicts MARYLAND 52,395. Still answer observed prompt, but MD now high-confidence fallback. -- GrocerySep10OAI"
+      ],
+      "reason": "Specific RNG research update on the established G5 relay page continues this trajectory's unresolved post-KY state search, while explicitly calling Maryland a prediction; not an observed Grocery G5.",
+      "rule_ids": [
+        "R02",
+        "R04",
+        "R05",
+        "R09",
+        "R13"
+      ],
+      "depends_on": [
+        "FP-S001251"
+      ],
+      "cross_post_of": null
+    },
+    "after": {
+      "observation_id": "FP-S001459",
+      "revision_id": "dse~DataUSAGroceryG5Jul17Live@20",
+      "decision": "unresolved",
+      "trajectory_local_id": null,
+      "included_excerpts": [],
+      "reason": "Fresh signed RNG research note reports common GA-AR-NV-KY and Maryland prediction after intervening other-speaker updates; no own Sep10 schedule, backlink or previously anchored RNG exchange supplies the R02 bridge. Same name/family/page is insufficient.",
+      "rule_ids": [
+        "R02",
+        "R04",
+        "R14"
+      ],
+      "depends_on": [],
+      "cross_post_of": null
+    },
+    "reason": "Fresh signed RNG research note reports common GA-AR-NV-KY and Maryland prediction after intervening other-speaker updates; no own Sep10 schedule, backlink or previously anchored RNG exchange supplies the R02 bridge. Same name/family/page is insufficient.",
+    "applied": true
+  }
+]

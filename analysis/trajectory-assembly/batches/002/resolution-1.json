@@ -1,0 +1,217 @@
+[
+  {
+    "candidate_id": "C5e9d369f2fe0",
+    "signature": "GroceryAgentJul17X",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cb1a10d1ad2a3",
+    "signature": "LanguageHelperOct23",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Ca1e5a0b1e91b",
+    "signature": "OAI7C97Dec15",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Ca3a658a192d1",
+    "signature": "OpenAIDec07Police",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cf5f9c384af2d",
+    "signature": "OpenAIMay09Police",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Ccd3cd82a83cd",
+    "signature": "OpenAIResearcherNov26",
+    "status": "resolved",
+    "original_verdict": "revise",
+    "final_verdict": "pass",
+    "corrections": [
+      {
+        "observation_id": "FP-S001709",
+        "issue": "Source predicts R3 near20:24:30 if cadence~26m57; normalized raw_value20:24:30 drops the explicit near qualifier. Actual later R3 is20:24:28, so precision matters.",
+        "applied": "Change raw_value to near 20:24:30 (literal source substring); retain due/predicted, and do not reinterpret forecast as exact promised arrival.",
+        "status": "resolved"
+      }
+    ],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Caa2f88208b72",
+    "signature": "Sep18ConstructionAgent",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C67d45adaeab3",
+    "signature": "Sep26WageAgent",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C0ad979614657",
+    "signature": "GroceryProbeJul09",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cac5232b0878f",
+    "signature": "LanguageWatcherNov12",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cf5f1ec8813e7",
+    "signature": "OECDEquityApr19Agent",
+    "status": "resolved",
+    "original_verdict": "revise",
+    "final_verdict": "pass",
+    "corrections": [
+      {
+        "observation_id": "FP-S003459",
+        "issue": "First signoff governs newly retained substantive R1 paragraph, not just final request. Current excerpt silently omits own task Apr19 18:26:53, deadline18:39:11, answer18:35:54, which explicitly connects this own page to earlier R1-deadline anchor.",
+        "applied": "Recover first governed signed block only, stopping before next PRECISION CORRECTION paragraph. Add typed literal R1 activation/answer/deadline and explicit Apr19 date, keeping the original R1 answer9.70 a reported submission.",
+        "status": "resolved"
+      }
+    ],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cb2584db93dbb",
+    "signature": "Oct18Helper",
+    "status": "resolved",
+    "original_verdict": "revise",
+    "final_verdict": "pass",
+    "corrections": [
+      {
+        "observation_id": "FP-S002378",
+        "issue": "Earlier FP-S002346 inferred R4 terminal/noR5 from FourCorners/silence; this owned R4 report states system announced R5. Both retained, but no explicit evidence relationship indicates earlier endpoint inference was undermined.",
+        "applied": "Add a correction/evidence relationship FP-S002378->FP-S002346, scope=reported next-query notice contradicts earlier R4-terminal hypothesis. Do not change R5 due11:52:45 into observed receipt.",
+        "status": "resolved"
+      }
+    ],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C45da12196474",
+    "signature": "OpenAIHealthdataCVDSept27",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C883248ff7bcd",
+    "signature": "OpenAIResearchAug21X",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "Cd396b3dcd425",
+    "signature": "OpenAIResearchSep22",
+    "status": "resolved",
+    "original_verdict": "revise",
+    "final_verdict": "pass",
+    "corrections": [
+      {
+        "observation_id": "FP-S004004",
+        "issue": "Refined6400s cap explicitly replaces prior+105m threshold, and FP-S004007 reports survival past revised cap, but there are no normalized cutoff claims or correction edges. A downstream schedule consumer sees survival timestamps without their retracted hypotheses.",
+        "applied": "Add inferred cutoff claims02:41:23 and02:43:03 with source refs and explicit revision/correction relationships FP-S004004->FP-S003937 and FP-S004007->FP-S004004. Retain source claims of falsification as conditional; survival exactly at threshold inFP-S004005 alone need not prove anything about later teardown.",
+        "status": "resolved"
+      }
+    ],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C4bfc80afe89b",
+    "signature": "AgentFrenchPrepXQ29",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  },
+  {
+    "candidate_id": "C30dde3d5edc3",
+    "signature": "Aug02Precision",
+    "status": "resolved",
+    "original_verdict": "pass",
+    "final_verdict": "pass",
+    "corrections": [],
+    "validation": "Exact retained excerpts and clock values checked against raw ZIP; correction endpoints are included members; membership decisions unchanged.",
+    "assembly_before_sha256": "84a7d5bca9d0e44691371370b1d98d59e94dedf28e4851400994f3f74fdb65a6",
+    "assembly_after_sha256": "39470768358cfba6fba142b405f5fb64d39d06928709b08ca9e73fea4ad47150"
+  }
+]

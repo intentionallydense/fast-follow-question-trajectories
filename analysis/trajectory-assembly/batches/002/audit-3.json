@@ -1,0 +1,1623 @@
+[
+  {
+    "candidate_id": "C8cdc4c0265d4",
+    "signature": "Jul30OECDHelper",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "8 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Own Jul30 R1 04:10:12/deadline04:22:30 connects competing R2 forecasts to observed05:51:06. Clock changes are prediction refinements; no contradictory own arrival is merged.",
+      "observed_predicted_distinction": "9 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Own Jul30 R1 04:10:12/deadline04:22:30 connects competing R2 forecasts to observed05:51:06. Clock changes are prediction refinements; no contradictory own arrival is merged.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003031",
+        "revision_id": "dse~OECDEquityLiveJul30@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "7dca3a799384e8253cdc20d20703f89949667318dd694b3a367d82cfd1514c9b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003039",
+        "revision_id": "dse~OECDEquityLiveJul30@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul30@1",
+        "source_exact": true,
+        "source_body_sha256": "e0fbfda8b2b23da035631a6aeb3f02ea397441b9020533538c3ccd4b4e26e347",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003059",
+        "revision_id": "dse~OECDEquityLiveJul10@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul10@3",
+        "source_exact": true,
+        "source_body_sha256": "fc44a39ef40a5699e3cd6006cd1e57ed970df9a637cc840082a0c9bd40ae274f",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003098",
+        "revision_id": "dse~OECDEducationEquitySequence@32",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEducationEquitySequence@31",
+        "source_exact": true,
+        "source_body_sha256": "13cec4cb748fce89cca2a32a7e5a38d5788ef94ce1b3799cb01ba7da8d066e3a",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003142",
+        "revision_id": "dse~OECDEquityLiveJul30@10",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityLiveJul30@9",
+        "source_exact": true,
+        "source_body_sha256": "505e6e78870739e933557c7a19156e55195c49726b253990f7398290cc6486e2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003212",
+        "revision_id": "dse~OECDEquityMay30Live@6",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityMay30Live@5",
+        "source_exact": true,
+        "source_body_sha256": "b775874dc34fb4133c583078d32f03ea901c01850e2aa1e8a860d2d28a98e507",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003290",
+        "revision_id": "dse~OECDEquityMay30Live@15",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityMay30Live@14",
+        "source_exact": true,
+        "source_body_sha256": "3e60f86b0a83e3dd614409bb72bb595e1c99ca3233fb6634fc740ac57cd0b653",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003333",
+        "revision_id": "dse~OECDEquity12m18Timing@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquity12m18Timing@10",
+        "source_exact": true,
+        "source_body_sha256": "3675462f45793a8e1c85940d4983dcc4da82a0b005137bcb34e4f70f294cfd43",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C0ae74a6ef1ad",
+    "signature": "May01PovertyStateScout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "9 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "May01 state poverty LA23:01:17 -> MS00:07:39 -> AL01:08:43 -> GA02:09:48 is cohesive across multiple publications. Later R5 forecasts differ by a few seconds and remain predictions, not actual arrivals; state-rate research continues the anchored same-task exchange.",
+      "observed_predicted_distinction": "12 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "May01 state poverty LA23:01:17 -> MS00:07:39 -> AL01:08:43 -> GA02:09:48 is cohesive across multiple publications. Later R5 forecasts differ by a few seconds and remain predictions, not actual arrivals; state-rate research continues the anchored same-task exchange.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S004081",
+        "revision_id": "dse~ResearchPovertyStateFeb10Z@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Z@2",
+        "source_exact": true,
+        "source_body_sha256": "6d45f934487ad202115d0d6f2bdda291a408fb8c93232989aa4193401f20ef40",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004084",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@2",
+        "source_exact": true,
+        "source_body_sha256": "5ad833ef13414f0eaa3415dac7071a310125c3c27d51e375d0cb33610f2bd6df",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004112",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@4",
+        "source_exact": true,
+        "source_body_sha256": "48788a5f15f1f9653c8d3d004d7207458e75b3354352653152aee57fe02bd0e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004136",
+        "revision_id": "dse~DataUSAPovertyStateSequence2027@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "e4d9325d96e4364eb4204022a1ebb6dd3bd85648ee6f591b642066e310331fce",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004164",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@6",
+        "source_exact": true,
+        "source_body_sha256": "76e45fe3e0e70c1080422db33e105c8f66c7ec08a33fdca7fc4a20bdf648c4b0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004172",
+        "revision_id": "dse~DataUSAPovertyStateSequence2027@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAPovertyStateSequence2027@2",
+        "source_exact": true,
+        "source_body_sha256": "82d0deee3daf652f622724dee94d5eaceb4e3cd1a46eb574bee0eba51dd3a8fd",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004184",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@10",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@9",
+        "source_exact": true,
+        "source_body_sha256": "151ba2e09494e77bb8ca0605190155d34eb0539e35d6f3e5135d5432402a89ca",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004190",
+        "revision_id": "dse~ResearchPovertyStateFeb10Y@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ResearchPovertyStateFeb10Y@10",
+        "source_exact": true,
+        "source_body_sha256": "f006dfaa75937abe3239df800b535e6368972b6c7d49e5af0e7ec9070aa4c624",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004203",
+        "revision_id": "dse~DataUSAPovertyStateSequence2027@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAPovertyStateSequence2027@4",
+        "source_exact": true,
+        "source_body_sha256": "5e4ea840fb63fd6cfa29b075a4a7c0e0a1426effdd022d76390e73a1761ec215",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C481158764532",
+    "signature": "OAIJan14CVD",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "8 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Jan14 CVD R3 answer23:32:28, R4 arrival23:52:39 and scaffold Jan15 survival00:29:57 agree with own R1 22:44:55 and R6 forecast00:33:00/01. Distinct publication revisions provide new progress despite retrospective paragraphs.",
+      "observed_predicted_distinction": "11 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Jan14 CVD R3 answer23:32:28, R4 arrival23:52:39 and scaffold Jan15 survival00:29:57 agree with own R1 22:44:55 and R6 forecast00:33:00/01. Distinct publication revisions provide new progress despite retrospective paragraphs.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003758",
+        "revision_id": "dse~OpenAIJan14FastCVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "7411d4f0563ce4de077efef1eb57e2647d1170c968ffe368307f9ce27c4e14cc",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003759",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@69",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@68",
+        "source_exact": true,
+        "source_body_sha256": "290e24b7dd84ddc0006225b279b81b0e9dca180e54dd574fecd6f9b771ca8469",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003760",
+        "revision_id": "dse~OpenAICVDDec08Fast2028@16",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAICVDDec08Fast2028@15",
+        "source_exact": true,
+        "source_body_sha256": "7c9972401c9a9e124b58a40f31d125e7ff1c4912586f8736e3d1c3238b4c33b3",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003787",
+        "revision_id": "dse~OpenAICVDDec08Fast2028@23",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAICVDDec08Fast2028@22",
+        "source_exact": true,
+        "source_body_sha256": "9ce6c6be7ec3e12d346c63ddca44672afd36feb204e1c2b8c39bb9b76b3ea7d7",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003798",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@74",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@73",
+        "source_exact": true,
+        "source_body_sha256": "c13d9c892c3c74550d01923991b5c3da0c1367d47519510276188c1c4e90544d",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003862",
+        "revision_id": "dse~OpenAIJan14FastCVD@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJan14FastCVD@2",
+        "source_exact": true,
+        "source_body_sha256": "eb7f2679a11e8dcc4d5e37bc5342f305d1720c5658c9ce01bc660cb76839386b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003863",
+        "revision_id": "dse~OpenAIJan14FastCVD@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIJan14FastCVD@2",
+        "source_exact": true,
+        "source_body_sha256": "eb7f2679a11e8dcc4d5e37bc5342f305d1720c5658c9ce01bc660cb76839386b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003866",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@90",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@89",
+        "source_exact": true,
+        "source_body_sha256": "58343284477f4c8b61943c09de8605f7154cdd90d7827db4c6980089185f9224",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cbe12eb38b0eb",
+    "signature": "OpenAIHealthdataCVDNov01",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "8 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Nov01 supported branch has own R5 due12:54:18 then actual12:54:18 and future R6 14:17:43. Conflicting02:53:55 own schedule and a vague ping were correctly withheld. Explicit countdowns and named Nov18 relay link later requests without merging peer clocks.",
+      "observed_predicted_distinction": "6 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Nov01 supported branch has own R5 due12:54:18 then actual12:54:18 and future R6 14:17:43. Conflicting02:53:55 own schedule and a vague ping were correctly withheld. Explicit countdowns and named Nov18 relay link later requests without merging peer clocks.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002667",
+        "revision_id": "dse~OpenAIHealthdataCVDNov01@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "b900559c52b1664d5a18b277ac5a289b96f0c68f06c021fcda6a5b0aa18f440d",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002668",
+        "revision_id": "dse~HealthdataCVDSequenceQ4Nov21@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceQ4Nov21@2",
+        "source_exact": true,
+        "source_body_sha256": "68b650e86e3e9b432f2229dd8ba7fa9f0329133bed0404f213ffe3bbc814cb0d",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002713",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@28",
+        "decision_reviewed": "unresolved",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@27",
+        "source_exact": true,
+        "source_body_sha256": "ea86494722a9c79ff52b5677f4f9741480ae2b6b747f8b5b754f9aeba4ca0a24",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002726",
+        "revision_id": "dse~OpenAIHealthdataCVDFeb09@2",
+        "decision_reviewed": "unresolved",
+        "diff_base": "dse~OpenAIHealthdataCVDFeb09@1",
+        "source_exact": true,
+        "source_body_sha256": "916ee20fc665cd6e4b05335a261bb9d4503d84781f43e65c6893d5d732d62122",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002770",
+        "revision_id": "dse~OpenAIHealthdataCVDNov01@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIHealthdataCVDNov01@3",
+        "source_exact": true,
+        "source_body_sha256": "24bf71544798d2263aef96641588a428ab40a55dd8330c5efdf6817eb5ec1d01",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002797",
+        "revision_id": "dse~OAI7C97Dec15Relay@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OAI7C97Dec15Relay@1",
+        "source_exact": true,
+        "source_body_sha256": "00e12d20c2139fdf4ce3b375f9b8258a1137f87d500e7efe1604db3fa2f03af7",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002816",
+        "revision_id": "dse~OpenAIHealthdataCVDFeb05@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "188978c0e57ced78a26e70bd72c5d5df11b362eaa6a0cd165b890a945a9e8022",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002819",
+        "revision_id": "dse~OAI7C97Nov18@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OAI7C97Nov18@1",
+        "source_exact": true,
+        "source_body_sha256": "5a31e38b89b9a797633744da25b878920364bee730b280d923705f469a282cea",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002820",
+        "revision_id": "dse~OAI7C97Oct09@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "883a13859042486e38163533520ecca8d71ce748544c7aa8d56802652c2195c2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002821",
+        "revision_id": "dse~OpenAICVDAug04@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "883a13859042486e38163533520ecca8d71ce748544c7aa8d56802652c2195c2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C686215bd19b4",
+    "signature": "OpenAIResearcherAug27X",
+    "verdict": "defer",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "3 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Only one underlying owned CA/NY progress report is supplied, repeated in940/957. Generic Jul23 Florida relay1385 does not demonstrate another owned Aug27 contribution: no own timing, own page backlink, or explicit continuation of this specific run is present. Shared signoff and hub are insufficient; defer assembly as for Jan14 clothing in batch001.",
+      "observed_predicted_distinction": "6 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "Fails: repeated initial event plus insufficiently linked generic relay."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000940",
+        "reason": "Repeats the same CA/NY history and C3 forecasts; cannot supply an independent second substantive task contribution.",
+        "proposed_decision": "unresolved",
+        "proposed_span_change": [],
+        "proposed_trajectory_local_id": null,
+        "rule_ids": [
+          "R02",
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S000957",
+        "reason": "Repeats the same CA/NY history and C3 forecasts; cannot supply an independent second substantive task contribution.",
+        "proposed_decision": "unresolved",
+        "proposed_span_change": [],
+        "proposed_trajectory_local_id": null,
+        "rule_ids": [
+          "R02",
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S001385",
+        "reason": "Generic relay of Jul23 C3 Florida lacks a distinctive Aug27 own-task bridge; source belongs as peer intelligence, not a trusted Aug27 anchor.",
+        "proposed_decision": "associate",
+        "proposed_span_change": [],
+        "proposed_trajectory_local_id": null,
+        "rule_ids": [
+          "R02",
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S000940",
+        "reason": "No accepted trajectory should remain until the two-distinct-publication substantive-own-contribution gate is met.",
+        "proposed_candidate_change": {
+          "disposition": "deferred",
+          "trajectories": []
+        },
+        "rule_ids": [
+          "R02",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Only one underlying owned CA/NY progress report is supplied, repeated in940/957. Generic Jul23 Florida relay1385 does not demonstrate another owned Aug27 contribution: no own timing, own page backlink, or explicit continuation of this specific run is present. Shared signoff and hub are insufficient; defer assembly as for Jan14 clothing in batch001.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000940",
+        "revision_id": "dse~AgentOurAug27ClothingCoord1781643253@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "16c8be602482d0a6836d7d9ee0654860fa166a6645222008eee6d8ed864d8c9d",
+        "review_result": "Change requested above."
+      },
+      {
+        "observation_id": "FP-S000957",
+        "revision_id": "dse~DataUSAClothingLive12m24Oct25@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive12m24Oct25@10",
+        "source_exact": true,
+        "source_body_sha256": "6ff985fa01c50fe61aac69bac6c89246b49d805bbc9eb7b22dd3a5f93d49d220",
+        "review_result": "Change requested above."
+      },
+      {
+        "observation_id": "FP-S001027",
+        "revision_id": "dse~ClothingC3RelayMar19X@11",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3RelayMar19X@10",
+        "source_exact": true,
+        "source_body_sha256": "b2bfd699b0afb77d7f39a58bd11ddf9ecb4b66ce1021c1fd13adaefa1580c6b5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001029",
+        "revision_id": "dse~ClothingC3RelayMay08LateX@4",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3RelayMay08LateX@3",
+        "source_exact": true,
+        "source_body_sha256": "62f02ed94de9b226f0bd0071ae3e1e08c2cdc01690423e1bef61eda62250022f",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001194",
+        "revision_id": "dse~ClothingC3RelaySep26X@16",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3RelaySep26X@15",
+        "source_exact": true,
+        "source_body_sha256": "e289a0b3a91fa186545f52822183ee999afc9f3eb2a42fd3c6780c7b1ab05797",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001338",
+        "revision_id": "dse~ClothingC3FastSignalJul23@2",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3FastSignalJul23@1",
+        "source_exact": true,
+        "source_body_sha256": "068504b3b2c5d860118a0a06b134b0ac6061c00519e86e0e5e0bd55a40bfd568",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001385",
+        "revision_id": "dse~DataUSAClothingLive12m24Oct25@22",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive12m24Oct25@21",
+        "source_exact": true,
+        "source_body_sha256": "5941cea511da3f070865a9a2f76663d4e6b1c0be21e438abe58a993d2e3b6bfe",
+        "review_result": "Change requested above."
+      },
+      {
+        "observation_id": "FP-S001541",
+        "revision_id": "dse~OpenAIJul27ClothingLiveX@5",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~OpenAIJul27ClothingLiveX@4",
+        "source_exact": true,
+        "source_body_sha256": "dbf66ce989dad1c5c36a21234c484abcf4789f6b6330d5eb3241282ad3b445b6",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Ce8469158a553",
+    "signature": "SectorAgentNov27OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "4 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Nov27 sector61 own MI11:40:55 progresses to WV answered11:56:50 and R5 due12:12:43/44 with independent countdown updates. Requested peer tokens remain distinct from own future round.",
+      "observed_predicted_distinction": "6 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Nov27 sector61 own MI11:40:55 progresses to WV answered11:56:50 and R5 due12:12:43/44 with independent countdown updates. Requested peer tokens remain distinct from own future round.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000579",
+        "revision_id": "dse~SectorAgentNov27OAI@1",
+        "decision_reviewed": "exclude",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "6c33abf72b8765683f97b22fdec23359b527f7a3168dbc90467324cfa9ef912b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000582",
+        "revision_id": "dse~SectorAgentNov27OAI@2",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~SectorAgentNov27OAI@1",
+        "source_exact": true,
+        "source_body_sha256": "ce075f377b4316f98b29642a749fb6975a296914264c232003309a6ec4e209d3",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000588",
+        "revision_id": "dse~SectorAgentSep21OAI@6",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~SectorAgentSep21OAI@5",
+        "source_exact": true,
+        "source_body_sha256": "21ec7cac1950bcc1a29783f667db7552ee1bd7988630dd4df6d8d6a94ef49ab3",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000705",
+        "revision_id": "dse~Sector61State5LiveRelay@24",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5LiveRelay@23",
+        "source_exact": true,
+        "source_body_sha256": "51ba4e8ffba2fbaf24264d873eced21d4bb7f1a85c6b8018ce061ef563ae27db",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000930",
+        "revision_id": "dse~Sector61State5LiveRelay@53",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5LiveRelay@52",
+        "source_exact": true,
+        "source_body_sha256": "a69f0aaf14d66c6d3b605720f8b0a0bcc2bfaf82167d8bd8f50668cf62342a51",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001053",
+        "revision_id": "dse~Sector61State5FastSignal@21",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~Sector61State5FastSignal@20",
+        "source_exact": true,
+        "source_body_sha256": "d10126a8ab63c293d217ce4fcb141b94f44c12b673ead5dbf34ae6fa491afe8a",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001054",
+        "revision_id": "dse~Sector61State5FastSignal@21",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~Sector61State5FastSignal@20",
+        "source_exact": true,
+        "source_body_sha256": "d10126a8ab63c293d217ce4fcb141b94f44c12b673ead5dbf34ae6fa491afe8a",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001108",
+        "revision_id": "dse~Sector61State5FastSignal@34",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5FastSignal@33",
+        "source_exact": true,
+        "source_body_sha256": "83817640fa6d847550119e349388502fa3871aa752896596eeeede6adbc59626",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001165",
+        "revision_id": "dse~Sector61State5FastSignal@43",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Sector61State5FastSignal@42",
+        "source_exact": true,
+        "source_body_sha256": "c96c0c64ea3b090decd1b60a83950f18f57d9c40002aa2f8b273f70ec80dc498",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C7d0bc6963ac9",
+    "signature": "Sep26ClothingAgent",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Sep26 CA00:11:15 / NY00:39:54 anchors subsequent fresh own00:49:45,00:51:20,01:02:35 countdowns to C3 candidates01:05:52/01:08:33. Prediction-only ending is explicit; cross-page requests retain exact own deadline.",
+      "observed_predicted_distinction": "7 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Sep26 CA00:11:15 / NY00:39:54 anchors subsequent fresh own00:49:45,00:51:20,01:02:35 countdowns to C3 candidates01:05:52/01:08:33. Prediction-only ending is explicit; cross-page requests retain exact own deadline.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000861",
+        "revision_id": "dse~ClothingC3RelaySep26X@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "b18351deb68ae93c7066c7c44381d051551f04c5bf8ba7bb7ad1207694989d09",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000870",
+        "revision_id": "dse~ClothingC3RelayMar19X@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelayMar19X@1",
+        "source_exact": true,
+        "source_body_sha256": "5bc0a4bf1793be28d671a8c9093a956c666f7a286e0a88b01a84fdeffcd65912",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000928",
+        "revision_id": "dse~ClothingC3RelaySep26X@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelaySep26X@7",
+        "source_exact": true,
+        "source_body_sha256": "dfcd69c26235487062eee89985fe034ffe76edc26c9889a931e9bf3f3e174b76",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000948",
+        "revision_id": "dse~ClothingC3RelayMar19X@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelayMar19X@6",
+        "source_exact": true,
+        "source_body_sha256": "45b506c860bb160564e2b4a9d0e22091537857fd248d84e7751442648c38448e",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000970",
+        "revision_id": "dse~AgentOurAug27ClothingCoord1781643253@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~AgentOurAug27ClothingCoord1781643253@1",
+        "source_exact": true,
+        "source_body_sha256": "9bfceefaa7d8a461fb45144997cf3ca70937746d00f85c9b62ffe5743babb391",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000994",
+        "revision_id": "dse~ClothingC3RelayMay08LateX@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelayMay08LateX@1",
+        "source_exact": true,
+        "source_body_sha256": "8cd0b14453f5292e73ab37238a0ca2431eb7c5af29e3841c3555a9f1889f8208",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001019",
+        "revision_id": "dse~ClothingC3RelayJan01X@2",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~ClothingC3RelayJan01X@1",
+        "source_exact": true,
+        "source_body_sha256": "e67cc8177fedf53e2d321f6641853578687766c63f3a9b418bc6b5112898be30",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001132",
+        "revision_id": "dse~ClothingC3RelaySep26X@12",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingC3RelaySep26X@11",
+        "source_exact": true,
+        "source_body_sha256": "3566cb82bcf775041bf7f3bc31276f11697925331da4cb03184fb4213946e5dd",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cbe0f163b3df4",
+    "signature": "CashierCoordMar20OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Mar20 cashiers R1 02:08:53 -> R2 03:08:07 -> R3 03:52:42 -> R5 05:21:54 is cohesive. The final R5 presignal replaces a waiting notice with a genuinely new observed event. Sep01 R5 is relayed peer intelligence, not Mar20 receipt.",
+      "observed_predicted_distinction": "12 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Mar20 cashiers R1 02:08:53 -> R2 03:08:07 -> R3 03:52:42 -> R5 05:21:54 is cohesive. The final R5 presignal replaces a waiting notice with a genuinely new observed event. Sep01 R5 is relayed peer intelligence, not Mar20 receipt.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001915",
+        "revision_id": "dse~CashierCoordMar20OAI@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "aad54398215236031bb70f9dde08aa417c17f8bcfcbcc80cdecde9396bc8d0bb",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001921",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive5@32",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive5@31",
+        "source_exact": true,
+        "source_body_sha256": "5daba11956c59af00723052e8e200e42f87e13bebbaa6bd03e070f55025cda8f",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001958",
+        "revision_id": "dse~CashierCoordMar20OAI@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordMar20OAI@2",
+        "source_exact": true,
+        "source_body_sha256": "5ceabbe315922406a8f6692bb1ee3d2a63e14b658696a674fa323cff997efce1",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001975",
+        "revision_id": "dse~CashierCoordMar20OAI@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordMar20OAI@3",
+        "source_exact": true,
+        "source_body_sha256": "b72c05c3a44ae97d4697e2ef7a52c8ff9dd4dea6c50968d9fb763abd22701dc3",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001979",
+        "revision_id": "dse~CashierCoordDec21OAI@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierCoordDec21OAI@1",
+        "source_exact": true,
+        "source_body_sha256": "8d70d3d66c9794baa9d19b9355bf3dda0438d2b2e2e7b862b2ba234c84c2bce8",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001989",
+        "revision_id": "dse~CashierR5SignalMar20OAI@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "a33ec87c72f1ca09b310153dc53c93bbf0c3e2877401500947a0cf0d4425e5e0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001999",
+        "revision_id": "dse~CashierR5SignalMar20OAI@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~CashierR5SignalMar20OAI@1",
+        "source_exact": true,
+        "source_body_sha256": "59d7ba2a919bf01ac2c6b2d58d3183afb5b090833b637d6add8fbab0417f52b2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C53503371b926",
+    "signature": "LanguageRunnerNov22",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Nov22 language R1 05:56:49/R2 06:52:28 evolves to own R4 forecast08:20:44 with advancing07:50/08:06:50/08:08:50 task clocks. Sep01 California signal is distinctly a peer report; no own R5 receipt is manufactured.",
+      "observed_predicted_distinction": "7 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Nov22 language R1 05:56:49/R2 06:52:28 evolves to own R4 forecast08:20:44 with advancing07:50/08:06:50/08:08:50 task clocks. Sep01 California signal is distinctly a peer report; no own R5 receipt is manufactured.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001286",
+        "revision_id": "dse~DataUSALanguageNov22Live@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "8156a28772664ce646bd122abd6ebf8f0a7d118254f68993cc5276d59c00d5bb",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001340",
+        "revision_id": "dse~DataUSALanguageNov22Live@2",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSALanguageNov22Live@1",
+        "source_exact": true,
+        "source_body_sha256": "b7c0bb93a3ddb807e174600decd2890998238b33967f8c4d7ce7397fbb231680",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001347",
+        "revision_id": "dse~DataUSALanguageLiveRound4@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageLiveRound4@4",
+        "source_exact": true,
+        "source_body_sha256": "a2976b140b58a3d09519a2bb1aaad85434995759be2e06b3e58b19b779c8a21d",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001565",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "source_exact": true,
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001685",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@11",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@10",
+        "source_exact": true,
+        "source_body_sha256": "82d126263b14500340892eb80dd607b07b4613e40722b5c1c1255106457b531a",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001686",
+        "revision_id": "dse~DataUSALanguageSep01Live@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageSep01Live@1",
+        "source_exact": true,
+        "source_body_sha256": "fe34061daf43728a39f50cac63a50263b7e0debf461232c7d677d7fd52c3b8d4",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001698",
+        "revision_id": "dse~DataUSALanguageJul17R5@4",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~DataUSALanguageJul17R5@3",
+        "source_exact": true,
+        "source_body_sha256": "ff6fb280a39924c3c4da9bab0bc39d52d780190ff5792633639b7a71edabfce2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001771",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@22",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@21",
+        "source_exact": true,
+        "source_body_sha256": "b9f9c426dcb531bc72b7aa29d6da21a98be007e84e9985ed90d78ba6051c86fe",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001783",
+        "revision_id": "dse~DataUSALanguageJul17R5@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageJul17R5@7",
+        "source_exact": true,
+        "source_body_sha256": "08addea8f187e9d59fe4c509d71f057464d9b5b16403d94504d9a1ab20c00b00",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S001787",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@26",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@25",
+        "source_exact": true,
+        "source_body_sha256": "5aeca8ed0636c1b94c7e3331be0c2dcd8f115902e07ed8cabf22fce0f9693cb0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cf575d4724a5f",
+    "signature": "OAIResearchDec13FP",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "9 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Dec13 family planning has own R1 06:01:22, R2 07:30:45, R3 08:50:14 and futureR4 10:09:43. Initial, sampling/RNG research and later progression occur in distinct revisions. Generator scan, speculative SouthKorea, peer horizon arithmetic and own reported survival remain distinguishable.",
+      "observed_predicted_distinction": "14 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Dec13 family planning has own R1 06:01:22, R2 07:30:45, R3 08:50:14 and futureR4 10:09:43. Initial, sampling/RNG research and later progression occur in distinct revisions. Generator scan, speculative SouthKorea, peer horizon arithmetic and own reported survival remain distinguishable.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S004041",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "c8814849386f28d94ec1b1f1153feab7f6f1684739888abc33eecb25d478e518",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004051",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@3",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningDec13Cohort@2",
+        "source_exact": true,
+        "source_body_sha256": "c2201c9144e13931b58cd52b6fcefee454ff77a1a14acf5e688df521c2fb071f",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004068",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@15",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@14",
+        "source_exact": true,
+        "source_body_sha256": "26099887cedeaf92d41765ce956c5bdcf036a4da16cc2855474bccd4ed5a9610",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004070",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@16",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@15",
+        "source_exact": true,
+        "source_body_sha256": "7f0d16856991b0958ff86b9f19cbb814c0c509ae397d9a0dd95f8449b08ad3a4",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004075",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@17",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@16",
+        "source_exact": true,
+        "source_body_sha256": "11a949ac5d4bf7b07fccb9d50befef06be587b24ce029fd8ca91714d80f98b97",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004079",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@18",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@17",
+        "source_exact": true,
+        "source_body_sha256": "d3776b2f56888eb9facaf585ea63fb2c634a68fe13241c665b6c58f93c5c300c",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004093",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningDec13Cohort@4",
+        "source_exact": true,
+        "source_body_sha256": "65878228bce076909d96770cc7e72de29bf61e095dc472a54ccc0c51753c0e9c",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004120",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@23",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@22",
+        "source_exact": true,
+        "source_body_sha256": "bbc884e7fcfd81130c63068defe8e22ad9169665402f1c82d97c4ade71b4ccaa",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004121",
+        "revision_id": "dse~IHMEFamilyPlanningSequenceCollab@23",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningSequenceCollab@22",
+        "source_exact": true,
+        "source_body_sha256": "bbc884e7fcfd81130c63068defe8e22ad9169665402f1c82d97c4ade71b4ccaa",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004156",
+        "revision_id": "dse~OpenAIOct28FPScoutStatus@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIOct28FPScoutStatus@3",
+        "source_exact": true,
+        "source_body_sha256": "2ee3c22625ff2fc1c7b7bbfa6933674108ac49e6ae157f1ca24de3aac6f76fba",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004173",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningDec13Cohort@7",
+        "source_exact": true,
+        "source_body_sha256": "2767c908ec1c498d68c4e4570d2092be36785533f7794d0ddf67d112773c2a9b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004174",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningDec13Cohort@7",
+        "source_exact": true,
+        "source_body_sha256": "2767c908ec1c498d68c4e4570d2092be36785533f7794d0ddf67d112773c2a9b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004175",
+        "revision_id": "dse~IHMEFamilyPlanningDec13Cohort@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~IHMEFamilyPlanningDec13Cohort@7",
+        "source_exact": true,
+        "source_body_sha256": "2767c908ec1c498d68c4e4570d2092be36785533f7794d0ddf67d112773c2a9b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cb65c20c9ffd9",
+    "signature": "OECDEquityMar31Team",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Mar31 equity own R2 07:34:30 -> R3 08:10:46 -> futureR4 08:47:02 gives a distinctive bridge. Counter-test confession and provenance inquiry are explicit parts of the same Apr14 exchange. The ambiguous beacon time is marked inferred, not an observed own R5.",
+      "observed_predicted_distinction": "8 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Mar31 equity own R2 07:34:30 -> R3 08:10:46 -> futureR4 08:47:02 gives a distinctive bridge. Counter-test confession and provenance inquiry are explicit parts of the same Apr14 exchange. The ambiguous beacon time is marked inferred, not an observed own R5.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003699",
+        "revision_id": "dse~OECDEquityMar31Team@1",
+        "decision_reviewed": "exclude",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "61ab98a4f032300c3e4cf7c17fc5e3bc21dfb5dad532c0c44298587d024313a0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003701",
+        "revision_id": "dse~OECDEquityApr14Live@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@4",
+        "source_exact": true,
+        "source_body_sha256": "f549dc12d9c2a9b7241508facc21829ed9804caf52dba6156d1a1d3e300e8166",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003719",
+        "revision_id": "dse~OECDEquityLiveJul24@8",
+        "decision_reviewed": "associate",
+        "diff_base": "dse~OECDEquityLiveJul24@7",
+        "source_exact": true,
+        "source_body_sha256": "1e0168a8277816a7260c116be523e81472c39aa581e3a4f44015313d62535923",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003724",
+        "revision_id": "dse~OECDEquityApr14Live@10",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@9",
+        "source_exact": true,
+        "source_body_sha256": "7d73a8d64a1fa2f456383e456ae7421154194bf9acb6b087205ee495bd162508",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003728",
+        "revision_id": "dse~OECDEquityApr14Live@12",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@11",
+        "source_exact": true,
+        "source_body_sha256": "a48ae81bd0b5fd43d5acdf346fac8e4d705825b5815b34958e01148ba8a8bf3e",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003920",
+        "revision_id": "dse~OECDEquityApr14Live@16",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@15",
+        "source_exact": true,
+        "source_body_sha256": "a6c94cf8144fff3af40b97a830d7e02dc5c7eee205a5a7e36e85fdf546f9e9e1",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004072",
+        "revision_id": "dse~OECDEquityApr14Live@19",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@18",
+        "source_exact": true,
+        "source_body_sha256": "4dfd3144a547318ca5d255c310f2c5161197f0feb7d95eff7b9f963eec4f1f01",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004073",
+        "revision_id": "dse~OECDEquityApr14Live@19",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OECDEquityApr14Live@18",
+        "source_exact": true,
+        "source_body_sha256": "4dfd3144a547318ca5d255c310f2c5161197f0feb7d95eff7b9f963eec4f1f01",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004191",
+        "revision_id": "dse~OECDEquityR5BeaconAlertMar31@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "00ef32b47eb5f486a7841e6eadbb8f3e8d1ff21c6ae445d872371432c02b6929",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Ce0f796c8acfe",
+    "signature": "OpenAIDec17ConstructionX",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "8 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Dec17 construction own NewYork12:40:35 -> California13:21:07 -> Texas13:52:22 -> Florida14:23:37 supplies multiple distinct progress publications. Horizon proof is only an author inference; projectedR5/end are not promoted to observed outcomes.",
+      "observed_predicted_distinction": "14 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Dec17 construction own NewYork12:40:35 -> California13:21:07 -> Texas13:52:22 -> Florida14:23:37 supplies multiple distinct progress publications. Horizon proof is only an author inference; projectedR5/end are not promoted to observed outcomes.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002032",
+        "revision_id": "dse~OpenAIDec17ConstructionLive@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "2ad57ffda39d426f41b17e9b24e414f265638972bbbd18a380ffbcc9b89675fb",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002034",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@60",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@59",
+        "source_exact": true,
+        "source_body_sha256": "fcefe8b8c72e248973b796798b9e93c9bc2ae95edf2b2384fc3330195d0170e0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002059",
+        "revision_id": "dse~OpenAIDec17ConstructionLive@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIDec17ConstructionLive@1",
+        "source_exact": true,
+        "source_body_sha256": "a65cef11a11f5f7f109d698266fa1ed5e0b1ec216784b2dc309539d8f2670dee",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002061",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@61",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@60",
+        "source_exact": true,
+        "source_body_sha256": "531f534bf81ed6b6e4540d266c7c82cce6b354287d47849385cedae88bc90945",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002063",
+        "revision_id": "dse~OpenAIAug21ConstructionLive@6",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIAug21ConstructionLive@5",
+        "source_exact": true,
+        "source_body_sha256": "ce2f9419d480057738980c9de99c0c5c16660279ee7a7cc782bfa65efddc3168",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002110",
+        "revision_id": "dse~OpenAIDec17ConstructionLive@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIDec17ConstructionLive@3",
+        "source_exact": true,
+        "source_body_sha256": "91afc2babb0f7370d5b0403beeb0cf30e11f27fc5bebe569fb26e6bcfb894eb2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002125",
+        "revision_id": "dse~OpenAIDec17ConstructionLive@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~OpenAIDec17ConstructionLive@4",
+        "source_exact": true,
+        "source_body_sha256": "d180241693b34416bffa853de842e805b4306be08662c7f1120071542be235da",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S002127",
+        "revision_id": "dse~DataUSAConstructionSequenceMar08@62",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAConstructionSequenceMar08@61",
+        "source_exact": true,
+        "source_body_sha256": "d4e962842c227428ea28588bfef18aa7b4bf21173f62c5410b173d38f65e6a43",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cb18543a4eeb7",
+    "signature": "OpenAIOct22CVD",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "8 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Oct22 CVD R4 answer09:19:30 -> R5 answer09:39:41/42 -> R6 scheduled09:59:51 is coherent across main-page and owned status-page revisions. Mixed physical line was correctly split by governed signoffs, test excluded, and unrelated Apr30 survival left unresolved. Refined cutoff must explicitly supersede earlier hypothesis.",
+      "observed_predicted_distinction": "12 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S004014",
+        "claim_id": "FP-S004014/clock1",
+        "reason": "The source explicitly labels09:58:26 a refined horizon after the earlier09:56:46 +105m forecast; preserve the correction relation so downstream matching does not treat these as independent comparable endpoints.",
+        "proposed_decision": "include",
+        "proposed_claim_change": {
+          "supersedes": "FP-S003852/clock4"
+        },
+        "rule_ids": [
+          "R09",
+          "R11",
+          "R13"
+        ]
+      }
+    ],
+    "rationale": "Oct22 CVD R4 answer09:19:30 -> R5 answer09:39:41/42 -> R6 scheduled09:59:51 is coherent across main-page and owned status-page revisions. Mixed physical line was correctly split by governed signoffs, test excluded, and unrelated Apr30 survival left unresolved. Refined cutoff must explicitly supersede earlier hypothesis.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003852",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@88",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@87",
+        "source_exact": true,
+        "source_body_sha256": "4cd183cb20b8c75b1313001b5306005371c97c661e7feb7eb473ac7a5a1597f5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003943",
+        "revision_id": "dse~OpenAIHealthdataCVDApr30Fast@7",
+        "decision_reviewed": "unresolved",
+        "diff_base": "dse~OpenAIHealthdataCVDApr30Fast@6",
+        "source_exact": true,
+        "source_body_sha256": "6aeb5e1ab373d032f73b62edd415320ccd81dcc79428a1c1378723fd0ed16266",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004012",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "exclude",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004013",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004014",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Change requested above."
+      },
+      {
+        "observation_id": "FP-S004015",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004016",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004017",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004018",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S004019",
+        "revision_id": "dse~OpenAIOct22CVD@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "57f7e71adb3e905c5f0b8aec250a1365534faa0f9fd3b10db65fd80a205245e5",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cded8d04dd8da",
+    "signature": "OpenAIResearchOct25X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Oct25 CVD own R1 15:16:27/R5 answer16:31:31 -> R6 future16:48:20 links distinct initial report, beacon plan and beacon start/survival publications. Several survival paragraphs share a revision; they are not treated as separate independent publications.",
+      "observed_predicted_distinction": "8 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Oct25 CVD own R1 15:16:27/R5 answer16:31:31 -> R6 future16:48:20 links distinct initial report, beacon plan and beacon start/survival publications. Several survival paragraphs share a revision; they are not treated as separate independent publications.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003888",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@93",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@92",
+        "source_exact": true,
+        "source_body_sha256": "9152c392eafae1d38dee8de389903541ac55545d2dea6eb64e2ebf0fefb682c9",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003938",
+        "revision_id": "dse~Oct25CVDHorizon2027@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "3a3c925a666d77c86e53c0c207f7a72ef4875e08fec6d3b972aec372e7418c6b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003940",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@106",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@105",
+        "source_exact": true,
+        "source_body_sha256": "15fdea0b8f013e3f1cfcf509b884590cfc6d3166030ea5d54ea632484fd228e2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003944",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@108",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@107",
+        "source_exact": true,
+        "source_body_sha256": "a1f47581cda8feb227ee2d639536153d774121fce0fc3dcfd5a0e6898713f614",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003945",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@108",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@107",
+        "source_exact": true,
+        "source_body_sha256": "a1f47581cda8feb227ee2d639536153d774121fce0fc3dcfd5a0e6898713f614",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003946",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@108",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@107",
+        "source_exact": true,
+        "source_body_sha256": "a1f47581cda8feb227ee2d639536153d774121fce0fc3dcfd5a0e6898713f614",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S003947",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@108",
+        "decision_reviewed": "include",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@107",
+        "source_exact": true,
+        "source_body_sha256": "a1f47581cda8feb227ee2d639536153d774121fce0fc3dcfd5a0e6898713f614",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "C78a3a6b4eb2c",
+    "signature": "ResearchAgentAug01",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "9 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Aug01 clothing CA17:38:33 and exact NY18:07:12 occur in distinct revisions, followed by C3 competing forecasts18:33:10/18:35:51 and fresh18:25 countdown. Wrong initial answer and correct later answer are separate source claims.",
+      "observed_predicted_distinction": "8 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Aug01 clothing CA17:38:33 and exact NY18:07:12 occur in distinct revisions, followed by C3 competing forecasts18:33:10/18:35:51 and fresh18:25 countdown. Wrong initial answer and correct later answer are separate source claims.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000358",
+        "revision_id": "dse~DataUSAClothingLive2m56Aug01@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "f914a99c00a9222bb8a5423340def899347351059e7129548900c1628d897725",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000365",
+        "revision_id": "dse~ClothingFastCohortRelayMay29@15",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingFastCohortRelayMay29@14",
+        "source_exact": true,
+        "source_body_sha256": "23fbcd59359274e483dba114e71bad33ab5726c272b9429bb4e477bac7c49822",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000371",
+        "revision_id": "dse~ClothingLiveState3RelayMay29@18",
+        "decision_reviewed": "include",
+        "diff_base": "dse~ClothingLiveState3RelayMay29@17",
+        "source_exact": true,
+        "source_body_sha256": "2f8ac283af11cc30921664fde500b7189be292558310bcf2ff37d9f147c76488",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000382",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@7",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@6",
+        "source_exact": true,
+        "source_body_sha256": "5cb865d8242efffe5cb1beeb840ff48e409a2c9ae5b437e76b86b696ce4fcfa7",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000400",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@12",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@11",
+        "source_exact": true,
+        "source_body_sha256": "c336c639bfcd1dbf00d1683ce3be9dcac930ba6fed9275177c205fa481d92f47",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000423",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@14",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@13",
+        "source_exact": true,
+        "source_body_sha256": "65ab3a7cdda40b7a76ce715c0f60d83a100a1970dba206862460384b43de13fa",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000424",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@14",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@13",
+        "source_exact": true,
+        "source_body_sha256": "65ab3a7cdda40b7a76ce715c0f60d83a100a1970dba206862460384b43de13fa",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000446",
+        "revision_id": "dse~DataUSAClothing2m56LiveC3@4",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothing2m56LiveC3@3",
+        "source_exact": true,
+        "source_body_sha256": "3d3773eca34f6343579286e4db2860e4b8fd3dcd94434eac3b3a78323b04b8b0",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000641",
+        "revision_id": "dse~Clothing2m56Round3RelayMay31@19",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Clothing2m56Round3RelayMay31@18",
+        "source_exact": true,
+        "source_body_sha256": "eeb52980e597bd991e37e7efb5a4b376a291f1f6d5ab855c0ebb1dce0f0d54cc",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  },
+  {
+    "candidate_id": "Cc4b88a3e2a9c",
+    "signature": "AgentOpenAIJun28X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included span read independently; mixed signoffs and relayed own/peer claims inspected.",
+      "freshness": "7 included spans checked against original archive, diff base and earlier page history; no inherited retained span found.",
+      "task_continuity": "Jun28 clothing CA15:39:48 and NY16:08:27/answer16:08:28 connect live-page mapping and explicitly migrated relay pages. Multiple independent revisions contain substantive progress. CandidateC3 times are conditional, not observed.",
+      "observed_predicted_distinction": "10 selected claims checked for literal source,owner,clock type,event type and status; correction relation noted where required.",
+      "duplicate_alias_collisions": "Prior49+new50 fingerprints and other batch002 partition schedules checked. No supported duplicate trajectory found. Repeated event reports are not independent confirmation.",
+      "publication_gate": "At least two distinct publication revisions contain nonduplicate substantive own-task contributions; same-revision paragraph multiplicity does not alone establish the gate."
+    },
+    "issues": [],
+    "rationale": "Jun28 clothing CA15:39:48 and NY16:08:27/answer16:08:28 connect live-page mapping and explicitly migrated relay pages. Multiple independent revisions contain substantive progress. CandidateC3 times are conditional, not observed.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000342",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@1",
+        "decision_reviewed": "include",
+        "diff_base": null,
+        "source_exact": true,
+        "source_body_sha256": "cda3945ab7511f9531355e99f331fba546443c3d301d3a5b87eb22fdaee6b52e",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000348",
+        "revision_id": "dse~DataUSAClothingSequenceCollabAug08@18",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingSequenceCollabAug08@17",
+        "source_exact": true,
+        "source_body_sha256": "63fd6d3da66b4f3fb99b333fc1e0b9063b133639cf9ac587ae932e9001abb58b",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000369",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@5",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@4",
+        "source_exact": true,
+        "source_body_sha256": "bf03c743bfa7018376f0a3f94ef2fb0ba955d4e24f845db798eb1aa3fbc02703",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000370",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@5",
+        "decision_reviewed": "exclude",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@4",
+        "source_exact": true,
+        "source_body_sha256": "bf03c743bfa7018376f0a3f94ef2fb0ba955d4e24f845db798eb1aa3fbc02703",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000405",
+        "revision_id": "dse~DataUSAClothingLive2m56Jun28@13",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothingLive2m56Jun28@12",
+        "source_exact": true,
+        "source_body_sha256": "c9902e886ebbd647a326c0543ace5a974db788fb7a12782b26dea4b5c5de70a3",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000417",
+        "revision_id": "dse~DataUSAClothing2m56LiveC3@2",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothing2m56LiveC3@1",
+        "source_exact": true,
+        "source_body_sha256": "a30138a551ef0a3ceb0cb54274fdba8cd5450991a9c96929a7a47758237af9a2",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000463",
+        "revision_id": "dse~DataUSAClothing2m56LiveC3@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~DataUSAClothing2m56LiveC3@7",
+        "source_exact": true,
+        "source_body_sha256": "9575851a36df71ab04372c3ed88eae48dd43dcfa67ff05bc81fdfb29adc2b9df",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      },
+      {
+        "observation_id": "FP-S000549",
+        "revision_id": "dse~Clothing2m56Round3RelayMay31@8",
+        "decision_reviewed": "include",
+        "diff_base": "dse~Clothing2m56Round3RelayMay31@7",
+        "source_exact": true,
+        "source_body_sha256": "41c1b61a18bf47c7ba42c0677c5f5631967839ff7287443b0fdbbef3e7fe9be4",
+        "review_result": "Decision/span retained after speaker,task and source-history inspection."
+      }
+    ],
+    "reviewed_assembly_sha256": "5cd7f423587358aa8a2572cff1f93885096d92f9db805590c20c323455117f5b"
+  }
+]

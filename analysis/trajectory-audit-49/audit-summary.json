@@ -1,0 +1,36 @@
+{
+  "trajectories": 49,
+  "input_records": 376,
+  "originally_owned": 349,
+  "originally_peer": 27,
+  "decision_counts": {
+    "include": 342,
+    "associate": 27,
+    "unresolved": 6,
+    "exclude": 1
+  },
+  "trajectory_verdicts": {
+    "supported": 48,
+    "provisional": 1
+  },
+  "partial_records": 1,
+  "owned_record_decisions": {
+    "include": 342,
+    "unresolved": 6,
+    "exclude": 1
+  },
+  "original_reviewed_decisions": {
+    "include": 114,
+    "unresolved": 2
+  },
+  "source_zip_sha256": "eb68aa12d26bf189d8bfc4ce47f4d8af66ae5ba7ebbadd429738297a3cbb25ae",
+  "validation": "Complete 49/49 coverage; one decision per snapshot record; exact-source evidence; input hashes unchanged; archive file checksums passed",
+  "scope": "Existing snapshot only. No general candidate enumeration and no changes to the live explorer.",
+  "excluded_observations_audited": 39,
+  "excluded_observation_decisions": {
+    "exclude": 33,
+    "include": 3,
+    "unresolved": 3
+  },
+  "net_new_recoverable_spans": 1
+}

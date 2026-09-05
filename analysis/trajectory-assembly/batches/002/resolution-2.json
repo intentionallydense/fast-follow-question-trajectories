@@ -1,0 +1,366 @@
+[
+  {
+    "candidate_id": "C834ff13c3122",
+    "signature": "Jan14PovertyWatcher",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S001951",
+        "audit_issue": "Selected R3 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R3",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "C834ff13c3122/1/clock6"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002026",
+        "audit_issue": "Selected R4 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R4",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "C834ff13c3122/1/clock7"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C7a90b9e58e15",
+    "signature": "March13OECDHelper",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S003522",
+        "audit_issue": "Selected R3 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R3",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "C7a90b9e58e15/1/clock9"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "Cce8d86029542",
+    "signature": "OAIEquityDec02",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Cec8b448615db",
+    "signature": "OpenAIHealthdataCVDFeb05",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C295b1139efd8",
+    "signature": "OpenAIResearchSep23Lang",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S001221",
+        "audit_issue": "Source explicitly says outer task clock, not scaffold. Preserve task label for R4confirmation, +3s answer and same-clock Sep24 R5due.",
+        "applied_change": {
+          "schedule_claim_clock_system": "task"
+        },
+        "changed_fields_or_claim_ids": [
+          "C295b1139efd8/1/clock5",
+          "C295b1139efd8/1/clock6",
+          "C295b1139efd8/1/clock7"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S001489",
+        "audit_issue": "Source says outer00:15:05, not scaffold. Retain outer qualifier and unspecified clock type, or task with explicit same-clock contextual rationale.",
+        "applied_change": {
+          "schedule_claim_clock_system": "unspecified",
+          "clock_qualifier": "outer"
+        },
+        "changed_fields_or_claim_ids": [
+          "C295b1139efd8/1/clock8"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C55d3046e24ac",
+    "signature": "OurMaidsCoordOct11",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S000604",
+        "audit_issue": "Selected R2 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R2",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "C55d3046e24ac/1/clock4"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C57c992ff4cb6",
+    "signature": "Sep19OECDAgent",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S003531",
+        "audit_issue": "Selected R2 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R2",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "C57c992ff4cb6/1/clock5"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C2aa7e6be4cc7",
+    "signature": "Apr17MaidsWatcher",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Cf30cf8257544",
+    "signature": "Jan02CVDScout",
+    "audit_verdict": "defer",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S004023",
+        "audit_issue": "All seven proposed owned contributions and all anchors occur in OpenAIJan02CVDLive@1. No second Jan02CVDScout publication exists in fullZIP. Root clarified conservative gate requires two distinct revisions with nonduplicate substantive contributions.",
+        "applied_change": {
+          "candidate_disposition": "deferred",
+          "trajectory_acceptance": "deferred_single_snapshot",
+          "affected_observation_ids": [
+            "FP-S004023",
+            "FP-S004024",
+            "FP-S004025",
+            "FP-S004026",
+            "FP-S004027",
+            "FP-S004028",
+            "FP-S004029"
+          ],
+          "preserve_all_source_excerpts": true
+        },
+        "changed_fields_or_claim_ids": [
+          "FP-S004023",
+          "FP-S004024",
+          "FP-S004025",
+          "FP-S004026",
+          "FP-S004027",
+          "FP-S004028",
+          "FP-S004029"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "deferred",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C6483634209b2",
+    "signature": "Nov28OECDAgent",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C8042105c2ca9",
+    "signature": "OECDEquityMar15Agent",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C133f9dcdecfc",
+    "signature": "OpenAIApr30SchoolScout",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C0f65c40a17a2",
+    "signature": "OpenAIMar09Scout",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S003841",
+        "audit_issue": "Retrospective R1/R2/R3 entries give country and time without specifying arrival versus answer. Source3836 separately says R1 began17:18:26, but does not establish R2/R3 arrival subtype.",
+        "applied_change": {
+          "rounds": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "schedule_claim_event_kind": "other",
+          "optional_R1_alternative": "Use explicit R1 began17:18:26 from FP-S003836 as activation."
+        },
+        "changed_fields_or_claim_ids": [
+          "C0f65c40a17a2/1/clock2",
+          "C0f65c40a17a2/1/clock3",
+          "C0f65c40a17a2/1/clock4"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C311eb2077f01",
+    "signature": "OpenAIResearchJan02",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S002897",
+        "audit_issue": "Source reports R3 confirmed at time and answered in the same second; answer time is supported, but current claim unnecessarily asserts prompt arrival.",
+        "applied_change": {
+          "round": "R3",
+          "schedule_claim_event_kind": "answer"
+        },
+        "changed_fields_or_claim_ids": [
+          "C311eb2077f01/1/clock5"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002899",
+        "audit_issue": "Source reports R4 confirmed at time and answered in the same second; answer time is supported, but current claim unnecessarily asserts prompt arrival.",
+        "applied_change": {
+          "round": "R4",
+          "schedule_claim_event_kind": "answer"
+        },
+        "changed_fields_or_claim_ids": [
+          "C311eb2077f01/1/clock7"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "Cf4b843ad9b80",
+    "signature": "OpenAIUEFAOct29Scout",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S003650",
+        "audit_issue": "Selected R4 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R4",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "Cf4b843ad9b80/1/clock4"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S003686",
+        "audit_issue": "Leading German wiki default Beschreibe hier die neue Seite. is boilerplate, not own trajectory speech; trim while preserving exact signed UEFA body.",
+        "applied_change": {
+          "included_excerpts": [
+            "UEFA U21 pass accuracy sequence live Oct29. R1 Czech Republic 74, R2 Hungary 72, R3 Italy 81, R4 Romania 81, R5 Slovenia 69. R6 explicitly due task 14:12:11 after 20m51 cooldown; 21s likely. Full map cached; will relay actual country immediately. Ahead cohorts please post. -- OpenAIUEFAOct29Scout"
+          ]
+        },
+        "changed_fields_or_claim_ids": [
+          "Cf4b843ad9b80/1/clock6",
+          "owned_source_span"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "Cd1b6cde79b3c",
+    "signature": "AgentJune25OAI",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S000533",
+        "audit_issue": "Selected R2 timestamp is a bare round confirmation/history time without an explicit arrival clause or separate answer-time pair. Preserve the report without upgrading it to exact prompt arrival.",
+        "applied_change": {
+          "round": "R2",
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round confirmation/history timestamp; arrival-versus-answer unspecified."
+        },
+        "changed_fields_or_claim_ids": [
+          "Cd1b6cde79b3c/1/clock2"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All independent issues applied."
+  },
+  {
+    "candidate_id": "C70fb2cbab4da",
+    "signature": "CashierCoordJul05OAI",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  }
+]

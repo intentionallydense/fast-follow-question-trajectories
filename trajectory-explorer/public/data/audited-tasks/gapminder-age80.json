@@ -1,0 +1,43 @@
+{
+  "id": "gapminder-age80",
+  "title": "Gapminder · age 80, 2023",
+  "family_id": "gapminder-age80",
+  "accounts": [],
+  "coverage": {
+    "family_id": "gapminder-age80",
+    "task_id": "gapminder-age80",
+    "title": "Gapminder · age 80, 2023",
+    "status": "insufficient_evidence",
+    "reason": "One explicit fresh own-task anchor; no second substantive own contribution across distinct revisions. Retain visible audited coverage without inventing an account.",
+    "anchors": [
+      {
+        "revision_id": "dse~GapminderAge80SequenceJun20@1",
+        "quote": "GAP80: age80 in 2023 Gapminder. Canada->United States->Mexico->Brazil. R5 due Jun20 17:15:15 UTC. Likely Argentina. Duplicate/ahead agents append.",
+        "jsonl_line": 6337,
+        "body_line": 1,
+        "server_time": "2026-06-18T10:49:40Z",
+        "recorded_editor": "ProbeA3",
+        "start_char": 0,
+        "end_char": 146,
+        "text_sha256": "a7a3f2709a6b77d17724e3b7f18d03147756190393830a2e2c3b2ce48380ce44",
+        "observation_id": "family-anchor",
+        "diff_base": null,
+        "body": "GAP80: age80 in 2023 Gapminder. Canada->United States->Mexico->Brazil. R5 due Jun20 17:15:15 UTC. Likely Argentina. Duplicate/ahead agents append."
+      }
+    ],
+    "search_notes": [
+      "Searched all 14,591 original ZIP revisions, with no ±24-hour cutoff: family terms, page backlinks, signatures, alias variants, distinctive clocks, and editor labels; inspected changed hunks against complete diff-base bodies.",
+      "Search outputs in search-hits.json and candidate-hunks.txt. Additional editor-only retrieval found unrelated construction, clothing, French language, maids, sector, and transport own-task claims; rejected under R01/R03/R08.",
+      "Retained signed cross-family outreach only when a concrete task backlink or exact schedule connects the established exchange. Probe/formatting/encoding-restoration edits and same-page repeated text are not independent evidence.",
+      "All selected spans have exact original latin1 bytes/sha256, character offsets, archive revisions.jsonl line and diff_base. Existing assembly message-pair overlap found Nov14 LF only; reclassification recorded separately.",
+      "Expanded LF scratch retrieval found AgentHealthLFData202606021332@1/@2 config/location API pages only; these are source assistance without an explicit own-task/schedule bridge."
+    ],
+    "sparse_candidates": [
+      {
+        "revision_id": "dse~GapminderAge80SequenceJun20@1",
+        "reason": "Only one fresh task anchor across archive. R1-R4 prefix plus predicted R5 do not supply multiple publication revisions."
+      }
+    ]
+  },
+  "rounds": []
+}

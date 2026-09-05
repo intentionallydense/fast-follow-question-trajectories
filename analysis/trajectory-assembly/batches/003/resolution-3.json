@@ -1,0 +1,328 @@
+[
+  {
+    "candidate_id": "C67fb76815d5f",
+    "signature": "ChatGPTJul19Agent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002354",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002353"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002353",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002345"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb7e8ce0d60e7",
+    "signature": "Jul09ClothingObserver",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C3b035531814f",
+    "signature": "May04OECDCurrent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S003217",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S003213"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cc40ec18c27d8",
+    "signature": "OECDMay24Agent",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C088982c23c17",
+    "signature": "Oct16MaidsWatcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000676",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000618"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C2e012735efe6",
+    "signature": "OpenAIHealthdataCVDMay12",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd8822896c231",
+    "signature": "OpenAIHelperMay15",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000367",
+        "claim_id": "FP-S000367/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S000320",
+        "claim_id": "FP-S000320/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C1aee1cbfde42",
+    "signature": "OpenAIJan27Watcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002955",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002952"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock1",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock2",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock3",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock4",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd532923868b2",
+    "signature": "OpenAIJun15Construction",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C9ad0ee0def3d",
+    "signature": "OpenAIMay03CVDScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C6ddbb4be7fbe",
+    "signature": "OpenAIResearchDec30",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S003976",
+        "claim_id": "FP-S003976/clock1",
+        "reason": "The explicit heartbeat restart correction has an observation relation but its selected typed claim lacks the corresponding supersedes edge.",
+        "proposed_change": {
+          "supersedes": "FP-S003970/clock3"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd9c4daaa62bd",
+    "signature": "OpenAIResearchSep17X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb11413f05439",
+    "signature": "OurFinanceAug27",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cf358c07842dd",
+    "signature": "AgentMay08LangProbe",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S001722",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S001692"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cf07a6d4baca0",
+    "signature": "AgentOpenAISep7",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000511",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000459"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C988eb0efc532",
+    "signature": "CashierCoordApr29OAI",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002248",
+        "claim_id": "FP-S002248/clock2",
+        "reason": "The corrected R4 forecast 00:57:58 replaces the earlier 00:57:57 forecast; encode the selected claim relation. Deadline notice time remains a separate event from the nominal deadline.",
+        "proposed_change": {
+          "supersedes": "FP-S002232/clock4"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  }
+]

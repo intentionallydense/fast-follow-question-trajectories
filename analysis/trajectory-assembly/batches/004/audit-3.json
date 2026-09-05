@@ -1,0 +1,431 @@
+[
+  {
+    "candidate_id": "C44431be5ee19",
+    "signature": "OpenAIJan06Police",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jan06 own R1 07:06:55/R2 08:13:08 and R3 09:05:47 bridge to later R5 10:51:05. Own R5/history is distinct from preceding Dec28 messages. Alive11:22:02 is not R6 arrival.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S003360",
+        "reason": "This later dedicated-page paragraph restates R2 08:13:08 already present in earlier outbound R3-confirmed report FP-S003299. Retain publication, encode repeated-event dependency; no second R2 event at later archive timestamp.",
+        "proposed_change": {
+          "cross_post_of": "FP-S003299"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Jan06 own R1 07:06:55/R2 08:13:08 and R3 09:05:47 bridge to later R5 10:51:05. Own R5/history is distinct from preceding Dec28 messages. Alive11:22:02 is not R6 arrival.",
+    "observation_ids": [
+      "FP-S002971",
+      "FP-S003299",
+      "FP-S003360",
+      "FP-S003361",
+      "FP-S003397"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Cef377f561c3a",
+    "signature": "OpenAIJan13AsianScout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jan13 16:06:33 initial, observed Capella16:53:07 and Utah17:34:57 are coherent. The ready-test replaces an already specifically anchored R4 signal page, so it is operational continuation rather than an unaffiliated scratch test.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Jan13 16:06:33 initial, observed Capella16:53:07 and Utah17:34:57 are coherent. The ready-test replaces an already specifically anchored R4 signal page, so it is operational continuation rather than an unaffiliated scratch test.",
+    "observation_ids": [
+      "FP-S004176",
+      "FP-S004181",
+      "FP-S004185",
+      "FP-S004205",
+      "FP-S004207",
+      "FP-S004216"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C8804451ab885",
+    "signature": "OpenAIJul08Cashier",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jul08 exact12m differs explicitly from Jun26/Jan16 24m. Initial/R3 share one revision, but R4 actual08:00:58 occurs in a new revision and independently meets threshold.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Jul08 exact12m differs explicitly from Jun26/Jan16 24m. Initial/R3 share one revision, but R4 actual08:00:58 occurs in a new revision and independently meets threshold.",
+    "observation_ids": [
+      "FP-S002803",
+      "FP-S002804",
+      "FP-S002805",
+      "FP-S002806",
+      "FP-S002809",
+      "FP-S002813"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Cebe99359b148",
+    "signature": "OpenAIJul21OECDScout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jul21 21:12:06/21:29:27 and observed R2 22:05:50/53s distinguish the Jul21 run from relayed Jan21 07:50:37/09:02:04. Founding unsigned R1 paragraph properly governed by signoff; +1s R3 correction retained.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Jul21 21:12:06/21:29:27 and observed R2 22:05:50/53s distinguish the Jul21 run from relayed Jan21 07:50:37/09:02:04. Founding unsigned R1 paragraph properly governed by signoff; +1s R3 correction retained.",
+    "observation_ids": [
+      "FP-S003057",
+      "FP-S003064",
+      "FP-S003132",
+      "FP-S003136",
+      "FP-S003157"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C8e9f59dc0fd6",
+    "signature": "OpenAIJul27Runner",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jul27 scratch remains unresolved. Clothing CA10:35:51/NY12:36:33 and fresh mapping12:49:26 establish core; Aug14 clock inquiries are specific continuations of an anchored mapping exchange, not own prompt clocks.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Jul27 scratch remains unresolved. Clothing CA10:35:51/NY12:36:33 and fresh mapping12:49:26 establish core; Aug14 clock inquiries are specific continuations of an anchored mapping exchange, not own prompt clocks.",
+    "observation_ids": [
+      "FP-S001528",
+      "FP-S001531",
+      "FP-S001533",
+      "FP-S001549",
+      "FP-S001555",
+      "FP-S001558"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C4ebe3c83a618",
+    "signature": "OpenAIJun30FPScout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Jun30 outbound R2 forecast11:00:50 precedes detailed own global09:30:56/R1 09:31:27 and R2 observed11:00:50 in another revision; second publication adds substantive chronology, not merely a crosspost. Dec13 difference3:30:05 explicitly distinguishes peer.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Jun30 outbound R2 forecast11:00:50 precedes detailed own global09:30:56/R1 09:31:27 and R2 observed11:00:50 in another revision; second publication adds substantive chronology, not merely a crosspost. Dec13 difference3:30:05 explicitly distinguishes peer.",
+    "observation_ids": [
+      "FP-S004109",
+      "FP-S004122",
+      "FP-S004123",
+      "FP-S004124",
+      "FP-S004125"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Ceb01b79bc850",
+    "signature": "OpenAIMay25CVD",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "May25 activation18:59:25, global18:58:49, R5 answer20:14:30 and R6 due20:31:18 remain separate clocks. Cap20:30:29 is inference from peer heartbeat, while self survival checks are reported current-time events, not verified teardown.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "May25 activation18:59:25, global18:58:49, R5 answer20:14:30 and R6 due20:31:18 remain separate clocks. Cap20:30:29 is inference from peer heartbeat, while self survival checks are reported current-time events, not verified teardown.",
+    "observation_ids": [
+      "FP-S003957",
+      "FP-S003968",
+      "FP-S003971",
+      "FP-S003974",
+      "FP-S003975"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C7a9e513cfff2",
+    "signature": "OpenAINov22Equity",
+    "verdict": "defer",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Nov22 unique01:21:17 history all occupies one publication revision; generic slow-cohort Jun19/Jul10 requests do not distinguish it from other Nov22 own schedules. Mixed precision/R3 line is correctly identified but cannot satisfy two-revision gate.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Nov22 unique01:21:17 history all occupies one publication revision; generic slow-cohort Jun19/Jul10 requests do not distinguish it from other Nov22 own schedules. Mixed precision/R3 line is correctly identified but cannot satisfy two-revision gate.",
+    "observation_ids": [
+      "FP-S003095",
+      "FP-S003204",
+      "FP-S003524",
+      "FP-S003557",
+      "FP-S003558",
+      "FP-S003559",
+      "FP-S003560",
+      "FP-S003561",
+      "FP-S003562"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Cd15160e625da",
+    "signature": "OpenAIOct22OECD",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Oct22 00:23:19/deadline00:35:37 plus revised R2 02:04:13 are distinctive independent contributions; peer May30 09:22:15 is queried, not owned. Counter hygiene lacks own bridge and remains associated only.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Oct22 00:23:19/deadline00:35:37 plus revised R2 02:04:13 are distinctive independent contributions; peer May30 09:22:15 is queried, not owned. Counter hygiene lacks own bridge and remains associated only.",
+    "observation_ids": [
+      "FP-S003096",
+      "FP-S003190",
+      "FP-S003205",
+      "FP-S003216",
+      "FP-S003252"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Caff357071431",
+    "signature": "OpenAIResearchDec10X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Dec10 17:43:17/18:42:16 core plus receipt of Jul23 Florida relay with own C3 target19:29:38 establishes substantive continuation; mapping challenge addresses specific anchored Jul23 exchange, with all queried event times peer-owned.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Dec10 17:43:17/18:42:16 core plus receipt of Jul23 Florida relay with own C3 target19:29:38 establishes substantive continuation; mapping challenge addresses specific anchored Jul23 exchange, with all queried event times peer-owned.",
+    "observation_ids": [
+      "FP-S001299",
+      "FP-S001364",
+      "FP-S001388",
+      "FP-S001402",
+      "FP-S001539"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Cd1f96ea1ca7f",
+    "signature": "OpenAIResearchFeb21X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Feb21/Feb22 task dates expressly support midnight wrap22:25:51→23:25:05→00:09:40→00:54:16. Founding dedicated page adds actual R3/R4 beyond prior outreach; Jun09 detached probe report remains peer context.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Feb21/Feb22 task dates expressly support midnight wrap22:25:51→23:25:05→00:09:40→00:54:16. Founding dedicated page adds actual R3/R4 beyond prior outreach; Jun09 detached probe report remains peer context.",
+    "observation_ids": [
+      "FP-S002236",
+      "FP-S002272",
+      "FP-S002290",
+      "FP-S002291",
+      "FP-S002292"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C22b0ab99fe31",
+    "signature": "OpenAIResearchMar10",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Mar10 R3 18:58:20 through R5 19:16:49/continuation19:16:55 are fresh distinct revision contributions, separate from Apr09 own05:37:07 history on same page. R6 19:26:04 only scheduled.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Mar10 R3 18:58:20 through R5 19:16:49/continuation19:16:55 are fresh distinct revision contributions, separate from Apr09 own05:37:07 history on same page. R6 19:26:04 only scheduled.",
+    "observation_ids": [
+      "FP-S002619",
+      "FP-S002624",
+      "FP-S002625",
+      "FP-S002628",
+      "FP-S002636"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Ca0def14b671a",
+    "signature": "OpenAIResearchMar13",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Mar13 R1 17:27:29 and successive actual18:33:42→19:26:21→20:19:00→21:11:39 maintain43s/+51m55 progression; Jun03/Mar31 neighboring peer reports stay outside retained spans.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [],
+    "rationale": "Mar13 R1 17:27:29 and successive actual18:33:42→19:26:21→20:19:00→21:11:39 maintain43s/+51m55 progression; Jun03/Mar31 neighboring peer reports stay outside retained spans.",
+    "observation_ids": [
+      "FP-S002640",
+      "FP-S002644",
+      "FP-S002653",
+      "FP-S002659",
+      "FP-S002665"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "Ceef3f1509722",
+    "signature": "OpenAIResearchOct14X",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Oct14 French/Cajun01:28:24 history is incompatible with separate Bachelors2015 cashier15:16:57/15:29:08. Cashier other-page report only repeats same R3/R4/R5 and signal plan, so remains deferred. Language revised R4 arrival is new, with inherited suffix trimmed.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S001919",
+        "reason": "The replacement adds R4 arrival/R5 forecast but its closing R6 request and signoff are byte-identical in the diff base. Trim those inherited trailing words; attribution remains supported by signoff context in original source.",
+        "proposed_change": {
+          "included_excerpts": [
+            "R4 New Hampshire arrived 03:52:20, answered 1.32%. R5 due about 04:36:28 task-clock; ready California 11.2%."
+          ]
+        },
+        "rule_ids": [
+          "R05",
+          "R06"
+        ]
+      }
+    ],
+    "rationale": "Oct14 French/Cajun01:28:24 history is incompatible with separate Bachelors2015 cashier15:16:57/15:29:08. Cashier other-page report only repeats same R3/R4/R5 and signal plan, so remains deferred. Language revised R4 arrival is new, with inherited suffix trimmed.",
+    "observation_ids": [
+      "FP-S001805",
+      "FP-S001919",
+      "FP-S002888",
+      "FP-S002889",
+      "FP-S002890"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C621a53483643",
+    "signature": "OpenAIResearchOct18",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Oct18 singleton R4 11:41:59/R5~12:26:35 cannot merge into fast R2 20:33:16/R4~21:23:57. Retained fast history has observed R3 with explicit1s jitter; identical outbound R3 crosspost already linked; horizon6400s remains inferred.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002491",
+        "reason": "Source explicitly identifies +1s arrival jitter relative to prior 20:58:36 forecast. Preserve correction/progression relation from observed20:58:37 to prior forecast without implying contradictory observed arrivals.",
+        "proposed_change": {
+          "claim_id": "FP-S002491/clock1",
+          "supersedes": "FP-S002355/clock3"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "Oct18 singleton R4 11:41:59/R5~12:26:35 cannot merge into fast R2 20:33:16/R4~21:23:57. Retained fast history has observed R3 with explicit1s jitter; identical outbound R3 crosspost already linked; horizon6400s remains inferred.",
+    "observation_ids": [
+      "FP-S002299",
+      "FP-S002355",
+      "FP-S002375",
+      "FP-S002416",
+      "FP-S002491",
+      "FP-S002492",
+      "FP-S002562"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  },
+  {
+    "candidate_id": "C499fdefd3382",
+    "signature": "OpenAIResearchSep01X",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "pass; all supplied observations and preceding signoff context reviewed, including excluded/unresolved material",
+      "freshness": "pass after listed changes; exact literal spans checked against raw body, diff base and all earlier same-page revisions",
+      "task_continuity": "Sep01 own19:29:44/20:17:53→R4 21:33:54→R5 due22:11:54→California signal is coherent. Generic UI reproduction has no specific run bridge; conflicting current-task01:27:33/~74661s countdown remains unresolved rather than silently relabeled server UTC. Final01:34:22 explicitly server signal time, not task arrival.",
+      "observed_predicted_distinction": "pass; reviewed selected clock claims and original supporting clauses; raw confirmations remain other, future due times do not establish observed arrivals",
+      "duplicate_alias_collisions": "pass after listed changes; compared accepted-fingerprints including baseline and exact own schedule landmarks, plus root collision-screen; no additional supported same-history alias. Destination repetitions are retained as publication evidence only."
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S001773",
+        "reason": "Dedicated signal-page creation repeats owned R5 target22:11:54 and before-final state beacon plan already posted in FP-S001612. Retain this distinct destination publication with event dependency.",
+        "proposed_change": {
+          "cross_post_of": "FP-S001612"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "rationale": "Sep01 own19:29:44/20:17:53→R4 21:33:54→R5 due22:11:54→California signal is coherent. Generic UI reproduction has no specific run bridge; conflicting current-task01:27:33/~74661s countdown remains unresolved rather than silently relabeled server UTC. Final01:34:22 explicitly server signal time, not task arrival.",
+    "observation_ids": [
+      "FP-S001143",
+      "FP-S001527",
+      "FP-S001612",
+      "FP-S001769",
+      "FP-S001773",
+      "FP-S001782"
+    ],
+    "reviewer": "assemble_b (independent of assembler assemble_c)",
+    "source_review_file": "source-review-3.json"
+  }
+]

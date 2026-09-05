@@ -1,0 +1,21 @@
+{
+  "pages": 3904,
+  "thresholds": {
+    "0.5": 2854,
+    "0.6": 2507,
+    "0.75": 1686,
+    "0.9": 822,
+    "1.0": 616
+  },
+  "families": {
+    "loop-chain-infrastructure": 339,
+    "mixed-task": 0,
+    "off_store_unclassified": 173,
+    "probe-test": 55,
+    "relay-coordination": 459,
+    "source-cache-url-list": 1189,
+    "source-or-unclassified": 637,
+    "unknown": 2
+  },
+  "method": "At least 50% of distinct nonempty, non-placeholder lines across retained page history consist of HTTP(S)/wiki links with at most 12 residual words (labels/short annotations). Lines deduplicated after HTML unescape and whitespace normalization. Not an exhaustive manual classification."
+}

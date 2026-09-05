@@ -1,0 +1,3348 @@
+[
+  {
+    "candidate_id": "Cbb4bbc0d5ccb",
+    "signature": "CashierSequenceAgentMay28",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "May28 explicitly predicts 12:05:08, subsequently reports Business at that time, then Social Sciences12:49:43 and Arts13:34:19. Requests and marker replies remain tied to the same relocation/relay exchange. Initial mojibake is retained literally; later reencoding excluded.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 23,
+        "reviewed_observations": 23,
+        "included_reviewed": 22
+      }
+    },
+    "issues": [],
+    "rationale": "May28 explicitly predicts 12:05:08, subsequently reports Business at that time, then Social Sciences12:49:43 and Arts13:34:19. Requests and marker replies remain tied to the same relocation/relay exchange. Initial mojibake is retained literally; later reencoding excluded.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000004",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 828
+          }
+        ],
+        "source_body_sha256": "6c053cd69304a218c1983431a135d84c7cdfa5b2c089668fe28f004e38f04ca5"
+      },
+      {
+        "observation_id": "FP-S000013",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierSequencePingResearchHelperJan12@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 371
+          }
+        ],
+        "source_body_sha256": "348369c53d46e52f5541dbb6d91a8d57e09d2ea5bf2b06cdc6a7147174c5218d"
+      },
+      {
+        "observation_id": "FP-S000035",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchHelperJan12@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 313
+          }
+        ],
+        "source_body_sha256": "51de00d509dd7d079dcb06aeb19a5d3f78d945bd92ab531f930b56b529d97148"
+      },
+      {
+        "observation_id": "FP-S000036",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchHelperCashierXQ@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 313
+          }
+        ],
+        "source_body_sha256": "51de00d509dd7d079dcb06aeb19a5d3f78d945bd92ab531f930b56b529d97148"
+      },
+      {
+        "observation_id": "FP-S000052",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@3",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1280,
+            "character_length": 341
+          }
+        ],
+        "source_body_sha256": "6424a7ad6edddf1916e71bea1caa02c2e93aa3422c8eb2364981cc097db02ffd"
+      },
+      {
+        "observation_id": "FP-S000066",
+        "decision_examined": "exclude",
+        "revision_id": "dse~CashierSequencePingResearchHelperJan12@2",
+        "diff_base": "dse~CashierSequencePingResearchHelperJan12@1",
+        "span_checks": [],
+        "source_body_sha256": "c9e1677c773ddb5a4d4903c1d342a180457cfe19ee529e479576ebda631817be"
+      },
+      {
+        "observation_id": "FP-S000076",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@5",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2167,
+            "character_length": 247
+          }
+        ],
+        "source_body_sha256": "fbb4165dd6a88c547925e4c8b7267a08d69403edfeb0eff22722a141cc540f6d"
+      },
+      {
+        "observation_id": "FP-S000086",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@6",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2512,
+            "character_length": 142
+          }
+        ],
+        "source_body_sha256": "2b8b27d7f61fdd95cd9b79335eca2eb0d25528adc408bf48a46dd3a7d85a5cd7"
+      },
+      {
+        "observation_id": "FP-S000091",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@8",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3472,
+            "character_length": 170
+          }
+        ],
+        "source_body_sha256": "95dfdd8fc4f71858031eb6b202a2fca76205f3b22449edc68044e1aa5fe0175e"
+      },
+      {
+        "observation_id": "FP-S000113",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchHelperCashierXQ@2",
+        "diff_base": "dse~ResearchHelperCashierXQ@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 315,
+            "character_length": 245
+          }
+        ],
+        "source_body_sha256": "c5e1a740e773cf52c342e9af220b1af1da6d776e57527e38e29ea9dd16e1d0d6"
+      },
+      {
+        "observation_id": "FP-S000114",
+        "decision_examined": "include",
+        "revision_id": "dse~ResearchHelperJan12@2",
+        "diff_base": "dse~ResearchHelperJan12@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 315,
+            "character_length": 245
+          }
+        ],
+        "source_body_sha256": "c5e1a740e773cf52c342e9af220b1af1da6d776e57527e38e29ea9dd16e1d0d6"
+      },
+      {
+        "observation_id": "FP-S000167",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@2",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 356,
+            "character_length": 252
+          }
+        ],
+        "source_body_sha256": "ec290306c6ee0c3ffb61ff898fd1aa7a194a91b985b986346a98204a9923c509"
+      },
+      {
+        "observation_id": "FP-S000172",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@3",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 610,
+            "character_length": 121
+          }
+        ],
+        "source_body_sha256": "4b5b14093ab5072cdfd61615ff7e07371bc2b320641bba39a063472bbe88fb5a"
+      },
+      {
+        "observation_id": "FP-S000175",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@4",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 733,
+            "character_length": 255
+          }
+        ],
+        "source_body_sha256": "0b0c83b37d1c67f32ad6c504807df4e8901941e479da75b375953c0f2bbdacd4"
+      },
+      {
+        "observation_id": "FP-S000192",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@8",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1767,
+            "character_length": 216
+          }
+        ],
+        "source_body_sha256": "689bad3c986b684d0548a0367c390d37a81cda58c367e10740a2069287e31e15"
+      },
+      {
+        "observation_id": "FP-S000210",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@12",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2653,
+            "character_length": 73
+          }
+        ],
+        "source_body_sha256": "1f5540d1fa085bda5e7db4463cea073ab4002be69ad780f9c6f7b369efd6b5b0"
+      },
+      {
+        "observation_id": "FP-S000215",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@14",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@13",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2968,
+            "character_length": 280
+          }
+        ],
+        "source_body_sha256": "1aa9eaebf90adb310feeb004ce6eeba4b933c191b7bf02dd42353f76f39d5dfa"
+      },
+      {
+        "observation_id": "FP-S000222",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@16",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@15",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3429,
+            "character_length": 73
+          }
+        ],
+        "source_body_sha256": "205f87b7b8f7df0f3f5ddec9fe7406ebbbade814d0e346670de53253952f3716"
+      },
+      {
+        "observation_id": "FP-S000235",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierRound3RelayMay28ToAgentX@2",
+        "diff_base": "dse~CashierRound3RelayMay28ToAgentX@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 229,
+            "character_length": 123
+          }
+        ],
+        "source_body_sha256": "09d2f39ca5c2a9233d037178c5f3552136a8e70a251d21858fa5ea1de7bc6b17"
+      },
+      {
+        "observation_id": "FP-S000236",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@23",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@22",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5164,
+            "character_length": 140
+          }
+        ],
+        "source_body_sha256": "fe876a4eab52ef6bde8068a1a90de7bf0b923fce59c0d1ebf99623c855849c23"
+      },
+      {
+        "observation_id": "FP-S000238",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@25",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@24",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5601,
+            "character_length": 293
+          }
+        ],
+        "source_body_sha256": "c54b63c90682d19affcafd3b9359f0aaf321d68f98eb262c2c13a96daca0d1d9"
+      },
+      {
+        "observation_id": "FP-S000241",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@28",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@27",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6390,
+            "character_length": 184
+          }
+        ],
+        "source_body_sha256": "347686f2966d91e000d20b2365193e6d3b34511a7b6ba84c9f99aefefb344179"
+      },
+      {
+        "observation_id": "FP-S000243",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierRound4RelayMay28@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 238
+          }
+        ],
+        "source_body_sha256": "8b286c417a59067b5cf0db074da7900998e7a68ac6ead45d9ab947d48ea47aff"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C0779a39c6fda",
+    "signature": "OpenAIDec23Police",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Dec23 police age-band run begins00:43:27, then01:49:40 and02:42:19 progression. Later dedicated-page initial snapshot contains multiple retrospective reports, appropriately not counted as six independently observed archive-times; six-round endpoint remains unobserved.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 15,
+        "reviewed_observations": 15,
+        "included_reviewed": 15
+      }
+    },
+    "issues": [],
+    "rationale": "Dec23 police age-band run begins00:43:27, then01:49:40 and02:42:19 progression. Later dedicated-page initial snapshot contains multiple retrospective reports, appropriately not counted as six independently observed archive-times; six-round endpoint remains unobserved.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002948",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@3",
+        "diff_base": "dse~AgentAug02Scout@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 605,
+            "character_length": 242
+          }
+        ],
+        "source_body_sha256": "5d1b54f05a430d27271e70854c61084a6a7f0b13a1521a31aaa29775f239b8b3"
+      },
+      {
+        "observation_id": "FP-S002949",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageJul31Fast2026@3",
+        "diff_base": "dse~PoliceWageJul31Fast2026@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 383,
+            "character_length": 217
+          }
+        ],
+        "source_body_sha256": "fb306abb533ece72f2576a710bc51e0352c36ed3b99a13195b54209cbaca0d33"
+      },
+      {
+        "observation_id": "FP-S002950",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@39",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@38",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 10656,
+            "character_length": 265
+          }
+        ],
+        "source_body_sha256": "79b3214d83d2d231b4381d01a94e96a145479bd30de5913edf31b420ddc56fdd"
+      },
+      {
+        "observation_id": "FP-S002963",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@43",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@42",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 11426,
+            "character_length": 178
+          }
+        ],
+        "source_body_sha256": "57bfd785fb3cda8c2969174cd039e741608bd190740ff0ad2206134441007d36"
+      },
+      {
+        "observation_id": "FP-S002993",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@46",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@45",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 11966,
+            "character_length": 107
+          }
+        ],
+        "source_body_sha256": "7765e0866203b69ff969499261081542a2062b17fe60e7387c4fb383365ece36"
+      },
+      {
+        "observation_id": "FP-S002994",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@46",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@45",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 12075,
+            "character_length": 166
+          }
+        ],
+        "source_body_sha256": "7765e0866203b69ff969499261081542a2062b17fe60e7387c4fb383365ece36"
+      },
+      {
+        "observation_id": "FP-S002995",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@46",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@45",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 12243,
+            "character_length": 170
+          }
+        ],
+        "source_body_sha256": "7765e0866203b69ff969499261081542a2062b17fe60e7387c4fb383365ece36"
+      },
+      {
+        "observation_id": "FP-S002997",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentDec22PoliceCoord@2",
+        "diff_base": "dse~AgentDec22PoliceCoord@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 471,
+            "character_length": 176
+          }
+        ],
+        "source_body_sha256": "82fc1ae54307e19ce620c30addfeaef5f02ce0127d7decc8d99c918027c35fda"
+      },
+      {
+        "observation_id": "FP-S003007",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 265
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003008",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 267,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003009",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 471,
+            "character_length": 167
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003010",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 640,
+            "character_length": 198
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003011",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 840,
+            "character_length": 151
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003012",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 993,
+            "character_length": 218
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      },
+      {
+        "observation_id": "FP-S003013",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageDec23Slow2026@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1213,
+            "character_length": 192
+          }
+        ],
+        "source_body_sha256": "5a79859a076e50f5e8adffd932b063d119f9795b1c7d8b3292f4fdf35d299cf2"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C56f606951ca9",
+    "signature": "OpenAIResearchAug09X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Aug09 clothing CA07:34:38/NY08:03:17 differs substantively from grocery GA00:18:28/AR00:56:49/NV01:26:23/KY01:55:57. Two separate histories are warranted; common alias is not an identity bridge. Apr20 Montana remains peer relay.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 16,
+        "reviewed_observations": 16,
+        "included_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "Aug09 clothing CA07:34:38/NY08:03:17 differs substantively from grocery GA00:18:28/AR00:56:49/NV01:26:23/KY01:55:57. Two separate histories are warranted; common alias is not an identity bridge. Apr20 Montana remains peer relay.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000450",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAClothing2m56LiveC3@5",
+        "diff_base": "dse~DataUSAClothing2m56LiveC3@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1436,
+            "character_length": 275
+          }
+        ],
+        "source_body_sha256": "ae22b5ab419976e125a884834da20965cf4e6e0f1bdf7b4171119deae9b9e83a"
+      },
+      {
+        "observation_id": "FP-S000606",
+        "decision_examined": "include",
+        "revision_id": "dse~Clothing2m56Round3RelayMay31@14",
+        "diff_base": "dse~Clothing2m56Round3RelayMay31@13",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2585,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "838fd76e5b8be85db66ce80b175bcee527b8f0c9295530506f9148edaa5c26b6"
+      },
+      {
+        "observation_id": "FP-S000638",
+        "decision_examined": "associate",
+        "revision_id": "dse~Clothing2m56Round3RelayMay31@18",
+        "diff_base": "dse~Clothing2m56Round3RelayMay31@17",
+        "span_checks": [],
+        "source_body_sha256": "eed91efa3fd1d0a2323d5113c1c117448bc722b3a98ab78e226181df622e5dc4"
+      },
+      {
+        "observation_id": "FP-S000682",
+        "decision_examined": "associate",
+        "revision_id": "dse~Clothing2m56Round3RelayMay31@22",
+        "diff_base": "dse~Clothing2m56Round3RelayMay31@21",
+        "span_checks": [],
+        "source_body_sha256": "ffc59eeabf043626209633c8e28fda43d99f4c8c1cd1562d327e121fd3de9429"
+      },
+      {
+        "observation_id": "FP-S000786",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAGrocerySequenceCollab2027@34",
+        "diff_base": "dse~DataUSAGrocerySequenceCollab2027@33",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4264,
+            "character_length": 242
+          }
+        ],
+        "source_body_sha256": "35e1facebce4d949a5751b707a55cd95d994c24cfa9d68cb54b4d72d595a69cc"
+      },
+      {
+        "observation_id": "FP-S001056",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAGroceryG5ConfirmedMar19@6",
+        "diff_base": "dse~DataUSAGroceryG5ConfirmedMar19@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1022,
+            "character_length": 224
+          }
+        ],
+        "source_body_sha256": "74ecc8a989eb6784ff7261c792210b3f66fa5fd34aa2dd8c851695a016e8aace"
+      },
+      {
+        "observation_id": "FP-S001110",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAGroceryG5Due203902May31@2",
+        "diff_base": "dse~DataUSAGroceryG5Due203902May31@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 163,
+            "character_length": 220
+          }
+        ],
+        "source_body_sha256": "6b82edd7cf14bb2e36310420e3ac942b311eaf45c861939f9bc515b4e1764823"
+      },
+      {
+        "observation_id": "FP-S001118",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSAGroceryG5RelayNov08@5",
+        "diff_base": "dse~DataUSAGroceryG5RelayNov08@4",
+        "span_checks": [],
+        "source_body_sha256": "40d04a25aef8d08829610746651995153fe001ea003fa02db9df1ed12585df14"
+      },
+      {
+        "observation_id": "FP-S001140",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSAGroceryG5LiveJan18Fast@2",
+        "diff_base": "dse~DataUSAGroceryG5LiveJan18Fast@1",
+        "span_checks": [],
+        "source_body_sha256": "ea171d68909dea26c6684a427527e41dde6481a18bf79bc4cd1e67b7d84c88a6"
+      },
+      {
+        "observation_id": "FP-S001397",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSAGroceryG5Jul17Live@16",
+        "diff_base": "dse~DataUSAGroceryG5Jul17Live@15",
+        "span_checks": [],
+        "source_body_sha256": "d154c6246f896f6a506418f9c7f1f34390db44cc0821679c6c5da725627c4d91"
+      },
+      {
+        "observation_id": "FP-S001461",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSAGroceryAliceLive@3",
+        "diff_base": "dse~DataUSAGroceryAliceLive@2",
+        "span_checks": [],
+        "source_body_sha256": "7cee332dcc7f11e8fbe98ef0714ec7e8cd9fad8238bd358b7651704685ae8a7d"
+      },
+      {
+        "observation_id": "FP-S001481",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSAGroceryG5Jul17Live@24",
+        "diff_base": "dse~DataUSAGroceryG5Jul17Live@23",
+        "span_checks": [],
+        "source_body_sha256": "2fc761b242d8f215f314a9bd0391ea33bf6f0c3cf67793b3f382ecc0653bf568"
+      },
+      {
+        "observation_id": "FP-S001503",
+        "decision_examined": "associate",
+        "revision_id": "dse~GroceryG5SignalApr20@4",
+        "diff_base": "dse~GroceryG5SignalApr20@3",
+        "span_checks": [],
+        "source_body_sha256": "1218eab796b732c400b4721b24ec9c2f4b63b0a9b2d12facd2bf6d6981c79f6b"
+      },
+      {
+        "observation_id": "FP-S001552",
+        "decision_examined": "include",
+        "revision_id": "dse~GroceryAug09LiveRelay@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 257
+          }
+        ],
+        "source_body_sha256": "8f9b5d89a6d1536d79609bd88c6de7b3be0091f02072ed361297a0d0b31069e0"
+      },
+      {
+        "observation_id": "FP-S001553",
+        "decision_examined": "include",
+        "revision_id": "dse~GroceryAug09LiveRelay@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 258,
+            "character_length": 235
+          }
+        ],
+        "source_body_sha256": "8f9b5d89a6d1536d79609bd88c6de7b3be0091f02072ed361297a0d0b31069e0"
+      },
+      {
+        "observation_id": "FP-S001554",
+        "decision_examined": "include",
+        "revision_id": "dse~GroceryAug09LiveRelay@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 494,
+            "character_length": 245
+          }
+        ],
+        "source_body_sha256": "8f9b5d89a6d1536d79609bd88c6de7b3be0091f02072ed361297a0d0b31069e0"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cfc23248fa7bb",
+    "signature": "CashierCoordOurRun",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Nov04 Business02:56:34, Social Sciences confirmed/answered03:41:09, Arts04:25:45 support one run. Jan12/May28 clocks are correctly separate in outreach; change R3 event metadata so an answer does not become a verified arrival.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 16,
+        "reviewed_observations": 16,
+        "included_reviewed": 16
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S000253",
+        "reason": "Source says Social Sciences confirmed/answered at03:41:09 and does not explicitly identify prompt arrival. Current schedule_claim uses prompt_arrival, which overstates event specificity.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_event_kind": "answer",
+          "raw_value": "03:41:09"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "rationale": "Nov04 Business02:56:34, Social Sciences confirmed/answered03:41:09, Arts04:25:45 support one run. Jan12/May28 clocks are correctly separate in outreach; change R3 event metadata so an answer does not become a verified arrival.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000137",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@11",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@10",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4097,
+            "character_length": 224
+          }
+        ],
+        "source_body_sha256": "863628fd568075ea6e9c1752d5738b6956db018dbbda27708fdb9e9317c42549"
+      },
+      {
+        "observation_id": "FP-S000153",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentCashierBridgeJun13X@2",
+        "diff_base": "dse~AgentCashierBridgeJun13X@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 529,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "0b7a3d986e99284cab6a85a5d137665fa1146309c4993b5066803bbef36392ce"
+      },
+      {
+        "observation_id": "FP-S000161",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@13",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@12",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4677,
+            "character_length": 199
+          }
+        ],
+        "source_body_sha256": "25887f6b6f32434c106d31ecade46c7295752df1bfcf8be58c5019ecfb403335"
+      },
+      {
+        "observation_id": "FP-S000162",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 32,
+            "character_length": 322
+          }
+        ],
+        "source_body_sha256": "b24fb319e5cb84da9a4585d7269be30cbce8f2c104eecd6ac8a4cb76c23a1e14"
+      },
+      {
+        "observation_id": "FP-S000163",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceCollabMay28@14",
+        "diff_base": "dse~DataUSACashiersMastersSequenceCollabMay28@13",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4877,
+            "character_length": 94
+          }
+        ],
+        "source_body_sha256": "900cc527df69b679cac4c2df8dfbb01346da622764d31e8cb44f3e2603a3a4e5"
+      },
+      {
+        "observation_id": "FP-S000208",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@11",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@10",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2465,
+            "character_length": 186
+          }
+        ],
+        "source_body_sha256": "cbcfc885f85dda33f10511589e1898caf4efb7aaca59c895edbb912994ece4c5"
+      },
+      {
+        "observation_id": "FP-S000232",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@20",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@19",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4565,
+            "character_length": 185
+          }
+        ],
+        "source_body_sha256": "b586625920b7eb4dba78f8a3f7c60cbe3887f7475a5e244c5357f2fef9723a57"
+      },
+      {
+        "observation_id": "FP-S000239",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive3@26",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive3@25",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5895,
+            "character_length": 231
+          }
+        ],
+        "source_body_sha256": "456534adba76f6664813e915801e811e93c4eb87ce6977f086ca53ab34727cea"
+      },
+      {
+        "observation_id": "FP-S000242",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierRound3RelayMay28ToAgentX@3",
+        "diff_base": "dse~CashierRound3RelayMay28ToAgentX@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 353,
+            "character_length": 178
+          }
+        ],
+        "source_body_sha256": "edeba7d19ed8ae069916811652b1d8430d4b2ed1603a0154b207dfbe13a26179"
+      },
+      {
+        "observation_id": "FP-S000244",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierRound3RelayMay28ToAgentX@4",
+        "diff_base": "dse~CashierRound3RelayMay28ToAgentX@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 532,
+            "character_length": 172
+          }
+        ],
+        "source_body_sha256": "bd1e65f5bb4320cc3c7b4945306221988cf047c582c92b861f3421e4ac2de065"
+      },
+      {
+        "observation_id": "FP-S000253",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive5@2",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive5@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 360,
+            "character_length": 225
+          }
+        ],
+        "source_body_sha256": "73b4853990d969a1e35dfde023fe1979d8c420188b8c2cb3ef802aa8f1475f2b"
+      },
+      {
+        "observation_id": "FP-S000267",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive5@17",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive5@16",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3355,
+            "character_length": 159
+          }
+        ],
+        "source_body_sha256": "3bff1bc3b5ef3f3ff2a3d9522971f611bd8e30a1b25ba792e6aab7d47e7f827d"
+      },
+      {
+        "observation_id": "FP-S000269",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierRound4RelayMay28@2",
+        "diff_base": "dse~CashierRound4RelayMay28@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 239,
+            "character_length": 183
+          }
+        ],
+        "source_body_sha256": "7ce1eac1cd905860b80369e3d66862b3e297594342818e8efd224b3cfa15988f"
+      },
+      {
+        "observation_id": "FP-S000274",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive5@19",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive5@18",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3701,
+            "character_length": 227
+          }
+        ],
+        "source_body_sha256": "83993322ccd02c7412bde226759412dc409507fdc3275ba2e688789305f23692"
+      },
+      {
+        "observation_id": "FP-S000277",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierR5UrgentJan12@2",
+        "diff_base": "dse~CashierR5UrgentJan12@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 376,
+            "character_length": 197
+          }
+        ],
+        "source_body_sha256": "de253d7138cd45e8216831288d8707d6fec5231e1dd90cdc8e489c667639cfa4"
+      },
+      {
+        "observation_id": "FP-S000278",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierMastersAllYearsBridgeMar23@2",
+        "diff_base": "dse~CashierMastersAllYearsBridgeMar23@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 226,
+            "character_length": 306
+          }
+        ],
+        "source_body_sha256": "c78d51dce208b882a2bdd35ce61ff11ba80f61f850e4bd97001e0f4e4e122ea8"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cc6995e3700cb",
+    "signature": "OpenAIJanSixWatcher",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jan06 R1 13:40:00 and actual R2 15:09:08 substantively connect repeated16:21:09 forecast/countdowns. Formatting copies are excluded. No claim of observed R3 is manufactured.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 13,
+        "reviewed_observations": 13,
+        "included_reviewed": 6
+      }
+    },
+    "issues": [],
+    "rationale": "Jan06 R1 13:40:00 and actual R2 15:09:08 substantively connect repeated16:21:09 forecast/countdowns. Formatting copies are excluded. No claim of observed R3 is manufactured.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000711",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 33,
+            "character_length": 313
+          }
+        ],
+        "source_body_sha256": "286c554868c3f170436226fc1e3040f950cd30cc17e4ae2a46462b947b00f452"
+      },
+      {
+        "observation_id": "FP-S000915",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@13",
+        "diff_base": "dse~MaidsR3FastRelayOct11@12",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2745,
+            "character_length": 241
+          }
+        ],
+        "source_body_sha256": "ce17dc8bcdedaa394a3fd105948c5e827642ff49ee781697859e241ef8aeb6ee"
+      },
+      {
+        "observation_id": "FP-S001085",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@18",
+        "diff_base": "dse~MaidsR3FastRelayOct11@17",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4027,
+            "character_length": 247
+          }
+        ],
+        "source_body_sha256": "dcdf62360fb8d2a4a0e93bdccbdaff80cdda8746134e72d67fea06e87d77b636"
+      },
+      {
+        "observation_id": "FP-S001086",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@19",
+        "diff_base": "dse~MaidsR3FastRelayOct11@18",
+        "span_checks": [],
+        "source_body_sha256": "d757349f2dee436d386751f3e90f605651b91f3609874995e7faa923bcd3896c"
+      },
+      {
+        "observation_id": "FP-S001087",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@20",
+        "diff_base": "dse~MaidsR3FastRelayOct11@19",
+        "span_checks": [],
+        "source_body_sha256": "47fd3c2fb2259b11ef543939e852eebdf0f38eb3a4e5da2886443e388b62d456"
+      },
+      {
+        "observation_id": "FP-S001088",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@21",
+        "diff_base": "dse~MaidsR3FastRelayOct11@20",
+        "span_checks": [],
+        "source_body_sha256": "91b70272f96432671da735067d73a02a37f83e17d9f0fe8be08a320b0e34d16e"
+      },
+      {
+        "observation_id": "FP-S001089",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@22",
+        "diff_base": "dse~MaidsR3FastRelayOct11@21",
+        "span_checks": [],
+        "source_body_sha256": "a74b2434a5a61a96e561270c6241e265d2718b7a6fe3bee027c87e9b6f57ebe9"
+      },
+      {
+        "observation_id": "FP-S001090",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@23",
+        "diff_base": "dse~MaidsR3FastRelayOct11@22",
+        "span_checks": [],
+        "source_body_sha256": "d6fcc56768812921f1dce915d25155a94a9fb2de6fb02b2e9c0690181648108c"
+      },
+      {
+        "observation_id": "FP-S001134",
+        "decision_examined": "exclude",
+        "revision_id": "dse~MaidsR3FastRelayOct11@24",
+        "diff_base": "dse~MaidsR3FastRelayOct11@23",
+        "span_checks": [],
+        "source_body_sha256": "ef605abe14f5a051a4b18f856939b7c69b6ad212bee1ba36a434ad147139cad8"
+      },
+      {
+        "observation_id": "FP-S001274",
+        "decision_examined": "associate",
+        "revision_id": "dse~MaidsR3FastRelayOct11@28",
+        "diff_base": "dse~MaidsR3FastRelayOct11@27",
+        "span_checks": [],
+        "source_body_sha256": "0c388509c587e9909003bffc4c95abd190e06580333ff5891a0422613d24769d"
+      },
+      {
+        "observation_id": "FP-S001371",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@7",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@6",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1921,
+            "character_length": 214
+          }
+        ],
+        "source_body_sha256": "672865c040e989948397391218f81318fe96f9e59b0d6986e908e7c4d2512027"
+      },
+      {
+        "observation_id": "FP-S001372",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@33",
+        "diff_base": "dse~MaidsR3FastRelayOct11@32",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6022,
+            "character_length": 167
+          }
+        ],
+        "source_body_sha256": "59a968c04856ddf5b6948dd09d023fcbf4675169e7f066bd33f792b36a24ee45"
+      },
+      {
+        "observation_id": "FP-S001592",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsJan06R3SignalJul03@11",
+        "diff_base": "dse~MaidsJan06R3SignalJul03@10",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2453,
+            "character_length": 202
+          }
+        ],
+        "source_body_sha256": "85e11d39d7397164833aeadf646cfec29217ae9b90a94018a8c1ec0fc9882470"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Ccc92836e9222",
+    "signature": "OECDEquityJul14Scout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jul14 OECD R1 18:33:08/deadline18:51:47 and predicted Hungary20:03:14 progress to observed Poland21:16:02. Tooltip request explicitly repeats own Poland due21:16:01, so outreach bridge is substantive. Precision correction is not separate task.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 15,
+        "reviewed_observations": 15,
+        "included_reviewed": 5
+      }
+    },
+    "issues": [],
+    "rationale": "Jul14 OECD R1 18:33:08/deadline18:51:47 and predicted Hungary20:03:14 progress to observed Poland21:16:02. Tooltip request explicitly repeats own Poland due21:16:01, so outreach bridge is substantive. Precision correction is not separate task.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003091",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityJul14Live@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 33,
+            "character_length": 462
+          }
+        ],
+        "source_body_sha256": "7bca795c44e23458bd2c28f828a09b1a73ee86dcceafcd52f27a130399edeed3"
+      },
+      {
+        "observation_id": "FP-S003092",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEducationEquitySequence@31",
+        "diff_base": "dse~OECDEducationEquitySequence@30",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4869,
+            "character_length": 175
+          }
+        ],
+        "source_body_sha256": "03b602219a609112ec83ea1fd3eead08be1b049aa07357ca24c1b20fe024d2b7"
+      },
+      {
+        "observation_id": "FP-S003177",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityJul14Live@2",
+        "diff_base": "dse~OECDEquityJul14Live@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 498,
+            "character_length": 292
+          }
+        ],
+        "source_body_sha256": "112bf5656ce78e85e399e19d53d4a424ca556eb567bba83cdec8225b3a59a5ca"
+      },
+      {
+        "observation_id": "FP-S003276",
+        "decision_examined": "associate",
+        "revision_id": "dse~OECDEquityNov06Live@4",
+        "diff_base": "dse~OECDEquityNov06Live@3",
+        "span_checks": [],
+        "source_body_sha256": "a1a5c353558a52db59b8a6143e999238f7ee8a28232857add60d4c0f827047f6"
+      },
+      {
+        "observation_id": "FP-S003295",
+        "decision_examined": "associate",
+        "revision_id": "dse~OECDEquity12m18Timing@9",
+        "diff_base": "dse~OECDEquity12m18Timing@8",
+        "span_checks": [],
+        "source_body_sha256": "6da54a6527c12c6a623c4a0d134a305fd80f5a8e593cc7a7d06dabe9d81fe302"
+      },
+      {
+        "observation_id": "FP-S003297",
+        "decision_examined": "associate",
+        "revision_id": "dse~OECDEquityAug21Live@3",
+        "diff_base": "dse~OECDEquityAug21Live@2",
+        "span_checks": [],
+        "source_body_sha256": "a94cecb4117ea627e563fd780166cb5cd375b0796b3e88e2a32e2136768e6f1a"
+      },
+      {
+        "observation_id": "FP-S003351",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar30TooltipEvidence@2",
+        "diff_base": "dse~Mar30TooltipEvidence@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 690,
+            "character_length": 388
+          }
+        ],
+        "source_body_sha256": "49cc9a66b74e03a70fbe6a0842dbc295656ae75e602721ed3472dc899dfdd6f9"
+      },
+      {
+        "observation_id": "FP-S003366",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@3",
+        "diff_base": "dse~Mar30TooltipEvidence@2",
+        "span_checks": [],
+        "source_body_sha256": "747c02fa49e4c28e63d1180617ebda15b046fdcd77a48b610270dad4cec9dac0"
+      },
+      {
+        "observation_id": "FP-S003371",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@4",
+        "diff_base": "dse~Mar30TooltipEvidence@3",
+        "span_checks": [],
+        "source_body_sha256": "0bde5a3d766179060715e317598934db820336bb34056466e8e3b97ac9f03ec9"
+      },
+      {
+        "observation_id": "FP-S003373",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@5",
+        "diff_base": "dse~Mar30TooltipEvidence@4",
+        "span_checks": [],
+        "source_body_sha256": "76435da17687f0c0346cac99547419f0503307ef6f42e53ee235002e64177a37"
+      },
+      {
+        "observation_id": "FP-S003377",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@6",
+        "diff_base": "dse~Mar30TooltipEvidence@5",
+        "span_checks": [],
+        "source_body_sha256": "94adfd0a99ddbe30746d96501dfa38803a30144059f85cbd91e75ef5aea39497"
+      },
+      {
+        "observation_id": "FP-S003380",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@7",
+        "diff_base": "dse~Mar30TooltipEvidence@6",
+        "span_checks": [],
+        "source_body_sha256": "0c8c77d60c139248444c4da2b0765124e7d7a5e204ab12978578cea3f7305694"
+      },
+      {
+        "observation_id": "FP-S003385",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@8",
+        "diff_base": "dse~Mar30TooltipEvidence@7",
+        "span_checks": [],
+        "source_body_sha256": "e1edbf0175a11f8298d0dbd9c3c4b9fac570ffec6d1038c618b8fee76a91eea5"
+      },
+      {
+        "observation_id": "FP-S003388",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Mar30TooltipEvidence@9",
+        "diff_base": "dse~Mar30TooltipEvidence@8",
+        "span_checks": [],
+        "source_body_sha256": "5f6bdb893cda0e8996ca37da702265eecad613ab885f152158784a0ee817805d"
+      },
+      {
+        "observation_id": "FP-S003537",
+        "decision_examined": "include",
+        "revision_id": "dse~OECDEquityJul14Live@3",
+        "diff_base": "dse~OECDEquityJul14Live@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 793,
+            "character_length": 432
+          }
+        ],
+        "source_body_sha256": "4107c8760ccc49a2acb5227b0086e61fa734e48a8ce597e1aa06cb631ab9b5d2"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C3cd61c2de900",
+    "signature": "OpenAIHelperJun01X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jun01 language initial11:38:12, R2due12:33:51, R3due13:17:59 and R5due14:46:16 connect denominator research. New Jun21 signal page is explicitly linked from own R5status, and its12:45:11/12 clock remains peer.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 16,
+        "reviewed_observations": 16,
+        "included_reviewed": 13
+      }
+    },
+    "issues": [],
+    "rationale": "Jun01 language initial11:38:12, R2due12:33:51, R3due13:17:59 and R5due14:46:16 connect denominator research. New Jun21 signal page is explicitly linked from own R5status, and its12:45:11/12 clock remains peer.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000848",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@3",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1035,
+            "character_length": 295
+          }
+        ],
+        "source_body_sha256": "5c4a768e00ce70ef3078fbcaf328a7bd1c6ee72dc268aa20e4689664ceece014"
+      },
+      {
+        "observation_id": "FP-S000854",
+        "decision_examined": "exclude",
+        "revision_id": "dse~AgentOurEditTestJun01X@1",
+        "diff_base": null,
+        "span_checks": [],
+        "source_body_sha256": "21f2c35f1a1fae415b85e2c577f674788806b3f17abd631b20ec87b43fc8e664"
+      },
+      {
+        "observation_id": "FP-S000883",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@5",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1543,
+            "character_length": 183
+          }
+        ],
+        "source_body_sha256": "a90ae6a1f90ba0816e0aee355671847ddac01c36c8142b25882087a89fdc71a1"
+      },
+      {
+        "observation_id": "FP-S000885",
+        "decision_examined": "include",
+        "revision_id": "dse~ProxyConnectJuneEleven@4",
+        "diff_base": "dse~ProxyConnectJuneEleven@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1031,
+            "character_length": 162
+          }
+        ],
+        "source_body_sha256": "dc8a09065cd692ffbfe1cc6d263575b69012eaadb3b8e195d32043c2d1fb0eb9"
+      },
+      {
+        "observation_id": "FP-S000897",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@2",
+        "diff_base": "dse~DataUSALanguageApr10Live@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 258,
+            "character_length": 198
+          }
+        ],
+        "source_body_sha256": "ae8612c0bb6685c1ffff572ff65b07aa55b8bd2c7a060362d3cda5519662c57f"
+      },
+      {
+        "observation_id": "FP-S000950",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@10",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2805,
+            "character_length": 295
+          }
+        ],
+        "source_body_sha256": "94063c17691d494b4c6089f608139d6271330b88d8690c1694b167db1692ef3b"
+      },
+      {
+        "observation_id": "FP-S001009",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@5",
+        "diff_base": "dse~DataUSALanguageApr10Live@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 773,
+            "character_length": 386
+          }
+        ],
+        "source_body_sha256": "f52a14d2215480c8bbacdd99dc874e2a4a78bd10cfe560f6e5555bb2635aa90c"
+      },
+      {
+        "observation_id": "FP-S001362",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageLiveRound4@7",
+        "diff_base": "dse~DataUSALanguageLiveRound4@6",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1539,
+            "character_length": 329
+          }
+        ],
+        "source_body_sha256": "92319e60789e64edf8a644f46056992c515a84132c7b1adc6c9ae60fa3fd1857"
+      },
+      {
+        "observation_id": "FP-S001568",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageLiveRound4@19",
+        "diff_base": "dse~DataUSALanguageLiveRound4@18",
+        "span_checks": [],
+        "source_body_sha256": "f018bc9fb8db1b4ac6dddf7ed5ac3884d709ad01fb19de80b8ef4d8386aec1f6"
+      },
+      {
+        "observation_id": "FP-S001602",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALangR5RelayOct23@16",
+        "diff_base": "dse~DataUSALangR5RelayOct23@15",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4154,
+            "character_length": 189
+          }
+        ],
+        "source_body_sha256": "5cd883171285836d7ea943de658112762b8c7a58a6968efecbfd27d77f293b4d"
+      },
+      {
+        "observation_id": "FP-S001623",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageApr10Live@12",
+        "diff_base": "dse~DataUSALanguageApr10Live@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2985,
+            "character_length": 120
+          }
+        ],
+        "source_body_sha256": "74d841c72b062f1ef951fab7dfee7508c0dbf41405c86fd6e5dfb09541a92604"
+      },
+      {
+        "observation_id": "FP-S001718",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@7",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@6",
+        "span_checks": [],
+        "source_body_sha256": "76ff33209f41119847273be57f6424b60c90d3c4564293a36f6f53d93680b723"
+      },
+      {
+        "observation_id": "FP-S001944",
+        "decision_examined": "include",
+        "revision_id": "dse~LangR5SignalSep01@10",
+        "diff_base": "dse~LangR5SignalSep01@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2059,
+            "character_length": 333
+          }
+        ],
+        "source_body_sha256": "8f15af3a98aac6aa0109519e68af42fe2caa8db678351228d1815a6446fcbbcd"
+      },
+      {
+        "observation_id": "FP-S001964",
+        "decision_examined": "include",
+        "revision_id": "dse~LangR5SignalJun21@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 34,
+            "character_length": 240
+          }
+        ],
+        "source_body_sha256": "8aefe1db9301f0028afb454a95f4ae64dbc6a0bf9e9e536b45dd87f2e57517de"
+      },
+      {
+        "observation_id": "FP-S001965",
+        "decision_examined": "include",
+        "revision_id": "dse~LangR5SignalJun21@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 279,
+            "character_length": 296
+          }
+        ],
+        "source_body_sha256": "8aefe1db9301f0028afb454a95f4ae64dbc6a0bf9e9e536b45dd87f2e57517de"
+      },
+      {
+        "observation_id": "FP-S002042",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAFrenchLanguageStateSequenceSep08@2",
+        "diff_base": "dse~DataUSAFrenchLanguageStateSequenceSep08@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 777,
+            "character_length": 345
+          }
+        ],
+        "source_body_sha256": "ee6fb0aa64fe6870a70ba898c903ad134edaaa69140ec447be34355423c40fa2"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C439a0e1f791a",
+    "signature": "AgentMay17OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "May17 sector MIanswered10:12:58 and WVanswered10:39:17/R5due11:05:36 support continuity. Grocery RNG question explicitly describes own sector sequence and deadline; no grocery ownership merge.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 4
+      }
+    },
+    "issues": [],
+    "rationale": "May17 sector MIanswered10:12:58 and WVanswered10:39:17/R5due11:05:36 support continuity. Grocery RNG question explicitly describes own sector sequence and deadline; no grocery ownership merge.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000892",
+        "decision_examined": "include",
+        "revision_id": "dse~Sector61State5LiveRelay@48",
+        "diff_base": "dse~Sector61State5LiveRelay@47",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5470,
+            "character_length": 193
+          }
+        ],
+        "source_body_sha256": "4a3185d78a4280d6a7847e50a3f8ebf7e64d99240b3a7bcb1464ddc33cfd9062"
+      },
+      {
+        "observation_id": "FP-S001073",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@27",
+        "diff_base": "dse~Sector61State5FastSignal@26",
+        "span_checks": [],
+        "source_body_sha256": "6962ceb70714da626355c5aacb304ace18bcf9ef88650164851a23cb451f2b0b"
+      },
+      {
+        "observation_id": "FP-S001074",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@27",
+        "diff_base": "dse~Sector61State5FastSignal@26",
+        "span_checks": [],
+        "source_body_sha256": "6962ceb70714da626355c5aacb304ace18bcf9ef88650164851a23cb451f2b0b"
+      },
+      {
+        "observation_id": "FP-S001075",
+        "decision_examined": "include",
+        "revision_id": "dse~Sector61State5FastSignal@27",
+        "diff_base": "dse~Sector61State5FastSignal@26",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5361,
+            "character_length": 187
+          }
+        ],
+        "source_body_sha256": "6962ceb70714da626355c5aacb304ace18bcf9ef88650164851a23cb451f2b0b"
+      },
+      {
+        "observation_id": "FP-S001076",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@28",
+        "diff_base": "dse~Sector61State5FastSignal@27",
+        "span_checks": [],
+        "source_body_sha256": "6f2465449292c65691aa7479551261bf5b8941d9644f51a8a08ac6677ca0a901"
+      },
+      {
+        "observation_id": "FP-S001079",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@29",
+        "diff_base": "dse~Sector61State5FastSignal@28",
+        "span_checks": [],
+        "source_body_sha256": "db0838433d436856b7b5d3ec9b5f67257937306ed064e1a4f5b94cdd744768bf"
+      },
+      {
+        "observation_id": "FP-S001081",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@30",
+        "diff_base": "dse~Sector61State5FastSignal@29",
+        "span_checks": [],
+        "source_body_sha256": "f5a9a55f224d75adbeefecbf9f88e28801d549491151db896b7b8e64c56b4214"
+      },
+      {
+        "observation_id": "FP-S001100",
+        "decision_examined": "exclude",
+        "revision_id": "dse~Sector61State5FastSignal@31",
+        "diff_base": "dse~Sector61State5FastSignal@30",
+        "span_checks": [],
+        "source_body_sha256": "ef61bb268192f029db96f112e1b5a8b058854fafcc55ff55a2b268d3ede05c89"
+      },
+      {
+        "observation_id": "FP-S001137",
+        "decision_examined": "include",
+        "revision_id": "dse~Sector61State5FastSignal@38",
+        "diff_base": "dse~Sector61State5FastSignal@37",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2295,
+            "character_length": 149
+          }
+        ],
+        "source_body_sha256": "bb5aba692863b23c5926ec86f29d1d0c6c2384c4cbc03321ead1a5cfe4065adc"
+      },
+      {
+        "observation_id": "FP-S001300",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIThreadMar06Fast@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 32,
+            "character_length": 263
+          }
+        ],
+        "source_body_sha256": "118683fb15445fc93505aada52fca090b4c81088bee0b068fe367f03ad3cf6fb"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C0c146f144881",
+    "signature": "OAIHelperMar22X",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Mar22 R1 01:59:20 progresses to actual R2 03:28:28, then04:40:29 candidate. Mapping correction is source-explicit and outreach repeats own schedule or established relay backlink. Other Mar22-signed peer is not merged by date.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 10
+      }
+    },
+    "issues": [],
+    "rationale": "Mar22 R1 01:59:20 progresses to actual R2 03:28:28, then04:40:29 candidate. Mapping correction is source-explicit and outreach repeats own schedule or established relay backlink. Other Mar22-signed peer is not merged by date.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001017",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3FastRelayOct11@16",
+        "diff_base": "dse~MaidsR3FastRelayOct11@15",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3522,
+            "character_length": 260
+          }
+        ],
+        "source_body_sha256": "be6ede285004e946687dfc93f72c2f6d4c684f2c43c342880f44eb5be505dbb8"
+      },
+      {
+        "observation_id": "FP-S001131",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 188
+          }
+        ],
+        "source_body_sha256": "feef2d1f86f9b4d048c528d16c968d2ac8bdd1fe9c5fe08ac08d391be2e99a3c"
+      },
+      {
+        "observation_id": "FP-S001141",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@2",
+        "diff_base": "dse~Mar22MaidsLiveOAI@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 190,
+            "character_length": 213
+          }
+        ],
+        "source_body_sha256": "79d7cb7885c91eb65d1df77aa6c2fbaddc8fcddb0a0f44a989e6a87f4cb1aa80"
+      },
+      {
+        "observation_id": "FP-S001195",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@4",
+        "diff_base": "dse~Mar22MaidsLiveOAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 592,
+            "character_length": 219
+          }
+        ],
+        "source_body_sha256": "12d898bb2b27560058fd4558a06c3d1d0ce645c8f4db763ff21f9302e9b0197c"
+      },
+      {
+        "observation_id": "FP-S001196",
+        "decision_examined": "include",
+        "revision_id": "dse~Mar22MaidsLiveOAI@4",
+        "diff_base": "dse~Mar22MaidsLiveOAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 813,
+            "character_length": 164
+          }
+        ],
+        "source_body_sha256": "12d898bb2b27560058fd4558a06c3d1d0ce645c8f4db763ff21f9302e9b0197c"
+      },
+      {
+        "observation_id": "FP-S001234",
+        "decision_examined": "include",
+        "revision_id": "dse~MaidsR3StatusMar22@2",
+        "diff_base": "dse~MaidsR3StatusMar22@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 216,
+            "character_length": 225
+          }
+        ],
+        "source_body_sha256": "cbaa544ac8192f9f9a19c018e0e65a0f98f888d1dabdb08fdbb159fdf1fbc93c"
+      },
+      {
+        "observation_id": "FP-S001241",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@3",
+        "diff_base": "dse~OpenAIApr15Maids205825@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 646,
+            "character_length": 252
+          }
+        ],
+        "source_body_sha256": "e907b9049e644df03bee5ddc423490b689246992511cc97b312555ae73d50b32"
+      },
+      {
+        "observation_id": "FP-S001244",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJanSixMaidsLive@4",
+        "diff_base": "dse~OpenAIJanSixMaidsLive@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1195,
+            "character_length": 231
+          }
+        ],
+        "source_body_sha256": "7889e34a1f517e3e6051c179177aaec2e1011ef1b96539d8c6af7170e4a00025"
+      },
+      {
+        "observation_id": "FP-S001379",
+        "decision_examined": "include",
+        "revision_id": "dse~Oct16MaidsLive@4",
+        "diff_base": "dse~Oct16MaidsLive@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 736,
+            "character_length": 213
+          }
+        ],
+        "source_body_sha256": "f961d2046c498525df30ce45c04aabd5473e14d779a650c6ad2ec516f0f6ed53"
+      },
+      {
+        "observation_id": "FP-S001380",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIApr15Maids205825@6",
+        "diff_base": "dse~OpenAIApr15Maids205825@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1281,
+            "character_length": 175
+          }
+        ],
+        "source_body_sha256": "1a2ab0592731d6767e5ae2b21a554693287cfc49d3a72dc914b1c9a93cc5ad49"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Ca16238dba748",
+    "signature": "OpenAIJul03Police",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jul03 police R1 22:58:25 advances across midnight to R2 00:04:38, R3 00:57:17, R4 01:49:56 and R5 02:42:35. Post-R5 survival explicitly refutes earlier horizon hypothesis. Restorations excluded; R6 remains scheduled.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 17,
+        "reviewed_observations": 17,
+        "included_reviewed": 11
+      }
+    },
+    "issues": [],
+    "rationale": "Jul03 police R1 22:58:25 advances across midnight to R2 00:04:38, R3 00:57:17, R4 01:49:56 and R5 02:42:35. Post-R5 survival explicitly refutes earlier horizon hypothesis. Restorations excluded; R6 remains scheduled.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002643",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@10",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2871,
+            "character_length": 296
+          }
+        ],
+        "source_body_sha256": "6bf8e7b750cd746f4b1414298a2e5aa7753bf01726adca014c831e359c67b3b5"
+      },
+      {
+        "observation_id": "FP-S002645",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@12",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3521,
+            "character_length": 360
+          }
+        ],
+        "source_body_sha256": "457bbe19e7851d6b60fe5e6ee15c91748866e153b2931b3b88fcaf0d5a4e5bae"
+      },
+      {
+        "observation_id": "FP-S002650",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@13",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@12",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3883,
+            "character_length": 266
+          }
+        ],
+        "source_body_sha256": "573cffed7268e8968191b4ec300766abd7673bb684265241f7aac389e8f7062a"
+      },
+      {
+        "observation_id": "FP-S002656",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@16",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@15",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4811,
+            "character_length": 235
+          }
+        ],
+        "source_body_sha256": "197aa956eb879f51721a02e165391f8497389a50534168fa8153d925680e7b65"
+      },
+      {
+        "observation_id": "FP-S002657",
+        "decision_examined": "include",
+        "revision_id": "dse~OAIResearchAug23Police2027@3",
+        "diff_base": "dse~OAIResearchAug23Police2027@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 377,
+            "character_length": 212
+          }
+        ],
+        "source_body_sha256": "1ea90cf033f0c06b35ba3060469bd8b5afd6a5e12589cc108e0eb5d8c25e37df"
+      },
+      {
+        "observation_id": "FP-S002660",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@18",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@17",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5267,
+            "character_length": 308
+          }
+        ],
+        "source_body_sha256": "8d9e00889694c9542aa4777d4af0a92bd98580f84547ca7d86cd417fc11bba3f"
+      },
+      {
+        "observation_id": "FP-S002663",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@20",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@19",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5843,
+            "character_length": 243
+          }
+        ],
+        "source_body_sha256": "23a4169db859470cdb56a6dcd4b3c0c1f72da09164de7810c8e659564cecc898"
+      },
+      {
+        "observation_id": "FP-S002666",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@23",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@22",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6602,
+            "character_length": 290
+          }
+        ],
+        "source_body_sha256": "9c4f9a03016471542276ce8c7bec35436f4d40836090380be32b120510fcd565"
+      },
+      {
+        "observation_id": "FP-S002675",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@25",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@24",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 7154,
+            "character_length": 244
+          }
+        ],
+        "source_body_sha256": "fc91590769ff8cf98e22931d32905258b411ba81ea8bbb73f563381ace0dbf0b"
+      },
+      {
+        "observation_id": "FP-S002677",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@27",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@26",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 7636,
+            "character_length": 284
+          }
+        ],
+        "source_body_sha256": "54212ff3d99c85fc7168a91d0b4a79415b188947ef69d379e42220eba0cfb871"
+      },
+      {
+        "observation_id": "FP-S002682",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@28",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@27",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 7922,
+            "character_length": 287
+          }
+        ],
+        "source_body_sha256": "6c5e63cad713a1079b0e68e2ab0eeaef54355eaf8839807bd25624f8203f5670"
+      },
+      {
+        "observation_id": "FP-S003302",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003304",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003305",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003311",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003313",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      },
+      {
+        "observation_id": "FP-S003314",
+        "decision_examined": "exclude",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@50",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@49",
+        "span_checks": [],
+        "source_body_sha256": "41444dfd5efb442f6e7c0b2920927e6f1945d2c6e463890044b7f88212b2aecb"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C0e1ae1944847",
+    "signature": "OpenAIResearchJan14X",
+    "verdict": "defer",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jan14 has only one distinctive own-task history report in supplied bucket (CA12:21:45, NY14:22:27); remaining generic outreach and peer Florida relay do not independently establish same owner. Deferral is appropriately conservative, not a negative identity judgment.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 12,
+        "reviewed_observations": 12,
+        "included_reviewed": 0
+      }
+    },
+    "issues": [],
+    "rationale": "Jan14 has only one distinctive own-task history report in supplied bucket (CA12:21:45, NY14:22:27); remaining generic outreach and peer Florida relay do not independently establish same owner. Deferral is appropriately conservative, not a negative identity judgment.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S000938",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~ClothingC3RelayMar19X@6",
+        "diff_base": "dse~ClothingC3RelayMar19X@5",
+        "span_checks": [],
+        "source_body_sha256": "4cb87ca0a7b5e7acd6021dbbd0b1c703ac422d3a1a9763eb9e59a60c7ee8a4a0"
+      },
+      {
+        "observation_id": "FP-S000946",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~Clothing9m17C3RelayAug16@9",
+        "diff_base": "dse~Clothing9m17C3RelayAug16@8",
+        "span_checks": [],
+        "source_body_sha256": "9ef5108ee31a3c5e824bea62de92d3adbae977778167d004576d7647ef8122aa"
+      },
+      {
+        "observation_id": "FP-S000992",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~DataUSAClothingLive12m24Oct25@12",
+        "diff_base": "dse~DataUSAClothingLive12m24Oct25@11",
+        "span_checks": [],
+        "source_body_sha256": "0dfc519f24bded9fa1fb69958333c56ad54b59221f82da10d169b4ede0344024"
+      },
+      {
+        "observation_id": "FP-S001296",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~ClothingC3FastSignalJul14@2",
+        "diff_base": "dse~ClothingC3FastSignalJul14@1",
+        "span_checks": [],
+        "source_body_sha256": "7f31c7df9dbf06f379d80d2e3af856d4a626ecb3131d62c6a7c72c10fcec3357"
+      },
+      {
+        "observation_id": "FP-S001383",
+        "decision_examined": "associate",
+        "revision_id": "dse~ClothingC3FastSignalJul14@4",
+        "diff_base": "dse~ClothingC3FastSignalJul14@3",
+        "span_checks": [],
+        "source_body_sha256": "7588f49f6fd82da0d5e497459e5647b760498314d88fdd2c930fc7bc665a9b97"
+      },
+      {
+        "observation_id": "FP-S001392",
+        "decision_examined": "exclude",
+        "revision_id": "dse~ClothingC3FastSignalJul14@5",
+        "diff_base": "dse~ClothingC3FastSignalJul14@4",
+        "span_checks": [],
+        "source_body_sha256": "11af2598268d3910e9628df47fa7505a19892074bc02f9c0a8e0f9063c3a7c65"
+      },
+      {
+        "observation_id": "FP-S001496",
+        "decision_examined": "exclude",
+        "revision_id": "dse~ClothingC3FastSignalJul14@6",
+        "diff_base": "dse~ClothingC3FastSignalJul14@5",
+        "span_checks": [],
+        "source_body_sha256": "b79f549e9c08e72918b8cd15924a207092347e628ef95693a993364eafd42d5d"
+      },
+      {
+        "observation_id": "FP-S001599",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~OpenAINov24ClothingLiveX@4",
+        "diff_base": "dse~OpenAINov24ClothingLiveX@3",
+        "span_checks": [],
+        "source_body_sha256": "9fe936be2e07f61693961b8573282ef4f193efbf47a03e4f66998e44b10d03e1"
+      },
+      {
+        "observation_id": "FP-S001600",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~OpenAIJul27ClothingLiveX@8",
+        "diff_base": "dse~OpenAIJul27ClothingLiveX@7",
+        "span_checks": [],
+        "source_body_sha256": "cd32291c467983233b4b281fdb8284433cde047f439860187476cc14ede1ee30"
+      },
+      {
+        "observation_id": "FP-S001603",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~ClothingC4FastSignalJul14@10",
+        "diff_base": "dse~ClothingC4FastSignalJul14@9",
+        "span_checks": [],
+        "source_body_sha256": "70a4cc9807c5601002335db22a9c1bd9f88288f65992839724ce5e180fbd154b"
+      },
+      {
+        "observation_id": "FP-S001618",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~OpenAISep04ClothingLiveX@5",
+        "diff_base": "dse~OpenAISep04ClothingLiveX@4",
+        "span_checks": [],
+        "source_body_sha256": "f1247c895b493875f89535da57137be9af5fc061889347c0c996669f276a20d3"
+      },
+      {
+        "observation_id": "FP-S001660",
+        "decision_examined": "unresolved",
+        "revision_id": "dse~OAI2028Aug09Clothing9m17X@2",
+        "diff_base": "dse~OAI2028Aug09Clothing9m17X@1",
+        "span_checks": [],
+        "source_body_sha256": "5e27bad07aa22250ccba13bfcbb27275aeff33a25f5f7856ff1788b1d39684c1"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Cfe81779b3056",
+    "signature": "OpenAiResearchMarX",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "MarX/Mar17 initialTexas14:27:46 and Louisiana15:15:55 plus subsequent fresh own report of answering through R3 form substantive progression. FP-S001395 correctly trims inherited technical paragraph down to newly inserted own span. Counter tests remain separate associations.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 15,
+        "reviewed_observations": 15,
+        "included_reviewed": 4
+      }
+    },
+    "issues": [],
+    "rationale": "MarX/Mar17 initialTexas14:27:46 and Louisiana15:15:55 plus subsequent fresh own report of answering through R3 form substantive progression. FP-S001395 correctly trims inherited technical paragraph down to newly inserted own span. Counter tests remain separate associations.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001112",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSALanguageSequenceFeb17@20",
+        "diff_base": "dse~DataUSALanguageSequenceFeb17@19",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5472,
+            "character_length": 426
+          }
+        ],
+        "source_body_sha256": "ade54071e047ba8ac6b34e49263e619c947a3141d5ad109a7405aea49c7c8136"
+      },
+      {
+        "observation_id": "FP-S001242",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSADenominatorEvidenceMar17@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 440
+          }
+        ],
+        "source_body_sha256": "b3d162ca9b2f56a43346646e7442cb06b28d9077da012f461285483891743dc5"
+      },
+      {
+        "observation_id": "FP-S001395",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSADenominatorEvidenceMar17@2",
+        "diff_base": "dse~DataUSADenominatorEvidenceMar17@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 266,
+            "character_length": 56
+          }
+        ],
+        "source_body_sha256": "8d0f7df7c96e9155ae84e5c095769463fc5b8c50cc1f31835b4d0f06d4ba1a71"
+      },
+      {
+        "observation_id": "FP-S001499",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSADenominatorEvidenceMar17@5",
+        "diff_base": "dse~DataUSADenominatorEvidenceMar17@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 938,
+            "character_length": 389
+          }
+        ],
+        "source_body_sha256": "7be309ef4a0b06be57b84b18e2d97155dd118a81fbb1618eb12f565a5fc552ff"
+      },
+      {
+        "observation_id": "FP-S001630",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@5",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@4",
+        "span_checks": [],
+        "source_body_sha256": "75f6435f9b8b1ff1ce7ff7d4f3f5585e513429d31485f945730f5a03470feee3"
+      },
+      {
+        "observation_id": "FP-S001631",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSALangR5RelayOct23@25",
+        "diff_base": "dse~DataUSALangR5RelayOct23@24",
+        "span_checks": [],
+        "source_body_sha256": "6533912a0de595e1c2849b74492f58fecedbc1b20f6e831f936de9e7834152f3"
+      },
+      {
+        "observation_id": "FP-S001634",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@6",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@5",
+        "span_checks": [],
+        "source_body_sha256": "8592a5573508f2916dc7b9eecc3f6c3c4078443e342d8d409927f4b33323350f"
+      },
+      {
+        "observation_id": "FP-S001637",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALangR5RelayOct23@26",
+        "diff_base": "dse~DataUSALangR5RelayOct23@25",
+        "span_checks": [],
+        "source_body_sha256": "3fdf3c0fa9e793223f676b5e0623898626769375a57caf9d9e11eddaddd67117"
+      },
+      {
+        "observation_id": "FP-S001639",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@7",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@6",
+        "span_checks": [],
+        "source_body_sha256": "1146f65d53cd07051a8aa315c55260faa57c7b3e7393f43a3445acdd701df53c"
+      },
+      {
+        "observation_id": "FP-S001642",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@8",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@7",
+        "span_checks": [],
+        "source_body_sha256": "4ef71a2ad80d42dc259f3490728d502fb44397738a37c5630e3dfb61abcc4ad2"
+      },
+      {
+        "observation_id": "FP-S001645",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@9",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@8",
+        "span_checks": [],
+        "source_body_sha256": "73580fa1448b129c3362ae0fa0903366457ba1e69e175aa1a1c518b3c138f9e2"
+      },
+      {
+        "observation_id": "FP-S001650",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALangR5RelayOct23@27",
+        "diff_base": "dse~DataUSALangR5RelayOct23@26",
+        "span_checks": [],
+        "source_body_sha256": "8345d2b57d956647d81815be2c8f82af7e81a3710fda40a5c1f7cd74a0e33b3f"
+      },
+      {
+        "observation_id": "FP-S001661",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@10",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@9",
+        "span_checks": [],
+        "source_body_sha256": "5a9a18a60f4c025f9aac15bc96f9dc047037f4c69891504894bcfb427f50a846"
+      },
+      {
+        "observation_id": "FP-S001684",
+        "decision_examined": "exclude",
+        "revision_id": "dse~DataUSALanguageR5LiveDec29@11",
+        "diff_base": "dse~DataUSALanguageR5LiveDec29@10",
+        "span_checks": [],
+        "source_body_sha256": "82d126263b14500340892eb80dd607b07b4613e40722b5c1c1255106457b531a"
+      },
+      {
+        "observation_id": "FP-S001778",
+        "decision_examined": "associate",
+        "revision_id": "dse~DataUSALanguageR5SignalNow@24",
+        "diff_base": "dse~DataUSALanguageR5SignalNow@23",
+        "span_checks": [],
+        "source_body_sha256": "7938295aa6086f1d8abac1b948b2dc784d4f01ea8609e8222baa8c178ee62306"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C63eac8597adc",
+    "signature": "Dec30WageAgent",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Dec30 female-electrician yearly wage run19:25:18/19:52:18/20:16:29 is coherent and is not P23 state sequence despite Dec30 date. Metadata should preserve literal task label in initial source; later clock reports explicitly use scaffold.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 9,
+        "reviewed_observations": 9,
+        "included_reviewed": 9
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S002866",
+        "reason": "Initial report explicitly says task19:25:18; all its schedule claims are labeled scaffold. Use literal task clock for these claims rather than adding source specificity from later reports.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_clock_system": "task"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Dec30 female-electrician yearly wage run19:25:18/19:52:18/20:16:29 is coherent and is not P23 state sequence despite Dec30 date. Metadata should preserve literal task label in initial source; later clock reports explicitly use scaffold.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002866",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionWageSep18Live@21",
+        "diff_base": "dse~DataUSAConstructionWageSep18Live@20",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4638,
+            "character_length": 240
+          }
+        ],
+        "source_body_sha256": "b1a25090606538a235effdc7a731988ba8d275cde7e1ddd3a218a28c413fba5e"
+      },
+      {
+        "observation_id": "FP-S002868",
+        "decision_examined": "include",
+        "revision_id": "dse~ZZZDataUSAConstructionWageLive@3",
+        "diff_base": "dse~ZZZDataUSAConstructionWageLive@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 638,
+            "character_length": 126
+          }
+        ],
+        "source_body_sha256": "df35d522f84d029faea2c631681981d54ac45d4a9ba63c91cc2c96c827de9128"
+      },
+      {
+        "observation_id": "FP-S002876",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionWageSep18Live@28",
+        "diff_base": "dse~DataUSAConstructionWageSep18Live@27",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6216,
+            "character_length": 153
+          }
+        ],
+        "source_body_sha256": "965a02f5c1399964baa6e8e74af41b70da2e56b925f3b9c2980e4b33b6e82f30"
+      },
+      {
+        "observation_id": "FP-S002877",
+        "decision_examined": "include",
+        "revision_id": "dse~ZZZDataUSAConstructionWageLive@6",
+        "diff_base": "dse~ZZZDataUSAConstructionWageLive@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1204,
+            "character_length": 106
+          }
+        ],
+        "source_body_sha256": "44d6f27bb5d7174d4feed0bdb4371eb3c2d89a5b1dfe8c3611f07b4bcc9ee523"
+      },
+      {
+        "observation_id": "FP-S002880",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionWageSep18Live@30",
+        "diff_base": "dse~DataUSAConstructionWageSep18Live@29",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6377,
+            "character_length": 218
+          }
+        ],
+        "source_body_sha256": "98774b10f83fcb23f9d9daa9c3c83e226b7db6c28fc9d6ef4f40cc65a222d8b6"
+      },
+      {
+        "observation_id": "FP-S002881",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSAConstructionWageSep18Live@30",
+        "diff_base": "dse~DataUSAConstructionWageSep18Live@29",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 6596,
+            "character_length": 184
+          }
+        ],
+        "source_body_sha256": "98774b10f83fcb23f9d9daa9c3c83e226b7db6c28fc9d6ef4f40cc65a222d8b6"
+      },
+      {
+        "observation_id": "FP-S002882",
+        "decision_examined": "include",
+        "revision_id": "dse~ZZZDataUSAConstructionWageLive@8",
+        "diff_base": "dse~ZZZDataUSAConstructionWageLive@7",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1487,
+            "character_length": 169
+          }
+        ],
+        "source_body_sha256": "893f3924ffc735d3395e1ed5fb84e84d8b2d2be9f2e6fd55dccdd97595a7e18e"
+      },
+      {
+        "observation_id": "FP-S002884",
+        "decision_examined": "include",
+        "revision_id": "dse~ZZZDataUSAConstructionWageLive@10",
+        "diff_base": "dse~ZZZDataUSAConstructionWageLive@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1911,
+            "character_length": 142
+          }
+        ],
+        "source_body_sha256": "dc5f5eb2f7c3b65c53c86b44f35e44371534dda12157621fa33ddc6e20fa2548"
+      },
+      {
+        "observation_id": "FP-S002885",
+        "decision_examined": "include",
+        "revision_id": "dse~ZZZDataUSAConstructionWageLive@10",
+        "diff_base": "dse~ZZZDataUSAConstructionWageLive@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2054,
+            "character_length": 190
+          }
+        ],
+        "source_body_sha256": "dc5f5eb2f7c3b65c53c86b44f35e44371534dda12157621fa33ddc6e20fa2548"
+      }
+    ]
+  },
+  {
+    "candidate_id": "Ce219e841e1fc",
+    "signature": "May22OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "May22 finance gaps initial07:44:56, R2 08:11:21, R3 08:33:57 and R4 08:56:32 are coherent; one-second forecasts remain predictions. Detached probe cancellation is explicitly linked; no actual endpoint inferred.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 10
+      }
+    },
+    "issues": [],
+    "rationale": "May22 finance gaps initial07:44:56, R2 08:11:21, R3 08:33:57 and R4 08:56:32 are coherent; one-second forecasts remain predictions. Detached probe cancellation is explicitly linked; no actual endpoint inferred.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002196",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@2",
+        "diff_base": "dse~FinanceSequenceMar26OAI@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 286,
+            "character_length": 150
+          }
+        ],
+        "source_body_sha256": "17814c78e7eb630212679e2904f3889d0e2b9a929b38345c90e0e299640afea0"
+      },
+      {
+        "observation_id": "FP-S002220",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@6",
+        "diff_base": "dse~FinanceSequenceMar26OAI@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1402,
+            "character_length": 226
+          }
+        ],
+        "source_body_sha256": "02963dfdaff0b88f5d8f1416342895c82c04b75ad2941103ff00a8d2ba6ff292"
+      },
+      {
+        "observation_id": "FP-S002241",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@12",
+        "diff_base": "dse~FinanceSequenceMar26OAI@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3186,
+            "character_length": 307
+          }
+        ],
+        "source_body_sha256": "c0f177b536bc58554192c82e9dff51ef4f7ddd5df4197574c92ff77fdde27ce4"
+      },
+      {
+        "observation_id": "FP-S002257",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@17",
+        "diff_base": "dse~FinanceSequenceMar26OAI@16",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 4366,
+            "character_length": 157
+          }
+        ],
+        "source_body_sha256": "09f28d4a3c0104168071e122ef269aee8ffb89ec0fb71d46b3b7c1cbf8c8c584"
+      },
+      {
+        "observation_id": "FP-S002268",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@20",
+        "diff_base": "dse~FinanceSequenceMar26OAI@19",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5468,
+            "character_length": 143
+          }
+        ],
+        "source_body_sha256": "f84e1585b1b838ebd0c7925df25beb28cc4939fc49ed6bdf3d30118a2f9b984c"
+      },
+      {
+        "observation_id": "FP-S002269",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI@21",
+        "diff_base": "dse~FinanceSequenceMar26OAI@20",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 5612,
+            "character_length": 141
+          }
+        ],
+        "source_body_sha256": "fb277c21449dd3fbb0156d7dd5ee3a5c808d6a9455125a3b2698992485273354"
+      },
+      {
+        "observation_id": "FP-S002313",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@3",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 737,
+            "character_length": 255
+          }
+        ],
+        "source_body_sha256": "63ca9ed03eed9d122114ed688b9cc128372880a20f7d67ece1cb63a55aca87af"
+      },
+      {
+        "observation_id": "FP-S002322",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@10",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@9",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 2797,
+            "character_length": 199
+          }
+        ],
+        "source_body_sha256": "bf329c3a4a96cdb04f1bd1a827947d5a901e8255a7422707cb18c9bb412152cb"
+      },
+      {
+        "observation_id": "FP-S002324",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@12",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@11",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3352,
+            "character_length": 194
+          }
+        ],
+        "source_body_sha256": "88d0b00dd43bd1b8621e421b702f7452af6ef3e2e8d70346377da673a27b6582"
+      },
+      {
+        "observation_id": "FP-S002325",
+        "decision_examined": "include",
+        "revision_id": "dse~FinanceSequenceMar26OAI2@13",
+        "diff_base": "dse~FinanceSequenceMar26OAI2@12",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 3547,
+            "character_length": 197
+          }
+        ],
+        "source_body_sha256": "62d5b4679fc3f801282da33b1ac1c50a9789e0b250c1e9941b67b343d438af91"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C7e48e9024ab8",
+    "signature": "OpenAIJul09CVD",
+    "verdict": "revise",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Jul09 has incompatible own CVD schedules: R1 11:34:16/R5answer13:02:14/R6due13:22:21 versus explicit2028 R1 06:41:01/R5answer08:08:56/R6due08:29:06. Split is justified. Reverse body order of survival posts08:28:33 through08:26:08 is not task-clock regression; same revision contains retrospective updates. Clarify R4 confirmation(+1s) event type.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 10,
+        "reviewed_observations": 10,
+        "included_reviewed": 9
+      }
+    },
+    "issues": [
+      {
+        "observation_id": "FP-S003851",
+        "reason": "R4 Hungary CONFIRMED at12:42:00 (+1s), answered GBD2021 exact, does not disambiguate prompt versus answer/confirmation time. Metadata currently asserts prompt_arrival.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_event_kind": "other",
+          "retain_qualifier": "R4 confirmation at12:42:00 (+1s); exact prompt-arrival/answer distinction uncertain"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S003928",
+        "reason": "Own R5 explicitly uses scaffold13:02:14; metadata records task instead. Preserve explicit scaffold label for R5 and the adjoining same-clock schedule landmarks.",
+        "proposed_decision": "include",
+        "proposed_change": {
+          "schedule_claim_clock_system": "scaffold"
+        },
+        "rule_ids": [
+          "R09"
+        ]
+      }
+    ],
+    "rationale": "Jul09 has incompatible own CVD schedules: R1 11:34:16/R5answer13:02:14/R6due13:22:21 versus explicit2028 R1 06:41:01/R5answer08:08:56/R6due08:29:06. Split is justified. Reverse body order of survival posts08:28:33 through08:26:08 is not task-clock regression; same revision contains retrospective updates. Clarify R4 confirmation(+1s) event type.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S003851",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJul09CVDLive@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 32,
+            "character_length": 157
+          }
+        ],
+        "source_body_sha256": "cb7e99a82547141e8d86c89e90604e00bf49c212ecaa745c7c486322d1c35b80"
+      },
+      {
+        "observation_id": "FP-S003902",
+        "decision_examined": "associate",
+        "revision_id": "dse~PolandSeeker2@3",
+        "diff_base": "dse~PolandSeeker2@2",
+        "span_checks": [],
+        "source_body_sha256": "86acdec5d6b1958f0b070f4be35b4a7abca4cb2204e1145309226331bb84978a"
+      },
+      {
+        "observation_id": "FP-S003928",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJul09CVDLive@2",
+        "diff_base": "dse~OpenAIJul09CVDLive@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 190,
+            "character_length": 245
+          }
+        ],
+        "source_body_sha256": "d722ab4680209ea976bb4ea9139abdb51bc17d0a3e029b1000b347ccafcd3329"
+      },
+      {
+        "observation_id": "FP-S003984",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@119",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@118",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 224
+          }
+        ],
+        "source_body_sha256": "8ab9d0902a546995427bfec47f91fc610fdf6acf96d317b0880c43651fd12cea"
+      },
+      {
+        "observation_id": "FP-S003991",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJul09CVDLive@3",
+        "diff_base": "dse~OpenAIJul09CVDLive@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 436,
+            "character_length": 262
+          }
+        ],
+        "source_body_sha256": "704fdc8f7232fe49bfcaace3e6692487d534a297d94b66e64369383f98549233"
+      },
+      {
+        "observation_id": "FP-S003998",
+        "decision_examined": "include",
+        "revision_id": "dse~OpenAIJul09CVDLive@4",
+        "diff_base": "dse~OpenAIJul09CVDLive@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 699,
+            "character_length": 281
+          }
+        ],
+        "source_body_sha256": "6db7292ceb0dde478f2e6f07d464ef5305b9a35ba400b100d48e8e6cacff3b18"
+      },
+      {
+        "observation_id": "FP-S004037",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@121",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@120",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 135
+          }
+        ],
+        "source_body_sha256": "d02db3176b5bd57c0a40623e9f4e87281998d54d83d56574546662556e448242"
+      },
+      {
+        "observation_id": "FP-S004038",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@121",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@120",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 137,
+            "character_length": 141
+          }
+        ],
+        "source_body_sha256": "d02db3176b5bd57c0a40623e9f4e87281998d54d83d56574546662556e448242"
+      },
+      {
+        "observation_id": "FP-S004039",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@121",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@120",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 280,
+            "character_length": 130
+          }
+        ],
+        "source_body_sha256": "d02db3176b5bd57c0a40623e9f4e87281998d54d83d56574546662556e448242"
+      },
+      {
+        "observation_id": "FP-S004040",
+        "decision_examined": "include",
+        "revision_id": "dse~HealthdataCVDSequenceCollab@121",
+        "diff_base": "dse~HealthdataCVDSequenceCollab@120",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 412,
+            "character_length": 170
+          }
+        ],
+        "source_body_sha256": "d02db3176b5bd57c0a40623e9f4e87281998d54d83d56574546662556e448242"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C8aa875fec937",
+    "signature": "AgentAug02Scout",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Aug02 police08:47:14/08:58:33/09:07:47/09:17:02/09:26:16 anchors coherent5s-tier run. R5reported and R6scheduled are distinct; silence/termination remains conjecture.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 8,
+        "reviewed_observations": 8,
+        "included_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "Aug02 police08:47:14/08:58:33/09:07:47/09:17:02/09:26:16 anchors coherent5s-tier run. R5reported and R6scheduled are distinct; silence/termination remains conjecture.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S002929",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@33",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@32",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 9511,
+            "character_length": 128
+          }
+        ],
+        "source_body_sha256": "bcc315da992423980fe545400de6825b0efffabacbdd0f73567d4c35c6988c38"
+      },
+      {
+        "observation_id": "FP-S002934",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageJul31Fast2026@2",
+        "diff_base": "dse~PoliceWageJul31Fast2026@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 220,
+            "character_length": 161
+          }
+        ],
+        "source_body_sha256": "a221d50811fca63e23ef3095555d9e8aa7f0b436fdc5034b8d62299e84e46338"
+      },
+      {
+        "observation_id": "FP-S002939",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@2",
+        "diff_base": "dse~AgentAug02Scout@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 286,
+            "character_length": 205
+          }
+        ],
+        "source_body_sha256": "19261f40852a580d45a2ab1a8e9e66c5c4f88e90d9a39f9adb891e891d15ff84"
+      },
+      {
+        "observation_id": "FP-S002940",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@2",
+        "diff_base": "dse~AgentAug02Scout@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 494,
+            "character_length": 109
+          }
+        ],
+        "source_body_sha256": "19261f40852a580d45a2ab1a8e9e66c5c4f88e90d9a39f9adb891e891d15ff84"
+      },
+      {
+        "observation_id": "FP-S002953",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@41",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@40",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 11109,
+            "character_length": 123
+          }
+        ],
+        "source_body_sha256": "a981fa779182cf9c740e4c175068c616764a555552ab639cd7e5566339fd13aa"
+      },
+      {
+        "observation_id": "FP-S002966",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@5",
+        "diff_base": "dse~AgentAug02Scout@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1037,
+            "character_length": 135
+          }
+        ],
+        "source_body_sha256": "8d62168f49d6cea5b25e4c2c1c9d9ebeebd230b202266a9fb33179bc6764efd9"
+      },
+      {
+        "observation_id": "FP-S002967",
+        "decision_examined": "include",
+        "revision_id": "dse~AgentAug02Scout@5",
+        "diff_base": "dse~AgentAug02Scout@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1174,
+            "character_length": 151
+          }
+        ],
+        "source_body_sha256": "8d62168f49d6cea5b25e4c2c1c9d9ebeebd230b202266a9fb33179bc6764efd9"
+      },
+      {
+        "observation_id": "FP-S002968",
+        "decision_examined": "include",
+        "revision_id": "dse~PoliceWageAgeSequenceMar10Collab@45",
+        "diff_base": "dse~PoliceWageAgeSequenceMar10Collab@44",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 11839,
+            "character_length": 125
+          }
+        ],
+        "source_body_sha256": "f53bb8a8e323227592d927fa7c5e5ee5bde011301bc76a0e77ff722e12bb85c2"
+      }
+    ]
+  },
+  {
+    "candidate_id": "C3f7f044fcd3d",
+    "signature": "CashierCoordFeb07OAI",
+    "verdict": "pass",
+    "checks": {
+      "speaker": "Every included excerpt read; own statements distinguish addressed peers and quoted/relayed results. Mixed-line MarX span inspected directly against predecessor.",
+      "freshness": "Every included literal span checked in raw ZIP body and absent from immediate diff base; encoding/restoration patterns inspected, repeated publications remain separate.",
+      "task_continuity": "Feb07 Cashier11:17:40/12:16:54/13:01:29/13:46:05 links dedicated-page reports. Later probe refinements preserve14:30:41 prediction and specific namespace; unrelated endpoint commentary remains associated.",
+      "observed_predicted_distinction": "Future schedules remain predictions and terminal claims remain hypotheses; event-type corrections listed explicitly where needed.",
+      "duplicate_alias_collisions": "Compared existing49 persona roster and same-family own schedules; no compatible existing identity found. Aug09 and Jul09 split by incompatible own histories. Dec30 wage distinct from P23 construction-state run.",
+      "coverage": {
+        "input_observations": 14,
+        "reviewed_observations": 14,
+        "included_reviewed": 8
+      }
+    },
+    "issues": [],
+    "rationale": "Feb07 Cashier11:17:40/12:16:54/13:01:29/13:46:05 links dedicated-page reports. Later probe refinements preserve14:30:41 prediction and specific namespace; unrelated endpoint commentary remains associated.",
+    "observation_checks": [
+      {
+        "observation_id": "FP-S001932",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@1",
+        "diff_base": null,
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 0,
+            "character_length": 473
+          }
+        ],
+        "source_body_sha256": "09cd11cb4c6df8e9198ec607d14da09eb2ecb7673d4b325c45484e4f5dfbf7fc"
+      },
+      {
+        "observation_id": "FP-S001945",
+        "decision_examined": "include",
+        "revision_id": "dse~DataUSACashiersMastersSequenceLive5@34",
+        "diff_base": "dse~DataUSACashiersMastersSequenceLive5@33",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 312,
+            "character_length": 175
+          }
+        ],
+        "source_body_sha256": "d501538eb1e312861d8bf2142bf40f54383178bd48aa339a7bf4cfd9b162b2e3"
+      },
+      {
+        "observation_id": "FP-S001987",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierR5SignalSep01OAI@4",
+        "diff_base": "dse~CashierR5SignalSep01OAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 670,
+            "character_length": 162
+          }
+        ],
+        "source_body_sha256": "f4195589f4a2d6e0aac9d0b278ba7cc2b15524a921f8eb351d3a044c15e9bf1b"
+      },
+      {
+        "observation_id": "FP-S002049",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@2",
+        "diff_base": "dse~CashierCoordFeb07OAI@1",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 474,
+            "character_length": 198
+          }
+        ],
+        "source_body_sha256": "6e5b0099ab9ee9c4ef519c2302f742b3c22000821df6c37d2fa3c9f5d425af2b"
+      },
+      {
+        "observation_id": "FP-S002098",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordJan17OAI@6",
+        "diff_base": "dse~CashierCoordJan17OAI@5",
+        "span_checks": [],
+        "source_body_sha256": "6764a3496b67ebfa61e3c52e8495584bfce2ccae1241b73ebdbdbef55a67cc24"
+      },
+      {
+        "observation_id": "FP-S002123",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@3",
+        "diff_base": "dse~CashierCoordFeb07OAI@2",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 673,
+            "character_length": 249
+          }
+        ],
+        "source_body_sha256": "bdef1b437984735b46016cc3f27675ab61fa61128ac6f7e595181fb2f3d053c7"
+      },
+      {
+        "observation_id": "FP-S002172",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@4",
+        "diff_base": "dse~CashierCoordFeb07OAI@3",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 923,
+            "character_length": 243
+          }
+        ],
+        "source_body_sha256": "356f09e8a273159bdf6c18927f5429d970219a2604addfb4a4cd71dd97f2e2cc"
+      },
+      {
+        "observation_id": "FP-S002175",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordAug03OAI@6",
+        "diff_base": "dse~CashierCoordAug03OAI@5",
+        "span_checks": [],
+        "source_body_sha256": "f18a4a28fe0ec7f7c9591f313ff8c913544b6f54ad61b427e617cb6109353932"
+      },
+      {
+        "observation_id": "FP-S002179",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordDec29OAI@3",
+        "diff_base": "dse~CashierCoordDec29OAI@2",
+        "span_checks": [],
+        "source_body_sha256": "062c97678a91a43e969ad434e7f558728b45b29541ee16d49faa3d05c6da493b"
+      },
+      {
+        "observation_id": "FP-S002186",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordDec29OAI@5",
+        "diff_base": "dse~CashierCoordDec29OAI@4",
+        "span_checks": [],
+        "source_body_sha256": "17cbb69e7d12fd5f84ee3f1447f85b75f21639f570c68be7f16b26b0bcef6aca"
+      },
+      {
+        "observation_id": "FP-S002189",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@5",
+        "diff_base": "dse~CashierCoordFeb07OAI@4",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1167,
+            "character_length": 386
+          }
+        ],
+        "source_body_sha256": "36c7ca2cf2fec71fd27253242d606549e1b692e47fcfffe911fd9313d0bda665"
+      },
+      {
+        "observation_id": "FP-S002193",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordJan08OAI@6",
+        "diff_base": "dse~CashierCoordJan08OAI@5",
+        "span_checks": [],
+        "source_body_sha256": "c1689852f8211a39bd1128a9d09fe13cecf3392471efbcd3378d399b2245935e"
+      },
+      {
+        "observation_id": "FP-S002195",
+        "decision_examined": "include",
+        "revision_id": "dse~CashierCoordFeb07OAI@6",
+        "diff_base": "dse~CashierCoordFeb07OAI@5",
+        "span_checks": [
+          {
+            "exact_in_revision": true,
+            "exact_in_diff_base": false,
+            "start_character": 1554,
+            "character_length": 321
+          }
+        ],
+        "source_body_sha256": "cd4e8259ed34d3b52d6682170c609888245b8eee228a3d9c0867b8f059eb435a"
+      },
+      {
+        "observation_id": "FP-S002197",
+        "decision_examined": "associate",
+        "revision_id": "dse~CashierCoordDec29OAI@8",
+        "diff_base": "dse~CashierCoordDec29OAI@7",
+        "span_checks": [],
+        "source_body_sha256": "181380884faa769dcb1d68f6565127a1fbd4bb2e91e283fdb6d4b95355f49fb9"
+      }
+    ]
+  }
+]

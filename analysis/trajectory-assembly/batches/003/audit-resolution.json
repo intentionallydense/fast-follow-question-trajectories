@@ -1,0 +1,974 @@
+[
+  {
+    "candidate_id": "C5edcc8d7cd3e",
+    "signature": "CashierCoordMar23OAI",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ccb9e7b572509",
+    "signature": "ClothingHelperJul15X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C4cf20f702b30",
+    "signature": "June05PovertyWatcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001843",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S001866",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C040ba53f823c",
+    "signature": "Nov22OECDScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003415",
+        "action": "Add correction_relations edge to FP-S003300; Corrects intended Slovak R4 14.60 to14.59 and dashboard table precision; does not rewrite actual earlier submitted answers.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S003415",
+        "action": "Add correction_relations edge to FP-S003268; Corrects cited Czech/Hungary dashboard precision9.70/9.90 to9.69/9.91; actual reported earlier submissions remain preserved.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ca66492c0d8d0",
+    "signature": "OECDNov12Agent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003554",
+        "action": "Add correction_relations edge to FP-S003553; Explicitly corrects old Hungary9.90 to9.91, Poland16.40 to16.38 and Slovak14.60 to14.59; reported R2 answer uses9.91.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S003555",
+        "action": "Add correction_relations edge to FP-S003551; Independent tooltip verification corrects Czech dashboard value9.70 to9.69; historical actual R1 answer9.70 is not replaced.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C5f2687b525f1",
+    "signature": "OpenAICVDNov21",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 6,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C461d52c2b56d",
+    "signature": "OpenAIHelperAug27",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S002511",
+        "action": "Set raw_value to \"around 07:59:34-36\"; retain predicted status.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cf11f04455a66",
+    "signature": "OpenAIHelperOct20X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C5aa7c8958526",
+    "signature": "OpenAIJul14Helper",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cdc8de32dac0d",
+    "signature": "OpenAIJun27SDGScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003967",
+        "action": "Expand retained span to full LIVE Jun27 through signoff block; add exact selected R1/R2 arrival/deadline and R3 due claims. Keep UTC mapping distinct from task clock.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C58880fdbd189",
+    "signature": "OpenAIObserverNov09",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C78348b3615b3",
+    "signature": "OpenAIResearchJun13X",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001729",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C7c14e89b59f2",
+    "signature": "OpenAIUEFAApr04Scout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ccc8e901916a6",
+    "signature": "ResearchAgentFeb08",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 6,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cfcdc16ce6471",
+    "signature": "AgentOpenAIFeb29Run",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001061",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S001264",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 2,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C6be5aa4c331e",
+    "signature": "Apr06OECDScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003435",
+        "action": "Add correction_relations edge to FP-S003234; Explicit precision correction changes intended HungaryR2 answer9.90 to9.91 and questions earlier Czech9.70 submission; does not establish evaluator correctness or replace actual past answer.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C470a31fcf93c",
+    "signature": "CashierCoordAug07OAI",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C90a586623986",
+    "signature": "CashierCoordOct06OAI",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S002140",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R3"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock2"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002141",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock3"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002140",
+        "audit_issue": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "applied_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock2"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002141",
+        "audit_issue": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "applied_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock3",
+          "C90a586623986/1/clock4"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002153",
+        "audit_issue": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "applied_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock7"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002165",
+        "audit_issue": "Source explicitly pairs these task-clock reports with Oct06; retain the stated task date instead of null. No year inferred.",
+        "applied_change": {
+          "schedule_claim_task_date": "Oct06"
+        },
+        "changed_claim_ids": [
+          "C90a586623986/1/clock8",
+          "C90a586623986/1/clock9"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "Cff41ec2e61eb",
+    "signature": "Jul01PovertyStateScout",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S004095",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "Cff41ec2e61eb/1/clock3"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C5fcbe2290e47",
+    "signature": "Mar30TooltipVerifier",
+    "audit_verdict": "defer",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "deferred",
+    "resolution": "Conservative deferral affirmed."
+  },
+  {
+    "candidate_id": "C49b185b48380",
+    "signature": "Nov28OECDHelper",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C58a032ba14b5",
+    "signature": "OECDResearchAug10",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C09561cf59572",
+    "signature": "OpenAIFeb26Scout",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S003828",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C09561cf59572/1/clock3"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "Cf31ccc0b9d55",
+    "signature": "OpenAIHelperJul30",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Caf47d4a6d0cf",
+    "signature": "OpenAIJan20ConstructionX",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S001888",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "Caf47d4a6d0cf/1/clock3",
+          "Caf47d4a6d0cf/1/clock4"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S001870",
+        "audit_issue": "Source says Texas at04:07:45 and answered same second. Exact answer time is supported; explicit arrival evidence is in1889 instead.",
+        "applied_change": {
+          "rounds": [
+            "R3"
+          ],
+          "schedule_claim_event_kind": "answer"
+        },
+        "changed_claim_ids": [
+          "Caf47d4a6d0cf/1/clock5"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C76cb618424f4",
+    "signature": "OpenAIJul31Police",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S002924",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C76cb618424f4/1/clock1",
+          "C76cb618424f4/1/clock2",
+          "C76cb618424f4/1/clock3"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002935",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C76cb618424f4/1/clock4"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S002957",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R5"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C76cb618424f4/1/clock5"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C7dfaa7c5821b",
+    "signature": "OpenAIMar31Scout",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Cccde976a5444",
+    "signature": "OpenAIOct23Police",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S002978",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R4"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "Cccde976a5444/1/clock5"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C38702ff8f47a",
+    "signature": "OpenAIResearchMar22",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S000993",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R1"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C38702ff8f47a/1/clock1"
+        ],
+        "status": "resolved"
+      },
+      {
+        "observation_id": "FP-S001422",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R2"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C38702ff8f47a/1/clock3",
+          "C38702ff8f47a/1/clock4",
+          "C38702ff8f47a/1/clock5"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C046d088aeac3",
+    "signature": "OpenAIWatcherOct30",
+    "audit_verdict": "revise",
+    "status": "resolved",
+    "corrections": [
+      {
+        "observation_id": "FP-S000958",
+        "audit_issue": "Selected source gives a bare country/round time or confirmed-at report, without explicitly saying arrival. Keep the history but use confirmation/other rather than upgrading timing to prompt_arrival.",
+        "applied_change": {
+          "rounds": [
+            "R1"
+          ],
+          "schedule_claim_event_kind": "other",
+          "event_description": "Own round history/confirmation timestamp; exact prompt-arrival versus answer subtype not explicit."
+        },
+        "changed_claim_ids": [
+          "C046d088aeac3/1/clock1"
+        ],
+        "status": "resolved"
+      }
+    ],
+    "candidate_disposition": "assembled",
+    "resolution": "All documented fixes applied."
+  },
+  {
+    "candidate_id": "C4f76217d3111",
+    "signature": "ResearchHelper",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Cfad4d7d6c12c",
+    "signature": "AgentOpenAIJan29Seq",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "Cd0c29cc7ee50",
+    "signature": "Aug17OECDHelper",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C08e206219917",
+    "signature": "CashierCoordDec02OAI",
+    "audit_verdict": "pass",
+    "status": "resolved",
+    "corrections": [],
+    "candidate_disposition": "assembled",
+    "resolution": "Independent audit passed; no changes required."
+  },
+  {
+    "candidate_id": "C67fb76815d5f",
+    "signature": "ChatGPTJul19Agent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002354",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002353"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002353",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002345"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb7e8ce0d60e7",
+    "signature": "Jul09ClothingObserver",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C3b035531814f",
+    "signature": "May04OECDCurrent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S003217",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S003213"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cc40ec18c27d8",
+    "signature": "OECDMay24Agent",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C088982c23c17",
+    "signature": "Oct16MaidsWatcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000676",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000618"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C2e012735efe6",
+    "signature": "OpenAIHealthdataCVDMay12",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd8822896c231",
+    "signature": "OpenAIHelperMay15",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000367",
+        "claim_id": "FP-S000367/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S000320",
+        "claim_id": "FP-S000320/clock1",
+        "reason": "The source explicitly dates this prompt May15; retain that date alongside the selected clock, without inferring a year.",
+        "proposed_change": {
+          "task_date": "May15"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C1aee1cbfde42",
+    "signature": "OpenAIJan27Watcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002955",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S002952"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock1",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock2",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock3",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      },
+      {
+        "observation_id": "FP-S002952",
+        "claim_id": "FP-S002952/clock4",
+        "reason": "The governed block explicitly identifies its task as Jan27 2027; retain the literal task-date label for the selected clocks in that block.",
+        "proposed_change": {
+          "task_date": "Jan27 2027"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd532923868b2",
+    "signature": "OpenAIJun15Construction",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C9ad0ee0def3d",
+    "signature": "OpenAIMay03CVDScout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C6ddbb4be7fbe",
+    "signature": "OpenAIResearchDec30",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S003976",
+        "claim_id": "FP-S003976/clock1",
+        "reason": "The explicit heartbeat restart correction has an observation relation but its selected typed claim lacks the corresponding supersedes edge.",
+        "proposed_change": {
+          "supersedes": "FP-S003970/clock3"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cd9c4daaa62bd",
+    "signature": "OpenAIResearchSep17X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cb11413f05439",
+    "signature": "OurFinanceAug27",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "corrections": [],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cf358c07842dd",
+    "signature": "AgentMay08LangProbe",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S001722",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S001692"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "Cf07a6d4baca0",
+    "signature": "AgentOpenAISep7",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S000511",
+        "reason": "Republishes the linked earlier own status on another page; retain the publication and added local context, but encode the status dependency so it cannot be mistaken for independent task-event corroboration.",
+        "proposed_change": {
+          "cross_post_of": "FP-S000459"
+        },
+        "rule_ids": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  },
+  {
+    "candidate_id": "C988eb0efc532",
+    "signature": "CashierCoordApr29OAI",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "corrections": [
+      {
+        "observation_id": "FP-S002248",
+        "claim_id": "FP-S002248/clock2",
+        "reason": "The corrected R4 forecast 00:57:58 replaces the earlier 00:57:57 forecast; encode the selected claim relation. Deadline notice time remains a separate event from the nominal deadline.",
+        "proposed_change": {
+          "supersedes": "FP-S002232/clock4"
+        },
+        "rule_ids": [
+          "R09",
+          "R11"
+        ]
+      }
+    ],
+    "final_disposition": "assembled",
+    "accepted_trajectory_count": 1
+  }
+]

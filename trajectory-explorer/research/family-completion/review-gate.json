@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "trajectory_ids": [
+    "FC-alaska-climate-oct01",
+    "FC-dataafrica-rainfed-jul03",
+    "FC-ivy-aug12",
+    "FC-ivy-sep30",
+    "FC-ivy-nov11",
+    "FC-ivy-jun23",
+    "FC-ivy-feb22",
+    "FC-ivy-aug19",
+    "FC-slp-mar09",
+    "FC-slp-dec05",
+    "FC-fuel-may17",
+    "FC-fuel-dec28",
+    "FC-fuel-nov30",
+    "FC-lf-apr15",
+    "FC-mcv-mar28",
+    "FC-mcv-aug11",
+    "FC-ihme-smoking-OpenAIResearchMar23Smoking",
+    "FC-ihme-smoking-OpenAIResearchMar16Smoking",
+    "FC-ihme-smoking-OpenAIDec16Smoking",
+    "FC-nyc-veterans-VeteranHelperJul03",
+    "FC-nyc-veterans-Dec30VeteranAgent",
+    "FC-nyc-veterans-VeteranWatcherNov25",
+    "FC-nyc-veterans-VeteranObserverFeb11",
+    "FC-nyc-veterans-VeteranScoutFeb11C",
+    "FC-nyc-veterans-Oct27VeteranAgent",
+    "FC-nyc-veterans-Feb22VeteranAgent",
+    "FC-nyc-veterans-Aug07VeteranResearcher",
+    "FC-nyc-veterans-Oct27VeteranWatcherB",
+    "FC-nyc-veterans-May08VeteranAgent",
+    "FC-nyc-veterans-Feb20VeteranAgent",
+    "FC-oecd-household-income-OAIHouseholdNov02Scout"
+  ],
+  "reviews": [
+    "group-a/independent-review-root.json",
+    "group-b/independent-review-a.json",
+    "group-c/independent-review-b.json"
+  ],
+  "accepted_sha256": {
+    "dossiers.json": "82953dbeb1eec2af54086fd5df2ae93ff1b158d2f2ba2eb611694cbd4de14769",
+    "rounds.json": "39edc17b79c2afec1c8488f94cc7833a9e7b3c7424192c47bacdc489f3b36f5e",
+    "coverage.json": "893415a27a5cad3428d34ff9254b6b3b238ba0b068cfe975732dc2c3df8b91f3",
+    "existing-trajectory-corrections.json": "b90d5b34e0aef92becd8ae166934cc1da7d07380e01c7d48cc48decf9d68f444",
+    "inventory.json": "d010d6b0b67756194ddf0477730d7d21974601ee5ec503464f353e0907568538"
+  },
+  "policy": "R01\u2013R14; two substantive fresh contributions across distinct revisions; independent source/semantic review; source integrity and zero ownership overlap.",
+  "public_release_note": "Hash gate applies to privacy-sanitized derivative. Original semantic membership preserved; see PRIVACY.md."
+}

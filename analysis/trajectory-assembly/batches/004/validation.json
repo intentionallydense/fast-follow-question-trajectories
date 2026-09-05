@@ -1,0 +1,27 @@
+{
+  "batch": "004",
+  "candidate_groups": 50,
+  "proposed_trajectories": 46,
+  "decisions": {
+    "include": 233,
+    "unresolved": 42,
+    "exclude": 8,
+    "associate": 4
+  },
+  "errors": [],
+  "warnings": [
+    [
+      "C71898cbb2d0e",
+      "FP-S003309",
+      "Repeated source substring: explicit offset needed in publication"
+    ]
+  ],
+  "independent_audit_complete": true,
+  "audit_verdicts": {
+    "pass": 39,
+    "revise": 10,
+    "defer": 1
+  },
+  "provenance_status": "passed",
+  "next_batch_gate": "open"
+}

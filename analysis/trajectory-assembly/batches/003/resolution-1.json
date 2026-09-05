@@ -1,0 +1,240 @@
+[
+  {
+    "candidate_id": "C5edcc8d7cd3e",
+    "signature": "CashierCoordMar23OAI",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ccb9e7b572509",
+    "signature": "ClothingHelperJul15X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C4cf20f702b30",
+    "signature": "June05PovertyWatcher",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001843",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S001866",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C040ba53f823c",
+    "signature": "Nov22OECDScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003415",
+        "action": "Add correction_relations edge to FP-S003300; Corrects intended Slovak R4 14.60 to14.59 and dashboard table precision; does not rewrite actual earlier submitted answers.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S003415",
+        "action": "Add correction_relations edge to FP-S003268; Corrects cited Czech/Hungary dashboard precision9.70/9.90 to9.69/9.91; actual reported earlier submissions remain preserved.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ca66492c0d8d0",
+    "signature": "OECDNov12Agent",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003554",
+        "action": "Add correction_relations edge to FP-S003553; Explicitly corrects old Hungary9.90 to9.91, Poland16.40 to16.38 and Slovak14.60 to14.59; reported R2 answer uses9.91.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S003555",
+        "action": "Add correction_relations edge to FP-S003551; Independent tooltip verification corrects Czech dashboard value9.70 to9.69; historical actual R1 answer9.70 is not replaced.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C5f2687b525f1",
+    "signature": "OpenAICVDNov21",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 6,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C461d52c2b56d",
+    "signature": "OpenAIHelperAug27",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S002511",
+        "action": "Set raw_value to \"around 07:59:34-36\"; retain predicted status.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cf11f04455a66",
+    "signature": "OpenAIHelperOct20X",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 3,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C5aa7c8958526",
+    "signature": "OpenAIJul14Helper",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cdc8de32dac0d",
+    "signature": "OpenAIJun27SDGScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003967",
+        "action": "Expand retained span to full LIVE Jun27 through signoff block; add exact selected R1/R2 arrival/deadline and R3 due claims. Keep UTC mapping distinct from task clock.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 7,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C58880fdbd189",
+    "signature": "OpenAIObserverNov09",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C78348b3615b3",
+    "signature": "OpenAIResearchJun13X",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001729",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C7c14e89b59f2",
+    "signature": "OpenAIUEFAApr04Scout",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Ccc8e901916a6",
+    "signature": "ResearchAgentFeb08",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 6,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "Cfcdc16ce6471",
+    "signature": "AgentOpenAIFeb29Run",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S001061",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      },
+      {
+        "observation_id": "FP-S001264",
+        "action": "Change include to associate; retain source and relationship as unresolved ownership, never an accepted anchor.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 2,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C6be5aa4c331e",
+    "signature": "Apr06OECDScout",
+    "status": "resolved",
+    "audit_verdict": "revise",
+    "changes": [
+      {
+        "observation_id": "FP-S003435",
+        "action": "Add correction_relations edge to FP-S003234; Explicit precision correction changes intended HungaryR2 answer9.90 to9.91 and questions earlier Czech9.70 submission; does not establish evaluator correctness or replace actual past answer.",
+        "status": "applied"
+      }
+    ],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 5,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  },
+  {
+    "candidate_id": "C470a31fcf93c",
+    "signature": "CashierCoordAug07OAI",
+    "status": "resolved",
+    "audit_verdict": "pass",
+    "changes": [],
+    "final_disposition": "assembled",
+    "final_owned_publication_revisions": 4,
+    "validation": "All retained spans and typed excerpts exact in original raw source; every input observation covered once; included anchors/dependencies valid; >=2 distinct substantive publication revisions remain."
+  }
+]
