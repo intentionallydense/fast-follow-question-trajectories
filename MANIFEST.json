@@ -1,8 +1,8 @@
 {
   "snapshot_date": "2026-09-06",
-  "source_site_commit": "020e0aa1a1c6afef04976eca54db7a7c2113483e",
-  "supported_trajectories": 271,
-  "provisional_trajectories": 1,
+  "source_site_commit": "32e29955d65c0a38337b4379585b9349c7b51a19",
+  "supported_trajectories": 298,
+  "provisional_trajectories": 24,
   "inventory_families": 41,
   "task_groups": 42,
   "insufficient_evidence_families": 8,
@@ -17,23 +17,27 @@
     },
     "FAMILIES.md": {
       "bytes": 6973,
-      "sha256": "1698c8a129883512b9183e9b0f4fb125114c3252f16cea4967518033e43c9c66"
+      "sha256": "1c900d880e3f129c1dbcb39f9941951a71c69a71ffc70b48672416be700e6b6c"
     },
     "INDEX.md": {
-      "bytes": 47008,
-      "sha256": "4d22e34703ada17591f79233fca2ec42ee5f0b3fed65c62af3dfd0646f3e9f0b"
+      "bytes": 56060,
+      "sha256": "6a94074b303b925d236a80cb52c876096380522b01066973910a1d3c05d7feaf"
     },
     "PRIVACY.md": {
-      "bytes": 2828,
-      "sha256": "3df0a6e9ced2344358713c72f64a0a9bdbedc3ba41aad420f79552a4ecf4561e"
+      "bytes": 3345,
+      "sha256": "d5bf1bb9bb12d8a183f07d9b52339f1a90de9241b6bfccce7ef25730296d97de"
     },
     "README.md": {
-      "bytes": 7176,
-      "sha256": "b60eaf0cbde53d65e73cb5a61aa0ec9428f06ba26435b2e644482d4083a5aee1"
+      "bytes": 9176,
+      "sha256": "1963b49c9c7a534fbe8a2cf992b056ade6a91678195d3ebcedd8a4239732e942"
     },
     "TRAJECTORIES.csv": {
-      "bytes": 59204,
-      "sha256": "d73eb5164a444eb1c8313a57349343f043d76a430332096ea0d74841ecfd5a00"
+      "bytes": 69499,
+      "sha256": "22a459491169a8caafd193c6530d299124bb34686dc54856c87c923019811f96"
+    },
+    "analysis/cvd-accounting/REPORT.md": {
+      "bytes": 6372,
+      "sha256": "7ff8f0f1540daf8a5a651c92d8ac74c19c245925a6f513537bb5ae8458d18517"
     },
     "analysis/editor-consistency/README.md": {
       "bytes": 10793,
@@ -2196,12 +2200,12 @@
       "sha256": "7bdac6159338a58fc0a8e660e615c5ad999eed23c4b6ab54d4d1b216b5778b49"
     },
     "trajectory-explorer/app/tasks/assembled-index.json": {
-      "bytes": 167696,
-      "sha256": "0e7031c23a09ffb88340e8974980313e5df7faf3d9b06e0f5d09e22bb5cbc6be"
+      "bytes": 194717,
+      "sha256": "7c5262cab32a8c039d952633b6ee0914b6f8196e1df6ae3c2f959f3bd66936a7"
     },
     "trajectory-explorer/app/tasks/audited-index.json": {
-      "bytes": 16026,
-      "sha256": "ed0bdf02c4bb89eb97fc37871af7c8afeff60f3608b92d34a7ffd8b473c7c6a2"
+      "bytes": 16623,
+      "sha256": "cd8946749d99d4fc4727c21ad19c395160fe935f116585a681a65ba78c32a818"
     },
     "trajectory-explorer/app/tasks/tasks.tsx": {
       "bytes": 14627,
@@ -2484,8 +2488,8 @@
       "sha256": "25dd555b741352c08de5d34be2731efd072cda8091849c03691fd806ac308239"
     },
     "trajectory-explorer/public/data/assembled-trajectories/C481158764532-1.json": {
-      "bytes": 62730,
-      "sha256": "44fee91de81b1ebca15e001f62bd9455283eff37b96e863b1248f809d9a2bc46"
+      "bytes": 69848,
+      "sha256": "f1dc4d24e3353ffb9c2a64eccd743d3368d10becbeb9e9734339f5ece97c22a8"
     },
     "trajectory-explorer/public/data/assembled-trajectories/C499fdefd3382-1.json": {
       "bytes": 38135,
@@ -2747,6 +2751,122 @@
       "bytes": 79039,
       "sha256": "c1c9111d1407a91b515f23993f00809254841ad126c47d446239bd14411940c7"
     },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B03-second.json": {
+      "bytes": 16624,
+      "sha256": "9c6b52b266d79efff98294a5fc21a8e6e0958174dc97babc3f314cfda5161e88"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B10.json": {
+      "bytes": 13812,
+      "sha256": "42115682f8bfe24ccba6e07623a10152244be40f1743f2d4e983a2d93e90e7d5"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B11.json": {
+      "bytes": 70575,
+      "sha256": "66992313c47ea811192018e673495f7045d6f4b3e82861f1c30702604f672edc"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B13.json": {
+      "bytes": 41096,
+      "sha256": "cb5087ea70f026ffbb42f45451a69e8108c4f8665a8135f6376c7245f5f87280"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B14.json": {
+      "bytes": 28675,
+      "sha256": "afc66daa1cd00c7b16d43867c726af1d75c4d18858488d4d0e633c977df47cbb"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B16.json": {
+      "bytes": 97095,
+      "sha256": "5b9e87c05f7b7fc72404cf64e823e40ccea3fc07155fdcdf0a28d9e45fc0b7e7"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B17.json": {
+      "bytes": 10526,
+      "sha256": "d2af2204e9a2ab8f5804145482ba08dbc127b6981c2fb598e3d75d0dabcdd927"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B18.json": {
+      "bytes": 45070,
+      "sha256": "c4102ed80ba42d50f9dd9420ee926549012aa9bd2891cde41c675e3d337dd5cf"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B19.json": {
+      "bytes": 50715,
+      "sha256": "09cecda0933eb1894556cebc93672152fdbfd2e31ee9325f4ac04f67cda4d21c"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B20.json": {
+      "bytes": 13277,
+      "sha256": "3f89d08efa7c5ab4b62497e80a162c129a1498c25fc96447c6728d4af4f3d479"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B22.json": {
+      "bytes": 5400,
+      "sha256": "d82425d5a93fb851ca00c4387ead09002279e1be9737697ec6c293c14b5da4f2"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B23.json": {
+      "bytes": 12133,
+      "sha256": "2841f46db4edd52b9a47c4e528679c9a77281f1f069877e29b0cf4205fd93c79"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B24.json": {
+      "bytes": 7194,
+      "sha256": "564fe3dabdaf430f835a0e35a244e6fdcdbbfec21ccab4c0795ebb9540b7ae0e"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B25.json": {
+      "bytes": 51508,
+      "sha256": "ca35262da863d9394ef3ee9723b9a27a81424841913eef35203cc581f2a5578d"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B26.json": {
+      "bytes": 6611,
+      "sha256": "4a8166a58a6110c11306b053e9b7799ea441c68655058f9f8607b47e8cb4e179"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B27.json": {
+      "bytes": 23898,
+      "sha256": "b93a3f196dc32cce40d9c3955f6918a0c94488d263735dea2908f88f068d48bd"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B28.json": {
+      "bytes": 2259,
+      "sha256": "ccf394d13882c1160afa844645a841f9d58b0977a1e90e12911e521b315fb201"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B30.json": {
+      "bytes": 12437,
+      "sha256": "abe9ca023de96ca7fba7b55704c5774997ff613fce6680a98cd30e4d2ec1f57d"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B31.json": {
+      "bytes": 7723,
+      "sha256": "d17b48f36f063daf742ea19aa6978abb7bd95066b218a781d419cf1f0cd162ab"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B32.json": {
+      "bytes": 7688,
+      "sha256": "aae2e178ca2f2b91c8226991e891695b7f13617e40eaaf38ef1041f817d3fcfa"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B33.json": {
+      "bytes": 54109,
+      "sha256": "65e642a5915ce0341391221b293a49abac634fc9941e402be15be87ac74353c0"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B34.json": {
+      "bytes": 23009,
+      "sha256": "711c48bae27ad233920f773c03c0ac666fdc5e0e9b369b1276ad15db54233867"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B35.json": {
+      "bytes": 2452,
+      "sha256": "b53867bc6d3a588f5b706ad2a21f5d14480ec191b89ae3450fb94df7f6a6405c"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B36.json": {
+      "bytes": 2260,
+      "sha256": "26e438e8f84235fc23249b263ac175afe899abd7e26368bae7e181fa79e1bb70"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B37.json": {
+      "bytes": 2369,
+      "sha256": "dabc7a5893e381f6413cab3c0c2a4be65cb1701abe1462bc66c6df3d30e512cf"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-B38.json": {
+      "bytes": 3836,
+      "sha256": "30a164fcae82aea036f53c121fbde506b7106df073907ee0b4bb8ce6152b2671"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-Jul21-request.json": {
+      "bytes": 6975,
+      "sha256": "a88347ec7bcbf078975cb3d4057d64b7cf4bee0657d37620fd43c65592f8a96b"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-Jun15-relay.json": {
+      "bytes": 2817,
+      "sha256": "aad81bf71b517695e816a13792a4253edf7ffb76715a4e06d18cf54882114a5e"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/CVD-Nov20-7c97.json": {
+      "bytes": 32028,
+      "sha256": "04e25d73449731f27f1807c3ecc04d32328ec31bf46756cad0312d971ac57874"
+    },
     "trajectory-explorer/public/data/assembled-trajectories/Ca0def14b671a-1.json": {
       "bytes": 60494,
       "sha256": "5117bb8d317dcf9b3b13857233e1bf660655892be79ff38d6022458098d5eac5"
@@ -2836,8 +2956,8 @@
       "sha256": "8b5320f7d7aab7c44be0d39e70a4c3b90853d84e68316c2ccde9061afac84623"
     },
     "trajectory-explorer/public/data/assembled-trajectories/Cbe12eb38b0eb-1.json": {
-      "bytes": 45433,
-      "sha256": "abf27fab19911a052a5eeb831ae6bd81736be8cdc36fb22b3b022407520008d5"
+      "bytes": 47713,
+      "sha256": "972b6acf161b0433cedeac6c7155e8cab45db11d883f1f61f348bfa6bfd11f31"
     },
     "trajectory-explorer/public/data/assembled-trajectories/Cbfe97d291621-1.json": {
       "bytes": 67558,
@@ -3296,8 +3416,8 @@
       "sha256": "1318df7ff123be642d2aee8235d4026fb988498fdd7f4dc504e74eae455be743"
     },
     "trajectory-explorer/public/data/assembled-trajectories/P26.json": {
-      "bytes": 35496,
-      "sha256": "1f7c767a8f70bd8fe447da94b34a884444b387e94b6477b76b78afd86c4530de"
+      "bytes": 68776,
+      "sha256": "cc2e0d4ec89d927239760b1ec4c7eda08cae1a72fd15647803274dbff245ca66"
     },
     "trajectory-explorer/public/data/assembled-trajectories/P27.json": {
       "bytes": 32137,
@@ -3308,8 +3428,8 @@
       "sha256": "f8aa5f0bdea75414917b7c8413ee8e7384c4bfa74953e64ba54669911533b561"
     },
     "trajectory-explorer/public/data/assembled-trajectories/P29.json": {
-      "bytes": 41775,
-      "sha256": "6bfe664ee8fb048ba78efe599e2666fd01d25b8af3207af8b3e068b862f9cb8d"
+      "bytes": 50219,
+      "sha256": "8fac934730ec22298ca47fc853ab9f0fe77ee82b190cf523c42f768c8cd3fb9a"
     },
     "trajectory-explorer/public/data/assembled-trajectories/P30.json": {
       "bytes": 47989,
@@ -3391,9 +3511,93 @@
       "bytes": 33453,
       "sha256": "f98d4cdbc6a28eb638cacb27474826a1e19346f81295df92811e15b9baea39a6"
     },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-apr04-slow.json": {
+      "bytes": 29183,
+      "sha256": "ffafb3a5db788c05c94c266cfa653db3d7d30dd6f7e5fc23703700aa5d235b50"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-aug09-fast.json": {
+      "bytes": 72857,
+      "sha256": "3103c3c1fbc567117d12e265a70056540b48e87c605b8324de98201a8373852d"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-dec08-2028-fast.json": {
+      "bytes": 39859,
+      "sha256": "73e5374527b3e2680d63d187ecffe464042142fc55e6a9eead9d68ab7029d800"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-dec26-slow.json": {
+      "bytes": 61123,
+      "sha256": "6e27561e9970b6150107097b45df553fa8a3d204fdaa81deba6da3cf5b34193a"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-feb07-fast.json": {
+      "bytes": 64362,
+      "sha256": "4d9c78a1da4d1fa4baaa9e2899fcf32857ee659b294782997a557d09293d2740"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-feb20-2027-fast.json": {
+      "bytes": 12632,
+      "sha256": "980d34b69a4dd32d5f280086a471dcd55a6a36836edeabd2659b0771a8e20923"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-jan31-slow.json": {
+      "bytes": 86802,
+      "sha256": "5e0fc59797b74d5f3a2d091980f71a8cd6ef94ef4ef379a7c6afdefddfcf64c9"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-jun09-fast.json": {
+      "bytes": 18034,
+      "sha256": "404fadf4175654eb56e8ef4492814fc7e3765452bb6bb6acb3c35addddb76ad0"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-mar25-fast.json": {
+      "bytes": 12720,
+      "sha256": "af82e252041a52fec4b3b68c018e493dc05473050a6235c427d7a64c505985c4"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-may19-2025-fast.json": {
+      "bytes": 54875,
+      "sha256": "3ad59587f3e325d537cd3240765217e0e9c25c20d20332de54ccb8558867056f"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-nov03-slow.json": {
+      "bytes": 55196,
+      "sha256": "ce812e97a7474d23e42ba6ae2d067b02e6272389914d8adcda87e1c5956aa728"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-jan02cvdscout.json": {
+      "bytes": 10722,
+      "sha256": "a580346c31a7ad3197358bda49c7d3e4c0725c2d3b6e5690c60f3c311c12ef88"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-oai7c97oct09.json": {
+      "bytes": 33879,
+      "sha256": "cae876d870bca3302d2b61fd8ec665ce56e7fdb99835c264805a1d8306bacf86"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaiaug14fast.json": {
+      "bytes": 14300,
+      "sha256": "703088b3d80c41b03c09093d93f98aafb94cf0ef8829d28cc61864fbf086ad9f"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaiaugtwoscout.json": {
+      "bytes": 3780,
+      "sha256": "ae64bdd56ac4a6301f146a4160bd313363f7ef6bf8e5d85b90645591470db73f"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaihealthdatacvdmay22.json": {
+      "bytes": 32961,
+      "sha256": "066c7a05df3013abad5176be43a94dbfa7f1adf745ed75c5809716453f40ab79"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaijan07.json": {
+      "bytes": 11366,
+      "sha256": "0b1147371b6a72c9c02deb814752aebfa8da11941caf73e298341b29a4b876cd"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaijan25scout.json": {
+      "bytes": 19146,
+      "sha256": "b880333297b2b4af0fa65509a97444dcc50df421ba078f8e466d3c436540049f"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openairesearchmay02.json": {
+      "bytes": 5228,
+      "sha256": "ba0e89b4e7fb7ada0eab9d0a0988321a92f63a073448e15a923e04476fb0baeb"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-ourcvdresearchaug15.json": {
+      "bytes": 4170,
+      "sha256": "7ef931a80d1a0bfbc976195560cc38ca2be8aedbc4672eeba2a33e476372067f"
+    },
+    "trajectory-explorer/public/data/assembled-trajectories/cvd-sept21-slow.json": {
+      "bytes": 34733,
+      "sha256": "32446cb80437a66abf7ccdf981d0e47125ca90d51c4b50f3c9cce847a7b92d67"
+    },
     "trajectory-explorer/public/data/assembled-trajectories.json": {
-      "bytes": 167696,
-      "sha256": "0e7031c23a09ffb88340e8974980313e5df7faf3d9b06e0f5d09e22bb5cbc6be"
+      "bytes": 194717,
+      "sha256": "7c5262cab32a8c039d952633b6ee0914b6f8196e1df6ae3c2f959f3bd66936a7"
     },
     "trajectory-explorer/public/data/audited-tasks/aihw-pbs.json": {
       "bytes": 2928,
@@ -3504,8 +3708,8 @@
       "sha256": "b059c6acbddf5b3a9982ee53599cb421401e9aa9a5f51906de7b252777d21557"
     },
     "trajectory-explorer/public/data/audited-tasks/ihme-cvd-deaths.json": {
-      "bytes": 268474,
-      "sha256": "9a7b032cca8bab98bbd2081c710717c4067268257823da4adbc6282a49e7508e"
+      "bytes": 368497,
+      "sha256": "fdcb6e4d835102c877794adb15599e6e60f51f70269a606ecfd883092be62c07"
     },
     "trajectory-explorer/public/data/audited-tasks/ihme-family-planning.json": {
       "bytes": 87257,
@@ -3564,8 +3768,40 @@
       "sha256": "1e12f3adeda0c7ed24372b46b9ddaf27e8ce9ee6c847304c483709fa204227ea"
     },
     "trajectory-explorer/public/data/audited-tasks.json": {
-      "bytes": 16026,
-      "sha256": "ed0bdf02c4bb89eb97fc37871af7c8afeff60f3608b92d34a7ffd8b473c7c6a2"
+      "bytes": 16623,
+      "sha256": "cd8946749d99d4fc4727c21ad19c395160fe935f116585a681a65ba78c32a818"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/accounting.json": {
+      "bytes": 90870,
+      "sha256": "f49919c7981b411fe643452d410b0cfb1931005910b9fb086245a91c2c4fa0d0"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/final-integration-review.json": {
+      "bytes": 1944,
+      "sha256": "5f64b192b2b121c9b464e55fa0858ee7543bb80846843a7b8eaaa6eb2c3990a0"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/resolutions.json": {
+      "bytes": 1936,
+      "sha256": "22fc29491a849e91073a2ac1e1ed8df0b50b9a7396f9f105073d13d17facc96c"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/review-a-by-b.json": {
+      "bytes": 53840,
+      "sha256": "72a1b7f188207aa128499a0d007b0059a1046a5ec2cab55b96f2c1b1089005d6"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/review-b-by-a.json": {
+      "bytes": 31333,
+      "sha256": "5752685e5c31b4590a488b21b00c3cde3d0120046e025d7f452c0e1162888281"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/review-gate.json": {
+      "bytes": 4052,
+      "sha256": "4d58bc46e6da5882f46c2f55542ac21a55d389ab2ab66cca1260ae1a284837fe"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/review-root-and-collisions.json": {
+      "bytes": 11122,
+      "sha256": "28ac681d6e9c880dc587ca2a2dc96041866fbe202e46315320ccdf5f44d7616c"
+    },
+    "trajectory-explorer/public/data/cvd-accounting/validation.json": {
+      "bytes": 167,
+      "sha256": "b10aec28a5b2fb28b2e058871fe105b8dbb87da3961e64ca570af6b4bfc3bdcb"
     },
     "trajectory-explorer/public/data/family-completion-review.json": {
       "bytes": 84541,
@@ -3622,6 +3858,94 @@
     "trajectory-explorer/research/curated-connections.json": {
       "bytes": 133937,
       "sha256": "1062af49301538bb39c973c084d287ff68298c5d2a8e6babf87857cf850ff957"
+    },
+    "trajectory-explorer/research/cvd-accounting/accounting.json": {
+      "bytes": 90870,
+      "sha256": "f49919c7981b411fe643452d410b0cfb1931005910b9fb086245a91c2c4fa0d0"
+    },
+    "trajectory-explorer/research/cvd-accounting/baseline-accounts.json": {
+      "bytes": 258091,
+      "sha256": "8647b8bf54312468b3c8afe99a691fb222a7cc186992892d2411fd9739f877d5"
+    },
+    "trajectory-explorer/research/cvd-accounting/baseline-dossiers.json": {
+      "bytes": 607646,
+      "sha256": "4a2f1b902479725d9fa998f2ca3ff766e51f783ec9972e621eb94767edfd25e0"
+    },
+    "trajectory-explorer/research/cvd-accounting/broader-revisions.json": {
+      "bytes": 1209,
+      "sha256": "0f4ede90c3276ec0ab811ca72d6c17011c2f851c45482d415a4650a36009a384"
+    },
+    "trajectory-explorer/research/cvd-accounting/candidate-packets.json": {
+      "bytes": 783495,
+      "sha256": "539f1d3ff05e13324c4086b21dcdcfb77d186484881accf23ca083a3f45d3e0f"
+    },
+    "trajectory-explorer/research/cvd-accounting/candidates-a.json": {
+      "bytes": 1105999,
+      "sha256": "3e54030e00012bc13e0207228ffc69fc522b2566287340dd6b120f5c8d0eeead"
+    },
+    "trajectory-explorer/research/cvd-accounting/candidates-b.json": {
+      "bytes": 953147,
+      "sha256": "49adbaa443c015d4739e696c8955bf7a20c38fd7b0f4e6378b07b4fd4daf4ab2"
+    },
+    "trajectory-explorer/research/cvd-accounting/coverage-ledger.json": {
+      "bytes": 12307,
+      "sha256": "9b9e777885c9a882396b1e8decbcac0607e39874566d90698f75e2f277040a5d"
+    },
+    "trajectory-explorer/research/cvd-accounting/dossiers.json": {
+      "bytes": 280496,
+      "sha256": "c64733aaed41b87547e16c18375374799523d42198185de1d357d3145a091da0"
+    },
+    "trajectory-explorer/research/cvd-accounting/existing-audit.json": {
+      "bytes": 417280,
+      "sha256": "1d3f9c4c3387b1fc282f1ceda42c4f2b2ddeb6bbefb173d2cf041b263a308b03"
+    },
+    "trajectory-explorer/research/cvd-accounting/existing-extensions.json": {
+      "bytes": 16653,
+      "sha256": "5df39df46bd4e03ba92f30a7df72ea0a4640b835b9c592fa099734d228b674f4"
+    },
+    "trajectory-explorer/research/cvd-accounting/extensions.json": {
+      "bytes": 15377,
+      "sha256": "83979af2f5d27d02779f0f63694293916aaf1b1f1ce0ce2c7262a226c2e03c44"
+    },
+    "trajectory-explorer/research/cvd-accounting/final-integration-review.json": {
+      "bytes": 1944,
+      "sha256": "5f64b192b2b121c9b464e55fa0858ee7543bb80846843a7b8eaaa6eb2c3990a0"
+    },
+    "trajectory-explorer/research/cvd-accounting/resolutions.json": {
+      "bytes": 1936,
+      "sha256": "22fc29491a849e91073a2ac1e1ed8df0b50b9a7396f9f105073d13d17facc96c"
+    },
+    "trajectory-explorer/research/cvd-accounting/review-a-by-b.json": {
+      "bytes": 53840,
+      "sha256": "72a1b7f188207aa128499a0d007b0059a1046a5ec2cab55b96f2c1b1089005d6"
+    },
+    "trajectory-explorer/research/cvd-accounting/review-b-by-a.json": {
+      "bytes": 31333,
+      "sha256": "5752685e5c31b4590a488b21b00c3cde3d0120046e025d7f452c0e1162888281"
+    },
+    "trajectory-explorer/research/cvd-accounting/review-gate.json": {
+      "bytes": 4052,
+      "sha256": "4d58bc46e6da5882f46c2f55542ac21a55d389ab2ab66cca1260ae1a284837fe"
+    },
+    "trajectory-explorer/research/cvd-accounting/review-root-and-collisions.json": {
+      "bytes": 11122,
+      "sha256": "28ac681d6e9c880dc587ca2a2dc96041866fbe202e46315320ccdf5f44d7616c"
+    },
+    "trajectory-explorer/research/cvd-accounting/root-proposals.json": {
+      "bytes": 23575,
+      "sha256": "2826a8df24ebe805556c513cefe26b67812a2292a6f592799c114becd0c0a4b2"
+    },
+    "trajectory-explorer/research/cvd-accounting/rounds.json": {
+      "bytes": 43515,
+      "sha256": "5d61feeec57132b99f4389536fde1909d6f4476ca24d2bd770d7fe543a1baaad"
+    },
+    "trajectory-explorer/research/cvd-accounting/unindexed-revisions.json": {
+      "bytes": 92508,
+      "sha256": "ad7f7333f68dbea5f5b14b5ff2194a9ff0a497bfed041789cb3990244abd4a9e"
+    },
+    "trajectory-explorer/research/cvd-accounting/validation.json": {
+      "bytes": 167,
+      "sha256": "b10aec28a5b2fb28b2e058871fe105b8dbb87da3961e64ca570af6b4bfc3bdcb"
     },
     "trajectory-explorer/research/family-completion/PROTOCOL.md": {
       "bytes": 3724,
@@ -3764,34 +4088,44 @@
       "sha256": "fe2087de53c2b89bb2e2c0346625384d654ce6939df574f285a2485f10df509e"
     },
     "trajectory-explorer/scripts/build_audited_tasks.py": {
-      "bytes": 8179,
-      "sha256": "7b38be04b060d45a8f86b08eb5aedc878c90bf09c297e80e62edb591089d7ef3"
+      "bytes": 8399,
+      "sha256": "7275514695f4a2cc5fe87b5b853a43bab602664b1e3945cefc562b82406a2454"
     },
     "trajectory-explorer/scripts/build_environment_findings.py": {
-      "bytes": 3344,
-      "sha256": "8e17e3e4d5de868ccb9b47f24156afa8e23bf33487354b32449debfa9d7cbc95"
+      "bytes": 3384,
+      "sha256": "fa1a8374bae3131396e9f8b1d4dee44b460504c3c352430e3edca67e87f5b2db"
     },
     "trajectory-explorer/scripts/build_task_trajectories.py": {
-      "bytes": 6856,
-      "sha256": "51d8ab1a0ced163430680696c44cdb37e086616b64de15090e69059d076d7bc6"
+      "bytes": 6979,
+      "sha256": "86954ae88c3649b82ed14c0424312e3cd661159abe07f4979245470360f1b231"
+    },
+    "trajectory-explorer/scripts/cvd_data.py": {
+      "bytes": 887,
+      "sha256": "ca42c42e00668987ed0fee924b161144f6d4c6e5e6df389e7ad5edf92b0139b4"
     },
     "trajectory-explorer/scripts/test_audited_tasks.py": {
       "bytes": 3959,
       "sha256": "3c731bf7327d54ac221e868761ee032f6161ccba8a8b173ee02f55f9cee54182"
+    },
+    "trajectory-explorer/scripts/test_cvd_accounting.py": {
+      "bytes": 2784,
+      "sha256": "53429f45f6240ac567fb5bd877bdad713e91311fea322b3dfa7abe3518c64bd1"
     },
     "trajectory-explorer/scripts/test_family_completion.py": {
       "bytes": 1973,
       "sha256": "1069a385844b067c7b79386ebdf66234ab1150aa9214354f6268b2a78c16ed6f"
     },
     "trajectory-explorer/scripts/test_task_trajectories.py": {
-      "bytes": 3881,
-      "sha256": "5bbdfa84ff52dc907ed8c814d6d6b5510d3e8c1030e0d0c94b7f62ba85d219ea"
+      "bytes": 3994,
+      "sha256": "8d3f31a56eeede51f76d20a054b36b95a4807b641bcbad57bf678f6c4d44abc6"
     },
     "validate_bundle.py": {
-      "bytes": 4563,
-      "sha256": "d225e12870b8d894711dc8322c47daaaa9d09677ba38fecf0ba99359ea85be2e"
+      "bytes": 4814,
+      "sha256": "7289960f74363f52fb8f3e822afb05e1616b8ada6875f5010b7f9af1669b620a"
     }
   },
   "privacy_sanitized": true,
-  "privacy_review": "PRIVACY.md"
+  "privacy_review": "PRIVACY.md",
+  "cvd_supported_trajectories": 58,
+  "cvd_provisional_schedules": 23
 }

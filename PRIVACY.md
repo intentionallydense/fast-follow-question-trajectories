@@ -13,13 +13,15 @@ No provider-specific access tokens, private keys, personal email addresses or ph
 
 ## Effect on evidence
 
-Credential/address replacements preserve character lengths. Source-span offsets and revision IDs therefore remain usable. Span hashes, source-body hashes, archive member checksums, active review gates and the release file manifest have been updated for the sanitized contents. All 271 supported histories, the provisional dossier, task-family membership and round/event counts are preserved.
+Credential/address replacements preserve character lengths. Source-span offsets and revision IDs therefore remain usable. Span hashes, source-body hashes, archive member checksums, active review gates and the release file manifest have been updated for the sanitized contents. The current release retains 298 supported histories and 24 provisional entries, including the CVD expansion; privacy redaction does not change their membership or round/event counts.
+
+For the CVD update, all 410 referenced revision bodies were compared with this sanitized archive; none differed from their locally reviewed bodies. IP-prefix metadata was removed from the added research records, and the CVD acceptance gate was refreshed against the sanitized inputs. The original unsanitized archive and Sites hosting configuration were not copied into the release.
 
 The archive retains the filename `full-wiki-logs.zip` so existing exporters work, but **it is no longer the original byte-exact archive**. Its member manifest explicitly identifies the derivative. “Original” and historical checks in older audit reports refer to the pre-redaction review stage. Some historical provenance hashes intentionally identify those earlier inputs; the top-level `MANIFEST.json` and active public-release validation cover the published files. Recorded semantic audits predate redaction; refreshed gate hashes do not claim a new semantic audit.
 
 ## Checks
 
-The release was reviewed with independent manual inspection and pattern scans of every tracked file and every archive member, including decoded URL parameters. Checks did not submit any candidate credentials to external services. The data exporters, source/citation validation and ten data tests pass after redaction.
+The initial release was reviewed with independent manual inspection and pattern scans of every tracked file and every archive member, including decoded URL parameters. Checks did not submit any candidate credentials to external services. The CVD update reruns the privacy scanner, data exporters, source/citation validation and thirteen data tests after preserving those redactions.
 
 ```sh
 python privacy_check.py

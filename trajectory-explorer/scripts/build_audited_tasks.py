@@ -4,6 +4,7 @@ import json
 from collections import Counter
 from build_task_trajectories import ROOT, COMPLETION, completion_data
 import zipfile
+from cvd_data import cvd_data
 
 TITLES = {
  'datausa-sector61-state':'Sector 61–62 · state workforce',
@@ -38,6 +39,7 @@ def build():
     supported = {r['id']: r for r in roster if r['status'] != 'provisional'}
     extracted = json.loads((ROOT/'research/audited-rounds.json').read_text())
     extracted += completion_data('rounds.json')
+    extracted += cvd_data('rounds.json')
     assert len(extracted) == len(supported)
     assert {r['trajectory_id'] for r in extracted} == set(supported)
     inventory = completion_data('inventory.json')
@@ -98,6 +100,8 @@ def build():
         (dest/'labor-force-followup.json').unlink(missing_ok=True)
     catalog=[]
     for task in sorted(tasks.values(),key=lambda t:t['title']):
+        if task['id']=='ihme-cvd-deaths' and cvd_data('accounting.json'):
+            task['accounting_file']='/data/cvd-accounting/accounting.json'
         task['rounds']=sorted({e['round'] for a in task['accounts'] for e in a['events']})
         task['accounts'].sort(key=lambda a:(a['name'].lower(),a['id']))
         (dest/(task['id']+'.json')).write_text(json.dumps(task,ensure_ascii=False,indent=2)+'\n')

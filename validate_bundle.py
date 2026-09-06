@@ -25,8 +25,12 @@ def main():
         sources={r['rev_id']:r for line in archive.read('revisions.jsonl').splitlines() for r in [json.loads(line)]}
     index=read(PUBLIC/'data/assembled-trajectories.json')
     rows=index['trajectories'];supported={r['id'] for r in rows if r['status']!='provisional'}
-    assert len(rows)==272 and len(supported)==271
-    assert [r['id'] for r in rows if r['status']=='provisional']==['P43']
+    assert len(rows)==322 and len(supported)==298
+    cvd=read(PUBLIC/'data/cvd-accounting/accounting.json')
+    provisional={r['id'] for r in rows if r['status']=='provisional'}
+    assert provisional=={'P43'}|{r['id'] for r in cvd['roster'] if r['status']=='provisional'}
+    assert len(provisional)==24
+    assert sum(r['status']=='supported' for r in cvd['roster'])==58
     dossiers={};owned=defaultdict(list);span_count=0
     for row in rows:
         d=read(resolve(row['file']));dossiers[row['id']]=d
@@ -72,6 +76,6 @@ def main():
     for c in environment['claims']:
         assert c['trajectory_id'] in supported
         resolve(c['dossier_file']);claim(c['trajectory_id'],dict(c['source'],revision_id=c['revision_id'],quote=c['quote']))
-    print(f"PASS: {len(manifest['files'])} file hashes; {len(sources)} archive revisions; 271 supported + 1 provisional dossier; 41 families / 42 groups; {span_count} source spans; {claim_count} owned claim citations; no cross-history ownership overlap.")
+    print(f"PASS: {len(manifest['files'])} file hashes; {len(sources)} archive revisions; 298 supported + 24 provisional entries; 41 families / 42 groups; {span_count} source spans; {claim_count} owned claim citations; no cross-history ownership overlap.")
 
 if __name__=='__main__':main()

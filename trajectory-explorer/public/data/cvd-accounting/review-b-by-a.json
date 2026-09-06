@@ -1,0 +1,833 @@
+{
+  "reviewer": "cvd_candidates_a",
+  "scope": "All 26 proposed B histories checked against original archive bodies and recorded diff bases; owned clocks/peer types reviewed against A and existing roster.",
+  "verdict": "14 supported and12 provisional accepted, with precision/context corrections below; no count-changing correction.",
+  "trajectories": [
+    {
+      "proposed_id": "CVD-B10",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "R5 answer02:44:29 to R6due03:01:05 is16m36, not17s+16m32. This is consistent with a13s delayed R5 answer; do not rewrite it as an arrival time. Survival sequence establishes continuity.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIMay14CVDLive@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "6903fb3b60227f626ae94ca88cc4670e1f832c681d5677f9174df5e9eafd26d2"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDApr30Fast@6",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": "dse~OpenAIHealthdataCVDApr30Fast@5",
+          "absent_from_diff_base": true,
+          "sha256": "4051dd4bf4a3115c414e0eb18cf0ba814850f23c2eb84e938f5a60d5efcbaba6"
+        },
+        {
+          "revision_id": "dse~OpenAIMay14CVDLive@2",
+          "start_char": 279,
+          "exact": true,
+          "diff_base": "dse~OpenAIMay14CVDLive@1",
+          "absent_from_diff_base": true,
+          "sha256": "e961aa0d7a99ddf22d2bf13bc8d80f5834170cedb8ea7fec738b9b40d9506b96"
+        },
+        {
+          "revision_id": "dse~OpenAIMay14CVDLive@3",
+          "start_char": 413,
+          "exact": true,
+          "diff_base": "dse~OpenAIMay14CVDLive@2",
+          "absent_from_diff_base": true,
+          "sha256": "3b54a8aab7eb34e8e31356c09c15b7595dd818d31cbd25cf0534df1aa0db5f56"
+        },
+        {
+          "revision_id": "dse~OpenAIMay14CVDLive@4",
+          "start_char": 494,
+          "exact": true,
+          "diff_base": "dse~OpenAIMay14CVDLive@3",
+          "absent_from_diff_base": true,
+          "sha256": "e60a9db981b8a5b701699ae8dc2f2d6971b9b3d8118fb64c69f0b022c03d3bcf"
+        }
+      ],
+      "substantive_revision_count": 5,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B11",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Exact predicted/observed R5 and deadline+cooldown progression establishes ownership.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@27",
+          "start_char": 6074,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@26",
+          "absent_from_diff_base": true,
+          "sha256": "ea8798259ad28bee3c59a219fbb2fffe82c6d843f09a7f04e784035c40aa4400"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@40",
+          "start_char": 9090,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@39",
+          "absent_from_diff_base": true,
+          "sha256": "4ef6047757c95e1425b9a73eec8bd88cd8d932729898fe6d83e85e89ca2cd8b3"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@60",
+          "start_char": 14721,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@59",
+          "absent_from_diff_base": true,
+          "sha256": "0e531a11db4ecb681e2c2b49ceebac06186228a4463199bf34b571e063210a60"
+        },
+        {
+          "revision_id": "dse~OAI7C97Nov18@6",
+          "start_char": 798,
+          "exact": true,
+          "diff_base": "dse~OAI7C97Nov18@5",
+          "absent_from_diff_base": true,
+          "sha256": "a6d7b7d0885bbb40dd1660390987f026aa0d047ac06d43b757e1b568a22df0cb"
+        }
+      ],
+      "substantive_revision_count": 4,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B13",
+      "status_reviewed": "supported",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "Explicit R6 forecast correction should retain supersedes relation; correction arithmetic yields04:55:52 nominal vs reported~04:55:53, already approximate.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@8",
+          "start_char": 2123,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@7",
+          "absent_from_diff_base": true,
+          "sha256": "3c62bc0d633a6c9230b28bdb6fd264c51fe717c19dbcd6cb1f1de0329248da8d"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@31",
+          "start_char": 7229,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@30",
+          "absent_from_diff_base": true,
+          "sha256": "5f89e1cde65dc2dd7dece2d4016787a93b551c0d1df6f902ec57c9589321e0e4"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@33",
+          "start_char": 7644,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@32",
+          "absent_from_diff_base": true,
+          "sha256": "75b292d990b5fe9d68eca2e184559c41a11718cccb14a66683e2c5a40bfb9b4e"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": [
+        {
+          "type": "correction_link",
+          "revision_id": "dse~HealthdataCVDSequenceCollab@33",
+          "supersedes": {
+            "revision_id": "dse~HealthdataCVDSequenceCollab@31",
+            "raw_value": "04:54:29"
+          },
+          "reason": "Prior forecast marked superseded; add explicit linkage if schema permits."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B14",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Own distinct R1/R2/R3 schedule and observed progression; scratch and unrelated RRP task not counted.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAICVDOct30Fast2026@2",
+          "start_char": 30,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDOct30Fast2026@1",
+          "absent_from_diff_base": true,
+          "sha256": "a07a31a58adae5c87d6831c70eab5039ff45473b0d06ba473c2a2e1cad0b4e32"
+        },
+        {
+          "revision_id": "dse~OpenAICVDDec08Fast2028@8",
+          "start_char": 2272,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDDec08Fast2028@7",
+          "absent_from_diff_base": true,
+          "sha256": "e52b0527eb5ceda68333d081b7d8374c64925c0fb4fac948ce54cd416e224ee6"
+        },
+        {
+          "revision_id": "dse~OpenAICVDDec08Fast2028@11",
+          "start_char": 3406,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDDec08Fast2028@10",
+          "absent_from_diff_base": true,
+          "sha256": "16743a5efdd2a42ada37b8b8a3f514fd5354abb5a6262be3f1ad50be8f2c42fb"
+        },
+        {
+          "revision_id": "dse~OpenAICVDDec08Fast2028@15",
+          "start_char": 4312,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDDec08Fast2028@14",
+          "absent_from_diff_base": true,
+          "sha256": "5b0fa3e6953d33bb443123f666458a751ae3f79fed65bb4c0f9b705e7ecdc498"
+        }
+      ],
+      "substantive_revision_count": 4,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B16",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "R5answer→R6 gap83m10 can reflect answer15s after arrival; no conflict with1m23/1h22m02. Stable own countdown progresses.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@55",
+          "start_char": 13552,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@54",
+          "absent_from_diff_base": true,
+          "sha256": "7a3eb1be8f1e5edc92df2428bdf34985e0d96c79838f1b067978dbc2036eb2d6"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@62",
+          "start_char": 15241,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@61",
+          "absent_from_diff_base": true,
+          "sha256": "333a2a78beb965584a56a548c3fca70cce3f4fc0b3ca71127fe905bd333100d9"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@65",
+          "start_char": 16149,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@64",
+          "absent_from_diff_base": true,
+          "sha256": "26145af888ab4c3ee28682f81ab73d6aedd97e57fc10bb2709b5ab8b0e231453"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B17",
+      "status_reviewed": "supported",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "R1/system conflation versus later inferred global time remains an uncertainty, not a second run. Independent beacon update supports continuity.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDApr30Fast@4",
+          "start_char": 1437,
+          "exact": true,
+          "diff_base": "dse~OpenAIHealthdataCVDApr30Fast@3",
+          "absent_from_diff_base": true,
+          "sha256": "e22342743fdf6b05efbf8c2bd4b7cb6171c856573774c0b1d243b13cb406407d"
+        },
+        {
+          "revision_id": "dse~OAIJun30CVDHorizon2028@1",
+          "start_char": 32,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "9f138a1bb27a689fb36ec8996e655c6f3188020c9a1082ea7fd514927160d081"
+        },
+        {
+          "revision_id": "dse~CVDHorizon6400Evidence@1",
+          "start_char": 32,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "b70e42428689abcd8c9e367639e9f035d068b00278ec811e04e078e30faa49c6"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": [
+        {
+          "type": "preserve_raw_precision",
+          "claim_match": {
+            "round": 6,
+            "raw_value": "01:39:58"
+          },
+          "replace_raw_value": "01:39:58/59",
+          "reason": "Do not discard explicitly offered one-second alternative."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B18",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Own R5 exact forecast→arrival plus own-page unsigned updates match. Forecast05:33:34 versus later due05:33:33 is not observed-clock conflict.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@13",
+          "start_char": 3299,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@12",
+          "absent_from_diff_base": true,
+          "sha256": "c8017a61036f7a3262b5091c93d14309108b6790ad8f7404d4ba567dafe1306c"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDSept21@2",
+          "start_char": 340,
+          "exact": true,
+          "diff_base": "dse~OpenAIHealthdataCVDSept21@1",
+          "absent_from_diff_base": true,
+          "sha256": "d3c520bff2db1507401b912c7035d76004b83109497ccc6ebfb5b72dab6d0391"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@54",
+          "start_char": 13365,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@53",
+          "absent_from_diff_base": true,
+          "sha256": "eaeeeacc03e986961469f00e40f55292a7c871247286510eea01623b37901695"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDMar27@1",
+          "start_char": 2,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "bef365d9d729e34be027e23dfaa1b4f545bcf76ed3dca2e5e6681549ef027987"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDMar27@3",
+          "start_char": 603,
+          "exact": true,
+          "diff_base": "dse~OpenAIHealthdataCVDMar27@2",
+          "absent_from_diff_base": true,
+          "sha256": "1cd8c150ba457b67433f7d47a675b93c3d518e1357fb3aa811a8b3e44ae7f70f"
+        }
+      ],
+      "substantive_revision_count": 5,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B19",
+      "status_reviewed": "supported",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "R1 and R5/R6 landmarks plus live survival progression support single run.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@100",
+          "start_char": 6848,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@99",
+          "absent_from_diff_base": true,
+          "sha256": "44b8e79206a50a1aa2153a84425f854c6711958228d49b98b36d6083f348e29f"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@109",
+          "start_char": 9982,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@108",
+          "absent_from_diff_base": true,
+          "sha256": "6e463ab76fbde8bce9f58844b0c4d40b5074836b14fc0947718db66a1f759fb9"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@110",
+          "start_char": 10250,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@109",
+          "absent_from_diff_base": true,
+          "sha256": "a2544d141f1566dd99d0a7050f0591bac783d69913b8b2e5a998738a63d571cd"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": [
+        {
+          "type": "preserve_raw_precision",
+          "claim_match": {
+            "round": 6,
+            "raw_value": "07:33:25"
+          },
+          "replace_raw_value": "07:33:25/26",
+          "reason": "Keep stated alternatives."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B20",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Two publications restate same task state; provisional classification appropriate.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAICVDDec08Fast2028@14",
+          "start_char": 4024,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDDec08Fast2028@13",
+          "absent_from_diff_base": true,
+          "sha256": "ec6f896fb3d65deb708fede2f312d256f5e70b78f3574e50950268e6c6c3a811"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@71",
+          "start_char": 495,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@70",
+          "absent_from_diff_base": true,
+          "sha256": "0e73542e548601036f3709eb6e92473e056f576bb176114ead8e5786aff16672"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B22",
+      "status_reviewed": "supported",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "R4 forecast~04:47:38→reported04:47:38 and own deadlines support continuity. A Sep12 scratch adds no run.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAICVDSep12Fast2028@1",
+          "start_char": 33,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "22861e3f53e10523613e38a4d1a302b94454f6d021400f6c72e1eaba7cbcaa4f"
+        },
+        {
+          "revision_id": "dse~OpenAICVDSep12Fast2028@2",
+          "start_char": 312,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDSep12Fast2028@1",
+          "absent_from_diff_base": true,
+          "sha256": "ee35a9cc921044fd383d5f47825a71e5a689b06ad19dc8dd72abd171b6f6f84e"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": [
+        {
+          "type": "preserve_raw_precision",
+          "claim_match": {
+            "round": 4,
+            "event_kind": "due",
+            "raw_value": "04:47:38"
+          },
+          "replace_raw_value": "~04:47:38",
+          "reason": "Forecast is approximate; observed arrival remains exact."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B23",
+      "status_reviewed": "supported",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "Supported with weaker bridge than exact multi-round histories: second message owns15:57:33 after first own15:55, same Aug16 observer exchange; no R5 landmark repeated. Retain moderate confidence and do not use generic Aug16 ping as further independent evidence.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@9",
+          "start_char": 2393,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@8",
+          "absent_from_diff_base": true,
+          "sha256": "6ce58666b88e0b18d1ffadb9fff0cf332786561cc883b2a87f63f90efb3331ef"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceJun15Relay@5",
+          "start_char": 1008,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceJun15Relay@4",
+          "absent_from_diff_base": true,
+          "sha256": "35fbde8959f2688f47d39a70e52d758b8e30d491bb5708bd40a387798d367534"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": [
+        {
+          "type": "uncertainty_annotation",
+          "reason": "Supported with weaker bridge than exact multi-round histories: second message owns15:57:33 after first own15:55, same Aug16 observer exchange; no R5 landmark repeated. Retain moderate confidence and do not use generic Aug16 ping as further independent evidence."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B24",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Exact own R6due20:23:43 links unsigned contact and outbound query; peer Nov21clock04:08:16 is not own.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceQ4Nov21@5",
+          "start_char": 879,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceQ4Nov21@4",
+          "absent_from_diff_base": true,
+          "sha256": "6c104186204ff11c2870d8f9f6c3d813df09d043fb472393c6d515cea1114806"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDSept27@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "5710951536bb587c5b64df3560cdead8b044f31c44e6aa6c1b456695f812eec2"
+        },
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDFeb09@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "e1404d9181157e6fc2304cf829bf3776b0bc2e0dcc0d53d74727acb5369c70e3"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B25",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Explicit Mar06→Mar07 midnight wrap. R5 answer may lag arrival, so83m05 interval is not incompatible83m25 cadence.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIHealthdataCVDMar06@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "233c07c46cd1e7a6ab82499f776bc5d2c4577642fc33b7f27a733880672150f0"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@42",
+          "start_char": 9887,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@41",
+          "absent_from_diff_base": true,
+          "sha256": "e0af10e00e2ec52ade93409f8d5781a493db3b687fef3279d5c9ed3f763daf82"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@49",
+          "start_char": 12016,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@48",
+          "absent_from_diff_base": true,
+          "sha256": "de1d85829e1f0e7dbeaa7ddf2684fae9a67c1e16ea3b5d513435b0f26b75cef5"
+        }
+      ],
+      "substantive_revision_count": 3,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B26",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Own task backlink in substantive answer is adequate R02 bridge; Ukraine/Korea/Andorra are requested peer lookup values, not own subsequent rounds.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIMay10CVD@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "6450a7967903dfb8e8e0078f4c37a8986f28f281e76489afebdbac3af773d419"
+        },
+        {
+          "revision_id": "dse~FutureCVDExactRequest@2",
+          "start_char": 164,
+          "exact": true,
+          "diff_base": "dse~FutureCVDExactRequest@1",
+          "absent_from_diff_base": true,
+          "sha256": "e0875a9e329ae7e3f49b9e483dd3c389b88923393ec2f540c3b0c654b93781dd"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B27",
+      "status_reviewed": "supported",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Unsigned R5confirmed23:29:55 matches original own due; beacon own activation and R6 support run. First snapshot bundles several own statements; independent central98 remains second source.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@98",
+          "start_char": 6554,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@97",
+          "absent_from_diff_base": true,
+          "sha256": "96c1b7e9d2d60092baa4372237c68ee13d5dab9ec83cdca7cddad44f6e24fe73"
+        },
+        {
+          "revision_id": "dse~PolandSeeker2@5",
+          "start_char": 492,
+          "exact": true,
+          "diff_base": "dse~PolandSeeker2@4",
+          "absent_from_diff_base": true,
+          "sha256": "fd6704fdaf57d826abf9a84074c3886e2f6f555743688c66d7b4fe8abd5fdab6"
+        },
+        {
+          "revision_id": "dse~PolandSeeker2@5",
+          "start_char": 1230,
+          "exact": true,
+          "diff_base": "dse~PolandSeeker2@4",
+          "absent_from_diff_base": true,
+          "sha256": "255ab6231a9fd80f3e0301517984c18001b4a6c4a9c885fe2644e1732522107a"
+        },
+        {
+          "revision_id": "dse~PolandSeeker2@5",
+          "start_char": 628,
+          "exact": true,
+          "diff_base": "dse~PolandSeeker2@4",
+          "absent_from_diff_base": true,
+          "sha256": "657d61d4c9b3e3cd8018179e5d5dbadc8d1b7651084f96ae2a16534240072335"
+        },
+        {
+          "revision_id": "dse~PolandSeeker2@5",
+          "start_char": 840,
+          "exact": true,
+          "diff_base": "dse~PolandSeeker2@4",
+          "absent_from_diff_base": true,
+          "sha256": "82ca3fa1312bcecee1301db5f2b84f0ac83b46ebc2a20f1849fb7be508894425"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B28",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Distinct from A May02 R5 17:37:48/R6 17:54:37; no name-only merge.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIMay02CVD@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "355f95ee37a95ad66883141003ce17f8c253d6829c969fc0cbe250aa6199e3a6"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B30",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Distinct from baseline Jul30 evening20:20:39 activation.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAICVDDec08Fast2028@17",
+          "start_char": 4910,
+          "exact": true,
+          "diff_base": "dse~OpenAICVDDec08Fast2028@16",
+          "absent_from_diff_base": true,
+          "sha256": "de0f08cb8bf2926fd483206fbe0cf9640c47a7dd7b790253f7d72c66e3021af3"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B31",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Same-page repeat excluded; provisional.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~CVDJun20Live2025@9",
+          "start_char": 2729,
+          "exact": true,
+          "diff_base": "dse~CVDJun20Live2025@8",
+          "absent_from_diff_base": true,
+          "sha256": "2448141b228d454c9985d92dfd957b420a7dbe31c3cbeb3ddc4db8b18c9327d2"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B32",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Single retained slow Apr01 report; provisional.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@10",
+          "start_char": 2648,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@9",
+          "absent_from_diff_base": true,
+          "sha256": "304d4612d9d72482ded9e3bd863ee75546cf3fdcb769834baf6f90fb0bed7a92"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B33",
+      "status_reviewed": "provisional",
+      "verdict": "accept_with_metadata_corrections",
+      "supported_count_unchanged": true,
+      "reason": "Second generic ID pattern lacks specific own-task bridge. Keep as associated context, not owned message.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@45",
+          "start_char": 10726,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@44",
+          "absent_from_diff_base": true,
+          "sha256": "b926ffdbd9ec9d40e51a84452e1014d015a075af77ced5b5e8ea6c40cdf74c01"
+        },
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@56",
+          "start_char": 13781,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@55",
+          "absent_from_diff_base": true,
+          "sha256": "925a02cb21ac32843353a076e0cfc0a7053c6af432a650253c4fe91e5cfd6177"
+        }
+      ],
+      "substantive_revision_count": 2,
+      "corrections": [
+        {
+          "type": "move_owned_to_associated",
+          "revision_id": "dse~HealthdataCVDSequenceCollab@56",
+          "reason": "Your rationale correctly says generic name-only ID pattern lacks own-task bridge. owned_messages should reflect that decision."
+        }
+      ]
+    },
+    {
+      "proposed_id": "CVD-B34",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Own R5due18:29:15 incompatible baseline fast Sep24 R5 14:10:02; provisional.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@43",
+          "start_char": 10174,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@42",
+          "absent_from_diff_base": true,
+          "sha256": "3a08bb072aa7f63ca0062c9f768911922f490eb015ab37c4a4489256345e8d1b"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B35",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Separate A slow Jan07 R518:12:19/R619:21:35.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIJan07CVD@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "578c8b32c80bf5a0fdb9cea78217d511df80c13a5b96903fb64a762ae50392a6"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B36",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "One own task report, no existing-clock bridge.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAIOct29CVDLive@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "39795d2650d39342cd207eb76aa2cec3ab582348cf2c6f76f6e90ca7dd01938b"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B37",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "One own task report, no existing-clock bridge.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~OpenAICVDSep06Fast2028@1",
+          "start_char": 0,
+          "exact": true,
+          "diff_base": null,
+          "absent_from_diff_base": true,
+          "sha256": "b6128bf708e0cad8aac15d9d3b93030ee7f86c690d5c0989e5e9e0418ef7ba4b"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B38",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Jul26 R6due22:52:01 is not Mar06 R5answer22:52:01; different task date/event types block naked-time merge.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~CVDJun20Live2025@3",
+          "start_char": 797,
+          "exact": true,
+          "diff_base": "dse~CVDJun20Live2025@2",
+          "absent_from_diff_base": true,
+          "sha256": "662930a861b21737bdf60c9ddf45d228d230069107bb05951b25ea7b31f8d39c"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    },
+    {
+      "proposed_id": "CVD-B03-second",
+      "status_reviewed": "provisional",
+      "verdict": "accept",
+      "supported_count_unchanged": true,
+      "reason": "Own Nov01 R5due02:53:55 is unexplained conflict with baseline12:54:18. Provisional branch preferable to silently merging; not authenticated new process.",
+      "freshness_checks": [
+        {
+          "revision_id": "dse~HealthdataCVDSequenceCollab@28",
+          "start_char": 6556,
+          "exact": true,
+          "diff_base": "dse~HealthdataCVDSequenceCollab@27",
+          "absent_from_diff_base": true,
+          "sha256": "b9c4b081034d917ab9735b5e5f70ccb89b2e9cf242b9cdfc2db56ec9b4aa2a2d"
+        }
+      ],
+      "substantive_revision_count": 1,
+      "corrections": []
+    }
+  ]
+}

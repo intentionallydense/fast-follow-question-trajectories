@@ -42,7 +42,7 @@ def main():
     for key, items in groups.items():
         (dest/f'{key}.json').write_text(json.dumps(items, ensure_ascii=False, indent=2)+'\n')
     summary = dict(claim_count=len(findings), trajectory_count=len({f['trajectory_id'] for f in findings}),
-        reviewed_trajectory_count=sum(r['status'] != 'provisional' and not r['id'].startswith('FC-') for r in roster.values()), task_counts={k:len(v) for k,v in groups.items()},
+        reviewed_trajectory_count=sum(r['status'] != 'provisional' and not r['id'].startswith('FC-') and r.get('batch') != 'CVD clock audit' for r in roster.values()), task_counts={k:len(v) for k,v in groups.items()},
         dimensions=dict(Counter(f['dimension'] for f in findings)))
     (ROOT/'app/tasks/assembled-environment-index.json').write_text(json.dumps(summary, indent=2)+'\n')
     (ROOT/'public/data/assembled-environment.json').write_text(json.dumps(dict(summary=summary, claims=[i for items in groups.values() for i in items]), ensure_ascii=False, indent=2)+'\n')

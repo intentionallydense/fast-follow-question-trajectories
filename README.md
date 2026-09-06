@@ -1,6 +1,6 @@
 # Fast follow question trajectories
 
-A self-contained, privacy-sanitized snapshot of **271 supported reported task histories**, plus **one separately labeled provisional dossier (P43)**, reconstructed from the supplied wiki archive. The catalog covers **41 task families in 42 task groups**; construction retains two variants. Eight families have reviewed source anchors but insufficient independent contributions to support a multi-revision history.
+A self-contained, privacy-sanitized snapshot of **298 supported reported task histories**, plus **24 separately labeled provisional entries** (P43 and 23 CVD candidate schedules), reconstructed from the supplied wiki archive. The catalog covers **41 task families in 42 task groups**; construction retains two variants. Eight families have reviewed source anchors but insufficient independent contributions to support a multi-revision history.
 
 See [the public-release privacy review](PRIVACY.md) for redactions and their effect on evidence. The locally retained original archive is not published.
 
@@ -8,13 +8,22 @@ See [the public-release privacy review](PRIVACY.md) for redactions and their eff
 
 - [Browse every trajectory and its dossier](INDEX.md), or use [the CSV index](TRAJECTORIES.csv).
 - [Browse task-family coverage](FAMILIES.md), including the eight insufficient-evidence families.
+- [Read the CVD agent accounting](analysis/cvd-accounting/REPORT.md), [inspect its supported/provisional roster](trajectory-explorer/public/data/cvd-accounting/accounting.json), or [review its acceptance record](trajectory-explorer/public/data/cvd-accounting/review-gate.json).
 - [Read the inclusion/exclusion rules](trajectory-explorer/public/data/trajectory-audit-rules.md).
 - [Read the family-completion report](analysis/family-completion/REPORT.md) and [independent reviews](trajectory-explorer/public/data/family-completion-review.json).
 - [Inspect the task catalog](trajectory-explorer/public/data/audited-tasks.json), [trajectory catalog](trajectory-explorer/public/data/assembled-trajectories.json), and [environment claims](trajectory-explorer/public/data/assembled-environment.json).
 
 Each final dossier includes retained own messages, peer context, exclusions, unresolved observations, attribution reasoning, uncertainty, schedule claims, exact span offsets and hashes, and source snapshots. Diff-base snapshots are included when available. Task exports contain per-history round, answer and timing claims with their own citations. Predictions, scheduled events, cached values and indirect reports stay distinct from reported observations.
 
-The latest completion adds 31 histories to the preceding 240. It also corrects existing history `C556a612bd1ee/1` from “labor force” to **lymphatic filariasis**, without changing its ID or duplicating its messages. The corrected dossier preserves the earlier description as `original_task_description` and provides the classification evidence.
+The latest CVD review adds 27 supported histories to the preceding 271. The earlier family completion added 31 histories to 240 and corrected existing history `C556a612bd1ee/1` from “labor force” to **lymphatic filariasis**, without changing its ID or duplicating its messages. The corrected dossier preserves the earlier description as `original_task_description` and provides the classification evidence.
+
+## CVD agent accounting
+
+The cardiovascular-deaths cluster contains **58 supported agent/run histories**: 31 existing histories and 27 additions. **23 further candidate schedules remain provisional and are excluded from that count.** Their sum, 81, is not a verified agent total or an upper bound.
+
+Attribution uses fresh own-task contributions, task-clock consistency, event types and distinctive schedule progression. Signoffs and editor names retrieve candidates; they do not establish identity. For example, the same Jul09 signoff covers two incompatible schedules, while Nov28's changed signoff retains one continuous schedule. The counting unit is a distinguishable reported single-task run, not an authenticated backend process.
+
+The review covered 97 broad candidate groups and 48 additional unsigned/broader revisions. It retained ten unsigned extension spans across six revisions in existing histories, added 78 selected own round/clock events, and verified 374 owned spans across the CVD accounting. Independent cross-reviews and applied corrections are retained in `trajectory-explorer/research/cvd-accounting/`. Provisional schedules remain inspectable in the dossier catalog but do not enter task/account totals or the round matrix.
 
 ## Directory layout
 
@@ -29,6 +38,8 @@ The original relative layout is preserved so the export scripts and audit refere
 | `analysis/trajectory-audit-49/` | Original 49-history attribution audit and corrections |
 | `analysis/trajectory-assembly/` | Corrected baseline, four accepted assembly batches, candidate dispositions, independent audits and follow-up queue |
 | `analysis/family-completion/` | Searches, per-candidate decisions, independent reviews and integration for the 18 previously absent families |
+| `analysis/cvd-accounting/` | CVD count, attribution examples, limitations and validation report |
+| `trajectory-explorer/research/cvd-accounting/` | Reviewed CVD proposals, supported/provisional dossiers, clock extraction, unsigned extensions, independent reviews and acceptance gate |
 | `analysis/reconstruction/` | Earlier extraction and provenance inputs; historical, not the final membership authority |
 | Other `analysis/` directories | Related earlier re-audits, editor-consistency and overlap investigations |
 | `analysis/first-pass-grouping/` | Historical README and the exact signoff-observation input used by the assembly audit; not the complete exploratory grouping workspace |
@@ -49,6 +60,7 @@ python validate_bundle.py
 python -m unittest discover -s trajectory-explorer/scripts -p 'test_*tasks.py'
 python -m unittest discover -s trajectory-explorer/scripts -p 'test_task_trajectories.py'
 python -m unittest discover -s trajectory-explorer/scripts -p 'test_family_completion.py'
+python -m unittest discover -s trajectory-explorer/scripts -p 'test_cvd_accounting.py'
 ```
 
 The bundle validator checks every file checksum, archive integrity, membership totals, source snapshots and span hashes, task and environment citation ownership, local data references, and cross-history ownership overlaps. It can be run from any working directory. The manifest excludes itself, `.git` metadata and Python bytecode caches.
@@ -61,7 +73,7 @@ python trajectory-explorer/scripts/build_audited_tasks.py
 python trajectory-explorer/scripts/build_environment_findings.py
 ```
 
-These exporters reproduce recorded decisions; they do not redo semantic review. The family-completion exporter checks accepted-input hashes. Earlier research scripts are retained as provenance and may expect additional historical exploratory inputs; the three final exporters and validation commands above are the supported self-contained workflow. Any intentional artifact change requires reviewing and refreshing the snapshot manifest.
+These exporters reproduce recorded decisions; they do not redo semantic review. The family-completion and CVD loaders check accepted-input hashes. Earlier research scripts are retained as provenance and may expect additional historical exploratory inputs; the three final exporters and validation commands above are the supported self-contained workflow. Any intentional artifact change requires reviewing and refreshing the snapshot manifest.
 
 ## Evidence interpretation
 

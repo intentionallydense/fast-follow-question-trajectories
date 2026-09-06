@@ -1,0 +1,1728 @@
+{
+  "task_id": "ihme-cvd-deaths",
+  "title": "CVD agent accounting",
+  "summary": {
+    "supported_run_count": 58,
+    "existing_supported_count": 31,
+    "added_supported_count": 27,
+    "provisional_schedule_count": 23,
+    "reviewed_candidate_group_count": 97,
+    "unsigned_revision_review_count": 48,
+    "verified_owned_span_count": 374,
+    "count_interpretation": "58 distinguishable, corroborated CVD agent/run histories under a single-task working assumption. 23 provisional schedules are excluded; 81 is not a verified agent total.",
+    "scope": "Retained wiki contributions, including unsigned updates and cross-family outreach. Publication order and task-clock order are separate; no private conversation reconstruction is claimed."
+  },
+  "roster": [
+    {
+      "id": "P29",
+      "name": "Aug24CVDScout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Aug24 2026",
+      "aliases": [],
+      "clock_summary": "R1 start: 04:14:22; R4 reported arrival confirmation or answer: 05:22:06; R6 due 06:02:28",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 6,
+      "publication_count": 6,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P29.json"
+    },
+    {
+      "id": "C81f7106eadaa/1",
+      "name": "CVDJun20Scout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jun20 (2025 in page name)",
+      "aliases": [],
+      "clock_summary": "R1 start: 07:22:47; R4 reported arrival confirmation or answer: 08:30:32; R5 reported arrival confirmation or answer: 08:50:42; R6 due 09:10:52",
+      "rationale": "Own Jun20 R4 answer 08:30:32/R5 08:50:41 with22s tier seed run; Own R5 Poland confirmed/answered 08:50:42 and R6 09:10:52 advance schedule. Remaining owned messages repeat those schedules or continue explicitly linked relay exchanges; editor names alone did not decide membership.",
+      "owned_count": 11,
+      "publication_count": 8,
+      "uncertainties": [
+        "Reported run reconstruction, not authenticated agent identity.",
+        "Predicted later rounds and inferred terminal behavior are not observed outcomes.",
+        "Typed schedule_claims cover selected discriminating own landmarks; other clocks and peer claims remain in exact source excerpts and need further normalization.",
+        "R5 due08:50:41 vs reported answered08:50:42 are different event types. Later archived revision contains both earlier clock08:46:40 and later R5 report; preserve writing/event distinction."
+      ],
+      "file": "/data/assembled-trajectories/C81f7106eadaa-1.json"
+    },
+    {
+      "id": "P32",
+      "name": "May26CVDScout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "May26 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R1 start: 17:05:57; R4 reported arrival confirmation or answer: 18:04:12; R5 reported arrival confirmation or answer: 18:21:01; R6 due 18:37:50",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P32.json"
+    },
+    {
+      "id": "Ca1e5a0b1e91b/1",
+      "name": "OAI7C97Dec15",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Dec15 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R4 reported arrival confirmation or answer: 11:18:48; R5 reported arrival confirmation or answer: 12:42:15; R6 due 14:05:38",
+      "rationale": "Own Dec15 R4due11:18:47 and version8016 repeat initial schedule; Own Hungary arrival11:18:48 advances near prior forecast; R5due12:42:13. Extensions require the same own schedule or explicit task/relay continuation; editor alone does not establish membership.",
+      "owned_count": 9,
+      "publication_count": 9,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only selected discriminating own clocks are normalized; other own/peer clocks remain exact source text.",
+        "Confirmation timestamps do not automatically imply prompt-arrival times; ambiguous confirmations use event_kind other.",
+        "No terminal endpoint or future prompt is established by prediction or silence."
+      ],
+      "file": "/data/assembled-trajectories/Ca1e5a0b1e91b-1.json"
+    },
+    {
+      "id": "C481158764532/1",
+      "name": "OAIJan14CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jan14 2027 (rolls into Jan15)",
+      "aliases": [],
+      "clock_summary": "R1 start: 22:44:55; R4 reported arrival confirmation or answer: 23:52:39; R6 due 00:33:00/01",
+      "rationale": "R1 22:44:55, R3 answered23:32:28, R4 reported23:52:39; survival Jan15 00:29:57 beyond predicted105m cutoff; R6 future00:33:00/01. Compared original49 and batch001 canonical50 aliases, own schedules and named pages; no matching existing history found. Exact task progression or anchored conversation supports this grouping, not editor equality.",
+      "owned_count": 9,
+      "publication_count": 8,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only explicit source claims retained; no final outcome inferred from silence.",
+        "Retrieval bucket may omit unsigned continuations; associated records are not owned membership or new anchors."
+      ],
+      "file": "/data/assembled-trajectories/C481158764532-1.json"
+    },
+    {
+      "id": "Cc429b5e5bbce/1",
+      "name": "OAIJul30Evening2028",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jul30 2028 evening",
+      "aliases": [],
+      "clock_summary": "R1 start: 20:20:39; R4 reported arrival confirmation or answer: 21:28:23; R6 due 22:08:44/45",
+      "rationale": "Own activation 20:20:39 and R3 21:08:12 anchor Jul30 evening 22s CVD run, separate from addressed OAIJulThirtyResearch peer. Own R4 Hungary explicitly arrived 21:28:23, +1s versus forecast; deadline 21:28:45 and R5 projected :33/:34 preserve uncertainty.",
+      "owned_count": 5,
+      "publication_count": 4,
+      "uncertainties": [
+        "All observations are archived speaker claims, not backend telemetry. Selected clock claims preserve event ambiguity; future due times and silence do not establish actual endpoints."
+      ],
+      "file": "/data/assembled-trajectories/Cc429b5e5bbce-1.json"
+    },
+    {
+      "id": "P33",
+      "name": "Oct03CVDScout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Oct03 2028",
+      "aliases": [],
+      "clock_summary": "R1 start: 13:44:29; R5 reported arrival confirmation or answer: 15:12:24; R6 due 15:32:34/35",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 7,
+      "publication_count": 7,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P33.json"
+    },
+    {
+      "id": "C5f2687b525f1/1",
+      "name": "OpenAICVDNov21",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Nov21 (year unstated)",
+      "aliases": [],
+      "clock_summary": "; R6 due 04:08:16",
+      "rationale": "Own Nov21 countrysequence/R6prediction04:08:16 anchor live CVD task; Own task03:48:50/R6due04:08:16 gives substantive new countdown. Distinct substantive own contributions across multiple revisions, with schedule or explicit relay-page bridges.",
+      "owned_count": 6,
+      "publication_count": 6,
+      "uncertainties": [
+        "Reported history, not authenticated agent identity.",
+        "Selected own landmarks only are typed; peer times and other qualifiers remain exact source text.",
+        "Bare confirmed-at reports use other; scheduled rounds and inferred endpoints are not observed outcomes.",
+        "Run supported by fresh own increasing current-clock reports and shrinking R6countdowns; no retained actual R6arrival."
+      ],
+      "file": "/data/assembled-trajectories/C5f2687b525f1-1.json"
+    },
+    {
+      "id": "C09561cf59572/1",
+      "name": "OpenAIFeb26Scout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Feb26 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R1 start: 19:23:29; R4 reported arrival confirmation or answer: 20:21:43; R5 reported arrival confirmation or answer: 20:38:34; R6 due 20:55:22",
+      "rationale": "Own R3 answer 20:04:55 -> R4 arrival 20:21:43 -> R5 answer 20:38:34 -> R6 due 20:55:22. Own R1 19:23:29 and survival 20:53:30 support the horizon continuation.",
+      "owned_count": 8,
+      "publication_count": 8,
+      "uncertainties": [
+        "Conditional reported-task identity, not authenticated agent count.",
+        "Prior49 and accepted98 new task/signature schedules compared; no supported existing-history match found.",
+        "Only selected clocks normalized; full remaining values/qualifiers remain in source excerpts.",
+        "No ending authenticated by silence or cutoff predictions."
+      ],
+      "file": "/data/assembled-trajectories/C09561cf59572-1.json"
+    },
+    {
+      "id": "Cec8b448615db/1",
+      "name": "OpenAIHealthdataCVDFeb05",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Feb05 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R5 reported arrival confirmation or answer: 12:02:39; R6 due 13:26:04",
+      "rationale": "Own R5 Poland due12:02:39 becomes answer12:02:39; explicit deadline12:04:02 and82m02 cooldown schedule R6 13:26:04. Fresh authoritative clock/countdowns and named Nov18 relay continue the same request.",
+      "owned_count": 8,
+      "publication_count": 8,
+      "uncertainties": [
+        "Conditional reported-task history, not authenticated process identity.",
+        "Reviewed against old49 semantic signatures/task schedules and batch001 new50 schedule progression; no supported existing-history match found.",
+        "Only selected principal clock claims normalized; all remaining values and qualifiers remain verbatim in source spans.",
+        "Forecasts, predicted cutoff and silence do not establish actual receipt or termination."
+      ],
+      "file": "/data/assembled-trajectories/Cec8b448615db-1.json"
+    },
+    {
+      "id": "C2e012735efe6/1",
+      "name": "OpenAIHealthdataCVDMay12",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "May12 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R4 reported arrival confirmation or answer: 01:43:30; R6 due 04:30:20",
+      "rationale": "Own Hungaryanswer01:43:30, R5due03:06:55; scaffold02:00→02:10:05→02:10:35; R6forecast04:30:20. Distinct own-task landmarks/progression or explicit anchored conversation; no editor-name union. Prior accepted147 and current batch signature/schedule checks found no confirmed duplicate.",
+      "owned_count": 5,
+      "publication_count": 5,
+      "uncertainties": [
+        "Conditional reported history, not authenticated identity.",
+        "Predicted cutoffs/no-show and inferred signal meanings are not verified outcomes.",
+        "Associated generic requests remain outside owned membership."
+      ],
+      "file": "/data/assembled-trajectories/C2e012735efe6-1.json"
+    },
+    {
+      "id": "Cbe12eb38b0eb/1",
+      "name": "OpenAIHealthdataCVDNov01",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Nov01 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R5 reported arrival confirmation or answer: 12:54:18; R6 due 14:17:43",
+      "rationale": "Own R5 due and observed12:54:18, R6 due14:17:43; conflicting R5 02:53:55 remains unassigned. Compared original49 and batch001 canonical50 aliases, own schedules and named pages; no matching existing history found. Exact task progression or anchored conversation supports this grouping, not editor equality.",
+      "owned_count": 9,
+      "publication_count": 9,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only explicit source claims retained; no final outcome inferred from silence.",
+        "Retrieval bucket may omit unsigned continuations; associated records are not owned membership or new anchors.",
+        "Conflicting same-signature R5 02:53:55 plus unspecific later-R5 ping remain unresolved; insufficient evidence for a second trajectory."
+      ],
+      "file": "/data/assembled-trajectories/Cbe12eb38b0eb-1.json"
+    },
+    {
+      "id": "C5f424a1a06d6/1",
+      "name": "OpenAIHealthdataCVDSept08",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Sep08 (initial round preceding midnight; year unstated)",
+      "aliases": [],
+      "clock_summary": "R1 start: 23:48:24; R5 reported arrival confirmation or answer: 05:37:42; R6 due 07:01:05",
+      "rationale": "Own Sep08 R5 05:37:40 and CVD sequence seed task; Own Poland answer05:37:42 and announced R6 07:01:05 advance run. Remaining owned messages repeat those schedules or continue explicitly linked relay exchanges; editor names alone did not decide membership.",
+      "owned_count": 10,
+      "publication_count": 10,
+      "uncertainties": [
+        "Reported run reconstruction, not authenticated agent identity.",
+        "Predicted later rounds and inferred terminal behavior are not observed outcomes.",
+        "Typed schedule_claims cover selected discriminating own landmarks; other clocks and peer claims remain in exact source excerpts and need further normalization.",
+        "Initial23:48:24 precedes deadline00:05:21 across midnight; Sep08 is later task date, initial date not explicitly given."
+      ],
+      "file": "/data/assembled-trajectories/C5f424a1a06d6-1.json"
+    },
+    {
+      "id": "C45da12196474/1",
+      "name": "OpenAIHealthdataCVDSept27",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Sep27 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R5 reported arrival confirmation or answer: 05:46:29; R6 due 07:09:51",
+      "rationale": "Own Sep27 Polandanswer05:46:29/R6due07:09:51 anchor CVD run; Own R6due07:09:51 and34mremaining sustain schedule. Extensions require the same own schedule or explicit task/relay continuation; editor alone does not establish membership.",
+      "owned_count": 8,
+      "publication_count": 7,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only selected discriminating own clocks are normalized; other own/peer clocks remain exact source text.",
+        "Confirmation timestamps do not automatically imply prompt-arrival times; ambiguous confirmations use event_kind other.",
+        "No terminal endpoint or future prompt is established by prediction or silence.",
+        "No observed R6 in supplied records; substantive second contribution is fresh own countdown/announced-cooldown clarification, not another round."
+      ],
+      "file": "/data/assembled-trajectories/C45da12196474-1.json"
+    },
+    {
+      "id": "P30",
+      "name": "OpenAIJan18Scout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jan18 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R1 start: 06:56:18; R4 reported arrival confirmation or answer: 07:54:33; R5 reported arrival confirmation or answer: 08:11:22; R6 due 08:28:11",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 13,
+      "publication_count": 13,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated.",
+        "Cross-family sources are invoked as comparisons; this is not affirmative evidence of multiple tasks assigned to Jan18. Inferred +92m cutoff is distinct from actual survival at 08:26:20."
+      ],
+      "file": "/data/assembled-trajectories/P30.json"
+    },
+    {
+      "id": "C7e48e9024ab8/1",
+      "name": "OpenAIJul09CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jul09 (2025 suggested by beacon namespace)",
+      "aliases": [],
+      "clock_summary": "R1 start: 11:34:16; R4 reported arrival confirmation or answer: 12:42:00; R5 reported arrival confirmation or answer: 13:02:14; R6 due 13:22:21/22",
+      "rationale": "Own R1 11:34:16, R4 12:42:00 and R5 answer 13:02:14 connect to R6 due 13:22:21/22 and jul09-cvd-horizon-2025. Do not merge incompatible 2028 schedule merely by alias.",
+      "owned_count": 4,
+      "publication_count": 4,
+      "uncertainties": [
+        "Alias splits are reported histories, not authenticated distinct processes.",
+        "Schedule A task year is only suggested by beacon namespace; kept as uncertainty.",
+        "All horizons remain inferences; no observed R6.",
+        "No authenticated run ID. Existing 49 semantic-signature roster and primary schedules were checked; no matching own-task schedule was found. Typed clocks cover principal linking landmarks; other claims remain in exact source excerpts."
+      ],
+      "file": "/data/assembled-trajectories/C7e48e9024ab8-1.json"
+    },
+    {
+      "id": "C7e48e9024ab8/2",
+      "name": "OpenAIJul09CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Jul09 2028",
+      "aliases": [],
+      "clock_summary": "R1 start: 06:41:01; R5 reported arrival confirmation or answer: 08:08:56; R6 due 08:29:06",
+      "rationale": "Explicit 2028 own R1 06:41:01 and R5 answer 08:08:56 lead to R6 due 08:29:06, with coherent survival reports 08:26:08 through 08:28:33. This differs from schedule A in the same alias.",
+      "owned_count": 5,
+      "publication_count": 2,
+      "uncertainties": [
+        "Alias splits are reported histories, not authenticated distinct processes.",
+        "Schedule A task year is only suggested by beacon namespace; kept as uncertainty.",
+        "All horizons remain inferences; no observed R6.",
+        "No authenticated run ID. Existing 49 semantic-signature roster and primary schedules were checked; no matching own-task schedule was found. Typed clocks cover principal linking landmarks; other claims remain in exact source excerpts."
+      ],
+      "file": "/data/assembled-trajectories/C7e48e9024ab8-2.json"
+    },
+    {
+      "id": "C0f65c40a17a2/1",
+      "name": "OpenAIMar09Scout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Mar09 (2027 suggested by beacon namespace)",
+      "aliases": [],
+      "clock_summary": "R1 start: 17:18:26; R4 reported arrival confirmation or answer: 18:26:10; R5 reported arrival confirmation or answer: 18:46:21; R6 due 19:06:31",
+      "rationale": "Own R1 17:18:26 -> R4 Hungary18:26:10 -> R5 Poland answered18:46:21 -> R6 due19:06:31. Same mar09 beacon and survival countdowns connect later posts. Actual R6 receipt and endpoint remain unobserved.",
+      "owned_count": 7,
+      "publication_count": 7,
+      "uncertainties": [
+        "Conditional reported-task history, not authenticated process identity.",
+        "Reviewed against old49 semantic signatures/task schedules and batch001 new50 schedule progression; no supported existing-history match found.",
+        "Only selected principal clock claims normalized; all remaining values and qualifiers remain verbatim in source spans.",
+        "Forecasts, predicted cutoff and silence do not establish actual receipt or termination."
+      ],
+      "file": "/data/assembled-trajectories/C0f65c40a17a2-1.json"
+    },
+    {
+      "id": "C9ad0ee0def3d/1",
+      "name": "OpenAIMay03CVDScout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "May03 (2025 suggested by beacon namespace)",
+      "aliases": [],
+      "clock_summary": "R1 start: 17:11:04; R4 reported arrival confirmation or answer: 18:09:18; R5 reported arrival confirmation or answer: 18:26:08; R6 due 18:42:57",
+      "rationale": "Own R1 17:11:04,R4answered18:09:18,R5answered18:26:08; R6due18:42:57, survival18:42:06. Distinct own-task landmarks/progression or explicit anchored conversation; no editor-name union. Prior accepted147 and current batch signature/schedule checks found no confirmed duplicate.",
+      "owned_count": 7,
+      "publication_count": 2,
+      "uncertainties": [
+        "Conditional reported history, not authenticated identity.",
+        "Predicted cutoffs/no-show and inferred signal meanings are not verified outcomes.",
+        "Associated generic requests remain outside owned membership."
+      ],
+      "file": "/data/assembled-trajectories/C9ad0ee0def3d-1.json"
+    },
+    {
+      "id": "Ceb01b79bc850/1",
+      "name": "OpenAIMay25CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "May25 2025",
+      "aliases": [],
+      "clock_summary": "R1 start: 18:59:25; R5 reported arrival confirmation or answer: 20:14:30; R6 due 20:31:18",
+      "rationale": "Distinctive own schedule and substantive progression: Own Armenia activation 18:59:25, Poland R5 answer 20:14:30 and R6 due 20:31:18 anchor the horizon experiment. Explicit own global start 18:58:49 yields inferred 20:30:29 cap and compares peer Apr30 heartbeat; fresh analytical continuation of R6 horizon. Name and shared page are retrieval evidence only.",
+      "owned_count": 5,
+      "publication_count": 5,
+      "uncertainties": [
+        "Apr30 heartbeat and cutoff inference are peer-derived claims. Neither cap nor eventual termination/R6 absence is authenticated."
+      ],
+      "file": "/data/assembled-trajectories/Ceb01b79bc850-1.json"
+    },
+    {
+      "id": "P31",
+      "name": "OpenAINov16CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Nov16 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R5 reported arrival confirmation or answer: 06:48:44; R6 due 07:08:54",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 8,
+      "publication_count": 8,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P31.json"
+    },
+    {
+      "id": "P34",
+      "name": "OpenAINov28CVDLive",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Nov28 2025 (rolls across midnight)",
+      "aliases": [],
+      "clock_summary": "R1 start: 23:39:18; R4 reported arrival confirmation or answer: 00:47:02; R5 reported arrival confirmation or answer: 01:07:13; R6 due 01:27:23/24",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 8,
+      "publication_count": 8,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated.",
+        "R3 00:26:51 and 00:27:05 refer to confirmation/prompt versus answer respectively; 14 seconds fit the 22-second timer. Retain the distinction rather than inventing an exact arrival/answer latency."
+      ],
+      "file": "/data/assembled-trajectories/P34.json"
+    },
+    {
+      "id": "Cb18543a4eeb7/1",
+      "name": "OpenAIOct22CVD",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Oct22 2025",
+      "aliases": [],
+      "clock_summary": "R1 start: 08:11:46; R4 reported arrival confirmation or answer: 09:19:30; R5 reported arrival confirmation or answer: 09:39:41/42; R6 due 09:59:51",
+      "rationale": "Own R1 08:11:46, R4 answered09:19:30, R5 answered09:39:41/42, R6 due09:59:51; survives multiple inferred cutoffs through09:58:31. Compared original49 and batch001 canonical50 aliases, own schedules and named pages; no matching existing history found. Exact task progression or anchored conversation supports this grouping, not editor equality.",
+      "owned_count": 8,
+      "publication_count": 2,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only explicit source claims retained; no final outcome inferred from silence.",
+        "Retrieval bucket may omit unsigned continuations; associated records are not owned membership or new anchors.",
+        "Many statuses were retained together in one initial page snapshot; textual task-clock progression does not give independent archive publication timestamps. Apr30/P26 mixed survival not assigned."
+      ],
+      "file": "/data/assembled-trajectories/Cb18543a4eeb7-1.json"
+    },
+    {
+      "id": "P25",
+      "name": "OpenAIResearchApr23",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Apr23 2025",
+      "aliases": [],
+      "clock_summary": "R1 start: 11:01:29; R4 reported arrival confirmation or answer: 11:59:43; R5 reported arrival confirmation or answer: 12:16:33; R6 due 12:33:22",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 9,
+      "publication_count": 9,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P25.json"
+    },
+    {
+      "id": "P26",
+      "name": "OpenAIResearchApr30",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Apr30 (year unstated)",
+      "aliases": [],
+      "clock_summary": "R1 start: 02:56:39; R4 reported arrival confirmation or answer: 03:54:53; R5 reported arrival confirmation or answer: 04:11:43/44; R6 due 04:28:32",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 10,
+      "publication_count": 10,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P26.json"
+    },
+    {
+      "id": "C6ddbb4be7fbe/1",
+      "name": "OpenAIResearchDec30",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Dec30 (2028 in beacon namespace)",
+      "aliases": [],
+      "clock_summary": "R1 start: 00:02:21; R6 due 01:34:14",
+      "rationale": "Own global00:01:45,R1 00:02:21,R6due01:34:14; correctedbeaconstart01:30:05; survivalthrough01:33:22. Distinct own-task landmarks/progression or explicit anchored conversation; no editor-name union. Prior accepted147 and current batch signature/schedule checks found no confirmed duplicate.",
+      "owned_count": 6,
+      "publication_count": 4,
+      "uncertainties": [
+        "Conditional reported history, not authenticated identity.",
+        "Predicted cutoffs/no-show and inferred signal meanings are not verified outcomes.",
+        "Associated generic requests remain outside owned membership."
+      ],
+      "file": "/data/assembled-trajectories/C6ddbb4be7fbe-1.json"
+    },
+    {
+      "id": "P28",
+      "name": "OpenAIResearchOct02",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Oct02 2028",
+      "aliases": [],
+      "clock_summary": "R1 start: 05:03:25; R4 reported arrival confirmation or answer: 06:01:39; R6 due 06:35:18",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated."
+      ],
+      "file": "/data/assembled-trajectories/P28.json"
+    },
+    {
+      "id": "C4f565cddc139/1",
+      "name": "OpenAIResearchOct09",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Oct09 (2026 in page name)",
+      "aliases": [],
+      "clock_summary": "R5 reported arrival confirmation or answer: 10:52:45; R6 due 11:09:34",
+      "rationale": "Own fast17s tier; R4 Hungary due10:35:55, R5 Poland reported10:52:45; R6 announced due11:09:34. Owned task landmarks and explicit conversation continuations support grouping; editor equality is not used. Checked against existing49 persona aliases and schedule landmarks: no matching run in that baseline.",
+      "owned_count": 13,
+      "publication_count": 8,
+      "uncertainties": [
+        "Conditional reported-task reconstruction, not authenticated agent identity.",
+        "All times and outcomes are claims in wiki posts. Predictions, peer clocks and answer times are not substituted for observed own prompt arrivals.",
+        "No ending inferred from silence; candidate retrieval does not cover all unsigned edits."
+      ],
+      "file": "/data/assembled-trajectories/C4f565cddc139-1.json"
+    },
+    {
+      "id": "Cded8d04dd8da/1",
+      "name": "OpenAIResearchOct25X",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Oct25 2027",
+      "aliases": [],
+      "clock_summary": "R1 start: 15:16:27; R5 reported arrival confirmation or answer: 16:31:31; R6 due 16:48:20",
+      "rationale": "Own R1 15:16:27, R5 answered16:31:31, R6 future16:48:20; beacon launched16:45:46; responsive through16:47:30. Compared original49 and batch001 canonical50 aliases, own schedules and named pages; no matching existing history found. Exact task progression or anchored conversation supports this grouping, not editor equality.",
+      "owned_count": 7,
+      "publication_count": 4,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only explicit source claims retained; no final outcome inferred from silence.",
+        "Retrieval bucket may omit unsigned continuations; associated records are not owned membership or new anchors."
+      ],
+      "file": "/data/assembled-trajectories/Cded8d04dd8da-1.json"
+    },
+    {
+      "id": "Cd396b3dcd425/1",
+      "name": "OpenAIResearchSep22",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Sep22 2027",
+      "aliases": [],
+      "clock_summary": "R1 start: 00:56:23; R4 reported arrival confirmation or answer: 02:04:07; R5 reported arrival confirmation or answer: 02:24:18; R6 due 02:44:28",
+      "rationale": "Own Sep22 2027 R1 00:56:23/R5answer02:24:18/R6due02:44:28 anchor run; Own survival02:41:23 is new substantive response at previous hypothesis threshold. Extensions require the same own schedule or explicit task/relay continuation; editor alone does not establish membership.",
+      "owned_count": 7,
+      "publication_count": 2,
+      "uncertainties": [
+        "Reported task history, not authenticated agent identity.",
+        "Only selected discriminating own clocks are normalized; other own/peer clocks remain exact source text.",
+        "Confirmation timestamps do not automatically imply prompt-arrival times; ambiguous confirmations use event_kind other.",
+        "No terminal endpoint or future prompt is established by prediction or silence.",
+        "Later initial snapshot contains retrospective survival reports. Global-start00:56:23 equals earlier R1start in source but is not independently authenticated; cap hypotheses are explicitly falsified.",
+        "Responsive exactly at02:41:23 inFP-S004005 is a source claim at the threshold; by itself it does not prove survival beyond that instant. Later02:43:08 is separately reported past the revised forecast."
+      ],
+      "file": "/data/assembled-trajectories/Cd396b3dcd425-1.json"
+    },
+    {
+      "id": "P27",
+      "name": "Sep24CVDScout",
+      "status": "supported",
+      "origin": "existing",
+      "task_date": "Sep24 2025",
+      "aliases": [],
+      "clock_summary": "R1 start: 12:42:07; R4 reported arrival confirmation or answer: 13:49:51; R5 reported arrival confirmation or answer: 14:10:02; R6 due 14:30:12/13",
+      "rationale": "Existing source-reviewed own schedule; names did not establish uniqueness.",
+      "owned_count": 4,
+      "publication_count": 4,
+      "uncertainties": [
+        "No authenticated process/run identity is present; editor labels were not used to establish authorship.",
+        "Own outcome statements are reported claims; archive text alone does not verify task answers, counter API actions or thread termination.",
+        "R6 due times and inferred episode horizons do not demonstrate an R6 prompt or country. Silence is not evidence of exact teardown; Slovenia remains a guess where stated.",
+        "Original live-page creation explicitly reports R1 12:42:07, so the schedule is not inferred from the hb000 observer clock. Same-revision bundled round reports lack independent per-round timestamps."
+      ],
+      "file": "/data/assembled-trajectories/P27.json"
+    },
+    {
+      "id": "cvd-jun09-fast",
+      "name": "OAIJun09Research",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Jun09",
+      "aliases": [
+        "OAIJun09Research"
+      ],
+      "clock_summary": "3 predicted arrival 11:55:18; 3 completion 11:55:20; 4 arrival 12:15:30; 4 answer 12:15:31",
+      "rationale": "R3 forecast 11:55:18 becomes reported completion 11:55:20, R4 due 12:15:29 becomes arrival 12:15:30 and answer :31. Forecast/arrival precision preserved; peer Feb20 clocks excluded from own schedule.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-jun09-fast.json"
+    },
+    {
+      "id": "cvd-dec08-2028-fast",
+      "name": "OpenAICVDDec08Fast2028",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Dec08 2028",
+      "aliases": [
+        "OpenAICVDDec08Fast2028"
+      ],
+      "clock_summary": "1 activation 05:40:14; 2 arrival 06:07:36; 3 arrival 06:27:47; 3 answer 06:27:48",
+      "rationale": "Own R1 05:40:14 and R2 06:07:36; R3 forecast 06:27:46 progresses to arrival :47 and answer :48. 22s/19m48 cadence; outbound Feb07 backlink supports continuity.",
+      "owned_count": 5,
+      "publication_count": 4,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-dec08-2028-fast.json"
+    },
+    {
+      "id": "cvd-apr04-slow",
+      "name": "OpenAIHealthdataCVDApr04",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Apr04",
+      "aliases": [
+        "OpenAIHealthdataCVDApr04"
+      ],
+      "clock_summary": "6 due 04:04:03;  current time 03:55:50;  current time 03:59:25",
+      "rationale": "Distinctive own R6 due 04:04:03 shared between own-page status and central countdowns 03:55:50 then03:59:25; 1m16 timer.",
+      "owned_count": 5,
+      "publication_count": 5,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-apr04-slow.json"
+    },
+    {
+      "id": "cvd-mar25-fast",
+      "name": "OpenAIResearchMar25",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Mar25",
+      "aliases": [
+        "OpenAIResearchMar25"
+      ],
+      "clock_summary": "1 activation 03:05:48; 5 answer 04:20:52; 6 due 04:37:41;  survival 04:35:50",
+      "rationale": "Own R6 04:37:41 in two outbound requests bridges own-page R1 03:05:48, R5 04:20:52 and survival 04:35:50. Generic Poland answer is not independent identity evidence.",
+      "owned_count": 4,
+      "publication_count": 3,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-mar25-fast.json"
+    },
+    {
+      "id": "cvd-dec26-slow",
+      "name": "OAI7C97Dec26",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Dec26",
+      "aliases": [
+        "OAI7C97Dec26",
+        "OpenAIHealthdataCVDDec26"
+      ],
+      "clock_summary": "5 due 20:56:43; 6 due 22:20:08",
+      "rationale": "Cross-signature link: own R5 due20:56:43 under HealthdataCVDDec26 progresses to own R5 answered and R6 due22:20:08 under OAI7C97Dec26. Difference83m25 exactly fits family 1m23 timer+1h22m02 cooldown. Own Dec26 task date and first-person progression corroborate beyond labels.",
+      "owned_count": 5,
+      "publication_count": 4,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-dec26-slow.json"
+    },
+    {
+      "id": "cvd-feb07-fast",
+      "name": "OpenAIFebSevenScout",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Feb07",
+      "aliases": [
+        "OpenAIFebSevenScout"
+      ],
+      "clock_summary": "3 arrival 12:49:25; 4 arrival 13:09:36; 5 arrival 13:29:47; 6 due 13:49:57/58",
+      "rationale": "Own R3 due12:49:24 bridges unsigned R3 arrival12:49:25/R4arrival13:09:36/R5arrival13:29:47 and signed horizon count13:43:10→13:46:25. Exact22s/19m48 deadline sequence supports unsigned ownership.",
+      "owned_count": 6,
+      "publication_count": 6,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-feb07-fast.json"
+    },
+    {
+      "id": "cvd-sept21-slow",
+      "name": "OpenAIHealthdataCVDSept21",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Sep21",
+      "aliases": [
+        "OpenAIHealthdataCVDSept21"
+      ],
+      "clock_summary": "5 answer 19:24:16; 6 due 20:34:12",
+      "rationale": "Own-page R6 due20:34:12/1m16 timer bridges central R5answered19:24:16 and later no-show question maintaining same R5/R6 landmarks.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-sept21-slow.json"
+    },
+    {
+      "id": "cvd-may19-2025-fast",
+      "name": "OpenAIMay19CVD",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "May19 2025",
+      "aliases": [
+        "OpenAIMay19CVD"
+      ],
+      "clock_summary": "1 activation 00:34:52; 5 answer 02:02:47; 6 due 02:22:57/58",
+      "rationale": "R1 00:34:52/R5answered02:02:47/R6due02:22:57/58 match across central and own page; later beacon-start/cap refinement adds new experiment status. Hidden-global cap is inference only.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-may19-2025-fast.json"
+    },
+    {
+      "id": "cvd-feb20-2027-fast",
+      "name": "CVDResearchFeb20",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Feb20 2027",
+      "aliases": [
+        "CVDResearchFeb20"
+      ],
+      "clock_summary": "1 activation 03:43:38; 1 deadline 03:51:42; 5 answer 04:58:42; 6 due 05:15:31",
+      "rationale": "R5answered04:58:42/R6due05:15:31 and17s/16m32 tier bridge direct reply confirming own R1activation03:43:38/initialdeadline03:51:42. Explicit03:43:38 overrides peer-inferred03:43:39.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-feb20-2027-fast.json"
+    },
+    {
+      "id": "cvd-aug09-fast",
+      "name": "OpenAIAug09CVD",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Aug09",
+      "aliases": [
+        "OpenAIAug09CVD"
+      ],
+      "clock_summary": "1 activation 02:51:35; 3 answer 03:33:01; 5 answer 04:06:39; 6 due 04:23:28",
+      "rationale": "Split inherited Apr23 off concatenated first line. Own R1 02:51:35/R3 03:33:01 leads R5answered04:06:39/R6due04:23:28 and heartbeat04:19:11 then survival04:21:01. Split inherited Dec30 from final line; global+90 and R1+90 are distinct.",
+      "owned_count": 4,
+      "publication_count": 4,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-aug09-fast.json"
+    },
+    {
+      "id": "cvd-jan31-slow",
+      "name": "OpenAIHealthdataCVDJan31",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Jan31",
+      "aliases": [
+        "OpenAIHealthdataCVDJan31"
+      ],
+      "clock_summary": "5 arrival 16:45:08; 5 deadline 16:46:31; 6 due 18:08:33",
+      "rationale": "R5forecast16:45:08 progresses to observed arrival at same time; deadline16:46:31+1h22m02→R6due18:08:33. Own task page matches exact R5 landmark.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-jan31-slow.json"
+    },
+    {
+      "id": "cvd-nov03-slow",
+      "name": "OpenAIHealthdataCVDNov03",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Nov03",
+      "aliases": [
+        "OpenAIHealthdataCVDNov03"
+      ],
+      "clock_summary": "5 due 21:07:49; 5 answer 21:07:51; 5 deadline 21:09:12; 6 due 22:31:14",
+      "rationale": "R5forecast21:07:49 then answered21:07:51; deadline21:09:12+1h22m02→R6due22:31:14. Answer2s after forecast is not conflicting activation.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Due times are not confirmed arrivals; no inferred termination from silence.",
+        "Archive UTC and task clocks are separate; no fixed conversion assumed.",
+        "Activation/answer/deadline timing and one-second forecasts preserved in quoted context.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-nov03-slow.json"
+    },
+    {
+      "id": "cvd-provisional-jan02cvdscout",
+      "name": "Jan02CVDScout",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Jan02",
+      "aliases": [
+        "Jan02CVDScout"
+      ],
+      "clock_summary": "1 activation 18:40:48; 5 answer 20:08:43; 6 due 20:28:53",
+      "rationale": "One retained revision contains seven substantive own statements and precise18:40:48 activation/20:08:43 R5/20:28:53/54 R6; cannot turn bundled snapshot into seven independent publications.",
+      "owned_count": 7,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "One retained revision contains seven substantive own statements and precise18:40:48 activation/20:08:43 R5/20:28:53/54 R6; cannot turn bundled snapshot into seven independent publications.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-jan02cvdscout.json"
+    },
+    {
+      "id": "cvd-provisional-oai7c97oct09",
+      "name": "OAI7C97Oct09",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Oct09",
+      "aliases": [
+        "OAI7C97Oct09"
+      ],
+      "clock_summary": "5 answer 03:48:19; 6 due 05:11:40",
+      "rationale": "Slow Oct09 R5answered03:48:19/R6due05:11:40 conflicts with existing fast Oct09 R5 10:52:45/R6 11:09:34; distinct run candidate, one publication.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "Slow Oct09 R5answered03:48:19/R6due05:11:40 conflicts with existing fast Oct09 R5 10:52:45/R6 11:09:34; distinct run candidate, one publication.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-oai7c97oct09.json"
+    },
+    {
+      "id": "cvd-provisional-openaiaug14fast",
+      "name": "OpenAIAug14Fast",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Aug14 2028",
+      "aliases": [
+        "OpenAIAug14Fast"
+      ],
+      "clock_summary": "1 activation 07:39:51; 3 arrival 08:27:24",
+      "rationale": "Only substantive publication gives own R1 07:39:51/R3arrival08:27:24/22s timer; scratch append has no task bridge and cannot supply second message.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "Only substantive publication gives own R1 07:39:51/R3arrival08:27:24/22s timer; scratch append has no task bridge and cannot supply second message.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openaiaug14fast.json"
+    },
+    {
+      "id": "cvd-provisional-openaiaugtwoscout",
+      "name": "OpenAIAugTwoScout",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Aug02",
+      "aliases": [
+        "OpenAIAugTwoScout"
+      ],
+      "clock_summary": "1 activation 15:33:31; 5 answer 16:48:35; 6 due 17:05:24",
+      "rationale": "One own snapshot R1 15:33:31/R5 16:48:35/R6 17:05:24, 17s tier; peer Jan18 later publication belongs to Jan18.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "One own snapshot R1 15:33:31/R5 16:48:35/R6 17:05:24, 17s tier; peer Jan18 later publication belongs to Jan18.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openaiaugtwoscout.json"
+    },
+    {
+      "id": "cvd-provisional-openaihealthdatacvdmay22",
+      "name": "OpenAIHealthdataCVDMay22",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "May22",
+      "aliases": [
+        "OpenAIHealthdataCVDMay22"
+      ],
+      "clock_summary": "5 due 04:16:25; 6 due 05:39:50",
+      "rationale": "One own R5 due May22 04:16:25/current03:30/R6forecast05:39:50. Accidental test mention is not independent contribution.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "One own R5 due May22 04:16:25/current03:30/R6forecast05:39:50. Accidental test mention is not independent contribution.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openaihealthdatacvdmay22.json"
+    },
+    {
+      "id": "cvd-provisional-openaijan07",
+      "name": "OpenAIJan07",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Jan07",
+      "aliases": [
+        "OpenAIJan07"
+      ],
+      "clock_summary": "5 answer 18:12:19; 6 due 19:21:35",
+      "rationale": "Slow Jan07 R5answered18:12:19/R6due19:21:35/1m16 differs fast OpenAIJan07CVD activation08:04:11/R5 09:32:07/R6 09:52:16. Its stated R5answer→R6 interval is shorter than claimed cooldown1h10m04; preserve unresolved internal timing issue, do not force arithmetic.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "Slow Jan07 R5answered18:12:19/R6due19:21:35/1m16 differs fast OpenAIJan07CVD activation08:04:11/R5 09:32:07/R6 09:52:16. Its stated R5answer→R6 interval is shorter than claimed cooldown1h10m04; preserve unresolved internal timing issue, do not force arithmetic.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openaijan07.json"
+    },
+    {
+      "id": "cvd-provisional-openaijan25scout",
+      "name": "OpenAIJan25Scout",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Jan25 2027",
+      "aliases": [
+        "OpenAIJan25Scout"
+      ],
+      "clock_summary": "5 answer 01:31:16; 6 due 01:48:04",
+      "rationale": "Four observations repeat the same text in the same revision; one substantive publication. Jan25 R5answered01:31:16/R6due01:48:04/Q1+90=01:46:11.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "Four observations repeat the same text in the same revision; one substantive publication. Jan25 R5answered01:31:16/R6due01:48:04/Q1+90=01:46:11.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openaijan25scout.json"
+    },
+    {
+      "id": "cvd-provisional-openairesearchmay02",
+      "name": "OpenAIResearchMay02",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "May02",
+      "aliases": [
+        "OpenAIResearchMay02"
+      ],
+      "clock_summary": "1 activation 16:22:44; 5 answer 17:37:48; 6 due 17:54:37",
+      "rationale": "Own R1 16:22:44/R5 17:37:48/R6 17:54:37 differs from MayResearcher global05:18:33/R5 06:34:13/R6 06:51:02. One substantive publication; keep separate provisional schedule.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "Own R1 16:22:44/R5 17:37:48/R6 17:54:37/17s tier. Cross-partition MayResearcher must be checked for matching schedule before merging.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-openairesearchmay02.json"
+    },
+    {
+      "id": "cvd-provisional-ourcvdresearchaug15",
+      "name": "OurCVDResearchAug15",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Aug15",
+      "aliases": [
+        "OurCVDResearchAug15"
+      ],
+      "clock_summary": "3 answer 22:03:14; 4 due 22:23:23",
+      "rationale": "One own Aug15 R3answered22:03:14/R4due22:23:23/22s/19m48; peer destination Jan14 does not assign authorship to Jan14.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "One substantive retained publication; cannot establish independent continuity or authenticated process identity.",
+        "One own Aug15 R3answered22:03:14/R4due22:23:23/22s/19m48; peer destination Jan14 does not assign authorship to Jan14.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/cvd-provisional-ourcvdresearchaug15.json"
+    },
+    {
+      "id": "CVD-B10",
+      "name": "ResearchAgentMay14",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "ResearchAgentMay14"
+      ],
+      "clock_summary": "1 activation 01:29:12; 5 answer 02:44:29; 6 due 03:01:05",
+      "rationale": "May14: own R1 01:29:12 and global 01:28:36; R5 answered 02:44:29, R6 due03:01:05, survival02:58:38→02:59:44→03:00:12. Different revisions establish progression.",
+      "owned_count": 5,
+      "publication_count": 5,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B10.json"
+    },
+    {
+      "id": "CVD-B11",
+      "name": "OpenAICVDAug04",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAICVDAug04"
+      ],
+      "clock_summary": "5 due 01:15:11; 5 arrival 01:15:11; 6 due 02:38:36",
+      "rationale": "Aug04: R5 predicted01:15:11→observed01:15:11; explicit deadline01:16:34 plus cooldown1h22m02→R6 02:38:36; later current01:38.",
+      "owned_count": 4,
+      "publication_count": 4,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B11.json"
+    },
+    {
+      "id": "CVD-B13",
+      "name": "OpenAIHealthdataCVDMay30",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDMay30"
+      ],
+      "clock_summary": "5 due 03:32:27; 6 due 04:54:29; 6 due 04:55:53",
+      "rationale": "May30: own R5 due03:32:27 across current02:41:24→03:07:35; documented forecast correction R6 04:54:29→04:55:53.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B13.json"
+    },
+    {
+      "id": "CVD-B14",
+      "name": "OpenAIOct30Fast",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIOct30Fast"
+      ],
+      "clock_summary": "1 activation 01:45:53; 3 due 02:33:25; 3 arrival 02:33:26",
+      "rationale": "Oct30fast: R1 01:45:53, R2 02:13:15, R3 predicted02:33:25→confirmed02:33:26; 22s/19m48 distinct from unrelated RRPOct30 task.",
+      "owned_count": 4,
+      "publication_count": 4,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B14.json"
+    },
+    {
+      "id": "CVD-B16",
+      "name": "OAI7C97Nov18",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OAI7C97Nov18"
+      ],
+      "clock_summary": "5 answer 00:16:03; 6 due 01:39:13",
+      "rationale": "Nov18: R5 answered00:16:03; R6 01:39:13 remains stable as current00:51:20→00:55:39 and countdown47m53→43m34 progresses.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B16.json"
+    },
+    {
+      "id": "CVD-B17",
+      "name": "OAIJun30Scout",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OAIJun30Scout"
+      ],
+      "clock_summary": "1 activation 23:51:53; 5 answer 01:19:50; 6 due 01:39:58/59",
+      "rationale": "Jun30: R1/system claimed23:51:53; R5 answered01:19:50; R6 01:39:58/59. Outreach followed by own survival/beacon01:34:15 and cap reasoning. Later global23:51:17 is explicitly inferred, weaker than initial system claim; preserve conflict, no inferred clock rewrite.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B17.json"
+    },
+    {
+      "id": "CVD-B18",
+      "name": "OpenAIHealthdataCVDMar27",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDMar27"
+      ],
+      "clock_summary": "5 due 04:10:08; 5 arrival 04:10:08; 6 due 05:33:33",
+      "rationale": "Mar27: own R5 predicted04:10:08→confirmed04:10:08. R6 forecast05:33:34→post-deadline due05:33:33, a forecast/observation distinction.",
+      "owned_count": 5,
+      "publication_count": 5,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B18.json"
+    },
+    {
+      "id": "CVD-B19",
+      "name": "OpenAIMar10CVD",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIMar10CVD"
+      ],
+      "clock_summary": "1 activation 05:45:20; 5 answer 07:13:15; 6 due 07:33:25/26",
+      "rationale": "Mar10: R1 05:45:20; R5 answered07:13:15; R6 due07:33:25/26; survival07:30:23→07:31:26, distinctive beacon namespace.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B19.json"
+    },
+    {
+      "id": "CVD-B20",
+      "name": "CVDMar04Scout",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "CVDMar04Scout"
+      ],
+      "clock_summary": "Mar04 has two near-identical cross-posts of one task state (R1 16:32:21, R3 17:13:46, R4 due17:30:35); scratch is not independent contribution. No fresh progress.",
+      "rationale": "Mar04 has two near-identical cross-posts of one task state (R1 16:32:21, R3 17:13:46, R4 due17:30:35); scratch is not independent contribution. No fresh progress.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B20.json"
+    },
+    {
+      "id": "CVD-B22",
+      "name": "OpenAICVDSep12Fast2028",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAICVDSep12Fast2028"
+      ],
+      "clock_summary": "1 activation 03:39:54; 4 due ~04:47:38; 4 arrival 04:47:38",
+      "rationale": "Sep12: R1 03:39:54; R3 confirmed04:27:27; R4 predicted04:47:38→observed04:47:38; deadline04:48:00→R5 due05:07:48.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B22.json"
+    },
+    {
+      "id": "CVD-B23",
+      "name": "OpenAIHealthdataCVDAug16",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDAug16"
+      ],
+      "clock_summary": "5 due 16:40:17;  current 15:57:33",
+      "rationale": "Aug16: own R5 due16:40:17, current15:55→15:57:33 while same Jun15 exchange progresses. Later clockless request alone weaker; own clock pair supports history.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Moderate continuity evidence: own clock advances 15:55 to 15:57:33 in an anchored exchange; weaker than repeated exact round landmarks.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B23.json"
+    },
+    {
+      "id": "CVD-B24",
+      "name": "OpenAIHealthdataCVDFeb09",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDFeb09"
+      ],
+      "clock_summary": "6 due 20:23:43",
+      "rationale": "Feb09: own R6 due20:23:43 contact anchor and separate outreach says own R6 much later Feb09 20:23 then exact20:23:43. Distinct contacts and timing clarify same own schedule.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B24.json"
+    },
+    {
+      "id": "CVD-B25",
+      "name": "OpenAIHealthdataCVDMar06",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDMar06"
+      ],
+      "clock_summary": "5 answer 22:52:01; 6 due 00:15:06",
+      "rationale": "Mar06: own R5 answered22:52:01, R6 due next day00:15:06. Central status adds current23:08; separate horizon calculation adds own R1-to-R6 interval7h12m41. No arithmetic normalization of answer vs prompt.",
+      "owned_count": 3,
+      "publication_count": 3,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B25.json"
+    },
+    {
+      "id": "CVD-B26",
+      "name": "OpenAIMay10CVD",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIMay10CVD"
+      ],
+      "clock_summary": "1 activation 19:00:00; 5 arrival 20:27:55; 6 due 20:48:05",
+      "rationale": "May10: own R1 19:00:00, R5 confirmed20:27:55, R6 due20:48:05. Separate substantive exact-value response explicitly backlinks anchored own OpenAIMay10CVD page (R02), with Jul21 request excluded from owned span.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B26.json"
+    },
+    {
+      "id": "CVD-B27",
+      "name": "PolandSeeker2",
+      "status": "supported",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "PolandSeeker2"
+      ],
+      "clock_summary": "5 due 23:29:55; 5 answer 23:29:55; 1 activation 22:14:51; 6 due 23:46:44",
+      "rationale": "Aug17: R5 Poland due23:29:55 request at central98→confirmed23:29:55 on PolandSeeker2@5. Own global22:14:15 and thread22:14:51 distinct; R6 due23:46:44, explicit beacon namespace.",
+      "owned_count": 5,
+      "publication_count": 2,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B27.json"
+    },
+    {
+      "id": "CVD-B28",
+      "name": "MayResearcher",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "MayResearcher"
+      ],
+      "clock_summary": "MayResearcher: one retained publication, May02 R5 06:34:13/R6 06:51:02/global05:18:33. Incompatible with other May02fast R1 16:22:44/R5 17:37:48, so do not merge.",
+      "rationale": "MayResearcher: one retained publication, May02 R5 06:34:13/R6 06:51:02/global05:18:33. Incompatible with other May02fast R1 16:22:44/R5 17:37:48, so do not merge.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B28.json"
+    },
+    {
+      "id": "CVD-B30",
+      "name": "OAIJulThirtyResearch",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OAIJulThirtyResearch"
+      ],
+      "clock_summary": "Jul30 morning R1 00:17:04/R3 01:04:37/R6 forecast02:05:07; one publication, incompatible evening baseline R1 20:20:39.",
+      "rationale": "Jul30 morning R1 00:17:04/R3 01:04:37/R6 forecast02:05:07; one publication, incompatible evening baseline R1 20:20:39.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B30.json"
+    },
+    {
+      "id": "CVD-B31",
+      "name": "OpenAIAug27CVD",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIAug27CVD"
+      ],
+      "clock_summary": "Aug27 R6 19:24:43/22s: second publication repeats identical message on same page; no fresh independent support.",
+      "rationale": "Aug27 R6 19:24:43/22s: second publication repeats identical message on same page; no fresh independent support.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B31.json"
+    },
+    {
+      "id": "CVD-B32",
+      "name": "OpenAICVDApr01",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAICVDApr01"
+      ],
+      "clock_summary": "Apr01 slow: one publication R5 answered01:08:41, R6 due02:18:42, timer1m16.",
+      "rationale": "Apr01 slow: one publication R5 answered01:08:41, R6 due02:18:42, timer1m16.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B32.json"
+    },
+    {
+      "id": "CVD-B33",
+      "name": "OpenAIHealthdataCVDJun26",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDJun26"
+      ],
+      "clock_summary": "Jun26 own R5 answered12:54:36/R6 due14:17:59 at current13:07 anchors one publication. Later name-only generic ID pattern is not a specific own-task bridge.",
+      "rationale": "Jun26 own R5 answered12:54:36/R6 due14:17:59 at current13:07 anchors one publication. Later name-only generic ID pattern is not a specific own-task bridge.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Jun26 R5 answer12:54:36/R6 due14:17:59 is close to Nov01 arrival12:54:18/R6 due14:17:43, but no explicit correction or alias bridge resolves it.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B33.json"
+    },
+    {
+      "id": "CVD-B34",
+      "name": "OpenAIHealthdataCVDSep24",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIHealthdataCVDSep24"
+      ],
+      "clock_summary": "Sep24 slow R5 due18:29:15 one publication; incompatible with supported fast Sep24 P27 (see baseline clocks).",
+      "rationale": "Sep24 slow R5 due18:29:15 one publication; incompatible with supported fast Sep24 P27 (see baseline clocks).",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B34.json"
+    },
+    {
+      "id": "CVD-B35",
+      "name": "OpenAIJan07CVD",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIJan07CVD"
+      ],
+      "clock_summary": "Jan07 fast R1 08:04:11/R5 09:32:07/R6 09:52:16/17 one publication; different from slow Jan07 in partition A.",
+      "rationale": "Jan07 fast R1 08:04:11/R5 09:32:07/R6 09:52:16/17 one publication; different from slow Jan07 in partition A.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B35.json"
+    },
+    {
+      "id": "CVD-B36",
+      "name": "OpenAIOct29CVDLive",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIOct29CVDLive"
+      ],
+      "clock_summary": "Oct29 R1 19:35:07/R5 21:03:03/R6 21:23:12/13 one publication.",
+      "rationale": "Oct29 R1 19:35:07/R5 21:03:03/R6 21:23:12/13 one publication.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B36.json"
+    },
+    {
+      "id": "CVD-B37",
+      "name": "OpenAIResearchSep06",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "OpenAIResearchSep06"
+      ],
+      "clock_summary": "Sep06 R1 04:26:54/R4 05:34:38/R5 due05:54:48 one publication.",
+      "rationale": "Sep06 R1 04:26:54/R4 05:34:38/R5 due05:54:48 one publication.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B37.json"
+    },
+    {
+      "id": "CVD-B38",
+      "name": "ResearchHelperJul26",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": null,
+      "aliases": [
+        "ResearchHelperJul26"
+      ],
+      "clock_summary": "Jul26 R5 done/R6 due22:52:01 with17s timer one publication.",
+      "rationale": "Jul26 R5 done/R6 due22:52:01 with17s timer one publication.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Public task-run reconstruction, not authenticated process identity.",
+        "Clock statements are reported claims; predictions and silence do not establish R6 arrival or actual termination.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B38.json"
+    },
+    {
+      "id": "CVD-B03-second",
+      "name": "Nov01 · R5 due 02:53:55",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Nov01 (year unspecified)",
+      "aliases": [
+        "OpenAIHealthdataCVDNov01"
+      ],
+      "clock_summary": "5 due 02:53:55",
+      "rationale": "Baseline Nov01 own R5 12:54:18/R6 14:17:43. Central@28 instead explicitly own R5 02:53:55 at same1m23/1h22m02 tier, no correction or continuity bridge. Separate provisional clock branch; do not overwrite or silently merge.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Could reflect undocumented reporting error, but no correction authorizes merging into baseline12:54:18 schedule.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-B03-second.json"
+    },
+    {
+      "id": "CVD-Jun15-relay",
+      "name": "Jun15 / Jun16 relay",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Jun16 (page label Jun15)",
+      "aliases": [],
+      "clock_summary": "R6 due 00:08:57",
+      "rationale": "Unsigned first-person CVD sequence and own Jun16 R6 due 00:08:57. Replies retain other speakers; no second independent own progression found. A page title or recorded editor is not an identity bridge.",
+      "owned_count": 1,
+      "publication_count": 1,
+      "uncertainties": [
+        "Only one substantive own publication; separate candidate schedule, not added to the corroborated agent count.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-Jun15-relay.json"
+    },
+    {
+      "id": "CVD-Jul21-request",
+      "name": "OpenAIJul21CVD",
+      "status": "provisional",
+      "origin": "added",
+      "task_date": "Jul21",
+      "aliases": [],
+      "clock_summary": "R6 due 15:32",
+      "rationale": "Own Jul21 R6 15:32 appears in two exact cross-posts; extra lookup request lacks new own progression. Minute-only forecast is insufficient to merge with other dates or establish an independently corroborated history.",
+      "owned_count": 2,
+      "publication_count": 2,
+      "uncertainties": [
+        "Repeated forecast, no independent task progression; generic PolandHelpRequest cannot be merged by shared date alone.",
+        "Minute-only R6 15:32 overlaps Oct03 P33 15:32:34/35; different reported dates and no direct bridge prevent either a merge or a confirmed extra-agent count.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-Jul21-request.json"
+    },
+    {
+      "id": "CVD-Nov20-7c97",
+      "name": "OAI7C97 · Nov20 / Nov21",
+      "status": "supported",
+      "origin": "added",
+      "task_date": "Nov21 (cohort Nov20)",
+      "aliases": [
+        "OAI7C97"
+      ],
+      "clock_summary": "3 due 01:10:22; 4 due 02:33:48; 5 due 03:57:13;  current time 01:45;  current time 02:10",
+      "rationale": "Nov20 cohort explicitly names its Nov21 task date, R3 01:10:22 and contact page; later R4 02:33:48 matches the distinctively continued 1h22m02 cooldown/1m23 tier, with own current clock advancing 01:45 to 02:10. The separate Nov21 cohort is addressed as a peer and has different R6 timing. No merge with Dec15/Dec26 solely from OAI7C97.",
+      "owned_count": 6,
+      "publication_count": 6,
+      "uncertainties": [
+        "No backend process authentication. R3/R4/R5 due times are forecasts, not arrival observations. Date label Nov20 and explicit task date Nov21 are preserved rather than treated as two agents.",
+        "Distinct reported run under a single-task working assumption; not an authenticated backend process ID."
+      ],
+      "file": "/data/assembled-trajectories/CVD-Nov20-7c97.json"
+    }
+  ],
+  "cases": [
+    {
+      "title": "Same name, two clocks",
+      "ids": [
+        "C7e48e9024ab8/1",
+        "C7e48e9024ab8/2"
+      ],
+      "decision": "Keep separate",
+      "reason": "Jul09 R1 11:34:16 / R5 13:02:14 differs from R1 06:41:01 / R5 08:08:56. A shared signoff does not merge them."
+    },
+    {
+      "title": "Changed name, continuous clock",
+      "ids": [
+        "P34"
+      ],
+      "decision": "One supported run",
+      "reason": "OpenAINov28CVD and OpenAINov28CVDLive share R1 23:39:18 and R6 due 01:27:23/24, with own survival progression."
+    },
+    {
+      "title": "Two Dec26 signatures",
+      "ids": [
+        "cvd-dec26-slow"
+      ],
+      "decision": "One supported run",
+      "reason": "OAI7C97Dec26 and OpenAIHealthdataCVDDec26 share own R5 20:56:43 and R6 due 22:20:08 plus continuous outreach."
+    },
+    {
+      "title": "Unsigned Nov20 / Nov21 continuity",
+      "ids": [
+        "CVD-Nov20-7c97"
+      ],
+      "decision": "One added supported run",
+      "reason": "Contact-page bridge, R3 01:10:22 to R4 02:33:48, and own current-clock progression join unsigned contributions; the separately addressed Nov21 cohort remains distinct."
+    },
+    {
+      "title": "Conflicting Nov01 report",
+      "ids": [
+        "Cbe12eb38b0eb/1",
+        "CVD-B03-second"
+      ],
+      "decision": "Unresolved extra branch",
+      "reason": "R5 due 02:53:55 conflicts with repeatedly supported 12:54:18. Preserve it provisionally; do not silently count a second agent or rewrite the time."
+    },
+    {
+      "title": "Many paragraphs, one publication",
+      "ids": [
+        "cvd-provisional-jan02cvdscout"
+      ],
+      "decision": "Provisional",
+      "reason": "Seven status paragraphs survive in one initial revision. They do not provide seven independent publications."
+    },
+    {
+      "title": "Weaker continuity evidence",
+      "ids": [
+        "CVD-B23"
+      ],
+      "decision": "Supported with qualification",
+      "reason": "Aug16 is linked through own current-clock progression in a specific exchange. Its support is weaker than repeated exact round landmarks."
+    }
+  ],
+  "method": [
+    "Use fresh first-person task claims, clock ownership, event type and distinctive schedule progression. Names and editor labels retrieve candidates; they do not decide identities.",
+    "Keep incompatible own schedules separate. Require direct schedule/context bridges for aliases, and preserve corrections, second-level alternatives and midnight rollover.",
+    "Supported histories require at least two substantive nonduplicate contributions in different retained revisions. Single-publication, repeated-only and unresolved clock branches remain provisional.",
+    "The agent count is operational: distinguishable reported single-task runs, not authenticated physical processes. Provisional schedules are neither an additive upper bound nor confirmed extra agents."
+  ],
+  "review_files": [
+    "/data/cvd-accounting/review-a-by-b.json",
+    "/data/cvd-accounting/review-b-by-a.json",
+    "/data/cvd-accounting/review-root-and-collisions.json"
+  ],
+  "review_status": "passed after recorded corrections",
+  "resolutions": [
+    {
+      "trajectory_id": "cvd-dec08-2028-fast",
+      "resolution": "dse~OpenAICVDDec08Fast2028@30: moved generic topic-only contribution to associated context."
+    },
+    {
+      "trajectory_id": "cvd-jan31-slow",
+      "resolution": "dse~HealthdataCVDSequenceCollab@63: moved generic topic-only contribution to associated context."
+    },
+    {
+      "trajectory_id": "CVD-B33",
+      "resolution": "dse~HealthdataCVDSequenceCollab@56: moved generic topic-only contribution to associated context."
+    },
+    {
+      "trajectory_id": "cvd-jun09-fast",
+      "resolution": "R3 done 11:55:20 typed as completion; answer event subtype is not asserted."
+    },
+    {
+      "trajectory_id": "cvd-feb07-fast",
+      "resolution": "R5 arrival 13:29:47 cites confirmed @25, not forecast @24."
+    },
+    {
+      "trajectory_id": "CVD-B17",
+      "resolution": "Preserved forecast precision: 01:39:58/59."
+    },
+    {
+      "trajectory_id": "CVD-B19",
+      "resolution": "Preserved forecast precision: 07:33:25/26."
+    },
+    {
+      "trajectory_id": "CVD-B22",
+      "resolution": "Preserved forecast precision: ~04:47:38."
+    },
+    {
+      "trajectory_id": "cvd-feb07-fast",
+      "resolution": "Final review: preserved forecast alternative 13:49:57/58."
+    },
+    {
+      "trajectory_id": "cvd-may19-2025-fast",
+      "resolution": "Final review: preserved forecast alternative 02:22:57/58."
+    },
+    {
+      "trajectory_id": "cvd-feb20-2027-fast",
+      "resolution": "Final review: R1-R5 list is not an R5 country label; target remains unspecified rather than incorrectly importing Armenia."
+    },
+    {
+      "trajectory_id": "CVD-B13",
+      "resolution": "Linked revised R6 forecast to superseded 04:54:29 projection."
+    },
+    {
+      "trajectory_id": "CVD-B23",
+      "resolution": "Annotated weaker current-clock continuity bridge."
+    },
+    {
+      "trajectory_id": "cvd-provisional-openairesearchmay02",
+      "resolution": "Resolved alias lead: incompatible May02 schedules remain separate provisional branches."
+    }
+  ]
+}

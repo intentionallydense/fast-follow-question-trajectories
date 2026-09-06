@@ -4,6 +4,7 @@ import json
 import re
 import zipfile
 from pathlib import Path
+from cvd_data import cvd_data, with_cvd_extensions
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSEMBLY = ROOT.parent / 'analysis/trajectory-assembly'
@@ -60,6 +61,7 @@ def main():
         for name, digest in review['accepted_sha256'].items():
             assert hashlib.sha256((COMPLETION / name).read_bytes()).hexdigest() == digest, name
     new += additions
+    new += cvd_data('dossiers.json')
     tasks = set(BASELINE_TASKS.values()) | {target for _, target in RULES}
     tasks |= {r['task_id'] for r in completion_data('inventory.json')}
     with zipfile.ZipFile(ROOT.parent / 'full-wiki-logs.zip') as archive:
@@ -68,6 +70,7 @@ def main():
     dest.mkdir(parents=True, exist_ok=True)
     roster = []
     for t in baseline + new:
+        t = with_cvd_extensions(t)
         tid = task_id(t)
         assert tid is None or tid in tasks
         file = t['trajectory_id'].replace('/', '-') + '.json'

@@ -6,7 +6,7 @@
 |---|---|---:|---|
 | [AIHW · dermatological medicine costs](trajectory-explorer/public/data/audited-tasks/aihw-pbs.json) | aihw-pbs | 0 | insufficient_evidence |
 | [Alaska · historical mean temperatures](trajectory-explorer/public/data/audited-tasks/alaska-climate.json) | alaska-climate | 1 | supported |
-| [Cardiovascular deaths · country sequence](trajectory-explorer/public/data/audited-tasks/ihme-cvd-deaths.json) | ihme-cvd-deaths | 31 | supported |
+| [Cardiovascular deaths · country sequence](trajectory-explorer/public/data/audited-tasks/ihme-cvd-deaths.json) | ihme-cvd-deaths | 58 | supported |
 | [Cashiers · bachelor’s fields, 2015](trajectory-explorer/public/data/audited-tasks/cashiers-bachelors-2015.json) | datausa-cashiers-bachelors | 2 | supported |
 | [Cashiers · master’s fields, 2014](trajectory-explorer/public/data/audited-tasks/datausa-cashiers-masters.json) | datausa-cashiers-masters | 25 | supported |
 | [Cashiers · skill RCA, 2018](trajectory-explorer/public/data/audited-tasks/datausa-cashier-skills.json) | datausa-cashier-skills | 0 | insufficient_evidence |

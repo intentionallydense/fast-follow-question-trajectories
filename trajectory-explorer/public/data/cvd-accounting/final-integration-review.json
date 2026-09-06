@@ -1,0 +1,41 @@
+{
+  "status": "pass_with_precision_notes",
+  "scope": "All50 new dossiers and78 selected new round events across27 supported proposals;81-entry roster accounting; prior review resolutions.",
+  "counts": {
+    "new_supported": 27,
+    "new_provisional": 23,
+    "roster_supported": 58,
+    "roster_provisional": 23,
+    "round_trajectory_count": 27,
+    "event_count": 78
+  },
+  "source_validation_issues": [],
+  "accounting_verdict": "PASS:58=31baseline+27new supported;23provisional excluded.81 is not presented as confirmed count.",
+  "own_clock_verdict": "PASS: selected clocks belong to own source clauses, not peer clocks; all R6/due forecasts remain predicted; confirmed Feb07 R5 now cites@25.",
+  "issues": [
+    {
+      "severity": "precision",
+      "trajectory_id": "cvd-feb07-fast",
+      "field": "R6 due note / raw_value",
+      "actual": "13:49:57",
+      "expected": "13:49:57/58",
+      "reason": "Selected source explicitly reports announced R6 due13:49:57/58; retain bounded alternative in typed display as done B17/B19."
+    },
+    {
+      "severity": "precision",
+      "trajectory_id": "cvd-may19-2025-fast",
+      "field": "R6 due note / raw_value",
+      "actual": "02:22:57",
+      "expected": "02:22:57/58",
+      "reason": "Selected source explicitly reports due02:22:57/58; retain bounded alternative in typed display."
+    }
+  ],
+  "prior_corrections_verdict": "Prior review removals, Jun09 completion typing, Feb07 citation, May02 separation, and B forecast corrections reflected in integrated files.",
+  "limitation": "Observed event status means speaker-reported observation, not independently authenticated telemetry. Missing country targets remain null conservatively.",
+  "resolved_issues": [
+    {
+      "trajectory_id": "cvd-feb20-2027-fast",
+      "resolution": "Rechecked regenerated rounds: R5 target is null, own answer04:58:42 remains observed; range-token regex no longer assigns Armenia."
+    }
+  ]
+}

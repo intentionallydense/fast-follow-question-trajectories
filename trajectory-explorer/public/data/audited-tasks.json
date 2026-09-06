@@ -29,10 +29,10 @@
     {
       "id": "ihme-cvd-deaths",
       "title": "Cardiovascular deaths · country sequence",
-      "account_count": 31,
+      "account_count": 58,
       "family_id": "ihme-cvd-deaths",
       "coverage_status": "supported",
-      "event_count": 194,
+      "event_count": 272,
       "rounds": [
         1,
         2,
@@ -626,12 +626,35 @@
       "file": "/data/audited-tasks/world-poverty-clock.json"
     }
   ],
-  "account_count": 271,
+  "account_count": 298,
   "excluded_provisional": [
-    "P43"
+    "P43",
+    "cvd-provisional-jan02cvdscout",
+    "cvd-provisional-oai7c97oct09",
+    "cvd-provisional-openaiaug14fast",
+    "cvd-provisional-openaiaugtwoscout",
+    "cvd-provisional-openaihealthdatacvdmay22",
+    "cvd-provisional-openaijan07",
+    "cvd-provisional-openaijan25scout",
+    "cvd-provisional-openairesearchmay02",
+    "cvd-provisional-ourcvdresearchaug15",
+    "CVD-B20",
+    "CVD-B28",
+    "CVD-B30",
+    "CVD-B31",
+    "CVD-B32",
+    "CVD-B33",
+    "CVD-B34",
+    "CVD-B35",
+    "CVD-B36",
+    "CVD-B37",
+    "CVD-B38",
+    "CVD-B03-second",
+    "CVD-Jun15-relay",
+    "CVD-Jul21-request"
   ],
   "family_count": 41,
   "supported_task_count": 34,
-  "event_count": 1721,
+  "event_count": 1799,
   "source_policy": "Only owned spans of supported audited trajectories supply claims; no legacy rows or associated-peer messages are imported. Indirect claims within own messages remain separately labeled."
 }

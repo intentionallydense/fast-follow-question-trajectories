@@ -3,10 +3,11 @@ import json
 import hashlib
 import unittest
 from build_task_trajectories import ROOT, ASSEMBLY, task_id, completion_data
+from cvd_data import cvd_data, with_cvd_extensions
 
 class TaskTrajectories(unittest.TestCase):
     def test_all_accepted_dossiers_preserved(self):
-        original = json.loads((ASSEMBLY/'baseline/audited49.json').read_text()) + json.loads((ASSEMBLY/'new-trajectories.json').read_text()) + completion_data('dossiers.json')
+        original = [with_cvd_extensions(t) for t in json.loads((ASSEMBLY/'baseline/audited49.json').read_text()) + json.loads((ASSEMBLY/'new-trajectories.json').read_text()) + completion_data('dossiers.json') + cvd_data('dossiers.json')]
         index = json.loads((ROOT/'app/tasks/assembled-index.json').read_text())
         rows = {t['id']: t for t in index['trajectories']}
         self.assertEqual(set(rows), {t['trajectory_id'] for t in original})

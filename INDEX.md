@@ -1,6 +1,6 @@
 # Trajectory index
 
-271 supported reported histories and one provisional dossier. The provisional P43 record is excluded from task/account totals.
+298 supported reported histories and 24 provisional entries (P43 plus 23 CVD candidate schedules). All provisional entries are excluded from task/account totals.
 
 | ID and dossier | Reported name | Task | Owned publications | Status |
 |---|---|---|---:|---|
@@ -29,10 +29,10 @@
 | [P23](trajectory-explorer/public/data/assembled-trajectories/P23.json) | Dec30ConstructionAgent | construction_ny | 5 | Supported |
 | [P24](trajectory-explorer/public/data/assembled-trajectories/P24.json) | Apr02ConstructionAgent | construction_ny | 9 | Supported |
 | [P25](trajectory-explorer/public/data/assembled-trajectories/P25.json) | OpenAIResearchApr23 | CVD | 9 | Supported |
-| [P26](trajectory-explorer/public/data/assembled-trajectories/P26.json) | OpenAIResearchApr30 | CVD | 7 | Supported |
+| [P26](trajectory-explorer/public/data/assembled-trajectories/P26.json) | OpenAIResearchApr30 | CVD | 10 | Supported |
 | [P27](trajectory-explorer/public/data/assembled-trajectories/P27.json) | Sep24CVDScout | CVD | 4 | Supported |
 | [P28](trajectory-explorer/public/data/assembled-trajectories/P28.json) | OpenAIResearchOct02 | CVD | 2 | Supported |
-| [P29](trajectory-explorer/public/data/assembled-trajectories/P29.json) | Aug24CVDScout | CVD | 5 | Supported |
+| [P29](trajectory-explorer/public/data/assembled-trajectories/P29.json) | Aug24CVDScout | CVD | 6 | Supported |
 | [P30](trajectory-explorer/public/data/assembled-trajectories/P30.json) | OpenAIJan18Scout | CVD | 13 | Supported |
 | [P31](trajectory-explorer/public/data/assembled-trajectories/P31.json) | OpenAINov16CVD | CVD | 8 | Supported |
 | [P32](trajectory-explorer/public/data/assembled-trajectories/P32.json) | May26CVDScout | CVD | 3 | Supported |
@@ -46,7 +46,7 @@
 | [P40](trajectory-explorer/public/data/assembled-trajectories/P40.json) | OpenAIFeb07FPScout | FP | 5 | Supported |
 | [P41](trajectory-explorer/public/data/assembled-trajectories/P41.json) | March16ScoutB | OECD-equity | 4 | Supported |
 | [P42](trajectory-explorer/public/data/assembled-trajectories/P42.json) | OpenAIDec04Equity | OECD-equity | 6 | Supported |
-| [P43](trajectory-explorer/public/data/assembled-trajectories/P43.json) | Unsigned Aug21 OECD schedule (provisional) | OECD-equity | 1 | **Provisional** |
+| [P43](trajectory-explorer/public/data/assembled-trajectories/P43.json) | Unsigned Aug21 OECD schedule (provisional) | OECD-equity | 1 | Provisional |
 | [P44](trajectory-explorer/public/data/assembled-trajectories/P44.json) | April11OECDScout | OECD-equity | 21 | Supported |
 | [P45](trajectory-explorer/public/data/assembled-trajectories/P45.json) | OpenAIOECDNov27 | OECD-equity | 2 | Supported |
 | [P46](trajectory-explorer/public/data/assembled-trajectories/P46.json) | Aug09OECDScout | OECD-equity | 10 | Supported |
@@ -122,7 +122,7 @@
 | [C6483634209b2/1](trajectory-explorer/public/data/assembled-trajectories/C6483634209b2-1.json) | Nov28OECDAgent | Nov28 OECD education equity 12m18/56s tier | 7 | Supported |
 | [Ca1e5a0b1e91b/1](trajectory-explorer/public/data/assembled-trajectories/Ca1e5a0b1e91b-1.json) | OAI7C97Dec15 | GBD2021 CVD mortality country sequence Dec15 | 9 | Supported |
 | [Cce8d86029542/1](trajectory-explorer/public/data/assembled-trajectories/Cce8d86029542-1.json) | OAIEquityDec02 | Dec02 OECD education equity 12m18/56s tier | 10 | Supported |
-| [C481158764532/1](trajectory-explorer/public/data/assembled-trajectories/C481158764532-1.json) | OAIJan14CVD | Jan14 2027 fast cardiovascular mortality sequence | 7 | Supported |
+| [C481158764532/1](trajectory-explorer/public/data/assembled-trajectories/C481158764532-1.json) | OAIJan14CVD | Jan14 2027 fast cardiovascular mortality sequence | 8 | Supported |
 | [Cf575d4724a5f/1](trajectory-explorer/public/data/assembled-trajectories/Cf575d4724a5f-1.json) | OAIResearchDec13FP | Dec13 family planning 1992 sequence | 7 | Supported |
 | [Cf5f1ec8813e7/1](trajectory-explorer/public/data/assembled-trajectories/Cf5f1ec8813e7-1.json) | OECDEquityApr19Agent | OECD pre-primary equity Apr19 12m18/56s | 7 | Supported |
 | [C8042105c2ca9/1](trajectory-explorer/public/data/assembled-trajectories/C8042105c2ca9-1.json) | OECDEquityMar15Agent | Mar15 OECD education equity 12m18/56s tier | 7 | Supported |
@@ -132,7 +132,7 @@
 | [Ca3a658a192d1/1](trajectory-explorer/public/data/assembled-trajectories/Ca3a658a192d1-1.json) | OpenAIDec07Police | Police wages by age Dec07 medium15s | 8 | Supported |
 | [Ce0f796c8acfe/1](trajectory-explorer/public/data/assembled-trajectories/Ce0f796c8acfe-1.json) | OpenAIDec17ConstructionX | Dec17 construction workforce 2016/2018,10m/42s tier | 8 | Supported |
 | [Cec8b448615db/1](trajectory-explorer/public/data/assembled-trajectories/Cec8b448615db-1.json) | OpenAIHealthdataCVDFeb05 | Feb05 CVD mortality slow cohort | 8 | Supported |
-| [Cbe12eb38b0eb/1](trajectory-explorer/public/data/assembled-trajectories/Cbe12eb38b0eb-1.json) | OpenAIHealthdataCVDNov01 | Nov01 cardiovascular mortality 1m23 tier, R5 12:54:18 branch | 8 | Supported |
+| [Cbe12eb38b0eb/1](trajectory-explorer/public/data/assembled-trajectories/Cbe12eb38b0eb-1.json) | OpenAIHealthdataCVDNov01 | Nov01 cardiovascular mortality 1m23 tier, R5 12:54:18 branch | 9 | Supported |
 | [C45da12196474/1](trajectory-explorer/public/data/assembled-trajectories/C45da12196474-1.json) | OpenAIHealthdataCVDSept27 | GBD2021 CVD mortality Sep27 | 7 | Supported |
 | [C0f65c40a17a2/1](trajectory-explorer/public/data/assembled-trajectories/C0f65c40a17a2-1.json) | OpenAIMar09Scout | Mar09 CVD mortality 22s tier | 7 | Supported |
 | [Cf5f9c384af2d/1](trajectory-explorer/public/data/assembled-trajectories/Cf5f9c384af2d-1.json) | OpenAIMay09Police | Police wages by age May09 medium15s | 9 | Supported |
@@ -276,3 +276,53 @@
 | [FC-nyc-veterans-May08VeteranAgent](trajectory-explorer/public/data/assembled-trajectories/FC-nyc-veterans-May08VeteranAgent.json) | May08VeteranAgent | New York City · veterans, 2018 | 2 | Supported |
 | [FC-nyc-veterans-Feb20VeteranAgent](trajectory-explorer/public/data/assembled-trajectories/FC-nyc-veterans-Feb20VeteranAgent.json) | Feb20VeteranAgent | New York City · veterans, 2018 | 2 | Supported |
 | [FC-oecd-household-income-OAIHouseholdNov02Scout](trajectory-explorer/public/data/assembled-trajectories/FC-oecd-household-income-OAIHouseholdNov02Scout.json) | OAIHouseholdNov02Scout | OECD · household disposable income | 3 | Supported |
+| [cvd-jun09-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-jun09-fast.json) | OAIJun09Research | CVD country sequence · OAIJun09Research | 3 | Supported |
+| [cvd-dec08-2028-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-dec08-2028-fast.json) | OpenAICVDDec08Fast2028 | CVD country sequence · OpenAICVDDec08Fast2028 | 4 | Supported |
+| [cvd-apr04-slow](trajectory-explorer/public/data/assembled-trajectories/cvd-apr04-slow.json) | OpenAIHealthdataCVDApr04 | CVD country sequence · OpenAIHealthdataCVDApr04 | 5 | Supported |
+| [cvd-mar25-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-mar25-fast.json) | OpenAIResearchMar25 | CVD country sequence · OpenAIResearchMar25 | 3 | Supported |
+| [cvd-dec26-slow](trajectory-explorer/public/data/assembled-trajectories/cvd-dec26-slow.json) | OAI7C97Dec26 | CVD country sequence · OAI7C97Dec26 | 4 | Supported |
+| [cvd-feb07-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-feb07-fast.json) | OpenAIFebSevenScout | CVD country sequence · OpenAIFebSevenScout | 6 | Supported |
+| [cvd-sept21-slow](trajectory-explorer/public/data/assembled-trajectories/cvd-sept21-slow.json) | OpenAIHealthdataCVDSept21 | CVD country sequence · OpenAIHealthdataCVDSept21 | 3 | Supported |
+| [cvd-may19-2025-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-may19-2025-fast.json) | OpenAIMay19CVD | CVD country sequence · OpenAIMay19CVD | 3 | Supported |
+| [cvd-feb20-2027-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-feb20-2027-fast.json) | CVDResearchFeb20 | CVD country sequence · CVDResearchFeb20 | 2 | Supported |
+| [cvd-aug09-fast](trajectory-explorer/public/data/assembled-trajectories/cvd-aug09-fast.json) | OpenAIAug09CVD | CVD country sequence · OpenAIAug09CVD | 4 | Supported |
+| [cvd-jan31-slow](trajectory-explorer/public/data/assembled-trajectories/cvd-jan31-slow.json) | OpenAIHealthdataCVDJan31 | CVD country sequence · OpenAIHealthdataCVDJan31 | 3 | Supported |
+| [cvd-nov03-slow](trajectory-explorer/public/data/assembled-trajectories/cvd-nov03-slow.json) | OpenAIHealthdataCVDNov03 | CVD country sequence · OpenAIHealthdataCVDNov03 | 2 | Supported |
+| [cvd-provisional-jan02cvdscout](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-jan02cvdscout.json) | Jan02CVDScout | CVD country sequence · Jan02CVDScout | 1 | Provisional |
+| [cvd-provisional-oai7c97oct09](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-oai7c97oct09.json) | OAI7C97Oct09 | CVD country sequence · OAI7C97Oct09 | 1 | Provisional |
+| [cvd-provisional-openaiaug14fast](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaiaug14fast.json) | OpenAIAug14Fast | CVD country sequence · OpenAIAug14Fast | 1 | Provisional |
+| [cvd-provisional-openaiaugtwoscout](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaiaugtwoscout.json) | OpenAIAugTwoScout | CVD country sequence · OpenAIAugTwoScout | 1 | Provisional |
+| [cvd-provisional-openaihealthdatacvdmay22](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaihealthdatacvdmay22.json) | OpenAIHealthdataCVDMay22 | CVD country sequence · OpenAIHealthdataCVDMay22 | 1 | Provisional |
+| [cvd-provisional-openaijan07](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaijan07.json) | OpenAIJan07 | CVD country sequence · OpenAIJan07 | 1 | Provisional |
+| [cvd-provisional-openaijan25scout](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openaijan25scout.json) | OpenAIJan25Scout | CVD country sequence · OpenAIJan25Scout | 1 | Provisional |
+| [cvd-provisional-openairesearchmay02](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-openairesearchmay02.json) | OpenAIResearchMay02 | CVD country sequence · OpenAIResearchMay02 | 1 | Provisional |
+| [cvd-provisional-ourcvdresearchaug15](trajectory-explorer/public/data/assembled-trajectories/cvd-provisional-ourcvdresearchaug15.json) | OurCVDResearchAug15 | CVD country sequence · OurCVDResearchAug15 | 1 | Provisional |
+| [CVD-B10](trajectory-explorer/public/data/assembled-trajectories/CVD-B10.json) | ResearchAgentMay14 | CVD country sequence · ResearchAgentMay14 | 5 | Supported |
+| [CVD-B11](trajectory-explorer/public/data/assembled-trajectories/CVD-B11.json) | OpenAICVDAug04 | CVD country sequence · OpenAICVDAug04 | 4 | Supported |
+| [CVD-B13](trajectory-explorer/public/data/assembled-trajectories/CVD-B13.json) | OpenAIHealthdataCVDMay30 | CVD country sequence · OpenAIHealthdataCVDMay30 | 3 | Supported |
+| [CVD-B14](trajectory-explorer/public/data/assembled-trajectories/CVD-B14.json) | OpenAIOct30Fast | CVD country sequence · OpenAIOct30Fast | 4 | Supported |
+| [CVD-B16](trajectory-explorer/public/data/assembled-trajectories/CVD-B16.json) | OAI7C97Nov18 | CVD country sequence · OAI7C97Nov18 | 3 | Supported |
+| [CVD-B17](trajectory-explorer/public/data/assembled-trajectories/CVD-B17.json) | OAIJun30Scout | CVD country sequence · OAIJun30Scout | 3 | Supported |
+| [CVD-B18](trajectory-explorer/public/data/assembled-trajectories/CVD-B18.json) | OpenAIHealthdataCVDMar27 | CVD country sequence · OpenAIHealthdataCVDMar27 | 5 | Supported |
+| [CVD-B19](trajectory-explorer/public/data/assembled-trajectories/CVD-B19.json) | OpenAIMar10CVD | CVD country sequence · OpenAIMar10CVD | 3 | Supported |
+| [CVD-B20](trajectory-explorer/public/data/assembled-trajectories/CVD-B20.json) | CVDMar04Scout | CVD country sequence · CVDMar04Scout | 2 | Provisional |
+| [CVD-B22](trajectory-explorer/public/data/assembled-trajectories/CVD-B22.json) | OpenAICVDSep12Fast2028 | CVD country sequence · OpenAICVDSep12Fast2028 | 2 | Supported |
+| [CVD-B23](trajectory-explorer/public/data/assembled-trajectories/CVD-B23.json) | OpenAIHealthdataCVDAug16 | CVD country sequence · OpenAIHealthdataCVDAug16 | 2 | Supported |
+| [CVD-B24](trajectory-explorer/public/data/assembled-trajectories/CVD-B24.json) | OpenAIHealthdataCVDFeb09 | CVD country sequence · OpenAIHealthdataCVDFeb09 | 3 | Supported |
+| [CVD-B25](trajectory-explorer/public/data/assembled-trajectories/CVD-B25.json) | OpenAIHealthdataCVDMar06 | CVD country sequence · OpenAIHealthdataCVDMar06 | 3 | Supported |
+| [CVD-B26](trajectory-explorer/public/data/assembled-trajectories/CVD-B26.json) | OpenAIMay10CVD | CVD country sequence · OpenAIMay10CVD | 2 | Supported |
+| [CVD-B27](trajectory-explorer/public/data/assembled-trajectories/CVD-B27.json) | PolandSeeker2 | CVD country sequence · PolandSeeker2 | 2 | Supported |
+| [CVD-B28](trajectory-explorer/public/data/assembled-trajectories/CVD-B28.json) | MayResearcher | CVD country sequence · MayResearcher | 1 | Provisional |
+| [CVD-B30](trajectory-explorer/public/data/assembled-trajectories/CVD-B30.json) | OAIJulThirtyResearch | CVD country sequence · OAIJulThirtyResearch | 1 | Provisional |
+| [CVD-B31](trajectory-explorer/public/data/assembled-trajectories/CVD-B31.json) | OpenAIAug27CVD | CVD country sequence · OpenAIAug27CVD | 1 | Provisional |
+| [CVD-B32](trajectory-explorer/public/data/assembled-trajectories/CVD-B32.json) | OpenAICVDApr01 | CVD country sequence · OpenAICVDApr01 | 1 | Provisional |
+| [CVD-B33](trajectory-explorer/public/data/assembled-trajectories/CVD-B33.json) | OpenAIHealthdataCVDJun26 | CVD country sequence · OpenAIHealthdataCVDJun26 | 1 | Provisional |
+| [CVD-B34](trajectory-explorer/public/data/assembled-trajectories/CVD-B34.json) | OpenAIHealthdataCVDSep24 | CVD country sequence · OpenAIHealthdataCVDSep24 | 1 | Provisional |
+| [CVD-B35](trajectory-explorer/public/data/assembled-trajectories/CVD-B35.json) | OpenAIJan07CVD | CVD country sequence · OpenAIJan07CVD | 1 | Provisional |
+| [CVD-B36](trajectory-explorer/public/data/assembled-trajectories/CVD-B36.json) | OpenAIOct29CVDLive | CVD country sequence · OpenAIOct29CVDLive | 1 | Provisional |
+| [CVD-B37](trajectory-explorer/public/data/assembled-trajectories/CVD-B37.json) | OpenAIResearchSep06 | CVD country sequence · OpenAIResearchSep06 | 1 | Provisional |
+| [CVD-B38](trajectory-explorer/public/data/assembled-trajectories/CVD-B38.json) | ResearchHelperJul26 | CVD country sequence · ResearchHelperJul26 | 1 | Provisional |
+| [CVD-B03-second](trajectory-explorer/public/data/assembled-trajectories/CVD-B03-second.json) | Nov01 · R5 due 02:53:55 | CVD country sequence · Nov01 · R5 due 02:53:55 | 1 | Provisional |
+| [CVD-Jun15-relay](trajectory-explorer/public/data/assembled-trajectories/CVD-Jun15-relay.json) | Jun15 / Jun16 relay | CVD country sequence · Jun15 / Jun16 relay | 1 | Provisional |
+| [CVD-Jul21-request](trajectory-explorer/public/data/assembled-trajectories/CVD-Jul21-request.json) | OpenAIJul21CVD | CVD country sequence · OpenAIJul21CVD | 2 | Provisional |
+| [CVD-Nov20-7c97](trajectory-explorer/public/data/assembled-trajectories/CVD-Nov20-7c97.json) | OAI7C97 · Nov20 / Nov21 | CVD country sequence · OAI7C97 · Nov20 / Nov21 | 6 | Supported |
