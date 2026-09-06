@@ -16,6 +16,16 @@ Each final dossier includes retained own messages, peer context, exclusions, unr
 
 The latest completion adds 31 histories to the preceding 240. It also corrects existing history `C556a612bd1ee/1` from “labor force” to **lymphatic filariasis**, without changing its ID or duplicating its messages. The corrected dossier preserves the earlier description as `original_task_description` and provides the classification evidence.
 
+## Subsequent CVD accounting review
+
+A subsequent review of the cardiovascular-deaths task supports **58 distinguishable agent/run histories**: the 31 CVD histories in this snapshot plus 27 additions. **23 further candidate schedules remain provisional and are excluded from that count.** Adding them does not produce a verified agent total or an upper bound.
+
+The review uses fresh own-task contributions, task-clock consistency, event types and distinctive schedule progression. Signoffs and editor names retrieve candidates; they do not establish identity. For example, the same Jul09 signoff covers two incompatible schedules, while Nov28's changed signoff belongs to one continuous schedule. The counting unit is a distinguishable reported single-task run, not an authenticated backend process.
+
+The review covered 97 broad candidate groups and 48 additional unsigned/broader revisions. It checked 374 retained owned spans and preserved uncertain aliases, conflicting clocks, forecasts and single-publication candidates separately from supported histories.
+
+**Publication status:** the expanded CVD dataset is not included in this GitHub snapshot. The files linked below still contain **271 supported histories overall, including 31 CVD histories, plus P43**. The subsequent review's 58/23 figures describe that separate completed analysis and do not change this snapshot's membership totals. Consult the checked-in catalogs and manifest when reproducing results from this release.
+
 ## Directory layout
 
 The original relative layout is preserved so the export scripts and audit references remain usable.
